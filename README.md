@@ -72,9 +72,13 @@ converted file through Sveltia, regenerating will clobber that edit.
   directory's default layout/permalink. Raw inline HTML (`<u>`, `<sup>`)
   is enabled in the Markdown renderer, since underline/superscript have no
   native Markdown syntax and are dropped by TEI Publisher's own Markdown
-  exporter too (confirmed in the assessment doc) — passthrough is this
-  POC's alternative, not yet verified to survive editing through Sveltia's
-  WYSIWYG markdown widget.
+  exporter too (confirmed in the assessment doc). `markdown-it-footnote`
+  is also enabled — without it, `[^n]` renders as literal bracket text,
+  not a footnote (this was a real, confirmed bug, since fixed). Neither
+  raw HTML nor `[^n]` are documented as round-trip-safe in Sveltia's
+  RichText editor, so both come with an explicit raw-mode-editing note in
+  `admin/config.yml` — see §8 of the assessment doc for the full reasoning
+  and the maintainer discussion that informed it.
 - `npm run build` — Eleventy build only, to `_site/`.
 - `npm run build:search` — build, then index with Pagefind
   (`_site/pagefind/`). Run this, not just `build`, before serving `_site/`

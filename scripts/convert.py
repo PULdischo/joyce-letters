@@ -222,11 +222,22 @@ def render_inline(el, fc, report, fname, people, places, works):
                 if default_el is not None
                 else norm("".join(child.itertext()))
             )
-            parts.append(default_text)
             if alt_el is not None:
+                # Visible instead of an invisible HTML comment: GFM
+                # strikethrough is a markdown-it core feature (no plugin
+                # needed) *and* a confirmed Sveltia RichText toolbar
+                # button (bold/italic/strikethrough/code/link/headings/
+                # lists/quote are the only documented ones), so this is
+                # the one apparatus-recovery change made without gambling
+                # on unconfirmed syntax surviving Sveltia's WYSIWYG
+                # round-trip. Mirrors the source site's own "sic"/"for"
+                # editorial convention (see FM_03 in xml/frontmatter/)
+                # instead of hiding the discarded reading entirely.
                 alt_text = norm("".join(alt_el.itertext()))
-                parts.append(f' <!-- alt reading: "{alt_text}" -->')
-                report.log(fname, "choice-alternate-dropped", f'{alt_text!r} -> {default_text!r}')
+                parts.append(f"~~{alt_text}~~ {default_text}")
+                report.log(fname, "choice-alternate-recovered-as-strikethrough", f'{alt_text!r} -> {default_text!r}')
+            else:
+                parts.append(default_text)
         elif tag == "gap":
             reason = child.get("reason", "")
             extent = child.get("extent") or child.get("quantity") or ""

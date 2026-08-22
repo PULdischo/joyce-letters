@@ -1,11 +1,26 @@
 const markdownIt = require("markdown-it");
+const markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = function (eleventyConfig) {
-  // Raw inline HTML (<u>, <sup>, <!-- --> comments) must survive: the
-  // conversion script uses HTML passthrough for rend=underline/superscript,
-  // which have no native Markdown syntax (confirmed absent from TEI
-  // Publisher's own Markdown exporter too -- see sveltia-migration-assessment.md).
-  const md = markdownIt({ html: true, breaks: false });
+  // Raw inline HTML (<u>, <sup>) must survive: the conversion script uses
+  // HTML passthrough for rend=underline/superscript, which have no native
+  // Markdown syntax (confirmed absent from TEI Publisher's own Markdown
+  // exporter too -- see sveltia-migration-assessment.md). Sveltia's own
+  // RichText editor doesn't document support for raw HTML passthrough or
+  // footnote syntax either (only bold/italic/strikethrough/code/link/
+  // headings/lists/quote are confirmed toolbar buttons) -- per the
+  // maintainer directly (github.com/sveltia/sveltia-cms/discussions/560),
+  // the documented fallback for anything else is the editor's raw-
+  // Markdown mode, which is why `letters.body` keeps that mode available
+  // in admin/config.yml rather than gambling on WYSIWYG round-tripping.
+  //
+  // markdown-it-footnote: CommonMark (and markdown-it core) has no native
+  // [^n] footnote syntax -- without this plugin, [^1] renders as literal
+  // bracket text (confirmed by inspecting the built output before adding
+  // this). The [^n]/[^n]: convention was already chosen deliberately in
+  // convert.py to match this plugin and the wider footnote convention
+  // used across most Markdown toolchains, not invented ad hoc.
+  const md = markdownIt({ html: true, breaks: false }).use(markdownItFootnote);
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPassthroughCopy("content/**/*.{png,jpg,jpeg,svg}");

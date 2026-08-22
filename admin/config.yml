@@ -112,9 +112,27 @@ collections:
       # TEI @key become Markdown links ([text](/people/{key}/) etc.);
       # unresolved `ID_MISSING` mentions are left as plain text -- see the
       # "unresolved-entity" rows in scripts/conversion_report.csv.
+      #
+      # `buttons` only includes constructs confirmed to be Sveltia
+      # RichText toolbar buttons -- i.e. round-trip-safe in `rich_text`
+      # mode. Two things this body routinely contains are NOT on that
+      # confirmed list and have no documented behavior in rich_text mode:
+      #   - <u>/<sup> raw HTML passthrough (rend=underline/superscript --
+      #     no native Markdown syntax exists for either)
+      #   - [^n] footnote references/definitions
+      # `modes` is left at its default ([rich_text, raw]) rather than
+      # narrowed to raw-only, but editors touching underline, superscript,
+      # or footnotes in this field should use the toolbar's raw-Markdown
+      # mode toggle for that edit -- per the Sveltia maintainer directly,
+      # this is the documented fallback for anything outside the
+      # confirmed toolbar set (github.com/sveltia/sveltia-cms/discussions/560).
+      # GFM strikethrough (used for the recovered choice/sic alternate
+      # reading, e.g. "~~Gioacchino~~ Gioachino") IS a confirmed button,
+      # safe to edit in either mode.
       - name: body
         label: Letter Text
         widget: markdown
+        modes: [rich_text, raw]
         buttons: [bold, italic, strikethrough, link, quote]
 
   - name: people

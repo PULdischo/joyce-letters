@@ -1848,12 +1848,12 @@ L_71804.xml,unresolved-entity-key,FW
 L_71804.xml,unresolved-entity-key,JJ
 L_71804.xml,unresolved-entity-key,LI
 L_71804.xml,unresolved-entity-key,LI
-L_68205.xml,choice-alternate-dropped,'c/o' -> 'care of'
-L_68205.xml,choice-alternate-dropped,'Gioacchino' -> 'Gioachino'
+L_68205.xml,choice-alternate-recovered-as-strikethrough,'c/o' -> 'care of'
+L_68205.xml,choice-alternate-recovered-as-strikethrough,'Gioacchino' -> 'Gioachino'
 L_68205.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Poetry
 L_68205.xml,"rend-underline (HTML passthrough, verify in Sveltia)", scirocco 
 L_68205.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Countess Cathleen
-L_68205.xml,choice-alternate-dropped,'Luciani' -> 'Linati'
+L_68205.xml,choice-alternate-recovered-as-strikethrough,'Luciani' -> 'Linati'
 L_68205.xml,unresolved-entity-inline,Poetry
 L_68205.xml,unresolved-entity-inline,Ernest Fenollosa
 L_68205.xml,unresolved-entity-inline,Eugene Paul Ullman
@@ -1886,25 +1886,25 @@ L_68205.xml,unresolved-entity-inline,Riders to the Sea
 L_68205.xml,unresolved-entity-inline,La Cavalcata al Mare
 L_68205.xml,unresolved-entity-inline,Solaria
 L_68212.xml,"rend-underline (HTML passthrough, verify in Sveltia)",A Curious History
-L_68643.xml,choice-alternate-dropped,'cheque' -> 'chèque'
-L_68643.xml,choice-alternate-dropped,'remerciments' -> 'remerciements'
-L_68643.xml,choice-alternate-dropped,'ving' -> 'vingt'
-L_68643.xml,choice-alternate-dropped,'référence' -> 'révérence'
-L_68643.xml,choice-alternate-dropped,'gentilesse' -> 'gentillesse'
-L_68643.xml,choice-alternate-dropped,'saurai' -> 'saurais'
-L_68643.xml,choice-alternate-dropped,'voudriez' -> 'vouliez'
-L_68643.xml,choice-alternate-dropped,'l’obligéance' -> 'l’obligeance'
-L_68643.xml,choice-alternate-dropped,'remerciments' -> 'remerciements'
-L_68643.xml,choice-alternate-dropped,'peutêtre' -> 'peut-être'
-L_68643.xml,choice-alternate-dropped,'dans une' -> 'd’une'
-L_68643.xml,choice-alternate-dropped,'mécénate' -> 'mécénat'
-L_68643.xml,choice-alternate-dropped,'par un' -> 'd’un'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'cheque' -> 'chèque'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'remerciments' -> 'remerciements'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'ving' -> 'vingt'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'référence' -> 'révérence'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'gentilesse' -> 'gentillesse'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'saurai' -> 'saurais'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'voudriez' -> 'vouliez'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'l’obligéance' -> 'l’obligeance'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'remerciments' -> 'remerciements'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'peutêtre' -> 'peut-être'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'dans une' -> 'd’une'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'mécénate' -> 'mécénat'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'par un' -> 'd’un'
 L_68643.xml,unresolved-entity-inline,vieux monsieur
-L_68643.xml,choice-alternate-dropped,'rénommé' -> 'renommé'
-L_68643.xml,choice-alternate-dropped,'energiquement' -> 'énergiquement'
-L_68643.xml,choice-alternate-dropped,'besoins' -> 'besoin'
-L_68643.xml,choice-alternate-dropped,'à' -> 'de'
-L_68643.xml,choice-alternate-dropped,'désinteressés' -> 'désintéressés'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'rénommé' -> 'renommé'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'energiquement' -> 'énergiquement'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'besoins' -> 'besoin'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'à' -> 'de'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'désinteressés' -> 'désintéressés'
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",The
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Die
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",All
@@ -1912,13 +1912,13 @@ L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",The
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",faive
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",o
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",klohk
-L_68643.xml,choice-alternate-dropped,'extrèmement' -> 'extrêmement'
-L_68643.xml,choice-alternate-dropped,'a' -> 'avez'
-L_68643.xml,choice-alternate-dropped,'pétites' -> 'petites'
-L_68643.xml,choice-alternate-dropped,'mésure' -> 'mesure'
-L_68643.xml,choice-alternate-dropped,'hesitérai' -> 'hésiterai'
-L_68643.xml,choice-alternate-dropped,'necéssaires' -> 'nécessaires'
-L_68643.xml,choice-alternate-dropped,'remerciments' -> 'remerciements'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'extrèmement' -> 'extrêmement'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'a' -> 'avez'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'pétites' -> 'petites'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'mésure' -> 'mesure'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'hesitérai' -> 'hésiterai'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'necéssaires' -> 'nécessaires'
+L_68643.xml,choice-alternate-recovered-as-strikethrough,'remerciments' -> 'remerciements'
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",The
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Die
 L_68643.xml,"rend-underline (HTML passthrough, verify in Sveltia)",All
@@ -2013,16 +2013,16 @@ L_68352.xml,unresolved-entity-inline,Pound/Joyce
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)", [Ulysses](/works/W_ULYSSES/) 
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Ulysses
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)", [Mercure](/works/W_MERCURE/) 
-L_68671.xml,choice-alternate-dropped,'Valette' -> 'Vallette'
+L_68671.xml,choice-alternate-recovered-as-strikethrough,'Valette' -> 'Vallette'
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)", [Little Review](/works/W_THELITTLE/) 
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)", [Dial](/works/W_DIAL/) 
-L_68671.xml,choice-alternate-dropped,'Elliott' -> 'Eliot'
+L_68671.xml,choice-alternate-recovered-as-strikethrough,'Elliott' -> 'Eliot'
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",ami
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Fritz
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",La
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Symphonie
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Pastorale
-L_68671.xml,choice-alternate-dropped,'Elliott' -> 'Eliot'
+L_68671.xml,choice-alternate-recovered-as-strikethrough,'Elliott' -> 'Eliot'
 L_68671.xml,"rend-underline (HTML passthrough, verify in Sveltia)",Circe
 L_68671.xml,unresolved-entity-inline,Bulletin of Research in the Humanities
 L_68671.xml,unresolved-entity-inline,LI
