@@ -24,7 +24,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: lts/*
           cache: npm
 
       - run: npm ci
@@ -47,7 +47,16 @@ jobs:
       - name: Build search index
         run: npm run postbuild
 
+      # enablement: true asks the API to create the repo's Pages site if
+      # one doesn't exist yet, rather than only reading an existing one --
+      # avoids a manual Settings -> Pages -> "Build and deployment: GitHub
+      # Actions" step on first deploy. Requires the default GITHUB_TOKEN's
+      # `pages: write` permission (already granted above); if this org
+      # restricts that, fall back to doing the Settings toggle by hand and
+      # this step becomes a no-op (it still reads the existing config).
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
