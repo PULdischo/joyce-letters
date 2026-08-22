@@ -120,19 +120,25 @@ collections:
       #   - <u>/<sup> raw HTML passthrough (rend=underline/superscript --
       #     no native Markdown syntax exists for either)
       #   - [^n] footnote references/definitions
-      # `modes` is left at its default ([rich_text, raw]) rather than
-      # narrowed to raw-only, but editors touching underline, superscript,
-      # or footnotes in this field should use the toolbar's raw-Markdown
-      # mode toggle for that edit -- per the Sveltia maintainer directly,
-      # this is the documented fallback for anything outside the
-      # confirmed toolbar set (github.com/sveltia/sveltia-cms/discussions/560).
-      # GFM strikethrough (used for the recovered choice/sic alternate
+      # `modes: [raw, rich_text]` makes raw (plain source) the default
+      # instead of rich_text -- order determines default, confirmed via
+      # Sveltia's own docs. Raw mode has no parse-then-reserialize step,
+      # so none of the above is at risk of being silently stripped or
+      # reformatted; `rich_text` stays one click away via the mode toggle
+      # for editors who prefer it for plain-prose paragraphs. This is a
+      # deliberate reversal of the earlier "rich_text-default, raw as
+      # escape hatch" framing -- see docs/sveltia-migration-assessment.md
+      # §10 for the full reasoning: footnotes appear in ~83% of letters
+      # and underline is the single most common rendition value in the
+      # corpus, so most real editing sessions on this field would touch
+      # raw-mode-only apparatus at some point regardless. GFM
+      # strikethrough (used for the recovered choice/sic alternate
       # reading, e.g. "~~Gioacchino~~ Gioachino") IS a confirmed button,
       # safe to edit in either mode.
       - name: body
         label: Letter Text
         widget: markdown
-        modes: [rich_text, raw]
+        modes: [raw, rich_text]
         buttons: [bold, italic, strikethrough, link, quote]
 
   - name: people
