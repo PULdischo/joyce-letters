@@ -1,0 +1,166 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70275">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Wednesday, 9 November 1932</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70275</idno>
+            <idno type="internal">70275</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_26">Hôtel Lord Byron, Paris</placeName>
+               </address>
+               <date notBefore="1932-11-09" notAfter="1932-11-09">Wednesday, 9 November 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">
+                                <seg xml:id="seg1" type="note-anchor">Hotel Lord Byron</seg>
+                            </addrLine>
+                            <addrLine rend="printed">Champs-Elysées</addrLine>
+                            <addrLine rend="printed">Paris (VIIIe)</addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <dateline>
+                        <date when="1932-11-09">9.11.932</date>
+                    </dateline>
+                    <p>Dear <name type="person" key="poun85">Pound</name>: <seg xml:id="seg2" type="note-anchor">That lady</seg> should <seg xml:id="seg3" type="note-anchor">
+                            <supplied reason="damage">a</supplied>pply for leave</seg> to <name type="person" key="cape79">Jonathan Cape</name>. Between ourselves, Italian writers and editors for the last 6 or 7 years have been publishing translations of my stories but they never had the courtesy to send me a copy of the paper or to <seg xml:id="seg4" type="note-anchor">pay a <foreign xml:lang="fra">
+                                <hi rend="underline">sou</hi>
+                            </foreign>
+                        </seg>.</p>
+                    <p>I send you <seg xml:id="seg5" type="note-anchor">an article about <name type="person" key="joyc07">Lucia</name>’s <hi rend="underline">lettrines</hi>
+                        </seg>. They are very beautiful though a half-blind father is no good judge. Lord knows where she got the talent. Not from me.</p>
+                    <p>We are here <seg xml:id="seg6" type="note-anchor">flat hunting</seg>. I hope you like my <seg xml:id="seg7" type="note-anchor">new poetical address</seg>. Enclosed please find a picture of my grandson, <seg xml:id="seg8" type="note-anchor">
+                            <name type="person" key="joyc32">Stephen James</name>
+                        </seg>, snapped at <seg xml:id="seg9" type="note-anchor">Cap Ferrat</seg> a few weeks ago. I hope <seg xml:id="seg10" type="note-anchor">
+                            <rs type="person" key="poun26">your son and heir</rs>
+                        </seg> is thriving. Two Japanese firms have <seg xml:id="seg11" type="note-anchor">pirated <hi rend="underline">
+                                <name type="work" key="W_ULYSSES">Ulysses</name>
+                            </hi>
+                        </seg>. This work is now <seg xml:id="seg12" type="note-anchor">coming out in the Albatross Press</seg>.</p>
+                    <p>My sight is very slightly better but I have to go to <name type="geo" key="G_CHE_ZURI">Zurich</name> every 3 months for inspection. A great pity I did not <seg xml:id="seg13" type="note-anchor">meet <name type="person" key="vogt79">Prof. Vogt</name> eight years ago</seg>.</p>
+                    <p>I hope you are in better shape than your namesake <seg xml:id="seg14" type="note-anchor">Mr Sterling</seg>. What does he mean by <seg xml:id="seg15" type="note-anchor">going off the key</seg> like that when I have so many bills to pay?</p>
+                    <p>Good wishes from us all</p>                                                           <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                    <postscript>
+                        <p>
+                            <label>P.S.</label> The British Customs <seg xml:id="seg16" type="note-anchor">seized <name type="person" key="joyc07">Lucia</name>’s book</seg> because the <hi rend="underline">carton</hi> was silk!</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The Hotel Lord Byron, near the Place de l’Étoile (now Place Charles de Gaulle), was described in a 1924 guidebook as “100 beds, P[ension, i.e., board, lodging, and attendance]. from 35 fr[ancs]” (Karl Baedeker, <name type="work" key="ID_MISSING">Paris and its Environs</name> [Leipzig: Karl Baedeker, 1924], 7).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Uncertain. At least two women were translating JJ’s <name type="work" key="W_DUBLINERS">Dubliners</name> stories into Italian around this time. <name type="person" key="ID_MISSING">Annie Lami</name>, with <name type="person" key="ID_MISSING">Adriano Lami</name>, published a translation, titled <name type="work" key="ID_MISSING">Gente di Dublino</name>, with Edizioni Corbaccio in Milan in March 1933. Also, Amalia Risolo translated five of the stories and published them under the title <name type="work" key="ID_MISSING">Araby</name> with the firm of <name type="person" key="ID_MISSING">Carlo Moscheni</name> in Trieste in 1935. Risolo was the married name of <name type="person" key="ID_MISSING">Amalia Popper</name> (1891-1967), whom JJ tutored in English in Trieste around 1908-1909 and who, some scholars believe, might have been one of the inspirations for the brooding, erotic epiphanies that he wrote circa 1911-1914 and that are collected in <name type="work" key="ID_MISSING">Giacomo Joyce</name> (London: Faber and Faber; New York: Viking Press, 1968). (For discussion of Popper, see John McCourt, <name type="work" key="ID_MISSING">The Years of Bloom: James Joyce in Trieste 1904-1920</name> [Madison: University of Wisconsin Press, 2000], 199-204.)</note>
+                <note xml:id="note3" target="#seg3" type="commentary">The publisher Jonathan Cape, Ltd., of London, acquired from <name type="organisation" key="ID_MISSING">the Egoist Press</name> in 1924 the rights to JJ’s <name type="work" key="ID_MISSING">Chamber Music</name>, <name type="work" key="W_DUBLINERS">Dubliners</name>, <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, and <name type="work" key="W_EXILES">Exiles</name>. Herbert Jonathan Cape (1879-1960) founded the firm with <name type="person" key="ID_MISSING">Wren Howard</name> in 1921, going on to publish works by <name type="person" key="well66">H.G. Wells</name>, <name type="person" key="ID_MISSING">W.H. Davies</name>, <name type="person" key="ID_MISSING">Sinclair Lewis</name>, <name type="person" key="ID_MISSING">Ernest Hemingway</name>, <name type="person" key="ID_MISSING">Margaret Mead</name>, and other authors. For additional details, see <rs type="letter" key="L_71459">Nora Joyce to Pound, 22 February 1931, notes; 17 August 1932</rs>, notes.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ’s complaints about unauthorized and unremunerative Italian translations of his writings had become a point of contention with Pound several months before. See <rs type="letter" key="L_70101">JJ to Pound, 29 February 1932</rs>, notes.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">
+                    <p>The first English edition (printed in France) of JJ’s <name type="work" key="ID_MISSING">Pomes Penyeach</name> was published in September or October 1932 by Desmond Harmsworth Ltd. in London and The Obelisk Press in Paris. The poems were rendered in facsimile of JJ’s handwriting, with the poems’ initial letters (or lettrines) designed by JJ’s daughter, Lucia (1907-1982). The handsome volume was printed on Japanese nacre paper in an edition of 25 copies, enclosed in a portfolio of green watered silk, with the front cover gilt stamped in facsimile of JJ’s handwriting. Copies sold for 1,000 francs each (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 38-39). JJ, who was finding ways of paying Lucia for her artwork in order to boost her confidence, arranged to take no royalties on this edition and to have her paid 33% of the net profits (<name type="work" key="ID_MISSING">LIII</name> 266). <name type="work" key="ID_MISSING">Pomes Penyeach</name>, containing thirteen poems by JJ, had initially been published in 1927 by Shakespeare and Company in Paris.</p>
+                    <p>The “article” JJ mentions could have been a notice or statement by the French art historian and writer, <name type="person" key="gill76">Louis Gillet</name> (1876-1943), the Belgian art critic and author, <name type="person" key="vand76">Fritz Vanderpyl</name> (1876-1965), or another source. Shloss discusses early reviews and notices of Lucia’s lettrines, as well as “interviews occasioned by the publication of Lucia’s work” (Carol Loeb Shloss, <name type="work" key="ID_MISSING">Lucia Joyce: To Dance in the Wake</name> [New York: Farrar, Straus and Giroux, 2003], 243-46). Vanderpyl’s “Pulchritudo tam Antiqua et tam Nova: Les Lettrines de Lucia Joyce” appeared in <name type="work" key="ID_MISSING">transition</name>, no. 22 (February 1933): 131. Gillet wrote JJ around June 1932: “J’admire ces lettrines comme une merveille d’atavisme. On dirait des caprices d’un vieil enlumineur irlandais. La T surtout est étonnante. … J’ai peur que nos artistes aient peu de chose à apprendre à cette jeune fille que guide la main de Saint Patrice ou Saint Colomban” (“I admire these lettrines as a marvel of atavism. One might call them the fancies of an old Irish illuminator. The ‘T’ especially is astonishing. I fear that our artists have little to teach this girl who is guided by the hand of St. Patrick or St. Columbanus”) (<name type="work" key="ID_MISSING">LI</name> 319). Gillet wrote a preface to <name type="work" key="ID_MISSING">A Chaucer A.B.C.</name>, which featured illuminated initial letters by Lucia and was published by The Obelisk Press in Paris in 1936.</p>
+                </note>
+                <note xml:id="note6" target="#seg6" type="commentary">JJ, Nora, and Lucia stayed at the Hotel Lord Bryon from 20 October to 28 November 1932 until they found a furnished flat at 42 rue Galilée in Paris, where they remained until July 1934.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">The Hotel Lord Byron. As a schoolboy, JJ had defended the literary merits of the English poet George Gordon, Lord Byron (1788-1824), against his fellows’ claims that Byron was immoral and a heretic (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 39-40) – a scene that JJ recreated in <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (<name type="work" key="W_APORTRAIT">P</name> 80-82). JJ tried to persuade the American composer <name type="person" key="anth00">George Antheil</name> (1900-1959) – and later the Swiss composer <name type="person" key="ID_MISSING">Othmar Schoeck</name> (1886-1957) – to write an opera based on Lord Byron’s closet drama <name type="work" key="ID_MISSING">Cain: A Mystery</name> (1821), as a vehicle for JJ’s favorite tenor, <name type="person" key="sull77">John O’Sullivan, or Sullivan</name> (1877-1955). Neither did so.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">
+                    <p>Stephen James Joyce (1932-2020) was born in France, the son of JJ’s son, <name type="person" key="joyc05">Giorgio</name> (1905-1976), and his wife, <name type="person" key="joyc94">Helen Kastor Fleischman Joyce</name> (1894-1963). Stephen graduated from Harvard University and later worked for the Organisation for Economic Co-operation and Development (OECD), with an emphasis on African development. On retiring from the OECD in 1991, he turned his attention to managing JJ’s literary estate and trust, and became notorious for his hostility to most forms of Joyce scholarship and for his use of his grandfather’s copyrights to enforce his views and sometimes to demand high permissions fees. He and his wife, <name type="person" key="ID_MISSING">Solange Raythchine Joyce</name> (d. 2016), lived in France and had no children (see obituary, <name type="work" key="ID_MISSING">New York Times</name>, [8 February 2020]).</p>
+                    <p>Stephen was born shortly after JJ’s father, <name type="person" key="joyc49">John Stanislaus Joyce</name> (1849-1931), died. In his combined grief and joy, JJ wrote a moving poem, “Ecce Puer” (<name type="work" key="ID_MISSING">CP</name> 63). As a young boy, Stephen spent time with JJ, who showed him great affection and told and wrote him charming stories, two of which are preserved in letters he wrote in 1936 (see <name type="work" key="ID_MISSING">LI</name> 386-87 for one of these). These letter-tales have been published as <name type="work" key="ID_MISSING">The Cat and the Devil</name> (New York: Dodd, Mead and Company, 1964) and<name type="work" key="ID_MISSING">The Cats of Copenhagen</name> (New York: Scribner, 2012). Several photographs show JJ and his young grandson Stephen together in family settings.</p>
+                </note>
+                <note xml:id="note9" target="#seg9" type="commentary">Giorgio Joyce, his wife Helen, and their son Stephen were at La Ferme du May, Saint Jean-Cap Ferrat, Alpes Maritimes, France, during the summer of 1932, where they were visited by Helen’s family (<name type="work" key="ID_MISSING">LIII</name> 249).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">
+                    <name type="person" key="ID_MISSING">Omar Shakespear Pound</name> (1926-2010), the son of Dorothy Shakespear Pound (1886-1973), was born in France and cared for in England by his maternal grandmother, <name type="person" key="ID_MISSING">Olivia Shakespear</name> (1863-1938), and by the Norland Institute and a former matron of Norland. He attended Charterhouse School, survived the London Blitz, and served as a volunteer in the U.S. Army during World War II. Pound later attended Hamilton College in New York–Ezra Pound’s alma mater–and also studied at the School of Oriental and African Studies in London, and McGill University in Montreal. A scholar of Arabic and Persian literatures, Pound became a noted translator of poetry in those languages, as well as a poet, in English, in his own right. Later in life, he lived and taught in Princeton, New Jersey, and published numerous scholarly articles and volumes on Ezra Pound and Wyndham Lewis.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">A Japanese translation of <name type="work" key="W_ULYSSES">Ulysses</name>, by Tadashi Ito and others, was published in two volumes in Tokyo in 1931 and 1934. Another, by Sohei Morita and others, appeared in five volumes in Tokyo from 1932 to 1935 (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 123). JJ wrote T.S. Eliot in June 1932: “Two Japanese pirated editions of <name type="work" key="W_ULYSSES">Ulysses</name> have appeared this spring and 13,000 copies have been sold to date. Is Japan a signatory to the Berne convention or not. <name type="work" key="W_ULYSSES">Ulysses</name> stands under French law. The pirates allege that European books become public property in Japan after 10 years” (<name type="work" key="ID_MISSING">LI</name> 320). Later in 1932, JJ reported that “[t]he Japanese sent me a cheque for 200 yen (£10, circa) for their depredations. I am sending it back with a Chinese curse on it and them” (<name type="work" key="ID_MISSING">LI</name> 325). JJ was not mollified when he was informed that <name type="work" key="W_ULYSSES">Ulysses</name> was not protected under the short Japanese copyright term for European works (see Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing, and the Public Domain</name> [New York: Oxford University Press, 2013], 237, 319 n.23). He was uninterested in any distinction between legality and morality when it came to unauthorized uses of his writings. JJ’s commentators, no less than JJ himself, have sometimes been guilty of casual accusations of “piracy” even when they have known that JJ’s works lacked copyright protection (see, e.g., Ellmann, <name type="work" key="ID_MISSING">JJ</name> 654-55 &amp; n.; <name type="work" key="ID_MISSING">LI</name> 325 n.1).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">
+                    <p>Ellmann writes: “J. Holroyd-Reece and M.C. Wegner, the Paris representatives of the Albatross Press, with headquarters in Hamburg, offered to take over the publication of <name type="work" key="W_ULYSSES">Ulysses</name>, and Joyce signed with them a contract that allocated 25% of the royalties to Sylvia Beach for five years and 7½% for life” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 652-53). This edition, issued under the special imprint of The Odyssey Press, and printed in Germany, was published in Hamburg in December 1932 in two volumes and in a one-volume paper edition. The edition benefited from revisions by JJ’s friend, the English scholar and translator Stuart Gilbert (1883-1969), and was long considered “the most accurate and authoritative text of <name type="work" key="W_ULYSSES">Ulysses</name>” (Slocum and Cahoon, 29-30).</p>
+                    <p>In December 1933, JJ’s friend and secretary Paul Léon (1893-1942) wrote letters to Holroyd-Reece and Wegner, expressing alarm that they were planning to import their <name type="work" key="W_ULYSSES">Ulysses</name> edition into the United States so as to compete with the imminent Random House edition (1934) there. The two publishers protested that they had been misunderstood, but in fact they had made (and withdrawn) a proposal that could be construed as an attempt to exploit the questionable U.S. copyright in <name type="work" key="W_ULYSSES">Ulysses</name>. JJ’s eyesight was remarkably good when it came to spotting pirate flags on the horizon (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 248-51).</p>
+                </note>
+                <note xml:id="note13" target="#seg13" type="commentary">In July 1932, JJ went to Zurich to consult the noted eye surgeon, Professor Alfred Vogt (1879-1943). Vogt upbraided him for not having come earlier, and felt that his right eye was close to irreparable blindness. He proposed two operations, followed by surgery on the left eye. JJ wrote a correspondent in November 1932: “I went to Zurich in July and Professor Vogt (probably the greatest eye-doctor in the world) found that my sight had somewhat improved. I have to return to him every three months for a year or a year and a half to be under constant observation. He is afraid to touch the bad eye until the process of amelioration in the other has reached its highest point. As these wretched eyes of mine have already been operated on ten times (unfortunately not by him, except the last time) after about 25 years of recurrent inflamations [<hi rend="italic">sic</hi>] it is a very delicate case to handle” (<name type="work" key="ID_MISSING">LIII</name> 266-67).</note>
+                <note xml:id="note14" target="#seg14" type="commentary">
+                    <p>The British pound was fluctuating against foreign currencies throughout 1932. For example, in November 1932, the pound reached roughly $3.20 against the U.S. dollar, its lowest point since 1920 (“British Pound Reacts to Lowest Level Since ’20 Due to Debt Terms,” <name type="work" key="ID_MISSING">Binghamton Press</name>, New York [25 November 1932]: 1). Though the pound was gaining again by the end of November, instability in the payment of war debt kept the markets volatile.</p>
+                    <p>“Mr Sterling” was an old joke between JJ and Pound. When they were younger, JJ’s children called Pound “Signore Sterlina” – a homophonic coincidence of his name with the British pound sterling – partly because they had come to associate him, as JJ himself had, with financial relief, especially prior to 1920 (see <rs type="letter" key="L_71613">JJ to Pound, 5 December 1918</rs>, notes).</p>
+                </note>
+                <note xml:id="note15" target="#seg15" type="commentary">There may be an allusion here to Georgina Ann Stirling (ca. 1866-1935), a noted Newfoundland opera soprano, known by her stage name Marie Toulinquet, who sang in opera houses throughout Europe and United States. She was hailed as The Nightingale of the North.</note>
+                <note xml:id="note16" target="#seg16" type="commentary">Copies of JJ’s <name type="work" key="ID_MISSING">Pomes Penyeach</name>, printed with initial letters (or lettrines) designed by JJ’s daughter, Lucia, and sold in special silk casings (see note 5, above), were seized at British Customs. JJ wrote another correspondent: “the British Customs seized the whole 10 copies (9 sold in advance) of the English part of my daughter’s book of <hi rend="italic">lettrines</hi> on account of the ‘carton’ classing it as ‘silk luxury goods’ and demanding a Chinese ransom of £4 per copy on a book which already costs £12 a copy. No wonder the £ is at 82 in the shade” (<name type="work" key="ID_MISSING">LIII</name> 265).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="glov72">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. W. Glover</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>glov72</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Henry W.</forename> <surname>Glover</surname>
+            </persName>
+            <persName type="full">H. W. Glover</persName>
+            <date type="birth" when="1872-07-05"/>
+            <date type="death" when="1958-08-09"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Bookseller at 114 Leadenhall Street in London from which JJ ordered several books. The son of a builder, Glover worked in clerical jobs before being taken on as a bookseller’s assistant, probably in <name type="person" key="ID_MISSING">William Glaisher</name>’s “remainder and discount” bookshop, High Holborn. In 1904 he married Glaisher’s daughter <name type="person" key="ID_MISSING">Alice</name>, and soon established his own “publishers’ remainders” bookshop in Leadenhall Street. By 1935 he had moved the business to nearby Creechurch Lane; in 1940 he signed a deed of assignment with creditors and appeared to stop trading. He died in 1958, leaving effects of about £1,200. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

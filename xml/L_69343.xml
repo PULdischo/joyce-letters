@@ -1,0 +1,149 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69343">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Saturday, 20 March 1926</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>RS</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69343</idno>
+            <idno type="internal">69343</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_16">2 Square Robiac, Paris</placeName>
+               </address>
+               <date notBefore="1926-03-20" notAfter="1926-03-20">Saturday, 20 March 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+<addrLine rend="printed">
+                                <name type="geo" key="G_FRA_PARI_16">2, SQUARE ROBIAC</name>
+                            </addrLine>
+                            <addrLine rend="printed">192 RUE DE GRENELLE VII<hi rend="superscript">e</hi>
+                            </addrLine>
+</address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: The reason I did not reply till now is that just then a strange thing happened to <seg xml:id="seg1" type="note-anchor">
+                            <name type="person" key="joyc05">Giorgio’s</name> voice</seg>. He found he could not continue singing. Perhaps you may remember there was always a difference of opinion between the rest of the world and myself about his voice. I always thought the voice would be a tenor. I took him to two throat specialists who both said he had to rest completely, that he had been <seg xml:id="seg2" type="note-anchor">misusing his voice</seg>, that he had not the vocal chords of a bass and that his voice should be high baritone or tenor! So here we <choice>
+                            <sic>after</sic>
+                            <corr>are</corr>
+                        </choice> after nearly three years of study. He sings excellently and they say no damage has been done. I am <seg xml:id="seg3" type="note-anchor">going to hear <name type="person" key="tina91">Tinayre</name>
+                        </seg> <seg xml:id="seg4" type="note-anchor">on <date when="1926-03-23">Tuesday</date>
+                        </seg>. I hope he sings <seg xml:id="seg5" type="note-anchor">your song</seg> – for which by the way many thanks. I will get it put up.</p>
+                    <p>How are you both? Well, I hope. I have had a hard time this time and the cure is <seg xml:id="seg6" type="note-anchor">
+                            <foreign xml:lang="ita">lento lento lento</foreign>
+                        </seg>. I regret that you are never in <name type="geo" key="G_FRA_PARI">Paris</name> as I should like to show you <seg xml:id="seg7" type="note-anchor">what I am writing now</seg> (with impaired sight too) and have your opinion of it. We would have been glad if you had walked in on Christmas Day. Perhaps you may next time.</p>
+                    <p>I sing, <seg xml:id="seg8" type="note-anchor">like Carmen</seg>, only for myself but I read a page of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> for <seg xml:id="seg9" type="note-anchor">a gramophone record</seg>. Would you care to have the disc. If so I shall find a way to send it.</p>
+                    <p>
+                        <seg xml:id="seg10" type="note-anchor">
+                            <foreign xml:lang="ita">
+                                <hi rend="underline">Al</hi> <hi rend="underline">nostro</hi> <hi rend="underline">prossimo</hi> <hi rend="underline">incontro</hi>
+                            </foreign>!</seg>
+                    </p>                    	<closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1926-03-20">20/iii/926</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ and <name type="person" key="barn84">Nora Barnacle</name>’s son Giorgio (1905-1976) had been studying singing and had what Ellmann calls “a somewhat unstabilized bass voice with a pleasant timbre. (It would later, after a throat operation, shift to baritone.)” Ellmann continues: “He made his public debut on April 25, 1929, by singing two songs of Handel at a concert of the Studio Scientifique de la Voix of Professor Georges Cunelli. He was also engaged as a bass at the American Pro-Cathedral in December. With hard work, Cunelli felt that George might have become a concert singer. But George was not an enthusiast; music was for him, not he for music” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 611). In later years, Giorgio sang frequently over the radio in Europe and also, in 1935, in America. Despite JJ’s desire that Giorgio have a tenor voice (like his own), he was often described as “singing bass” (Walter Winchell, “Man About Town and Country,” <name type="work" key="ID_MISSING">Scranton Republican</name> [29 January 1935]: 9). Pound received JJ’s present letter on 24 March and wrote his father: “Joyce’s kid aint a basso after all. J.J. always said he ought to be a tenor; and now he is” (<name type="work" key="ID_MISSING">Ezra Pound to His Parents: Letters 1895-1929</name>, ed. Mary de Rachewiltz et al. [Oxford: Oxford University Press, 2010], 595).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ wrote Ivan Opffer on 9 March 1926 that Giorgio “has suspended his singing lessons owing to false diagnosis of his voice” (<name type="work" key="ID_MISSING">LIII</name> 139). Presumably, this referred to the earlier official opinion that Giorgio was a bass when it later turned out, as JJ had suspected, that he had a high baritone or tenor voice.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <p>Jean Auguste Yves Tinayre (1891-1972), French singer-musicologist variously described as a tenor or baritone, specialized in medieval and other early music and researched forgotten music in libraries and monasteries. He made his first recordings for HMV; in later years, he recorded for Pathé, Lumen, and other labels. Pound heard him sing selections from John Dowland (1563-1626) and other composers in late October 1918 at Wigmore Hall in London, and wrote (under his music-critic pseudonym “William Atheling”) that “M. Yves Tinayre is a charming and delightful singer” (“Music,” <name type="work" key="ID_MISSING">The New Age</name>, vol. 24, no. 2 [14 November 1918]: 27-28).</p>
+                    <p>Pound persuaded Tinayre to sing the role of the French poet François Villon (ca. 1431-ca. 1463) in Pound’s opera <name type="work" key="ID_MISSING">Le Testament de Villon</name>, begun around 1920 as a musical experiment that subordinated pitch to rhythm. When Tinayre first saw the written music for Pound’s opera, he was struck by its novelty: “The music was longitudinal and linear” (quoted in Humphrey Carpenter, <name type="work" key="ID_MISSING">A Serious Character: The Life of Ezra Pound</name> [Boston: Houghton Mifflin, 1988], 390). The opera was premiered at an invitational performance in June 1926 at the Salle Pleyel in Paris, with Tinayre singing the role of Villon and (disguised by a shawl and a falsetto) that of the old prostitute La Hëaulmière; Robert Maitland the bass role of Bozo the brothel-keeper; George Antheil on harpsichord; Olga Rudge on violin; Tinayre’s brother on alphorn; and Pound pounding kettle-drum. The performance was attended by JJ, T.S. Eliot, Ernest Hemingway, Djuna Barnes, Virgil Thomson, and others (ibid., 451). Pound at one time wanted JJ to sing Villon’s role, but the idea did not materialize (Larry Lyall, “Pound/Villon: Le Testament de François Villon,” <name type="work" key="ID_MISSING">Paideuma: Modern and Contemporary Poetry and Poetics</name>, vol. 2, no. 1 [Spring 1973]: 19). The opera was broadcast over BBC radio in October 1931.</p>
+                </note>
+                <note xml:id="note4" target="#seg4" type="commentary">In an unpublished letter to <name type="person" key="weav76">Harriet Shaw Weaver</name> dated 23 March 1926, JJ wrote: “I am now going to hear Pound’s friend, M. Tinayre, in a concert. He has a tiptap tanner voarse like C [Caruso?] of old.”</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Possibly “Mort, j’appelle de ta rigueur,” sung by the character Ythier in Pound’s opera <name type="work" key="ID_MISSING">Le Testament de Villon</name>. Tinayre had sung the song, with Olga Rudge on solo violin, in July 1924 in Paris. Pound had the song engraved and printed “for private circulation” in 1926 (A. David Moody, <name type="work" key="ID_MISSING">Ezra Pound: Poet, A Portrait of the Man and His Work</name>, vol. 2 [Oxford: Oxford University Press, 2014], 318). A printed score of “Mort, j’appelle” also exists in the Ezra Pound Papers (addition), YCAL MSS 53, box 45, folder 994, Beinecke Library, Yale University. As Ythier’s part may be sung by a light baritone, this song could have been considered for Giorgio Joyce.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">It. “slowly, slowly, slowly.” From Act Three of <name type="work" key="ID_MISSING">Falstaff</name> (1893), the final opera of Giuseppe Verdi (1813-1901), where Mistress Alice Ford, the wealthy wife whom Falstaff pathetically woos, describes the plot by which he is to meet her at midnight in Windsor Park, dressed as the ghost of Herne the Hunter. For the merriment of her husband and others, Alice mockingly imagines a grisly scene in which the spectral Herne advances towards a group of demons celebrating unholy mysteries: “Egli cammina lento, lento, lento, / Nel gran letargo della sepoltura” (“He walks slowly, slowly, slowly, / With the great lethargy of the grave”) (<name type="work" key="ID_MISSING">Falstaff: A Lyric Comedy, in Three Acts</name> [New York: F. Rullman, 1894], 42). <name type="work" key="ID_MISSING">Falstaff</name> was adapted from Shakespeare’s <name type="work" key="ID_MISSING">The Merry Wives of Windsor</name>.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">
+                    <p>In March 1926, JJ was working on the portion of “Work in Progress” known as the four watches (or chapters) of Shaun the Post, later to be published as pages 403-590 of <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name> (1939). He finished this section and sent a copy off to Harriet Shaw Weaver in early June 1926 (<name type="work" key="ID_MISSING">LI</name> 241). JJ was considering allowing the New York writer and magazine editor <name type="person" key="roth93">Samuel Roth</name> (1893-1974) to publish the Shaun material, for $300, in his review <name type="work" key="ID_MISSING">Two Worlds</name>, but Roth’s reputation and questionable dealings put him off (<name type="work" key="ID_MISSING">LI</name> 240). Then, the New York magazine <name type="work" key="W_DIAL">The Dial</name> agreed to pay $600 or $650 for the Shaun chapters, but JJ later withdrew the manuscript when the editor declined to print it as it stood (<name type="work" key="ID_MISSING">LI</name> 245; <name type="work" key="ID_MISSING">LIII</name> 144; Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing and the Public Domain</name> [New York: Oxford University Press, 2013], 171-72). The watches of Shaun would be published in various numbers of <name type="work" key="ID_MISSING">transition</name> (Paris), nos. 12-13, 15, 18 (February, March 1928; Summer 1928; February, November 1929): 7-18, 7-27, 5-32, 195-238, 211-36.</p>
+                    <p>Around November 1926, JJ sent the Shaun typescript to Pound in Rapallo, hoping for a favorable opinion. Pound wrote back on 15 November: “All I can do is to wish you every possible success.” He could make nothing of the text. “Nothing … short of divine vision or a new cure for the clapp can possibly be worth all the circumambient peripherization. … And in any case I don’t see what which has to do with where” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 228).</p>
+                </note>
+                <note xml:id="note8" target="#seg8" type="commentary">In Act One of the opera <name type="work" key="ID_MISSING">Carmen</name> (1875) by Georges Bizet (1838-1875), the gypsy girl Carmen, arrested for attacking another girl with a knife, sings a flirtatious <hi rend="italic">seguidilla</hi> to the naïve soldier Don José, teasing him: “Je ne te parle pas, je chante pour moi-meme” (“I’m not talking to you! I sing for my own pleasure [or for myself]”) (Georges Bizet, <name type="work" key="ID_MISSING">Carmen</name>, ed. Burton D. Fischer [Coral Gables, FL: Opera Journeys Publishing, 2001], 20).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">JJ recorded a passage from the “Aeolus” episode of <name type="work" key="W_ULYSSES">Ulysses</name> at a studio of His Master’s Voice outside Paris in November 1924. At Sylvia Beach’s expense, thirty copies were pressed of the 12-inch, 78 rpm recording (one side). Various passages from “Sirens,” “Cyclops,” and “Penelope” had been considered before the choice fell to “Aeolus.” The recorded extract from that episode includes Professor MacHugh’s recitation of a speech made by John F. Taylor in support of the revival of the Irish language at the Trinity College Historical Society in 1901 (<name type="work" key="W_ULYSSES">U</name> 7.827-69). JJ gifted copies of the disc to Sylvia Beach, Harriet Shaw Weaver, and others (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 173). JJ also made a recording, in 1929, of the final pages of the “Anna Livia Plurabelle” section of <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name> (1939) (<name type="work" key="W_FINNEGANSWAKE">FW</name> 213-16). Both of these recordings were later reissued in LP format and may easily be found on the Internet. For a discussion of the “Aeolus” recording, see Damien Keane, “His Remastered Voice: Joyce for Vinyl,” in <name type="work" key="ID_MISSING">Science, Technology, and Irish Modernism</name>, ed. Kathryn Conrad et al. (Syracuse, NY: Syracuse University Press, 2019), 144-59.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">It. “To our next meeting!” or “Till we meet again!”</note>
+            </div>
+      </body>
+   </text>
+</TEI>

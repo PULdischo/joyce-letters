@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="boll98">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lily Bollach</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>boll98</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Lily</forename> <surname>Bollach</surname>
+            </persName>
+            <persName type="full">Lily Bollach</persName>
+            <date type="birth" when="1898-12-15"/>
+            <date type="death" when="1986-09-04"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Professional typist engaged by JJ to produce clean typescript from his fair copy of “Work in Progress” (<name type="work" key="ID_MISSING">Finnegans Wake</name>); he wrote almost forty letters to her between 1923 and 1926 relating to her work for him, addressed to 122 Avenue de la République in Paris’s 11th Arrondissement. In the 1926 census of Paris the only people listed at that address are a mother and daughter, Clara (born Pas de Calais, 1858) and Celine Bollach (born 15 December 1898, in the 11th Arrondissement). In the absence of further evidence, we assume “Lily” was a pet-name for Celine. Celine died, apparently unmarried, in Switzerland, on 4 September 1986. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

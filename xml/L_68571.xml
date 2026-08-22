@@ -1,0 +1,110 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68571">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 27 January 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68571</idno>
+            <idno type="internal">68571</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCI</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE">Trieste</placeName>
+               </address>
+               <date notBefore="1920-01-27" notAfter="1920-01-27">Tuesday, 27 January 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_68571_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>The <seg xml:id="seg1" type="note-anchor">Nausikaa episode</seg> is finished <date when="1920-01-27">this morning</date> – 4. a.m. Will be <seg xml:id="seg2" type="note-anchor">typed and sent</seg> in a few days. Have been ill but am now better. Hope you are well.</p>
+                    <closer>
+                        <signed>
+                            <name type="person" key="joyc82">J.J.</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">The face of this postcard reproduces a painting, captioned on the reverse, “TRIESTE - Piazza grande dal mare.” The artist is Edoardo Marchioro (1882-1935), born in Schio, near Vicenza. He painted many scenes of Trieste, Trento, and other cities that were reproduced on postcards. Marchioro trained at La Scala, the opera house in Milan, and from the 1920s was noted for the scene designs he created for productions there, including Verdi’s <name type="work" key="ID_MISSING">Otello</name> and <name type="work" key="ID_MISSING">Forza del destino</name> and Puccini’s <name type="work" key="ID_MISSING">Tosca</name>. His career is discussed in Giuseppe Adami, <name type="work" key="ID_MISSING">Edoardo Marchioro: Pittore, scenografo del Teatro alla Scala</name> (Milan: Emilio Bestetti, 1945), and Giovanna Grossato, <name type="work" key="ID_MISSING">Edoardo Marchioro, pittore e scenografo della Scala</name> (Edizioni Livio Greselin, 1976). Marchioro’s 1917 painting of the Piazza Grande (Great Square, later renamed Piazza Unità d’Italia) shows one of the busiest areas of Trieste, facing the Adriatic Sea, with its magisterial commercial buildings, palaces, wooded area, and San Giusto castle on the hill behind.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">“Nausicaa,” the thirteenth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, appeared in three numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 6, no. 11-vol. 7, nos. 1-2 (April, May-June, July-August 1920): 43-50, 61-72, 42-58. The portion in the July-August 1920 number, containing the scene of Leopold Bloom’s masturbation at the seashore, caused the editors <name type="person" key="ande86">Margaret Caroline Anderson</name> (1886-1973) and <name type="person" key="heap83">Jane Heap</name> (1883-1964) to be prosecuted for publishing obscenity; they were convicted and fined $50 each by a New York court in 1921. For a fuller account, see <rs type="letter" key="L_68553">JJ to Pound, 24 October 1919</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">As JJ completed episodes of <name type="work" key="W_ULYSSES">Ulysses</name>, he had copies typed and sent to Pound, who reviewed and transmitted them to New York for serial publication in <name type="work" key="W_THELITTLE">The Little Review</name>, and to <name type="person" key="weav76">Harriet Shaw Weaver</name> (1876-1961), editor of <name type="work" key="W_THEEGOIST">The Egoist</name> in London. Because of English printers’ fears, <name type="work" key="W_THEEGOIST">The Egoist</name> never consistently serialized <name type="work" key="W_ULYSSES">Ulysses</name>, and published only a few episodes: “Nestor,” “Proteus,” “Hades,” and part of “Wandering Rocks.”</note>
+            </div>
+      </body>
+   </text>
+</TEI>

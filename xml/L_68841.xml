@@ -1,0 +1,184 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68841">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Thursday, 5 January 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="LLT">LLT</name>
+                    <name xml:id="LVR">LVR</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68841</idno>
+            <idno type="internal">68841</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">9 rue de l'Université, Paris</placeName>
+               </address>
+               <date notBefore="1922-01-05" notAfter="1922-01-05">Thursday, 5 January 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         
+
+<div type="letter">
+<div type="address">
+<ab>
+<address>
+<addrLine>
+<name type="geo" key="G_FRA_PARI_04">rue de l’Université 9</name>
+</addrLine>
+<addrLine>
+<name type="geo" key="G_FRA_PARI">Paris VII</name>
+</addrLine>
+</address>
+</ab>
+</div>
+
+<div type="mainBody">
+
+<p>Dear <name type="person" key="weav76">Miss Weaver</name>: I find I shall have to draw another £50 of that sum for my own expenses as no money is likely to come in from subscribers before the end of the month so that I shall be glad if you will send on that amount on receipt of this – that is, if that is the arrangement you made. I forget whether you said I was to write to you or to your solicitors and if I attempted to look for your letter in my present condition of nerves and papers I should have to abandon work for the day. Yesterday <name type="person" key="live86">Mr Liveright</name> (of the New York firm <seg xml:id="seg1" type="note-anchor">Boni and Liveright</seg>) asked me to meet him. He wants to acquire from <name type="person" key="hueb76">Mr Huebsch</name> the American rights of my <rs type="work" key="W_APORTRAIT">
+                            <seg xml:id="seg2" type="note-anchor">first novel</seg>
+                        </rs> and offered to give me an advance of $1000 on a 25% royalty for the American rights of <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name>. I did not take it but advised him to wait and read the book in its complete form and see how it is received. You may keep <seg xml:id="seg3" type="note-anchor">that plan</seg> and the <seg xml:id="seg4" type="note-anchor">
+                            <hi rend="underline">Secolo</hi>
+                        </seg>. In a few days if I am less fatigued I shall try to make one for the <rs type="work" key="W_ULYSSES">
+                            <hi rend="underline">Oxen</hi> <hi rend="underline">of</hi> <hi rend="underline">the</hi> <hi rend="underline">Sun</hi>
+                        </rs> which seems to give you a great deal of trouble. I sent you the proofs (made in advance uncorrected and with omissions) for <rs type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ithaca</hi>
+                        </rs> which however I should like to have back when you read them. The printing of <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> is finished. I have still work of revision to do but I have made a vow that I will not write a word more of it after <date when="1921-02-01">1 February</date>. Enclosed is <seg xml:id="seg5" type="note-anchor">a cutting</seg> <name type="person" key="larb81">Mr Larbaud</name> sent me. As usual it contains fantastic <seg xml:id="seg6" type="note-anchor">exaggerations</seg>. I send you also a cutting from <rs type="work" key="ID_MISSING">a Dublin newspaper</rs> which speaks for itself and is an answer to the first of the <seg xml:id="seg7" type="note-anchor">seven heads of indictment</seg> which have been drawn up against <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name>.</p>
+<p>Many thanks for your Christmas and New Year wishes. I hope they and the Greek flag which I have hanging beside the fireplace will bring me luck and health and repose – from which you will deduce that I am extremely fond of myself. I renew my wishes to yourself. I hope to summon up sufficient courage in the spring to go to <name type="geo" key="G_GBR_LOND">London</name> – when the waters have subsided a little after the launch of a certain dreadnought.</p>
+<p>With many thanks. Kindest regards and apologies for this tired letter.</p>
+
+<closer>
+<salute>sincerely yours</salute>
+<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+</closer>
+
+<dateline>
+                        <date when="1922-01-05">5.1.921 (922)</date>
+                    </dateline>
+
+<postscript>
+<p>
+                            <label>P.S.</label> I think it would be well to send marked copies of that <seg xml:id="seg8" type="note-anchor">
+                                <hi rend="underline">Observer</hi> number</seg> to:</p>
+<p>
+                            <name type="person" key="quin70">John Quinn</name>, <name type="geo" key="ID_MISSING">31 Nassau Street</name>, <name type="geo" key="G_USA_NEWY">New York</name>
+                        
+<lb/>
+                            <name type="person" key="lina78">Carlo Linati</name>
+                        
+<lb/>
+                            <seg xml:id="seg9" type="note-anchor">
+                                <name type="person" key="gebe53">Dr Geber</name>, Gebersforlag,</seg> <name type="geo" key="ID_MISSING">Stockholm</name>.
+                                    
+                                </p>
+</postscript>
+</div>
+</div>
+
+<div type="notes">
+
+<note xml:id="note1" target="#seg1" type="commentary">
+                    Boni and Liveright, a <name type="geo" key="G_USA_NEWY">New York</name>-based publisher established in 1917 by Albert Boni and Horace Liveright, attempted to publish <hi rend="italic">
+                        <name type="work" key="W_ULYSSES">Ulysses</name>
+                    </hi> in 1922, before giving up due to legal difficulties.</note>
+                    
+<note xml:id="note2" target="#seg2" type="commentary">
+                    <hi rend="italic">A Portrait of the Artist as a Young Man</hi>.</note>
+                    
+<note xml:id="note3" target="#seg3" type="commentary">The so-called “schema” of <hi rend="italic">Ulysses</hi>, an outline of the themes associated with each episode, mentioned also in JJ’s letters to Larbaud of 6 November 1921 (<hi rend="italic">LIII</hi> 53), 15 November 1921 (<hi rend="italic">LIII</hi> 53), and 26 November 1921 (<hi rend="italic">LIII</hi> 54).</note>
+                    
+<note xml:id="note4" target="#seg4" type="commentary">Probably <hi rend="italic">Il Secolo</hi> (18 November 1921): 3, sent to Weaver on 10 December 1921 (<hi rend="italic">SL</hi> 287). The newspaper had published the article  “Un Ulisse irlandese” by Triestine journalist and editor Silvio Benco.</note>
+
+<note xml:id="note5" target="#seg5" type="commentary">Probably the article titled “<hi rend="italic">Ulysses</hi>: James Joyce and his chef d’oeuvre”, <hi rend="italic">The Observer</hi> (11 December 1921): 9.</note>
+
+<note xml:id="note6" target="#seg6" type="commentary">On <date when="1921-12-07">7 December 1921</date>, Valery Larbaud gave a séance on <hi rend="italic">
+                        <name type="work" key="W_ULYSSES">Ulysses</name>
+                    </hi> in Adrienne Monnier’s <name type="geo" key="G_FRA_PARI">Paris</name> bookshop, <name type="geo" key="ID_MISSING">La Maison des Amis des Livres</name>. Here Larbaud delivered a lecture in anticipation of, and in close resemblance to, his forthcoming review in the <hi rend="italic">
+                        <name type="work" key="ID_MISSING">Nouvelle Revue Française</name>
+                    </hi>.</note>
+
+                    
+<note xml:id="note7" target="#seg7" type="commentary">In February 1921, the editors of <hi rend="italic">The Little Review</hi>, Margaret Anderson and Jane Heap, were tried for obscenity for publishing the “Nausicaa” episode in their journal’s April 1920 issue.</note>
+
+<note xml:id="note8" target="#seg8" type="commentary">“<hi rend="italic">Ulysses</hi>: James Joyce and his chef d’oeuvre”, <hi rend="italic">The Observer</hi> (11 December 1921): 9.</note>
+
+<note xml:id="note9" target="#seg9" type="commentary">In 1921 Hugo Gebers Förlag in Stockholm had published a Swedish translation of <hi rend="italic">A Portrait</hi>.</note>
+
+</div>
+
+
+      </body>
+   </text>
+</TEI>

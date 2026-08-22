@@ -1,0 +1,214 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68393">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 24 July 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RC">RC</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68393</idno>
+            <idno type="internal">68393</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seelfeldsrtasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-07-24" notAfter="1917-07-24">Tuesday, 24 July 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_06">Seefeldstrasse 73 <hi rend="superscript">III</hi>
+                                </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: I do not understand <seg xml:id="seg1" type="note-anchor">your allusion</seg> to autumn. Do you intend to <seg xml:id="seg2" type="note-anchor">go to <name type="geo" key="G_ITK">Italy</name>
+                        </seg>? As soon as <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="quin70">Mr Quinn’s</name> remittance</seg> or my <seg xml:id="seg4" type="note-anchor">next instalment</seg> of money arrives in a few days I shall send <rs type="person" key="barn84">my wife</rs> and family for the holidays to <seg xml:id="seg5" type="note-anchor">
+                            <name type="geo" key="G_CHE_LAGO">Lago Maggiore</name>
+                        </seg>: and perhaps I shall go there too afterwards. I did not receive any letter from Mr Quinn. Has he now <seg xml:id="seg6" type="note-anchor">all the acts of <rs type="work" key="W_EXILES">the play</rs>
+                        </seg>? If not, please send him acts two and three. If they are lost I shall recopy them for him. As soon as I hear from him I shall let you know but apart from that if you have any intention of travelling (I do not urge you to do so in <seg xml:id="seg7" type="note-anchor">present circumstances</seg>) I should be very glad to know your itinerary.</p>
+                    <p>I did not get <seg xml:id="seg8" type="note-anchor">
+                            <name type="person" key="elio88">Mr Eliot</name>’s <rs type="work" key="W_PRUFROCK">book</rs>
+                        </seg> nor the <seg xml:id="seg9" type="note-anchor">number of <hi rend="underline">
+                                <name type="work" key="W_POETRY">Poetry</name>
+                            </hi>
+                        </seg> with <rs type="work" key="W_THREECANTOS">your poem</rs> in it. Perhaps they will come later. I got the June <hi rend="underline">
+                            <name type="work" key="W_THELITTLE">Little Review</name>
+                        </hi> with <seg xml:id="seg10" type="note-anchor">your cheerful dialogue</seg> in it and <seg xml:id="seg11" type="note-anchor">
+                            <name type="person" key="yeat65">Yeats</name>’s <rs type="work" key="W_WILDSWANS W_PRESENCES W_MENIMPROVE W_DEEPSWORN W_COLLARBONE W_BROKENDREAMS W_INMEMORY">verses</rs>
+                        </seg>. It is a long time since I had the pleasure of reading anything of his. I want to know whether <seg xml:id="seg12" type="note-anchor">he read <hi rend="underline">
+                                <name type="work" key="W_EXILES">Exiles</name>
+                            </hi>
+                        </seg> and whether the <name type="organisation" key="O_ABBEYTHEATRE">Abbey Theatre</name> rejected it definitely. I ask because the <name type="organisation" key="O_STAGESOCIETY">Stage Society</name> <seg xml:id="seg13" type="note-anchor">sent back the typescript</seg> after having kept it for nearly a year  –  without explanation or comment. I am sorry <seg xml:id="seg14" type="note-anchor">you do not like <hi rend="underline">Exiles</hi>
+                        </seg>. I suppose Mr Quinn <seg xml:id="seg15" type="note-anchor">does not like it either</seg>. I sent the MS however at his request. As for having it typed a third time and sent on it is a useless expense. I have already paid about £12 typing expenses. <name type="person" key="rich72">Mr Richards</name> writes he “<seg xml:id="seg16" type="note-anchor">hopes to publish it in January</seg>”. It is very <seg xml:id="seg17" type="note-anchor">difficult to get things printed</seg>, he says. I shall <seg xml:id="seg18" type="note-anchor">ask <rs type="person" key="pink62">my agent</rs>
+                        </seg> to urge him to set it at once and then perhaps the typescript which he has could be sent on to <name type="geo" key="G_USA_NEWY">New York</name>. As usual I have to write the same thing several times to several people and in the end half of my instructions are badly executed.</p>
+                    <p>I believe that your fears for the reception of <hi rend="underline">Exiles</hi> are caused by your friendly interest in me. For my part I do not see how <seg xml:id="seg19" type="note-anchor">its reception</seg>, favourable or otherwise, can influence me or what I write. I wrote a month ago <rs type="letter" key="68385">a long letter</rs> to Mr Quinn in reply to one of his. In it I told him the story of my books and I told him <seg xml:id="seg20" type="note-anchor">I owed their publication to you</seg> and, that being settled, he can draw his own conclusions. The sales of my novel come to about <seg xml:id="seg21" type="note-anchor">500 copies</seg>. Such a sale after such a press is an utter fiasco: I beg you to believe that I consider you who helped me when nobody else would do so apart from the other critics. I am grateful to <seg xml:id="seg22" type="note-anchor">the score of men of letters</seg> who have written well of the <rs type="work" key="W_APORTRAIT">book</rs> <hi rend="underline">after</hi> <hi rend="underline">it</hi> <hi rend="underline">was</hi> <hi rend="underline">published</hi> but this does not compensate for the fiasco. As <seg xml:id="seg23" type="note-anchor">regards <hi rend="underline">
+                                <name type="work" key="W_ULYSSES">Ulysses</name>
+                            </hi>
+                        </seg> I write and think and write and think all day and part of the night. It goes on as it has been going these five or six years. But<hi rend="strike-through">h</hi> the ingredients will not fuse until they have reached a certain temperature.</p>
+                    <p>I enclose some <seg xml:id="seg24" type="note-anchor">press notices</seg>. Yours comes first as only begetter of the book. A notice appeared in the <name type="geo" key="G_GBR_LOND">London</name> Greek journal <seg xml:id="seg25" type="note-anchor">
+                            <hi rend="underline">
+                                <foreign xml:lang="ell">
+                                    <name type="work" key="W_ESPERIA">Εσπερία</name>
+                                </foreign>
+                            </hi>
+                        </seg> (<date when="1917-06-29">29 June</date>) written by my friend <seg xml:id="seg26" type="note-anchor">
+                            <name type="person" key="ID_MISSING">Mr Phocas</name>
+                        </seg>, descendant of the ancient emperor and a countryman of Ulysses, who, he says, was born on <seg xml:id="seg27" type="note-anchor">
+                            <name type="geo" key="G_GRC_LEFK">Santa Mavra</name>
+                        </seg>. You will notice that he announces to the Hellenic world my about-to-be-published epos as a wonderful version of Homer’s story. He is laughing in his sleeve, I believe. But his intentions are good and I sent a note of thanks to the editor but alas sent it to <seg xml:id="seg28" type="note-anchor">a wrong address</seg>. I suppose the person who received it is rather puzzled. I hope <seg xml:id="seg29" type="note-anchor">
+                            <name type="person" key="davr72">Mr Davray</name>
+                        </seg> will keep his word about <seg xml:id="seg30" type="note-anchor">reviewing the book</seg> in the <hi rend="underline">Mercure</hi> <hi rend="underline">de</hi> <hi rend="underline">France</hi>. I shall not bore you about my tiresome <surplus reason="repeated">tiresome tiresome</surplus> self and health except to say <hi rend="underline">
+                            <foreign xml:lang="ita">pianissimo</foreign>
+                        </hi> that my neck is swollen. I have written to <seg xml:id="seg31" type="note-anchor">
+                            <name type="person" key="arch56">Mr Archer</name>
+                        </seg> and to <seg xml:id="seg32" type="note-anchor">
+                            <name type="person" key="symo65">Mr Symons</name>
+                        </seg> about <hi rend="underline">Exiles</hi> and a <seg xml:id="seg33" type="note-anchor">Dutch journalist</seg> here who is going to review <rs type="work" key="A_PORTRAIT">the novel</rs> in an <name type="geo" key="G_NLD_AMST">Amsterdam</name> paper <seg xml:id="seg34" type="note-anchor">has written to <name type="person" key="grei62">Mr Grein</name> about it</seg>. These reviews are of course almost useless. I shall also close this letter and post it.</p>
+                    <lg>
+                        <l>Now let awhile my messmates be</l>
+                        <l>My ponderous Penelope</l>
+                        <l>And sly Ulysses born anew</l>
+                        <l>In <name type="geo" key="G_IRL_DUBL">Dublin</name> as an Irish jew.</l>
+                        <l>With them I’ll sit, with them I’ll drink</l>
+                        <l>
+                            <seg xml:id="seg35" type="note-anchor">Nor heed what press and pressman think</seg>
+                        </l>
+                        <l>Nor leave their rockbound house of joy</l>
+                        <l>For Helen or for windy Troy.</l>
+                    </lg>
+                    <closer>
+                        <salute>With kindest regards</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1917-07-24">24/7/917</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Pound wrote on 17 July 1917 that JJ would receive a copy of Pound’s volume of poems, <name type="work" key="W_LUSTRA">Lustra</name>, set to appear in the fall of 1917 in New York, “if it, you, and I survive till late autumn” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122). Two impressions of <name type="work" key="W_LUSTRA">Lustra</name> were printed in New York, one for private circulation, which John Quinn began distributing in September 1917; the other a public edition issued by <name type="person" key="ID_MISSING">Alfred A. Knopf</name> in October 1917. Pound wanted JJ to have one of the American impressions, rather than either of the English impressions issued by <name type="person" key="math51">Elkin Mathews</name> in 1916, because the American versions contained his “Three Cantos of a Poem of Some Length,” revised from their appearance in <name type="work" key="W_POETRY">Poetry</name>, vol. 10, nos. 3-5 (June, July, August 1917): 113-21, 180-88, 248-54. The American impressions of <name type="work" key="W_LUSTRA">Lustra</name> also restored poems that Mathews and <rs type="person" key="ID_MISSING">his printer</rs> considered too risqué for publication in Britain, especially after the suppression of <name type="person" key="ID_MISSING">D.H. Lawrence</name>’s <name type="work" key="W_THERAINBOW">The Rainbow</name> in late 1915. For accounts of these early cantos and their relationship to Pound’s epic poem, <name type="work" key="ID_MISSING">The Cantos</name>, see <rs type="letter" key="L_68352">JJ to Pound, 30 March 1917</rs>, notes, and <rs type="letter" key="L_68382">7 July 1917</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ was still puzzled by what Pound had meant when he wrote Nora Barnacle on 7 May 1917: “I shall go to the Lago di Garda after the war, unless I am destroyed, and I shall manage to pass through Zurich or Italy redeemed or wherever J.J. is at that time” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 115). See <rs type="letter" key="L_68374">JJ to Pound, 5 June 1917</rs>, notes.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">The New York lawyer John Quinn, a collector of modern art and literary manuscripts, had arranged to purchase items from JJ, including the manuscript of his play <name type="work" key="W_EXILES">Exiles</name> and the setting copy used for the American edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (1916) (see <rs type="letter" key="L_68348">JJ to Pound, 19 March 1917</rs>, notes). Pound wrote on 17 July 1917 that Quinn had sent JJ “an advance” on the <name type="work" key="W_EXILES">Exiles</name> manuscript (<name type="work" key="ID_MISSING">Pound/Joyce</name> 121). When Quinn finally received acts two and three of <name type="work" key="W_EXILES">Exiles</name>, he sent JJ, on 18 August 1917, a “Zurich draft for 522.50 francs, being the equivalent of £25,” which did not reach JJ until mid-September (Myron Schwartzman, “‘Quinnigan’s Quake!’ John Quinn’s Letters to James Joyce, 1916-1920,” <name type="work" key="ID_MISSING">Bulletin of Research in the Humanities</name>, vol. 81, no. 2 [Summer 1978]: 231).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ learned in February 1917 from London solicitors that an anonymous “admirer of [his] writing” had gifted him £200, to be paid in £50 installments in May, August, November, and the next February (<name type="work" key="ID_MISSING">LII</name> 389). JJ thought that Pound was involved, but the admirer was later revealed to be <name type="person" key="weav76">Harriet Shaw Weaver</name>.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Lago Maggiore is a large lake on the south side of the Alps. JJ was planning to winter with his family in <name type="geo" key="G_CHE_LOCA">Locarno</name>, a Swiss town on the northern shore of the lake. Nora Barnacle with their two children, <name type="person" key="joyc07">Lucia</name> and <name type="person" key="joyc05">Giorgio</name>, went ahead, but she returned to Zurich after JJ suffered symptoms of glaucoma following a severe attack of lumbago there on 18 August 1917 (<name type="work" key="ID_MISSING">SL</name> 226-27). Once he had sufficiently recovered from eye surgery, he and the family went to Locarno in October 1917 and stayed there until January 1918.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Quinn cabled Pound on 15 August 1917 that he had received acts two and three of the manuscript of JJ’s <name type="work" key="W_EXILES">Exiles</name>. Pound enclosed Quinn’s cablegram in his letter to JJ of 15 August 1917 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 123).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">
+                    <name type="work" key="ID_MISSING">New York Times</name> headlines from this period give an idea of the level of ferocity the war had reached on land and at sea: “French Capture Lines at Verdun” (18 July 1917, p. 1); “French Repulse German Attacks on Aisne Front,” “Chancellor Justifies U-Boat War … Vast Tonnage Sunk or Disabled” (20 July 1917, p. 1); “German Airmen Kill 11 in England; One Raider Falls,” “Mutiny on Russian Front Spreads; North Galicia Army in Retreat; Germans at Gates of Tarnopol,” “Germans Assault Craonne Heights” (23 July 1917, p. 1); “Teutons Strike from the Baltic to the Black Sea” (25 July 1917, p. 1).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">T. S. Eliot’s <name type="work" key="ID_MISSING">Prufrock and Other Observations</name> was published in June 1917 by <name type="organisation" key="ID_MISSING">the Egoist Press</name> in an edition partially subsidized by Ezra and <name type="person" key="poun86">Dorothy Pound</name>. JJ received his copy on 22 October 1917 (<name type="work" key="ID_MISSING">LIII</name> 510).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Pound’s “Three Cantos,” an early, tentative approach to his epic poem, appeared in <name type="work" key="W_POETRY">Poetry</name>, vol. 10, nos. 3-5 (June, July, August 1917): 113-21, 180-88, 248-54.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">
+                    <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 4, no. 2 (June 1917): 14-21, printed Pound’s “An Anachronism at Chinon,” an imaginary conversation between <name type="person" key="ID_MISSING">François Rabelais</name> (ca. 1490-1553) and a present-day American student who resembles Pound in his attitudes and expression. The two men compare their respective ages’ views of obscenity, censorship, and morality. The student complains  –  probably thinking of JJ’s fiction and Pound’s poetry – that “let a novelist mention a privvy [<hi rend="italic">sic</hi>], or a poet the rear side of a woman, and the whole town reeks with an uproar,” and that “clear and clean realism” brings down the censors (18).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">The same number contained new poems by W.B. Yeats (1865-1939): “The Wild Swans at Coole,” “Presences,” “Men Improve with the Years,” “A Deep Sworn Vow,” “The Collar-Bone of a Hare,” “Broken Dreams,” and “In Memory” (9-13). With a further contribution by <name type="person" key="lewi82">Wyndham Lewis</name>, Pound was making good his promise, as foreign editor, to bring the best, most innovative work to <name type="work" key="W_THELITTLE">The Little Review</name>.</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Although Yeats, enthusiastic after reading <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, initially thought the Dublin Abbey Theatre might stage <name type="work" key="W_EXILES">Exiles</name>, he wrote JJ on 26 August 1917 that “it is a type of work we have never played well” since it was “too far from the folk drama.” He thought it “[not] at all so good” as <name type="work" key="W_APORTRAIT">A Portrait</name> (<name type="work" key="ID_MISSING">LII</name> 405).</note>
+                <note xml:id="note13" target="#seg13" type="commentary">For the failed efforts to interest the London-based Stage Society in producing JJ’s <name type="work" key="W_EXILES">Exiles</name>, see <rs type="letter" key="L_68374">JJ to Pound, 5 June 1917</rs>, notes.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">Pound wrote JJ on 17 July 1917: “I wish I believed more in ‘Exiles’, but damn it all, I dont think it up to the rest of your stuff.” He added that the play would not “build up your position, or help your next novel” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122). With sensitive insight, Pound confided to John Quinn that “after [JJ’s] troubles with Dubliners and Portrait, I dont suppose anything will convince him that endless refusals of a mss. mean anything” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 124).</note>
+                <note xml:id="note15" target="#seg15" type="commentary">JJ wrote a limerick on Quinn’s “lavish largesse” but lack of appreciation for <name type="work" key="W_EXILES">Exiles</name> (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 413).</note>
+                <note xml:id="note16" target="#seg16" type="commentary">Grant Richards stated this in a letter to JJ dated 16 July 1917 (Robert Scholes, “Grant Richard to James Joyce,” <name type="work" key="ID_MISSING">Studies in Bibliography</name>, vol. 16 [1963]: 159). In the end, Richards in London and <name type="person" key="hueb76">B.W. Huebsch</name> in New York published <name type="work" key="W_EXILES">Exiles</name> in May 1918.</note>
+                <note xml:id="note17" target="#seg17" type="commentary">Grant Richards wrote JJ on 16 July 1917 with regard to his planned publication of <name type="work" key="W_EXILES">Exiles</name>: “[G]etting proofs from printers is a difficult job in these days. They are all working with depleted staffs” (Scholes, “Grant Richard to James Joyce,” 159).</note>
+                <note xml:id="note18" target="#seg18" type="commentary">JJ had written his London literary agent J. B. Pinker on 8 July 1917 with instructions about getting <name type="work" key="W_EXILES">Exiles</name> prepared for publication by Grant Richards (<name type="work" key="ID_MISSING">LII</name> 398). On 15 August 1917, Pinker wrote JJ that he had still not been able to settle the details of the contract with Richards, adding, “You know how difficult he is to pin down” (John Firth, “James Pinker to James Joyce, 1915–1920,” <name type="work" key="ID_MISSING">Studies in Bibliography</name> 21 [1968]: 221).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">Pound wrote JJ on 17 July 1917 that “it will ease your mind to have [<name type="work" key="W_EXILES">Exiles</name>] in print, and off your chest” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122).</note>
+                <note xml:id="note20" target="#seg20" type="commentary">JJ wrote John Quinn a long letter on 10 July 1917 recounting his difficulties in getting <name type="work" key="W_DUBLINERS">Dubliners</name> published and <name type="work" key="W_EXILES">Exiles</name> produced for the stage, adding, “All refused to aid me, except Mr Ezra Pound” (<name type="work" key="ID_MISSING">LI</name> 104-05).</note>
+                <note xml:id="note21" target="#seg21" type="commentary">JJ reported to John Quinn on 10 July 1917 that <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> was “[f]inancially … like my other books, a fiasco – 450 copies sold to date in the United Kingdom, equivalent to a sale of about 28 copies in all Switzerland” (<name type="work" key="ID_MISSING">LI</name> 105). Later the same month, JJ received a check for royalties, minus his agent’s commission, in the amount of £15.4.0 (<name type="work" key="ID_MISSING">LI</name> 106).</note>
+                <note xml:id="note22" target="#seg22" type="commentary">For the early reviews of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, see <rs type="letter" key="L_68352">JJ to Pound, 30 March 1917</rs>, notes.</note>
+                <note xml:id="note23" target="#seg23" type="commentary">On <rs type="letter" key="L_68374">5 June 1917</rs>, JJ reported to Pound that he had finished drafts of “Lotus-Eaters” and “Hades” and was assembling notes for “Aeolus” – respectively the fifth, sixth, and seventh episodes of <name type="work" key="W_ULYSSES">Ulysses</name>.</note>
+                <note xml:id="note24" target="#seg24" type="commentary">JJ enclosed four closely printed pages titled “Extract From Press Notices Of A Portrait Of The Artist As A Young Man By James Joyce (The Egoist, Ltd.: London: 1916).” Leading off with Pound, the extract included a total of thirty-one notices by <name type="person" key="well66">H.G. Wells</name>, <name type="person" key="boyd87">Ernest Boyd</name>, and others, with numerous uncredited notices from English, Irish, and Scottish newspapers. These anonymous newspaper notices varied wildly from the <name type="work" key="ID_MISSING">Glasgow Herald</name>’s judgment that JJ was a “remarkable writer” to <name type="work" key="ID_MISSING">Everyman</name>’s conclusion that <name type="work" key="W_APORTRAIT">A Portrait</name> was a “study in garbage.” The Dublin <name type="work" key="ID_MISSING">Freeman’s Journal</name> opined that “Mr. Joyce plunges and drags his readers after him into the slime of foul sewers …. His pen, instead of pointing to the stars overhead, is degraded into a muck-rake.”</note>
+                <note xml:id="note25" target="#seg25" type="commentary">For the notice of <name type="work" key="W_APORTRAIT">A Portrait</name> in <name type="work" key="W_ESPERIA">Esperia</name>, see <rs type="letter" key="L_68384">JJ to Pound, 9 July 1917</rs>, notes.</note>
+                <note xml:id="note26" target="#seg26" type="commentary">Pavlos (Paul) G. Phocas, a Greek friend who was a member of a convivial group in Zurich calling themselves the Club des Étrangers. Joyce learned some modern Greek from Phocas and another Étranger member, <name type="person" key="rugg87">Paul Ruggiero</name>. Phocas’s lessons were as quirky as JJ’s own language pedagogy. For example, he assigned JJ phrases like “Excuse me, I have to go to the toilet” and “Pigs eat shit,” and a quatrain on the penis (see Manto Aravantinou, <name type="work" key="ID_MISSING">Ta elliniká tou James Joyce</name> [Athens: Ermís, 1977]). Phocas translated JJ’s poem “Sleep now, O sleep now,” from <name type="work" key="ID_MISSING">Chamber Music</name>, into modern Greek (<name type="work" key="ID_MISSING">JJII</name> 407-08 &amp; n.). In the “Cyclops” episode of <name type="work" key="W_ULYSSES">Ulysses</name>, “S. Phocas of Sinope” features in a parodic list of “saints and martyrs, virgins and confessors” (<name type="work" key="W_ULYSSES">U</name> 12.1690). A notebook of exercises in modern Greek compiled by JJ in Zurich (ca. 1915-1919) contains two letters from Phocas (Peter Spielberg, <name type="work" key="ID_MISSING">James Joyce’s Manuscripts and Letters at the University of Buffalo: A Catalogue</name> [Buffalo, NY: University of Buffalo, 1962], 161).</note>
+                <note xml:id="note27" target="#seg27" type="commentary">Santa Mavra or Santa Maura (known today as Lefkas or Lefkada) is one of the Ionian Islands that include Ithaca and Corfu, off the west coast of Greece. The German archaeologist <name type="person" key="ID_MISSING">Wilhelm Dörpfeld</name> (1853-1940) concluded that Homer’s Ithaca was actually Santa Mavra; and <name type="person" key="ID_MISSING">Walter Leaf</name> adopted this theory in <name type="work" key="ID_MISSING">Homer and History</name> (London: Macmillan, 1915), 143-57, and other writings. Leaf, like <name type="person" key="ID_MISSING">Victor Bérard</name> (1864-1931) whose theories JJ also encountered around this time, insisted that Homer based his epics “on actual geography, and did not invent” (157).</note>
+                <note xml:id="note28" target="#seg28" type="commentary">The office of the London weekly <name type="work" key="W_ESPERIA">Hesperia</name> was at 62 Oxford Street. JJ accidentally mailed his note of thanks to 62 Chancery Lane (<name type="work" key="ID_MISSING">LI</name> 17).</note>
+                <note xml:id="note29" target="#seg29" type="commentary">Pound was acquainted with Henry D. Davray (1873-1944), a French critic who contributed regularly on English literature to the <name type="work" key="ID_MISSING">Mercure de France</name> and had reviewed Pound’s book <name type="work" key="ID_MISSING">Spirit of Romance</name> (1910) in its pages.</note>
+                <note xml:id="note30" target="#seg30" type="commentary">Pound wrote JJ on 17 July 1917 that Davray, with whom he had spoken, promised to review JJ’s work in the <name type="work" key="ID_MISSING">Mercure</name> “when he gets leisure” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122). JJ wrote Harriet Shaw Weaver on 1 December 1918 that no article by Davray had yet appeared, “but the century is still young” (<name type="work" key="ID_MISSING">LI</name> 122). Davray’s article, “Lettres anglaises,” discussing JJ’s <name type="work" key="W_EXILES">Exiles</name> and other writings, was published in the <name type="work" key="ID_MISSING">Mercure</name>, vol. 121, no. 495 (1 February 1919): 512-18. Davray wrote that in <name type="work" key="W_EXILES">Exiles</name> JJ had exposed the destructive influence of <name type="person" key="ID_MISSING">Tolstoy</name> and other Russians on modern intellectuals “deprived of a sense of reality and of social conscience” and “liberated from the natural basis which furnishes them with the bonds of family, of nation, and of state” (Robert H. Deming, ed., <name type="work" key="ID_MISSING">James Joyce: The Critical Heritage, Volume 1, 1907-1927</name> [London: Routledge &amp; Kegan Paul, 1970], 154-55). JJ wrote Davray on 17 June 1919 to thank him for “l’article très bienveillant et flatteur” (“the very benevolent and flattering article”) (<name type="work" key="ID_MISSING">LII</name> 443).</note>
+                <note xml:id="note31" target="#seg31" type="commentary">William Archer (1856-1924), Scottish writer and critic, was an advocate of the drama of <name type="person" key="ibse28">Henrik Ibsen</name> and <name type="person" key="shaw56">George Bernard Shaw</name>. As a young man, JJ was overwhelmed to learn from Archer that Ibsen had appreciated the article on <name type="work" key="ID_MISSING">When We Dead Awaken</name> that JJ had published in the <name type="work" key="ID_MISSING">Fortnightly Review</name> in 1900. Ellmann states that despite JJ’s requests for help with <name type="work" key="W_EXILES">Exiles</name>, Archer “does not seem to have done anything,” and did not care much for JJ’s “form of realism” in <name type="work" key="W_APORTRAIT">A Portrait</name> (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 415-16).</note>
+                <note xml:id="note32" target="#seg32" type="commentary">Arthur Symons (1865-1945), British poet and critic, met JJ through W.B. Yeats in 1902. He recommended JJ’s <name type="work" key="ID_MISSING">Chamber Music</name> to the London publisher Elkin Mathews and praised the published volume in <name type="work" key="ID_MISSING">The Nation</name> (London), vol. 1, no. 17 (22 June 1907): 639.</note>
+                <note xml:id="note33" target="#seg33" type="commentary">Probably <name type="person" key="endt83">Pieter or Piet Endt</name> (1883-1936), a Dutch sociologist, translator, and novelist who earned his doctorate in political economy at <name type="organisation" key="ID_MISSING">the University of Zurich</name> in 1918, and wrote on labor and the laboring classes in Indonesia. He was also a songwriter and chansonnier in the Netherlands and had toured the Dutch East Indies in 1916. Under the pseudonyms “Herman Fairfax” and “Eduard Coenraads,” he translated works by George Bernard Shaw, <name type="person" key="ID_MISSING">Friedrich Nietzsche</name>, <name type="person" key="haup62">Gerhart Hauptmann</name>, and <name type="person" key="ID_MISSING">W. Somerset Maugham</name>. As “Eduard Coenraads,” he published two novels in Dutch, <name type="work" key="ID_MISSING">Island of Happiness</name> (1920) and <name type="work" key="ID_MISSING">Torch Bearers</name> (1923) (https://robscholtemuseum.nl/janet-wasserman-han-van-meegeren-and-his-portraits-of-theo-van-der-pas-and-jopie-breemer-3/).<p>Letters written by Endt to JJ from July and September 1917 indicate that he had composed what he called a “Dutch letter” which he intended to send directly to Amsterdam rather than through <name type="person" key="grei62">J.T. Grein</name> in London (see note 34, below), as possibly quicker. This letter was probably related to Endt’s review of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, published under his pseudonym “Ed. Coenraads” in the Amsterdam literary paper, <name type="work" key="ID_MISSING">De Nieuwe Gids</name> (<name type="work" key="ID_MISSING">The New Guide</name>), vol. 33, no. 10 (1918): 516-19. The piece was titled “Een Ierse schrijver” (“An Irish Writer”) and carried the dateline “Zurich, January ’18.” In the review, Endt comments on the unwillingness of Irish and English (and Dutch) readers to accept frank, naturalistic treatments of art and life, except when forced to do so by foreign authors and critics such as the Irishman George Bernard Shaw and the Dutchman J.T. Grein, “who fought for revolutionary foreign art in their London newspaper reviews: for <name type="person" key="ID_MISSING">Wagner</name>, for Ibsen” (516). <name type="person" key="ID_MISSING">Oscar Wilde</name>, too, brought a Flaubertian directness to English readers. “And now it’s an Irishman again [JJ], bringing a novel written in English, but not an English novel. Not a book by <name type="person" key="ID_MISSING">Hardy</name>, <name type="person" key="ID_MISSING">Kipling</name> or <name type="person" key="ID_MISSING">Hall Caine</name>” (“En nu is het weer een Ier, die een roman brengt in de Engelse taal geschreven, maar geen Engelse roman. Geen boek van Hardy, Kipling of Hall Caine”) (516-17). “‘When I’m about to read a book by an Englishman’  –  Joyce once told me  –  ‘I feel as though I’ve been invited to a supper where I have to sit with all kinds of masked women and men’” (“‘Als ik een boek van een Engelsman ga lezen’  –  zei Joyce mij eens  –  ‘dan heb ik het gevoel alsof ik uitgenoodigd ben aan een souper, waar ik aanzitten moet met allemaal gemaskerde vrouwen en mannen’”) (517).</p>
+                    <p>Endt goes on to describe the refusal of English printers to set <name type="work" key="W_APORTRAIT">A Portrait</name> and the necessity of importing sheets from America for the first Egoist Press edition in England. “Every page of <name type="person" key="ID_MISSING">Zola</name> provides more sensational naturalistic details than this austere Irish word artist. And yet it seems to be too powerful for an Englishman. ‘Too many <hi rend="italic">smells</hi>’” (“Iedere pagina van Zola geeft sensationeler naturalistiese details dan deze sobere Ierse woordkunstenaar. En toch schijnt het voor een Engelsman nog te machtig te zijn. ‘Too many <hi rend="italic">smells</hi>’”) (517). Endt notes JJ’s “impressionistic” rendering of a Catholic boarding school, the terrible sermon on Hell to which Stephen is subjected, his religious exercises and self-mortifications, and his experience of watching the bird-girl at the seashore. Of this latter scene Endt remarks: “Joyce juxtaposes things as in a strange futuristic painting … but without any direct connection of the lovingly painted details; without accented development. The growth [of Stephen] is indicated, nowhere explained. Fragments from the life of Stephen Dedalus, the shy boy; nuggets under wonderful light” (“Joyce zet de dingen naast elkaar als een vreemd futuristies schilderij … maar zonder dadelik verband der in liefde gepenseelde details; zonder geakcentueerde ontwikkeling. De groei wordt aangeduid, nergens verklaard. Fragmenten uit het leven van Stephen Dedalus, de schuwe jongen; brokken onder wonderlik-vallend licht” (518).</p>
+                </note>
+                <note xml:id="note34" target="#seg34" type="commentary">J.T. (Jacob Thomas) Grein (1862-1935), an influential theatre producer and critic in London, of Dutch origin. See <rs type="letter" key="L_68352">JJ to Pound, 30 March 1917</rs>, notes.</note>
+                <note xml:id="note35" target="#seg35" type="commentary">In these verses, JJ declares his indifference to the slights of journalists and publishers (“press and pressman”) as long as he can live creatively in the world of <name type="work" key="W_ULYSSES">Ulysses</name>, his modern Odyssey set in Dublin, with Leopold and Molly Bloom as his companions. These lines may have been offered in exchange for twelve lines “mistranslating Horace” that Pound included in his letter to JJ of 17 July 1917 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122-23). There may also be a hint of resentment towards Pound, who had reiterated in the 17 July letter his lack of enthusiasm for <name type="work" key="W_EXILES">Exiles</name>. Some years later, JJ recorded a dream about Leopold and Molly Bloom in which there was a sudden “shout of laughter from some American journalists … led by Ezra Pound” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 549). As in the dream, these verses may hint at JJ’s irritation with Pound the journalist, a role Pound actively played for much of his career, both as writer and editor.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

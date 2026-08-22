@@ -1,0 +1,168 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71712">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Sunday, 14 May 1933</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71712</idno>
+            <idno type="internal">71712</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">AL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_37">Chez Francis Grill Room, 7 Place de l'Alma</placeName>
+               </address>
+               <date notBefore="1933-05-14" notAfter="1933-05-14">Sunday, 14 May 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">“Chez Francis Grill Room”</addrLine>
+                            <addrLine rend="printed">
+                                <name type="geo" key="G_FRA_PARI_37">7. Place de l’Alma</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Dear Mr Budgen,</salute>
+                    </opener>
+                    <p>As you see the entire <seg xml:id="seg1" type="note-anchor">typescript</seg> has arrived complete. I will try to read it to our friend once more. He wishes me to congratulate you on it – and personally I think it very, very good indeed. We hope your book will be a great success – Don’t you think its success would be a good opportunity for you to organise an exhibition of your pictures?</p>
+                    <closer>
+                        <salute>yours sincerely</salute>
+                        <name type="person" key="leon93">Paul Léon</name>
+                    </closer>
+                </div>
+                <div type="appendix">
+                    <p>
+                        <seg xml:id="seg2" type="note-anchor">
+                            <hi rend="underline">Suggestions</hi>
+                        </seg>
+                    </p>
+                    <list rend="numbered">
+                        <item n="1)">
+                            <hi rend="underline">Chapelizod</hi>: to work in <seg xml:id="seg3" type="note-anchor">actual names</seg> of persons there, from your visit. –</item>
+                        <item n="2)">To contrast the <unclear reason="illegible">easel</unclear> of an Englishman (Browning, yourself etc) which seems rather otiose with _ _ _</item>
+                        <item n="3)">
+                            <seg xml:id="seg4" type="note-anchor">Blake</seg> – this element should be worked in much more – in fact Mr Joyce delivered a lecture on Blake in Italian to the Università del Popolo in <name type="geo" key="G_ITA_TRIE">
+                                <choice>
+                                    <sic>Triest</sic>
+                                    <corr>Trieste</corr>
+                                </choice>
+                            </name>, the second lecture ever delivered being on Defoe –</item>
+                        <item n="4)">Contrast Cain &amp; Abel – to add <seg xml:id="seg5" type="note-anchor">Ourizen and Luvah</seg>
+                        </item>
+                        <item n="5)">
+                            <seg xml:id="seg6" type="note-anchor">
+                                <name type="person" key="yeat65">Yeats</name>
+                            </seg>’s defence &amp; definition of magic: a) The borders of our minds are always shifting tending to become part of the universal mind b) The borders of our memory – also shift and form part of universal memory c) This universal mind &amp; memory can be evoked by symbols.</item>
+                    </list>
+                    <p>It should be pointed out that Mr J. lived amidst all this (including Yeats) and his library was full of <choice>
+                            <sic>theosophicle</sic>
+                            <corr>theosophical</corr>
+                        </choice> works though he did not use any of the recognised symbols – using instead words trivial and quadrivial and local geographical allusions (Trivial meaning <choice>
+                            <sic>litterally</sic>
+                            <corr>literally</corr>
+                        </choice> – carrefour – where three roads meet).</p>
+                    <list rend="numbered">
+                        <item n="6)">Curtail quotations or insert short explanatory sentence less of J. more of yourself –</item>
+                        <item n="7)">Speaking of 4 – to mention 4 Zoas in the Blakean sense</item>
+                        <item n="8)">Quote your essay in Exagmination about <seg xml:id="seg7" type="note-anchor">Norse</seg> mythology as opposed to Greek – which is almost absent from W.I.P.</item>
+                        <item n="9)">Quote a or part of a <seg xml:id="seg8" type="note-anchor">sonnet</seg> of Shakespeare or in fact any old one – towards pg. 20-21 –</item>
+                        <item n="10)">Speaking of the importance of the <seg xml:id="seg9" type="note-anchor">landscape</seg> more should be worked in about your art.</item>
+                        <item n="11)">The end is a bit brusque.</item>
+                    </list>
+                    <p>____________</p>
+                    <p>
+                        <date when="1933-05-14">14.v.33</date>
+                    </p>
+                    <p>____________</p>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In a letter dictated to Paul Léon of <rs type="letter" key="L_71711">7 May 1933</rs> (<name type="work">LIII</name> 279-80), JJ invited Budgen to send what became chapter 14 of <name type="work">JJMU</name>.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">In this and succeeding letters dictated to Léon, JJ provided suggestions to Budgen for his manuscript of <name type="work">JJMU</name>.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In <name type="work">JJMU</name> 310-11 Budgen included a long paragraph from his visit to Chapelizod in which he recounted an afternoon of painting on the south side of the Liffey. He met children who were intrigued by him and his English accent, and later entered the Mullingar Inn for a drink. In the book he reflects that he “made acquaintance with many of the elements of <name type="work">Work in Progress</name> — river, hill, forest, human habitations, laughing girls, brothers in conflict, citizens in council, a woman serving and a big man presiding”.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ gave the lectures in March 1912. <name type="work">JJMU</name> ends with Budgen's observations regarding Blake and JJ (318-20).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Mentioned in <name type="work">JJMU</name> 295.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">The Yeats reference is not in the original text of <name type="work">JJMU</name>, but in “Further Recollections of James Joyce”, <name type="work">JJMU</name> 361.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Norse mythology appears in <name type="work">JJMU</name> 312 though the earlier essay is not mentioned.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Part of a Shakespeare sonnet is in <name type="work">JJMU</name> 313.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">There is a paragraph on landscape in <name type="work">JJMU</name> 317-18.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

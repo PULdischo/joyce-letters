@@ -1,0 +1,130 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68945">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Monday, 13 November 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68945</idno>
+            <idno type="internal">68945</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_MARS_01">Grand Hôtel, Marseille</placeName>
+               </address>
+               <date notBefore="1922-11-13" notAfter="1922-11-13">Monday, 13 November 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_MARS_01">Le Grand Hotel</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_MARS">Marseille</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody"> <opener>
+                        <dateline>
+                            <name type="geo" key="G_FRA_NICE">Marseille,</name> <date when="1922-11-13">le 13.xi.22</date>
+                        </dateline>
+                    </opener>
+                    <p>Dear Miss Weaver: I left <name type="geo" key="G_FRA_NICE">Nice</name> yesterday. I received a long, very unpleasant and <seg xml:id="seg1" type="note-anchor">very rude <rs type="letter" key="ID_MISSING">letter</rs>
+                        </seg> from <name type="person" key="beac87">Miss Beach</name> about <rs type="work" key="W_ULYSSES">the second edition</rs> but am not replying to it until I have tested the ground there first. Her letter is, I think, unreasonable but I shall try to smooth matters over as much as possible though I should prefer some other occupation at present. It seems the <name type="geo" key="G_FRA_PARI">Paris</name> pot cannot be left for more than three weeks by me but it begins to boil over.</p>        	<p>I shall reserve what I wanted to tell you about my eyes except to say that <seg xml:id="seg2" type="note-anchor">my <name type="geo" key="G_FRA_NICE">Nice</name> doctor</seg> (to whom of course I am presenting my novel in French) is one of the best I ever had. He attaches no importance to abscesses or glands. He diagnosed my case as rheumatic and stopped an attack of iritis in three days by the use of salicylate of soda in very large doses. I never met a doctor before who was able to do that. He considers I ought <seg xml:id="seg3" type="note-anchor">to be operated in six weeks</seg> (if I don’t get a relapse) and is writing to <name type="person" key="bors73">Dr Borsch</name> about my case, suggesting the use of a drug called dionine to clear the nebula somewhat in the meantime. Such therefore is the moral and physical situation. Please do not allude to my first paragraph in your correspondence with Miss Beach.</p>
+                    <closer>
+                        <salute>With kindest regards</salute>                    	<salute>sincerely yours</salute>                               	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer> <postscript>
+                        <p>
+                            <label>P.S.</label> My <name type="geo" key="G_FRA_PARI">Paris</name> address in case the telegram was wrong is                    	<name type="geo" key="G_FRA_PARI_11">26 Avenue Charles Floquet</name>                               	<name type="geo" key="G_FRA_PARI">Paris VII</name>
+                        </p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">This exchange marks a conflict between Sylvia Beach and JJ regarding the publication of the Egoist Press edition of <name type="work" key="W_ULYSSES">Ulysses</name>. Ellmann attributes their quarrel to JJ’s “daily importunities during the last year” but more specifically cites his request for publication of a third edition of <name type="work" key="W_ULYSSES">Ulysses</name> and recommendation that Beach seek reviews for the novel. Beach let JJ know she would not be “hustling to boom the book” now that the similarity between the first and second editions of <name type="work" key="W_ULYSSES">Ulysses</name> might subject her to court action (<hi rend="italic">
+                        <name type="work">JJ</name>
+                    </hi> 541). Or, in JJ’s words in a 17 November 1922 letter to Weaver, Beach “went on to say that she had been kept in the dark about the second edition or misled or misinformed that it was sold out, not sold out, that there was to be a third edition, that there was not to be a third edition for a year, that the third edition was nearly ready etc.” (<hi rend="italic">
+                        <name type="work">LI</name>
+                    </hi> 195-6).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Dr Louis Colin treated JJ in Nice, applying leeches and dionine solution (salicylate of soda, as JJ references later in this letter) to his eyes.</note> <note xml:id="note3" target="#seg3" type="commentary">As per New York endocrinologist Dr Louis Berman’s advice in July 1922 and Dr Borsch’s similar recommendation in October 1922, JJ would undergo complete dental extraction and a subsequent sphincterectomy (the excision of a portion of the pupillary border of the iris) in early 1923. With Dr Borsch’s consent, JJ ultimately postponed the operation. On 4 April 1923, six or seven of JJ’s decayed teeth were extracted, with the rest of them a few days later. After his seventeen tooth extractions, Borsch performed a sphincterectomy in three parts (April 3, 15, and 26). Able to read better by June and with a new set of dental plates, JJ was in far better condition (<hi rend="italic">
+                        <name type="work">JJ</name>
+                    </hi> 536-7; 543). </note>
+            </div>
+      </body>
+   </text>
+</TEI>

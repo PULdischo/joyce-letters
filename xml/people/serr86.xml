@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="serr86">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jenny Serruys</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>serr86</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">256387235</idno>
+            
+            <persName type="reg">
+               <forename>Jenny</forename> <surname>Serruys</surname>
+            </persName>
+            <persName type="full">Jenny Serruys</persName>
+            <date type="birth" when="1886"/>
+            <date type="death" when="1983-06-03"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Franco-Belgian salonnière, translator and literary agent, she provided material aid to the Joyce family shortly after their arrival in Paris in 1920. Born into wealth in Menen, West Flanders, Serruys studied English literature at the University of London. She served as a Red Cross nurse during the First World War and met her future husband, <name type="person" key="brad78">William Aspenwall Bradley</name>, through the French Homes programme. She declined <name type="person" key="poun85">Ezra Pound</name>’s suggestion that she translate <name type="work" key="ID_MISSING">A Portrait</name> into French, opting instead for <name type="work" key="ID_MISSING">Exiles</name>. Serruys and Bradley were married in November 1921, by which time their personal association with JJ had largely run its course. After Bradley’s death in 1939, Serruys continued to operate the William A. Bradley Literary Agency, which she and her husband had founded in 1923. <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

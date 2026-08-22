@@ -1,0 +1,185 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71718">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. ca. 15-30 September 1933</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71718</idno>
+            <idno type="internal">71718</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1933-09-15" notAfter="1933-09-30">ca. 15-30 September 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">
+                            <foreign xml:lang="fra">LES DERNIERES DES DERNIERES</foreign>
+                        </seg>:</p>
+                    <p>                     	        	SUGGESTIONS:</p>
+                    <p>The <seg xml:id="seg2" type="note-anchor">quotation</seg> in the last sentence from <name type="person" key="monn92">Miss Monnier</name>’s ode is:</p>
+                    <p>         	<foreign xml:lang="fra">“homme de colère, homme de péché, homme de patience”</foreign>.</p>
+                    <p>
+                        <seg xml:id="seg3" type="note-anchor">
+                            <hi rend="underline">
+                                <name type="person" key="pear79">PEARSE</name>
+                            </hi>
+                        </seg>  This allusion should be guarded as he sacrificed himself for his ideals but in a classroom he was a bore. J.J. has been studying Norwegian on and off for some twenty years in all parts of Europe. Here is a version made by him (he also did it into <choice>
+                            <sic>latin</sic>
+                            <corr>Latin</corr>
+                        </choice>, <choice>
+                            <sic>italian</sic>
+                            <corr>Italian</corr>
+                        </choice>, <choice>
+                            <sic>german</sic>
+                            <corr>German</corr>
+                        </choice> and <choice>
+                            <sic>french</sic>
+                            <corr>French</corr>
+                        </choice>) of <name type="person" key="step80">James <choice>
+                                <sic>Stephen's</sic>
+                                <corr>Stephens's</corr>
+                            </choice>
+                        </name> poem Stephen’s green.</p>
+                    <table rows="1" cols="2">
+                        <row>
+                            <cell role="label">English:</cell>
+                            <cell role="data">
+                                <lg>
+                                    <l>The wind stood up and gave a shout</l>
+                                    <l>He whistled on his fingers and</l>
+                                    <lb/>
+                                    <l>Kicked the withered leaves about</l>
+                                    <l>And thumped the branches with his hand</l>
+                                    <lb/>
+                                    <l>And said <choice>
+                                            <sic>h’d</sic>
+                                            <corr>he’d</corr>
+                                        </choice> kill and kill and kill</l>
+                                    <l>And so he will and so he will</l>
+                                </lg>
+                            </cell>
+                        </row>
+                    </table>
+                    <table rows="1" cols="2">
+                        <row>
+                            <cell role="label">Norwegian:</cell>
+                            <cell role="data">
+                                <lg>
+                                    <l>             	Vinden står op med en vild Huru,</l>
+                                    <l>                                	Han piber på Fingerne og nu</l>
+                                    <lb/>
+                                    <l>                                 	Sparker Bladenes flyvvende Flok</l>
+                                    <l>                                	Trairne troer han er Ragnarrok.</l>
+                                    <lb/>
+                                    <l>                                 	Skoens Liv og Bloed vil han draepe og drikke</l>
+                                    <l>                                	Hvad der blier a gjoere det ved jag ikke.</l>
+                                </lg>
+                            </cell>
+                        </row>
+                    </table>
+                    <p>He sends you a book note pages 70 to 80 and please return it registered as it belongs to <seg xml:id="seg4" type="note-anchor">S</seg>.</p>
+                    <p>
+                        <hi rend="underline">
+                            <seg xml:id="seg5" type="note-anchor">Z-ch</seg>. </hi> He wrote to <name type="person" key="fehr76">prof Fehr</name> for the arms and motto: Here is the reply which also return. The <choice>
+                            <sic>latin</sic>
+                            <corr>Latin</corr>
+                        </choice> motto is: <foreign xml:lang="lat">Nobile turricum mutarum copia rerum</foreign>. The version on the gate is phonetic: it means Noble Zürich abounding in all manner merchandise. <foreign xml:lang="lat">Turricum</foreign> for the Zuricher in war time meant only a boot polish and the abundance in merchandise could be worked in about the butter cards. The rest to morrow.</p>
+                    <p>        	Revise <seg xml:id="seg6" type="note-anchor">proofs</seg>: What you do not get in on the galleys you can add on the revise. He advises you to get in all these <choice>
+                            <sic>wmall</sic>
+                            <corr>small</corr>
+                        </choice> points and if the expense exceeds the usual six shillings per sheet-page he will defray the cost himself but by cheque coming through you, so long as the publication is not retarded.</p>
+                    <closer>
+                        <salute>                                	In great haste</salute>
+                        <signed>                                            	<name type="person" key="leon93">Paul Léon</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="translation">French: The last of the last.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">These three phrases are headings from the three sections of Monnier's poem, ‘James Joyce, Irlandais’, first published in <name type="work">La Figure</name> (Paris: La Maison des amis des livres, 1923, 27-31). There is, however, no reference to the poem in <name type="work">JJMU</name>.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Budgen noted that JJ studied Irish under Pearse and that Pearse's disparaging of the English language drove JJ to Norwegian (<name type="work">JJMU</name> 183). Taking the suggestion that the allusion be “guarded”, Budgen omitted JJ's description of the Irish nationalist (executed by the British) as a “bore”. Budgen later mentioned Pearse but didn't quote JJ’s Norwegian translation of Stephens’s poem in “Further Recollections of James Joyce” (<name type="work">JJMU</name> 359). The Norwegian translation, along with the other four, is given in a slightly different form in a letter to James Stephens of 7 May 1932 (<name type="work">LI</name> 317-19).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">
+                   Louis Sargent.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Budgen mentions “butter cards” (<name type="work">JJMU</name> 31) and alludes to the Zurich motto (<name type="work">JJMU</name> 38).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">JJ echoed his own practice of making extensive revisions and additions to the proofs of <name type="work" key="W_ULYSSES">Ulysses</name>.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

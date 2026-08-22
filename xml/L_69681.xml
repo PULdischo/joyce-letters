@@ -1,0 +1,119 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69681">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Monday, 6 August 1928</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69681</idno>
+            <idno type="internal">69681</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_AUT_SALZ_01">Hotel Mirabell Salzburg</placeName>
+               </address>
+               <date notBefore="1928-08-06" notAfter="1928-08-06">Monday, 6 August 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_69681_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_AUT_SALZ_01">Hotel Mirabell</name>
+                            </addrLine>
+                            <addrLine>Salzburg</addrLine>
+                            <addrLine>Austria</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <dateline>
+                        <date when="1928-08-06">6.8.928</date>
+                    </dateline>
+                    <p>Dear Budgen: Your letter has been following me around the Tyrol. We are sorry to have been out of <name type="geo" key="G_FRA_PARI">Paris</name> when you passed through but hope <name type="person" key="budg96">Mrs Budgen</name> and yourself will be over again. I am <seg xml:id="seg1" type="note-anchor">glad you like Shaun</seg>. By the way, I hope <hi rend="underline">transition</hi> <seg xml:id="seg2" type="note-anchor">settled up</seg>? I asked them to do so.</p>        <salute>sincerely yours</salute>        <signed>
+                        <name type="person" key="joyc82">James Joyce</name>
+                    </signed> </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Probably a reference to “Continuation of a Work in Progress” from <name type="work">transition</name> no. 13 (Summer 1928), 5–32, which contained an early version of <name type="work" key="W_FINNEGANSWAKE">FW</name> III.2.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Budgen’s article, “The Work in Progress of James Joyce and Old Norse Poetry”, was published in <name type="work">transition</name> no. 13 (Summer 1928), 209–13. In a <rs type="letter" key="L_69648">letter to Budgen of 27 May 1928</rs>, JJ noted that “I asked them to send you a cheque” (<name type="work">LIII</name> 177).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

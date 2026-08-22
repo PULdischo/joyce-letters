@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parn46">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Charles Stewart Parnell</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>parn46</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Charles Stewart</forename> <surname>Parnell</surname>
+            </persName>
+            <persName type="full">Charles Stewart Parnell</persName>
+            <date type="birth" when="1846-06-27"/>
+            <date type="death" when="1891-10-06"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Charismatic Irish nationalist politician, sometimes known as “the Chief” and as “the uncrowned king of Ireland”. He served as a Member of Parliament from 1875-1891 and was Leader of the Home Rule League from 1880-1882 and of the Irish Parliamentary Party from 1882-1891. His political heft and popularity declined sharply following the disclosure in 1889 of his affair with the married Katherine (“Kitty”) O’Shea. Parnell’s legacy pervaded Joyce’s works, notably in “Ivy Day in the Committee Room,” in the Christmas dinner scene in <name type="work" key="ID_MISSING">A Portrait of the Artist as a Young Man</name> (in which the support for and condemnation of Parnell are vividly portrayed), in the “Hades” episode in <name type="work" key="ID_MISSING">Ulysses</name>, and throughout <name type="work" key="ID_MISSING">Finnegans Wake</name>. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

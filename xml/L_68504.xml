@@ -1,0 +1,141 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68504">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Thursday, 5 December 1918</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68504</idno>
+            <idno type="internal">68504</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_09">Universitätsstrasse 29, Zurich</placeName>
+               </address>
+               <date notBefore="1918-12-05" notAfter="1918-12-05">Thursday, 5 December 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_09">Universitätsstrasse 29</name> <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Many thanks for your letter and <seg xml:id="seg1" type="note-anchor">kind and encouraging words</seg> about my book <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi>. The book is in <seg xml:id="seg2" type="note-anchor">18 episodes</seg>: Telemachia (3), Wanderings (12), Nostos (3). If regularly sent and printed it should <seg xml:id="seg3" type="note-anchor">run till the <date notBefore="1919-09-23" notAfter="1919-12-21">autumn</date>
+                        </seg> of next year. I cannot possibly deliver any faster than I am doing. I suppose you understand this already. If sometimes a month goes by without my contribution I cannot help it. I cannot send any episode till it is quite finished. However I send you an inclusive <seg xml:id="seg4" type="note-anchor">receipt</seg> which may be of use (or detriment?) to you if you are looking for someone to finance the review <seg xml:id="seg5" type="note-anchor">after April</seg> next. If any other money comes in I shall be glad to <seg xml:id="seg6" type="note-anchor">receive more</seg>. Yesterday they were asking 22 francs for a pair of lined gloves here and 18 francs for a shirt. Money has about 30% of its nominal value.</p>
+                    <p>This letter is very short but I am in a hurry. Very soon I shall send you the <seg xml:id="seg7" type="note-anchor">
+                            <hi rend="underline">Scylla</hi> <hi rend="underline">and</hi> <hi rend="underline">Charybdis</hi> episode (Hamlet)</seg> and immediately afterwards the <seg xml:id="seg8" type="note-anchor">wandering rocks</seg>. I hope that <name type="person" key="poun86">Mrs Pound</name>, if she ever honours me by reading the former, will not take amiss <seg xml:id="seg9" type="note-anchor">certain words</seg> of Telemachus about her illustrious ex-namesake.</p>
+                    <p>
+                        <seg xml:id="seg10" type="note-anchor">
+                            <name type="person" key="joyc05">Giorgio</name> and <name type="person" key="joyc07">Lucia</name> <foreign xml:lang="ita">molto commossi per l’allusione fatta dal gentile <rs type="person" key="poun85">signore Sterlina</rs>. Si credono già immortali.</foreign>
+                        </seg>
+                    </p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1918-12-05">5 December 1918</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In his letter to JJ of 22 November 1918, Pound praised Leopold Bloom as “a great man” and a complete answer to critics who had wondered whether JJ could create a second character after Stephen Dedalus (<name type="work" key="ID_MISSING">Pound/Joyce</name> 145). For a fuller account of Pound’s reactions, see <rs type="letter" key="L_68496">JJ to Pound, 1 November 1918</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Thinking that JJ might be tracking Homer's <name type="work" key="ID_MISSING">Odyssey</name> book-for-book, Pound asked on 22 November 1918, “Has ‘Ulysses’ 24 Odyssean books?” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 146). JJ conceived of <name type="work" key="W_ULYSSES">Ulysses</name> as composed of three chapters – the Telemachia, Odyssey (or Wanderings), and Nostos – each of which contained multiple episodes – three, twelve, and three, respectively—for a total of eighteen episodes. For a discussion of this scheme, see <rs type="letter" key="L_68432">JJ to Pound, n.d. [30 November 1917]</rs>, notes.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ was over-optimistic here about concluding the serialization of <name type="work" key="W_ULYSSES">Ulysses</name> in fall 1919. His conception of the book and its stylistic possibilities was growing; episodes were becoming longer, linguistically richer, and narratively more complex (Michael Groden, <name type="work" key="ID_MISSING">Ulysses in Progress</name> [Princeton, NJ: Princeton University Press, 1977], 115-65). <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 6, no. 5 (September 1919) contained the concluding portion of the eleventh episode, “Sirens” (46-55). The November and December 1919 numbers printed portions of “Cyclops,” the twelfth episode (38-54, 50-60). <name type="work" key="W_ULYSSES">Ulysses</name> would never be completed in <name type="work" key="W_THELITTLE">The Little Review</name>. The magazine serialized the book up through the first part of “Oxen of the Sun” in the September-December 1920 number. The editors then discontinued serialization after they were prosecuted for obscenity in a New York court for publishing the portion of “Nausicaa” (in the July-August 1920 number) in which Leopold Bloom masturbates at the seashore.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">
+                    <p>JJ enclosed with this letter a separate note: “Received from Ezra Pound the sum of £50 for the American serial rights of my novel <hi rend="underline">Ulysses</hi>” (see <rs type="letter" key="L_71613">JJ to Pound, receipt, 5 December 1918</rs>). JJ here calls this “an inclusive receipt” because he had actually thus far received only £30 of the promised £50 (see notes 5 and 6, below). The New York lawyer and patron of the arts, <name type="person" key="quin70">John Quinn</name> (1870-1924), had been subsidizing Pound’s work as foreign editor of <name type="work" key="W_THELITTLE">The Little Review</name>, and Pound was passing much of the subsidy on to writers as payments for their contributions in the magazine. Quinn had agreed to pay Pound $750 (£150) a year for two years to help finance the magazine, $300 of which Pound took as personal payment for his editorial work, the remaining $450 to be paid to the magazine’s contributors as he saw fit. Later, Quinn increased his personal backing and also obtained contributions from three other patrons. Pound told Quinn in June 1918 that it “would have spoiled the spirit of the thing if I had taken more than £60 out of the first year’s subsidy. If I couldn’t have said to each author ‘I am getting so much, so you can’t expect more’” (see <name type="work" key="ID_MISSING">Pound/</name>The Little Review<name type="work" key="ID_MISSING">: The Letters of Ezra Pound to Margaret Anderson:</name> The Little Review <name type="work" key="ID_MISSING">Correspondence</name>, ed. Thomas L. Scott et al. [New York: New Directions, 1988], 13, 19-20, 84; <name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn</name>, 1915-1924, ed. Timothy Materer [Duke University Press, 1991], 95-97, 165).</p>           	<p>The plan to pay JJ £50 for the serialization of <name type="work" key="W_ULYSSES">Ulysses</name> was in place by mid-1917. Pound had written to <name type="person" key="ande86">Margaret Anderson</name>, coeditor of <name type="work" key="W_THELITTLE">The Little Review</name>, on 7 May 1917 that he wanted to “enlarge format [of <name type="work" key="W_THELITTLE">The Little Review</name>] WHEN [JJ’s] next novel [<name type="work" key="W_ULYSSES">Ulysses</name>] is ready, and also to pay him at least £50 for it” (<name type="work" key="ID_MISSING">Pound/</name>The Little Review, 37). Of course, at that time neither Pound nor the <name type="work" key="W_THELITTLE">Little Review</name> editors (nor JJ) could have known how lengthy the book’s episodes would become. By December 1918, Pound had come to think that £50 was “a beggarly enough sum for Ulysses” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 147).</p>           	<p>The fact that JJ had received the £50 from Pound rather than from the <name type="work" key="W_THELITTLE">Little Review</name> editors later seemed important in JJ’s legal fight against the New York publisher <name type="person" key="roth93">Samuel Roth</name> (1893-1974), who had serialized <name type="work" key="W_ULYSSES">Ulysses</name> in his magazine <name type="work" key="ID_MISSING">Two Worlds Monthly</name> beginning in July 1926. If Pound rather than the editors had paid JJ, Pound reasoned, then JJ could not have given up literary rights to <name type="work" key="W_THELITTLE">The Little Review</name> (see Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing, and the Public Domain</name> [New York: Oxford University Press, 2013], 156-60, 200-04).</p>
+                </note>
+                <note xml:id="note5" target="#seg5" type="commentary">Pound had written JJ on 22 November 1918: “Must devise some mechanism for cash purposes as the L.R. [<name type="work" key="W_THELITTLE">Little Review</name>] wont magnetize the american pocket much longer. Your balance [the £20 remaining to be paid of the £50 promised for the serialization of <name type="work" key="W_ULYSSES">Ulysses</name>] is secure, but after April I dont see much more coming in. Why in Christ’s name we arent all millionaires I dont know” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 145).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">On 22 November 1918, Pound had written, “I will fork up the remaining £20 of the fifty promised [for installments of <name type="work" key="W_ULYSSES">Ulysses</name> in <name type="work" key="W_THELITTLE">The Little Review</name>], as soon as I get it from America [that is, from John Quinn]” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 146)…. He reiterated this on 12 December 1918: “The money is sure to arrive. £50 is a beggarly enough sum for Ulysses, but . . . . . can’t be helped” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 147). On 30 May 1919 Pound wrote JJ that the funding had at last come in, and rather than wait for it to be processed, he enclosed a check for £15 from his wife <name type="person" key="poun86">Dorothy</name> (1886-1973), and promised that another £5 would be sent from <name type="geo" key="G_GBR_LOND">London</name> by Pound’s “belle mere,” that is, his mother-in-law, <name type="person" key="ID_MISSING">Olivia Shakespear</name> (1863-1938), the author and friend and former lover of <name type="person" key="yeat65">W.B. Yeats</name>. Pound humorously assured JJ that these checks were an expedient; he was “not living on [Dorothy’s] illicit earnings” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 156).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">“Scylla and Charybdis,” the ninth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, appeared in two numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 12-vol. 6, no. 1 (April, May 1919); 30-43, 17-35. For this episode, see <rs type="letter" key="L_68485">JJ to Pound, 28 August 1918</rs>, notes.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">“Wandering Rocks,” the tenth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, appeared in two numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 6, nos. 2-3 (June, July 1919): 34-45, 28-47. A portion of the episode was also printed in the London magazine <name type="work" key="W_THEEGOIST">The Egoist</name>, vol. 6, no. 5 (December 1919): 74-78. JJ thought of the episode as an “entr-acte” between the two halves of <name type="work" key="W_ULYSSES">Ulysses</name>. It is composed of nineteen sections that show many of the book’s characters as they go about their day, framed by the separate journeys of religious and temporal authorities in the persons of a priest, Father Conmee, and the Earl of Dudley as he passes in cavalcade. The sections are interrupted by events occurring at the same time but in different parts of Dublin, creating a disorienting effect. The Homeric parallel is also unusual, in that the Wandering or Drifting Rocks, mentioned in Book 12 of <name type="work" key="ID_MISSING">The Odyssey</name>, are a sea peril that Odysseus and his crew avoid.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">In “Scylla and Charybdis,” Stephen Dedalus (“Telemachus”) presents his theory about <name type="person" key="ID_MISSING">Shakespeare</name> to a group of writers and librarians in <name type="organisation" key="ID_MISSING">the National Library</name>. The theory, elaborate and densely argued, with much interlarding of Elizabethan phrases and quotations, holds that in <name type="work" key="ID_MISSING">Hamlet</name> and other plays, clues can be found to events that resulted in the personal suffering of Shakespeare, including the death of his son and the infidelity (as Stephen supposes) of his wife Anne with one or more of his brothers. The maiden name of Pound’s English wife Dorothy (1886-1973) was Shakespear. J, always concerned not to scandalize women, may have been concerned that Dorothy might take offense to such passages as: "[Ann Hathaway] put the comether on [Shakespeare], sweet and twentysix. The goddess who bends over the boy Adonis is a boldfaced Stratford wench who tumbles in a cornfield a lover younger than herself" (<name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 12 [April 1919]: 37). Pound replied on 12 December 1918: “As to Hamlet, or whatever, Dorothy is among your constant readers, and . . . has never jibbed any any [<hi rend="italic">sic</hi>] remarks by Telemachus Daedalus or other protagonists. She has a growing affection for Bloom” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 148).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">“Giorgio and Lucia deeply moved by the allusion made by the kind Mr Sterling. They already believe themselves immortal”. “Signore Sterlina” plays on the homophonic coincidence of Pound’s name with the British pound sterling, and the fact that JJ’s children had come to associate Pound, as JJ himself had, with financial relief. Pound replied on 12 December 1918: “The Signore Sterlina has rash moments of believing the gift of immortality lies within his reach, but Giorgio and Lucia had much better trust to their connection con il loro illustrissimo padre [with their most illustrious father].” Pound added: “The Signore Sterlina is perhaps better at digging up corpses of let us say Li Po, or more lately Sextus Propertius, than in preserving this bitched mess of modernity” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 147-48). This revealing statement suggests, among other things, that the strides made by JJ, <name type="person" key="elio88">T.S. Eliot</name>, and Wyndham Lewis in capturing modernity for modernism were making Pound feel that his own efforts at “making it new,” rooted in Chinese, Roman, and other former cultures and languages, were increasingly out of step. In a similar mood, he mentioned that he was “known as Signore Sterlina to James Joyce’s children” in his essay “Translators of Greek,” printed in <name type="work" key="ID_MISSING">Instigations</name> (New York: Boni and Liveright, 1920), 335.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

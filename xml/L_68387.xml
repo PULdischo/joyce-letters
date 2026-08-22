@@ -1,0 +1,120 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68387">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Tuesday, 17 July 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68387</idno>
+            <idno type="internal">68387</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-07-17" notAfter="1917-07-17">Tuesday, 17 July 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>Meanwhile I have asked the printer to keep the type set, pending your reply.</quote>
+                            <bibl>LI 106-7</bibl>
+                        </seg>
+                    </p>
+                    <p>        	As you seem to want <seg xml:id="seg1" type="note-anchor">continental notices</seg> I shall do all I can to that end. A notice will appear shortly in an <seg xml:id="seg2" type="note-anchor">Amsterdam paper</seg>.</p>
+                    <p>        	My health is rather better but I shall never recover wholly in this dreadful climate.</p>
+                    <closer>
+                        <salute>                    	With kind regards</salute>
+                        <salute>                                	sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">                                            	James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1917-07-18">
+                                <seg xml:id="seg3" type="note-anchor">18.7.1917</seg>
+                            </date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Harriet Weaver wrote to JJ on <date when="1917-07-29">29 July 1917</date> about <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>: “I think it would be useful to have as many foreign notices as possible” (Firth 173).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Pieter Endt's review of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, published under the pseudonym of Ed Coenraads, “Een Ierse schrijver” in <name type="work">De Nieuwe Gids</name> 33, x (<date when="1918-01">January 1918</date>): 516-19.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Dated by JJ as <date when="1917-07-18">18 July 1917</date>, but postmarked <date when="1917-07-17">17 July 1917</date>.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68566">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Wednesday, 31 December 1919</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68566</idno>
+            <idno type="internal">68566</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>James Joyce Tower and Museum</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ell"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE_13">Via della Sanità 2, Trieste</placeName>
+               </address>
+               <date notBefore="1919-12-31" notAfter="1919-12-31">Wednesday, 31 December 1919</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_68566_01.jpg">
+            <desc>
+                <caption>James Joyce Tower and Museum</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE_13">via Sanità, 2, III </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE">Trieste</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Σάς εὔχαριστώ πολὺ δία τὴν εὔγενίαν σάς. Πολλὰ <seg xml:id="seg1" type="note-anchor">χρόνια</seg>!</p> <closer>
+                        <salute>ὄ φίλος σάς</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <date when="1919-12-31">31.xii.919</date>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE_13">Via Sanità, 2, III </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE">Trieste</name> </addrLine>
+                        </address>
+                    </ab>  <p>Thank you very much for your kindness. <seg xml:id="seg2" type="note-anchor">Many years!</seg>
+                    </p>
+                    <closer>
+                        <salute>Your friend,</salute>
+                        <signed>James Joyce</signed>
+                        <date when="1919-12-31">31.xii.919</date>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">The postcard image is of “VENEZIA – Notte in Laguna” (“Venice – Night in the Lagoon”). The painter is Gian Luciano Sormani (1867-1938), born in Legnano, Italy, and a student of Pompeo Molmenti (1819-1894). Sormani was a painter and bookbinder who settled in Venice and was known for pencil-and-watercolor scenes of Venetian lagoon daily life. His work appeared on numerous postcards produced by Stabilimento Litografico A. Scrocchi, a lithography publishing company founded by Attilio Scrocchi around 1880 in Milan.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">JJ’s idiosyncratic spelling is retained for the texts he writes in Greek.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">“Many years” is a common phrase for greetings in Greek and translates approximately as “wishing you a long life”. Thanks to Stephanie Nelson for assistance with the Greek.</note> </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,11 @@
+---
+key: rich72
+name: Grant Richards
+viaf: '76687299'
+oclc: lccn-n88156404
+birthDate: '1872-10-21'
+deathDate: '1948-02-24'
+gender: M
+---
+
+English publisher. Richards got his start in the publishing business in 1890 with W.T. Stead’s Review of Reviews before opening his own house in 1897 in [London](/places/G_GBR_LOND/). Within years he built a substantial list of literary authors, including [George Bernard Shaw](/people/shaw56/), A.E. Housman, G.K. Chesterton, and [Arnold Bennett](/people/benn67/). Despite early successes, Richards, never a careful businessman, filed for the first of his bankruptcies in 1905. In that same year JJ offered Richards the manuscript of [Dubliners](/works/W_DUBLINERS/). Though intrigued, Richards feared legal problems if he were to publish the blunt language and sexual innuendo of the stories (printers and publishers were, at the time, liable for legal action due to typesetting or issuing obscene matter). This led to almost a decade of bickering between publisher and author which, though culminating in the book’s publication in 1914, left JJ with a contract that paid no royalties until 500 copies had been sold. JJ complained frequently about Richards to [Ezra Pound](/people/poun85/) and others. Richards refused JJ’s [A Portrait of the Artist as a Young Man](/works/W_APORTRAIT/), again concerned about potentially scandalous content, but published the relatively safe [Exiles](/works/W_EXILES/) in 1918. Richards continued publishing successfully through the 1920s. Yet, following a small second edition of [Dubliners](/works/W_DUBLINERS/) in 1918, Richards let JJ’s books go out of print. His clumsy business skills resulted in a second bankruptcy in 1926, after which Richards moved out of publishing and into writing novels and memoirs. In 1929, seeking to rid himself of the memory of JJ, Richards eagerly sold to bookseller [Jacob Schwartz](/people/schw99/) some forty-five letters from JJ, which Schwartz later sold to Harvard’s Houghton Library, one of the first institutions to collect JJ. Richards’s memoir, Author Hunting by an Old Literary Sportsman: Memories of Years Spent Mainly in Publishing, 1897-1925 (1934), notably avoided any mention of JJ. **William Brockman**

@@ -1,0 +1,112 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68658">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Saturday, 4 September 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name xml:id="RC">RC</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68658</idno>
+            <idno type="internal">68658</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_05">rue de l'Assomption 5, Paris</placeName>
+               </address>
+               <date notBefore="1920-09-04" notAfter="1920-09-04">Saturday, 4 September 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: My partner in the <name type="organisation" key="O_ENGLISHPLAYERS">
+                            <hi rend="underline">English</hi> <hi rend="underline">Players</hi>
+                        </name> <name type="person" key="syke83">Mr Sykes</name>, of whom I told you, is passing through <name type="geo" key="G_GBR_LOND">London</name> on his way to <name type="geo" key="G_GBR_MANC">Manchester</name> where he is conducting <seg xml:id="seg1" type="note-anchor">a season of French and English plays</seg>. He still has hopes of a season in <name type="geo" key="G_FRA_PARI">Paris</name> and would like to speak with you of this and other matters. He intends to give <hi rend="underline">Hamlet</hi> <hi rend="underline">ou</hi> <hi rend="underline">Le</hi> <hi rend="underline">Distrait</hi> and has engaged as star turn the lugubrious comic <name type="person" key="rumb69">Horace Rumbold</name> to <seg xml:id="seg2" type="note-anchor">dig his own grave</seg> in the fifth act. He tells me also that <seg xml:id="seg3" type="note-anchor">one of <supplied reason="omitted">the</supplied> actors</seg> in my company made a deathbed confession that he was sent there to watch me on behalf of the secret service. He had not much opportunity, I am afraid, as my relations with the members of the company were purely formal. They were a curious collection enough but Mr Sykes made them do wonders and will again – if somebody doesn’t prevent him.</p>
+                    <closer>
+                        <salute>sincerely yours </salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce </name>
+                        </signed>
+                        <dateline>
+                            <date when="1920-09-04">4/ix/920</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">With the professional actor Claud W. Sykes (1883-1963), JJ in 1918 founded and managed a Zurich acting troupe, the English Players, which performed plays in English, ostensibly to promote British interests and values during the war (see Ellmann, <name type="work" key="ID_MISSING">JJ</name> 423). In September 1920, JJ was trying to assist Sykes with his plan to have the Players produce a one-act play by the French statesman and author Georges Clemenceau (1841-1929), <name type="work" key="ID_MISSING">Le Voile du bonheur</name> (<name type="work" key="ID_MISSING">The Veil of Happiness</name>), in which a blind Chinese mandarin of the Manchu dynasty recovers his sight and becomes so unhappy with the revealed injustices of life that he longs to return to blindness, the veil of happiness (see JJ to Sykes, <name type="work" key="ID_MISSING">LIII</name> 18, 23). The play was first produced in Paris in 1901, and an English translation was printed in June 1920 for the Beechwood Players of New York. The English Players performed the drama, under the title <name type="work" key="ID_MISSING">The Veil of Illusion</name>, along with Alfred de Musset’s <name type="work" key="ID_MISSING">A Caprice</name>, in Manchester, England, in October 1920 (<name type="work" key="ID_MISSING">Manchester Guardian</name> [27 October 1920]: 1). In 1917-1918, Sykes had served as typist of some of the early episodes of <name type="work" key="ID_MISSING">Ulysses</name> (see <name type="work" key="ID_MISSING">LI</name> 108-09; <name type="work" key="ID_MISSING">LII</name> 412-16; <rs type="letter" key="L_68432">JJ to Pound, n.d. [30 November 1917]</rs>, notes).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">After becoming embroiled in a minor legal dispute in Zurich in 1918, JJ sought help from, among others, Sir Horace Rumbold (1869-1941), the British Minister in Berne, but without success. He came to believe that Rumbold and certain British consular officials were instigating boycotts of performances by the English Players, and he wrote a statement, dated 28 April 1919, setting forth the history of perceived outrages (<name type="work" key="ID_MISSING">LII</name> 438-40). JJ never tired of exacting literary revenges on Rumbold, whom he cast in <name type="work" key="W_ULYSSES">Ulysses</name> as a “Master Barber” whose semi-literate letter offering his services as a hangman to the sheriff of Dublin is read out, to the contempt and ridicule of the pub drinkers, in the “Cyclops” episode (<name type="work" key="ID_MISSING">U</name> 12.412-42). In the present letter, JJ imagines Rumbold as a tired music hall comedian whom Sykes has cast as a gravedigger (digging his own grave, not Ophelia’s) in Shakespeare’s <name type="work" key="ID_MISSING">Hamlet</name>, retitled for the Paris season as <name type="work" key="ID_MISSING">Hamlet ou le Distrait</name> (“Hamlet or the Absentminded One”), a phrase that Stephen Dedalus borrows from Stéphane Mallarmé (1842-1898) during his Shakespeare lecture in the “Scylla and Charybdis” episode of <name type="work" key="W_ULYSSES">Ulysses</name> (<name type="work" key="W_ULYSSES">U</name> 9.118-20). (For fuller accounts of the Zurich lawsuit and Rumbold, see <rs type="letter" key="L_68518">JJ to Pound, 1 April 1919</rs>, notes; <rs type="letter" key="L_68640">8 August 1920</rs>, notes.)</note>
+                <note xml:id="note3" target="#seg3" type="commentary">The actor-spy JJ mentions is likely part of his half-humorous imaginings of maltreatment at the hands of Sir Horace Rumbold and other officials in the British consulate in Zurich.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71309">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Tuesday, 31 December 1940</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71309</idno>
+            <idno type="internal">71309</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zentralbibliothek Zürich</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI">Zurich</placeName>
+               </address>
+               <date notBefore="1940-12-31" notAfter="1940-12-31">Tuesday, 31 December 1940</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_71309_01.jpg">
+            <desc>
+                <caption>Zentralbibliothek Zürich</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>​​Ogni bene a Lei ed ai Suoi nell’anno venturo e pace e gioia!</p> <signed>
+                        <name type="person" key="joyc82">James Joyce</name>
+                    </signed>
+                    <dateline>
+                        <name type="geo" key="G_CHE_ZURI">Zurigo</name>
+                        <lb/>
+                        <date when="1940-12-31">31 10embre 1940</date>
+                    </dateline>
+                </div>
+                <div type="translation">
+                    <p>All good things to you and yours in the coming year and peace and joy! </p> <signed>James Joyce </signed>
+                    <dateline>Zurich<lb/>
+                        <date>31 December 1940</date>
+                    </dateline>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This postcard displays printed congratulations for the new year (“Herzlichen Glückwünsch zum neuen Jahre”), accompanied by an illustration of elflike snow creatures capped with mushrooms, toasting each other with champagne beside a growth of green four-leaf clover. Mushrooms and four-leaf clover are traditional symbols of good luck associated with the new year and the holidays, especially in German-speaking countries (see Bert J. Goddard, “Good Luck Tokens: A Numismatic Oddity,” Austrian Information [22 December 1962]: 8-9). Some of the four-leaf clovers in the picture seem to have three leaves in the manner of shamrocks, likely having special appeal for JJ.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69046">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Thursday, 20 December 1923</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69046</idno>
+            <idno type="internal">69046</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_12">Victoria Palace Hotel, Paris</placeName>
+               </address>
+               <date notBefore="1923-12-20" notAfter="1923-12-20">Thursday, 20 December 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_69046_01.jpg">
+            <desc>
+                <caption>Zürich James Joyce Foundation</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Caro <name type="person" key="rugg87">Ruggiero</name>: Può farmi mandare nell’edizione tedesca <choice>
+                            <sic>Reklam Bibliotek</sic>
+                            <corr>Reclam Bibliothek</corr>
+                        </choice> <seg xml:id="seg1" type="note-anchor">i poemi di <name type="person" key="sach94">Hans Sachs</name>
+                        </seg>? Occorrono a <name type="person" key="joyc05">Giorgio</name>. Non so quanto devo rimettere?</p>
+                    <p>La secco troppo, temo. Ma qui roba tedesca non si trova.</p>                    	<closer>
+                        <salute>Una stretta di mano</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <p>Dear Ruggiero: Could you have the poems of Hans Sachs in the German edition of the Reklam Bibliotek sent to me? Giorgio needs them. I don’t know how much I have to remit?</p>
+                    <p>I bother you too much, I fear. But here German stuff can’t be found.</p>
+                    <closer>
+                        <salute>A handshake</salute>
+                        <signed>James Joyce</signed>
+                    </closer>  </div>
+            </div> <div type="notes">
+                <note xml:id="global-note1" type="global">This postcard image is a pen-and-ink drawing of the Victoria Palace Hotel, 6 rue Blaise-Desgoffe, Paris, where Joyce and family were staying at the time. An elegant feature of the Left Bank since 1913, the hotel in 1923 had 200 beds and 75 bathrooms. Rooms were available from 13 francs, breakfast for 2½ francs, lunch or dinner 10 francs; pension (board and lodging) from 30 francs (Karl Baedeker, Paris and its Environs [Leipzig: Karl Baedeker, 1924], p. 11).</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Probably Hans Sachs’s <name type="work" key="ID_MISSING">Ausgewählte poetische Werke, Sprachlich erneuert, mit Einleitung und Anmerkungen versehen von Karl Pannier</name> (Leipzig: Reclam, 1879-1898).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

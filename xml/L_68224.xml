@@ -1,0 +1,143 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68224">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Wednesday, 30 June 1915</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68224</idno>
+            <idno type="internal">68224</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_02">Gasthaus Hoffnung, Reitergasse 16, Zurich</placeName>
+               </address>
+               <date notBefore="1915-06-30" notAfter="1915-06-30">Wednesday, 30 June 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>Gasthof Hoffnung</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_02">Reitergasse 16</name>,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>My dear <name type="person" key="poun85">Mr Pound</name>
+                        </salute>
+                    </opener>
+                    <p>I have just <seg xml:id="seg1" type="note-anchor">arrived here safe and sound</seg>. I obtained a special permit from the Austrian authorities from <name type="geo" key="G_ITA_TRIE">Trieste</name> to the Swiss frontier and stopped here, Zurich being the first big city after <name type="geo" key="G_AUT_INNS">Innsbruck</name>. Of course my flat in Trieste is locked up with all my things. I brought only a few things and some MSS. I have not the least idea what I am going to do or where I am going to stay. I should be back in Trieste on <date when="1915-10-01">1 October</date> to take up again my position there but it seems it will be impossible for anyone, Austrian or foreigner, to return to that city for a long time. Since the <seg xml:id="seg2" type="note-anchor">Italian declaration of war</seg> life was not at all pleasant there. Here at least I do not hear cannonading every day and we are not exposed to <seg xml:id="seg3" type="note-anchor">aeroplane raids of which we had four</seg>. I suppose you know all this so I shall not write about it. Besides, the subject is rather tiresome – to me, at least, who have been in the midst of it for the last year. But I must say that, so far as I am concerned, Austrian authorities were both now and before during my stay of twelve years obliging and considerate. <seg xml:id="seg4" type="note-anchor">I have written</seg> a card to <name type="person" key="weav76">Miss Weaver</name> and am writing also to <name type="person" key="pink62">Mr Pinker</name>. In the last letter I had from <rs type="person" key="rich72">my publisher</rs> he sent me an account sales of a few hundred copies <seg xml:id="seg5" type="note-anchor">on which I get no royalty</seg>. A royalty of any kind or amount in the present circumstances would be very useful. I hope there is some prospect of it as I do not know how long I may be obliged to live in Switzerland before the way is clear for me to return to Trieste. Any letters which were sent to me <seg xml:id="seg6" type="note-anchor">care of <rs type="person" key="vene45">my friend in Murano</rs>
+                        </seg> after the Italian declaration of course did not reach me. I have written to <rs type="person" key="vene45">my friend</rs> there to send on any letters for me but the Italian censorship at <name type="geo" key="G_ITA_BOLO">Bologna</name> holds up the post, inward and outward, for eight or ten days so that I cannot have a reply very soon. Possibly the English censorship acts more quickly. I had some seven weeks ago or more through <name type="geo" key="G_ITA_VENI">Venice</name> letters from <name type="geo" key="G_USA_NEWY">New York</name>, about an American edition of “<name type="work" key="W_DUBLINERS">Dubliners</name>
+                        <supplied reason="omitted">”</supplied>. <name type="person" key="rich72">Mr Grant Richards</name> however says <seg xml:id="seg7" type="note-anchor">there is no such edition</seg>. I understand nothing of the affair. The only fact that emerges so far as I can see is that I receive nothing.</p> <p>I suppose <seg xml:id="seg8" type="note-anchor">
+                            <rs type="work" key="W_APORTRAIT">my novel</rs> has reached its end</seg> now. I have written a <seg xml:id="seg9" type="note-anchor">play <name type="work" key="W_EXILES">
+                                <hi rend="underline">Exiles</hi>
+                            </name> and was engaged on a novel <name type="work" key="W_ULYSSES">
+                                <hi rend="underline">Ulysses</hi>
+                            </name>
+                        </seg> of which I have written the first two episodes. It is a continuation of <name type="work" key="W_APORTRAIT">
+                            <hi rend="underline">A Portrait of the Artist as a Young Man</hi>
+                        </name> after three years’ interval blended with many of the persons of <hi rend="underline">Dubliners</hi>. I shall not finish it soon for many reasons. Your letters nearly always bring me good news so that I look forward to your reply. I hope you are well and in your usual good humour. A letter to this address will reach me certainly.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1915-06-30">30 June 1915</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Italy’s entry into the Great War in <date notBefore="1915-05-01" notAfter="1915-05-31">May 1915</date> and the consequent focus on Trieste at the junction of two enemy nations drove the Joyce family to Zurich where they rode out the duration in safety and relative isolation. With the help of <rs type="person" key="ID_MISSING">influential pupils</rs>, they left <name type="geo" key="G_ITA_TRIE">Trieste</name> in late June 1915, “by special permission, JJ noted, “of the military authorities when the partial evacuation of the city was decided on” (<name type="work" key="ID_MISSING">LI</name> 82). They had safe passage through Austria into Switzerland and settled, initially, at Gasthof Hoffnung (“Inn of Hope”) in Zurich, where they remained until 7 July 1915. JJ and <name type="person" key="barn84">Nora</name> had stayed at the same inn in October 1904 after eloping from Dublin.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">After signing the secret Treaty of London and being promised financial aid and large territories to the north of Italy and to the east across the Adriatic, Italy declared war on Austria-Hungary on 23 May 1915, entering on the side of the Allies – Great Britain, France, and Russia.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In late May 1915, newspapers reported that Italian forces were pressing towards Trieste and Gorizia, where Austrian troops awaited them. In nearby Trentino, a large artillery battle took place as Italian and Austrian troops clashed in the Tyrolean Alps. Italian aviators were active along the front, dropping bombs near Trieste and damaging the railway between Nabresina (now Aurisina) and Trieste. On 19 June, it was reported that Italian dirigibles had bombarded an Austrian ammunition factory near Trieste; and a naval battery shelled enemy batteries near Duino, north of Trieste (“Italians Raid by Air, Austrians by Sea,” <name type="work" key="ID_MISSING">New York Times</name> [20 June 1915]: 2). Conditions in Trieste deteriorated as Italian shops were sacked and Italian residents were carried off or killed (“Saved by American Consul,” <name type="work" key="ID_MISSING">New York Times</name> [22 June 1915]: 3). In late June, massive Austrian reinforcements concentrated around Trieste as Italian troops under General Luigi Cadorna continued to press forward all along the Isonzo River (<name type="work" key="ID_MISSING">New York Evening World</name> [25 June 1915]: 2). Despite early successes and a numerical advantage, the Italian offensive eventually failed in what came to be known as the First Battle of the Isonzo.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">
+                    <name type="person" key="weav76">Harriet Shaw Weaver</name> (1876–1961), editor of <name type="work" key="W_THEEGOIST">The Egoist</name>, published <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> in that magazine beginning 2 February 1914. JJ wrote her on 30 June 1915 to announce his arrival in Zurich and to inquire about <name type="work" key="W_APORTRAIT">A Portrait</name>’s serial run (<name type="work" key="ID_MISSING">LI</name> 82). James B. Pinker was Joyce’s literary agent in London; see <rs type="letter" key="L_68205">JJ to Pound, 3 April 1915</rs>, notes. JJ wrote Pinker a postcard on 30 June 1915, asking “what news there is about my books” (<name type="work" key="ID_MISSING">LII</name> 349).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Grant Richards published <name type="work" key="W_DUBLINERS">Dubliners</name> in London in June 1914. In April 1915, Richards sent Joyce an account showing that total sales of <name type="work" key="W_DUBLINERS">Dubliners</name>, including copies that Joyce himself had bought, stood at 461. Joyce’s contract with Richards provided that no royalties would be paid for the first 500 copies. See <rs type="letter" key="L_68217">JJ to Pound, 7 May 1915</rs>, notes.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Before Italy joined the war, Joyce in Trieste (then part of the Austro-Hungarian empire) was able to use the address of his friend <name type="person" key="schm61">Italo Svevo</name>’s father-in-law in Murano, near Venice, for forwarding of mail in either direction.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Before leaving for Zurich, JJ had been corresponding with <name type="person" key="hueb76">B.W. Huebsch</name> of New York, the eventual American publisher of <name type="work" key="W_DUBLINERS">Dubliners</name>, and <name type="person" key="menc80">H.L. Mencken</name>, editor of the literary magazine <name type="work" key="W_THESMARTSET"> Smart Set</name>, based in New York, which printed two <name type="work" key="W_DUBLINERS">Dubliners</name> stories in May 1915 (see <rs type="letter" key="L_68210">JJ to Pound, 19 April 1915</rs>, notes). Grant Richards wrote JJ on 12 and 26 April 1915 to say that no American edition of <name type="work" key="W_DUBLINERS">Dubliners</name> had been arranged for, despite JJ’s impression that the book was being published at that time in the United States (Robert Scholes, “Grant Richard to James Joyce,” <name type="work" key="ID_MISSING">Studies in Bibliography</name>, vol. 16 [1963]: 156-58).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">The serialization of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> concluded with <name type="work" key="W_THEEGOIST">The Egoist</name>, vol. 2, no. 9 (1 September 1915). It was first published as a book in 1916 by B.W. Huebsch in New York. <name type="organisation" key="ID_MISSING">The Egoist Press</name> published the first English edition the following year.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Begun in the spring of 1914, <name type="work" key="W_EXILES">Exiles</name> was published in May 1918 by Grant Richards in London and by B.W. Huebsch in New York. It was first performed in a German translation in Munich in 1919. Joyce initially conceived <name type="work" key="W_ULYSSES">Ulysses</name> as a short story in 1906 but reconceived it as a much larger work blended with many of the persons from <name type="work" key="W_DUBLINERS">Dubliners</name> when he returned to it eight or nine years later. It was first published in book form on 2 February 1922 by <name type="organisation" key="ID_MISSING">Shakespeare and Company</name> in Paris. In October 1922, the Egoist Press in London published the first English edition from plates of the Paris edition.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

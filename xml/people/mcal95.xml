@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcal95">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Robert Menzies McAlmon</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>mcal95</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">27073703</idno>
+            <idno type="OCLC">lccn-n50009931</idno>
+            <persName type="reg">
+               <forename>Robert Menzies</forename> <surname>McAlmon</surname>
+            </persName>
+            <persName type="full">Robert Menzies McAlmon</persName>
+            <date type="birth" when="1895-03-09"/>
+            <date type="death" when="1956-02-02"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>American writer and publisher. He and William Carlos Williams issued the influential <name type="work" key="ID_MISSING">Contact</name> literary magazine in New York from 1920 to 1923. In 1920 he met and in the following year married English writer Bryher (Annie Winifred Ellerman), daughter of the wealthy British shipping magnate Sir John Ellerman. They moved to Paris, where he founded Contact Publishing company and later Contact Editions, which published Stein, Bryher, Hemingway, Loy, and other emerging English-language writers. He befriended JJ and supported him financially in the early 1920s. JJ’s “From Work in Progress” was included in McAlmon’s <name type="work" key="ID_MISSING">Contact Collection of Contemporary Writers</name> (Paris: Contact Editions, Three Mountain Press, 1925: 133-36). McAlmon contributed “Mr. Joyce Directs an Irish Word Ballet” to <name type="work" key="ID_MISSING">Our Exagmination Round His Factification for Incamination of Work in Progress</name> (Paris: Shakespeare and Company, Sylvia Beach, 1929: 105-16). Though he continued to write poetry and fiction, McAlmon is best remembered for his memoir of expatriate Paris of the 1920s, <name type="work" key="ID_MISSING">Being Geniuses Together: An Autobiography</name> (London: Secker &amp; Warburg, 1938). <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

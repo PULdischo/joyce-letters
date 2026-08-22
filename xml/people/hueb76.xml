@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hueb76">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>B. W. Huebsch</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>hueb76</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">13496949</idno>
+            <idno type="OCLC">lccn-n88027723</idno>
+            <persName type="reg">
+               <forename>B. W.</forename> <surname>Huebsch</surname>
+            </persName>
+            <persName type="full">B. W. Huebsch</persName>
+            <date type="birth" when="1876-03-21"/>
+            <date type="death" when="1964-08-07"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>American independent publisher and then executive at Viking Press. After several years in the family’s printing business, Huebsch founded his own publishing firm focusing on religion, political theory, and modern literature (notably an English translation of Hauptmann’s dramatic works). His books featured a distinctive seven-candle menorah on the title page. Huebsch and JJ became acquainted when the publisher arranged for two stories from <name type="work" key="ID_MISSING">Dubliners</name> to be published in the American magazine, <name type="work" key="ID_MISSING">The Smart Set</name> (1915). He published <name type="work" key="ID_MISSING">A Portrait of the Artist as a Young Man</name> in late 1916, and issued American editions of <name type="work" key="ID_MISSING">Dubliners</name> (1916, 1917), <name type="work" key="ID_MISSING">Exiles</name> (1918), and <name type="work" key="ID_MISSING">Chamber Music</name> (1918). Though interested in publishing <name type="work" key="ID_MISSING">Ulysses</name>, Huebsch’s vacillation due to fears of prosecution for obscenity discouraged JJ: Huebsch would not risk publishing the book without changes, and JJ would not expurgate. Nevertheless, the two retained a cordial relationship throughout the rest of JJ’s life. One of Huebsch’s last publications under his own name was the first book-length examination of JJ’s work, <name type="person" key="gorm93">Herbert S. Gorman</name>’s <name type="work" key="ID_MISSING">James Joyce: His First Forty Years</name> (1924). In 1925 he sold the firm to the newly-established Viking Press, where he became vice president and editorial director. In ensuing years, Viking became a prominent and influential literary publisher, with works by <name type="person" key="ID_MISSING">Dorothy Parker</name>, <name type="person" key="ID_MISSING">Sean O’Faolain</name>, <name type="person" key="ID_MISSING">Erskine Caldwell</name>, <name type="person" key="ID_MISSING">John Steinbeck</name>, <name type="person" key="zwei81">Stefan Zweig</name>, and posthumous works by <name type="person" key="ID_MISSING">D.H. Lawrence</name>. Viking published JJ’s <name type="work" key="ID_MISSING">Collected Poems</name> in 1937 and, with Faber &amp; Faber in London, co-published <name type="work" key="ID_MISSING">Finnegans Wake</name> in 1939. During Huebsch’s time with the firm following JJ’s death in 1941, Viking continued as an important publisher of JJ, with <name type="work" key="ID_MISSING">The Portable James Joyce</name> (1947), an expanded edition of <name type="work" key="ID_MISSING">Exiles</name> (1951), <name type="work" key="ID_MISSING">The Letters of James Joyce</name> (1957, 1966), <name type="work" key="ID_MISSING">The Critical Writings of James Joyce</name> (1959), as well as Stanislaus Joyce’s <name type="work" key="ID_MISSING">My Brother’s Keeper: James Joyce’s Early Years</name> (1958). <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68645">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Wednesday, 18 August 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68645</idno>
+            <idno type="internal">68645</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_05">rue de l'Assomption 5, Paris</placeName>
+               </address>
+               <date notBefore="1920-08-18" notAfter="1920-08-18">Wednesday, 18 August 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_05">rue de l’Assomption 5</name> I</addrLine>
+                            <addrLine>Passy</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Many thanks for <seg xml:id="seg1" type="note-anchor">the suit which <name type="person" key="elio88">Mr Eliot</name> brought</seg>. It fits quite well except for the shoulders which are rather tight. I shall be glad of it in the winter as it seems to be wool. I hate the cold. I had not much opportunity of speaking with Mr Eliot and <name type="person" key="lewi82">Mr Lewis</name>, whose arrival surprised me, but managed to catch a few of their phrases in the lulls of <foreign xml:lang="fra">l’ami</foreign> <seg xml:id="seg2" type="note-anchor">
+                            <name type="person" key="vand76">Fritz</name>’s volubility</seg>. A good thing is that he usually laughs next day over all the noise he made the night before. <seg xml:id="seg3" type="note-anchor">
+                            <foreign xml:lang="ita">E abbastanza simpatico questo</foreign>
+                        </seg>.</p>
+                    <p>
+                        <seg xml:id="seg4" type="note-anchor">
+                            <name type="person" key="serr86">Miss Serruys</name>
+                        </seg> and <seg xml:id="seg5" type="note-anchor">
+                            <name type="person" key="barn76">Miss Barney</name>
+                        </seg> spoke to <name type="person" key="lugn69">Lugne Poe</name> who <seg xml:id="seg6" type="note-anchor">will speak to them</seg> this week. I <seg xml:id="seg7" type="note-anchor">wrote to <name type="person" key="brad78">Mr Bradley</name>
+                        </seg> (re <name type="work" key="W_EXILES">Exiles</name> <add place="above">&amp; <name type="work" key="W_APORTRAIT">Portrait</name>
+                        </add>) who wrote to Miss Serruys who wrote to me who wrote to <seg xml:id="seg8" type="note-anchor">
+                            <name type="person" key="savi81">Mrs Bloch</name>
+                        </seg> to write to <seg xml:id="seg9" type="note-anchor">
+                            <name type="person" key="bend86">Benda</name>
+                        </seg> who visited me who <seg xml:id="seg10" type="note-anchor">wrote to <name type="person" key="davr72">Davray</name>
+                        </seg> who wrote to me that he had written to <name type="person" key="vall58">
+                            <choice>
+                                <sic>Valette</sic>
+                                <corr>Vallette</corr>
+                            </choice>
+                        </name> who so far hasn’t written to anybody.</p>
+                    <p>I send back <seg xml:id="seg11" type="note-anchor">the prospectus</seg> you sent me. Among the papers you left with me are undelivered <seg xml:id="seg12" type="note-anchor">letters for <name type="person" key="duja61">Mr Dujardin</name>
+                        </seg> and <seg xml:id="seg13" type="note-anchor">
+                            <name type="person" key="lich70">Mr A. Lichtenberger</name>
+                        </seg> (without his address). What, if anything, is to be done with these?</p>
+                    <p>Who has <seg xml:id="seg14" type="note-anchor">the dossier</seg> I sent you? <name type="person" key="aldi92">Mr Aldington</name>? If so, I should be glad to have it returned to me at his convenience. And, <seg xml:id="seg15" type="note-anchor">if you see <name type="person" key="rodk94">Mr Rodker</name>
+                        </seg>, will you please ask him to let me have a copy of the <name type="work" key="W_THELITTLE">
+                            <hi rend="underline">Little</hi> <hi rend="underline">Review</hi>
+                        </name> as soon as he receives a new number.</p>
+                    <p>Two chapters of the <rs type="work" key="W_APORTRAIT">novel</rs> are translated. The <rs type="person" key="savi81">translator</rs> appears to <seg xml:id="seg16" type="note-anchor">find the work very difficult</seg>. She told me that <seg xml:id="seg17" type="note-anchor">Mr Aldington proposed</seg> to her to translate some book by <name type="person" key="sinc63">Miss Sinclair</name> or <name type="person" key="rich73">Miss Richardson</name>. I forget which. Translate in haste and repent at leisure. The <seg xml:id="seg18" type="note-anchor">
+                            <rs type="person" key="atte68">Swedish translator</rs>
+                        </seg> sends me lists of difficulties by every second post. The <seg xml:id="seg19" type="note-anchor">
+                            <rs type="person" key="alon98">Spaniard</rs>
+                        </seg>, till now, has not written. He (or more probably, she) is, I expect, spinning a yarn all of his own.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                    <dateline>
+                        <date when="1920-08-18">18 August 1920</date>
+                    </dateline>
+                    <postscript>
+                        <p>
+                            <label>P.S.</label> A bad day for me. Francis Joseph’s birthday. The <date when="1917-08-18 ">anniversary</date> of my seizure in the Bahnhofstrasse, <name type="geo" key="G_CHE_ZURI">Zurich</name>, with <seg xml:id="seg20" type="note-anchor">subsequent violent glaucoma</seg>. <seg xml:id="seg21" type="note-anchor">
+                                <foreign xml:lang="ita">
+                                    <hi rend="underline">Via</hi>, <hi rend="underline">presto</hi>
+                                </foreign>
+                            </seg>.</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The American poet and critic T.S. Eliot (1888-1965) visited Paris on 15-16 August and dined there with JJ and the English writer and artist Wyndham Lewis (1882-1957). Eliot brought with him a parcel, entrusted to him by Pound, that contained a gift for JJ of some used clothing and a pair of old brown shoes (see <rs type="letter" key="L_68643">JJ to Pound, 13 August 1920</rs>, notes). Eliot described JJ shortly after the meeting as “a quiet but rather dogmatic man [with] a sense of his own importance. He has a sort of gravity which seems more Protestant than Catholic” (<name type="work" key="ID_MISSING">The Letters of T.S. Eliot</name>, vol. 1, ed. Valerie Eliot [New York: Harcourt Brace Jovanovich, 1988], 402-03).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Fritz-René Vanderpyl (1876-1965), Belgian (often described as Dutch) novelist, poet, gastronome, and art critic for <name type="work" key="ID_MISSING">Le Petit Parisien</name>. He was listed among pledged contributors to the New York magazine <name type="work" key="W_DIAL">The Dial</name>, of which Pound was a paid agent and correspondent at this time. Pound admired Vanderpyl and considered him an “amusin’ cuss” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 192). Urged by Pound, JJ made Vanderpyl’s acquaintance in Paris in July 1920 and received from him an inscribed copy of his book, <name type="work" key="ID_MISSING">Mon chant de guerre</name> (Paris, 1917), which John Rodker found to be “a very restrained war-song – being in simple rhythm, felicitous phrasing and a not too original out-look. Occasionally he interposes English verses of an amazing triteness and one wonders why this sort of thing sounds so much more possible in French. … The book is worth reading because it feels ‘sound’” (“Books,” <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 5 [September 1918]: 48). Vanderpyl contributed to various magazines in this period, including <name type="work" key="W_POETRY">Poetry</name>, and published an appreciation of the French artist Maurice Vlaminck, with reproductions of his paintings, in <name type="work" key="W_DIAL">The Dial</name>, vol. 69, no. 6 (December 1920): 590-91. In “The Island of Paris: A Letter,” <name type="work" key="W_DIAL">The Dial</name>, vol. 69, no. 5 (November 1920): 515-18, Pound described Vanderpyl as one of the “fine human objects … perched reading on his balcony, his head like a round dreaming cannon-ball atop the stubby structure of his person.” Eliot made a drawing of JJ, Wyndham Lewis, Vanderpyl, and himself, attended by a perplexed Parisian waiter, with Vanderpyl gesticulating and carrying on with what JJ in this letter calls “volubility” (<name type="work" key="ID_MISSING">The Letters of T.S. Eliot</name>, 403).</note>
+                <note xml:id="note3" target="#seg3" type="translation">It. “This is rather likable.” Or more colloquially, “I rather like this in him.”</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Newly arrived in Paris and wanting to enhance his calling card, JJ was eager to have his play <name type="work" key="W_EXILES">Exiles</name> and his novel <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> translated into French. Jenny Serruys (1886-1983), a French literary figure, was an early candidate for translating <name type="work" key="W_APORTRAIT">A Portrait</name>, but she did not do so. (Ludmila Bloch-Savitsky [1881-1957], another new acquaintance of JJ’s, published a French translation of <name type="work" key="W_APORTRAIT">A Portrait</name> in 1924.) Much later, Serruys did produce a French translation of <name type="work" key="W_EXILES">Exiles</name> (<name type="work" key="ID_MISSING">Les Exilés</name>) which was published under her married name J.S. Bradley by nrf Gallimard in Paris in 1950. (For more on Serruys and Bloch-Savitsky, see <rs type="letter" key="L_68631">JJ to Pound, 24 July 1920</rs>, notes.)</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Natalie Clifford Barney (1876-1972), expatriate American playwright, poet, and novelist, was famous for her Latin Quarter salon and, in the garden of her pavilion, her classical Temple of Friendship, where writers and artists of all stripes and nationalities met and conversed. Pound, who was a good friend of Barney’s, facilitated JJ’s contact with her early on in his Paris stay. At one of her soirées, attended by Paul Valéry and other writers, JJ found himself “ill at ease, averse as always to discoursing at large, but he made some effort to converse with them about French literature, and had got as far as saying he couldn’t bear Racine and Corneille when Miss Barney, embarrassed by this opinion, interrupted rudely, ‘Don’t you think that sort of remark shows something about the person who says it?’ Joyce was silent, and spent the rest of the evening draped around a column in the drawing room” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 488).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Aurélien-Marie Lugné (1869-1940), known as Lugné-Poë, was a French actor, theater director, and scenic designer who at Paris’s Théâtre de l’Œuvre and other venues produced the drama of Henrik Ibsen, Gerhart Hauptmann, August Strindberg, and other playwrights. Jenny Serruys and Natalie Clifford Barney (see notes 4 and 5 above) were enlisted to help persuade Lugné-Poë to produce <name type="work" key="W_EXILES">Exiles</name>, and JJ uncharacteristically agreed to allow the play to be adapted. After some indecision, Lugné-Poë told JJ that he would stage it in December 1920 or January 1921, but in June 1921 he concluded that a production of <name type="work" key="W_EXILES">Exiles</name> would lose money (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 497-98). JJ told Harriet Shaw Weaver that Lugné-Poë had written him “a most insolent letter in slang to say that he was not such a fool as to put on the piece and lose 15,000 francs. My consolation is that I win a box of preserved apricots – a bet I made with Mr Pound (who was optimistic) after a cursory inspection of the director aforesaid” (<name type="work" key="ID_MISSING">LI</name> 166). An adaptation of Jenny Serruys Bradley’s translation of <name type="work" key="W_EXILES">Exiles</name> was finally performed at the Théâtre Gramont, Paris, in 1956, directed by Hélène Gerber. Sylvia Beach wrote that this French premiere “was so well done I regretted that Joyce was no longer there to see it” (<name type="work" key="ID_MISSING">Shakespeare and Company</name> [1959; rpt. Lincoln: University of Nebraska Press, 1991], 167).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">William Aspenwall Bradley (1878-1939) was an American writer and critic and the fiancé of Jenny Serruys. Together, they assisted JJ in various ways during his first months in Paris (see <rs type="letter" key="L_68631">JJ to Pound, 24 July 1920</rs>, notes).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">The Russian-born Ludmila Bloch-Savitsky (1881-1957) was married to a railroad chief engineer, Marcel Bloch (1881-1951). They offered JJ a flat, rent-free, for his first three months in Paris. Bloch-Savitsky published her French translation of JJ’s <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> in 1924 (see <rs type="letter" key="L_68631">JJ to Pound, 24 July 1920</rs>, notes).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Julien Benda (1867-1956), French novelist, philosopher, and cultural critic, whom JJ met during his first weeks in Paris (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 489). As a result of Pound’s efforts, Benda’s critique <name type="work" key="ID_MISSING">Belphégor: essai sur l'esthétique de la présente société française</name> was serialized in English translation in <name type="work" key="W_DIAL">The Dial</name>. In it, Benda announced the general thesis: “Modern French society requires of works of art that they make it experience emotions and sensations and no longer expects to realize from works of art any kind of intellectual pleasure” (vol. 69, no.3 [September 1920], 252). Benda’s anti-Bergsonism and his elevation of clear, distinct ideas above popular doctrines of time, emotion, and flux appealed to Pound, who in 1920 considered him the “best mind” he had encountered in Paris (<name type="work" key="ID_MISSING">Selected Letters of Ezra Pound to John Quinn</name>, 191). In 1927, Benda published <name type="work" key="ID_MISSING">La Trahison des Clercs</name>, which argued that modern European intellectuals had abdicated dispassionate reason in political matters and had contributed to nationalism and warmongering. The work was translated into English by Richard Aldington as <name type="work" key="ID_MISSING">The Great Betrayal</name> (1928).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">
+                    <p>JJ was hoping that a French translation of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> would be published serially in the journal <name type="work" key="ID_MISSING">Mercure de France</name>, which was founded and edited by Alfred Vallette (1858-1935), and for which the French critic Henry Davray (1873-1944) wrote often as a specialist in English literature. JJ wrote Davray on 11 August 1920 that he hoped the <name type="work" key="ID_MISSING">Mercure</name> would “arbitrer l’artiste irlandais, jeune homme” (“shelter the Irish artist as a young man”) (<name type="work" key="ID_MISSING">LIII</name> 14-15). But on 20 October 1920, JJ reported to Jenny Serruys that the <name type="work" key="ID_MISSING">Mercure</name> had given “aucune signe de vie” (“no sign of life”) (<name type="work" key="ID_MISSING">LIII</name> 25). Other French journals declined it as well. The French translation of <name type="work" key="W_APORTRAIT">A Portrait</name> had to await publication, as a book, in 1924 by Ludmila Savitsky. Davray had previously published a favorable account of JJ’s <name type="work" key="W_EXILES">Exiles</name> and other writings in “Lettres anglaises,” <name type="work" key="ID_MISSING">Mercure de France</name>, vol. 121, no. 495 (1 February 1919 ): 512-18. </p>
+                    <p>The paragraph of the present letter beginning “Miss Serruys” echoes the rhythms of the passage in the “Cyclops” episode of <name type="work" key="W_ULYSSES">Ulysses</name> that ridicules Leopold Bloom’s praise of “love” as the true essence of “life”: “His Majesty the King loves Her Majesty the Queen. Mrs Norman W. Tupper loves officer Taylor. You love a certain person. And this person loves that other person because everybody loves somebody but God loves everybody” (<name type="work" key="W_ULYSSES">U</name> 12.1498-1501).</p>
+                </note>
+                <note xml:id="note11" target="#seg11" type="commentary">It is uncertain what “prospectus” Pound had sent JJ, but around this time he was mailing circulars for John Rodker’s Ovid Press (see <name type="work" key="ID_MISSING">Ezra Pound to His Parents: Letters 1895-1929</name>, ed. Mary de Rachewiltz et al. [Oxford: Oxford University Press, 2010], 469). The short-lived Ovid Press, an artisanal hand press and publishing firm in London, issued, among other modernist writings, a limited first edition of Pound’s <name type="work" key="ID_MISSING">Hugh Selwyn Mauberley</name> in June 1920. Rodker had hoped to be the initial publisher of <name type="work" key="W_ULYSSES">Ulysses</name> in some book format, but this plan did not come to fruition (for a fuller account, see <rs type="letter" key="L_68628">JJ to Pound, letter fragment, late July 1920</rs>, notes).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Édouard Dujardin (1861-1949) was a French author and pioneer of the stream-of-consciousness literary technique, especially in his 1888 novel, <name type="work" key="ID_MISSING">Les Lauriers sont coupés</name>, which has been credited with influencing JJ’s use of interior monologue in <name type="work" key="W_ULYSSES">Ulysses</name>. JJ publicly praised Dujardin and wanted to see his work more widely recognized. Dujardin and JJ inscribed and dedicated books to each other. JJ inscribed a copy of <name type="work" key="W_ULYSSES">Ulysses</name> to “E.D. Annunciator of the interior monologue, the impenitent thief. JJ.,” though he wrote privately to Harriet Shaw Weaver that in exchanging inscriptions, he felt he had given Dujardin “cake for bread” (<name type="work" key="ID_MISSING">LI</name> 287). JJ later helped Stuart Gilbert with his English translation of <name type="work" key="ID_MISSING">Les Lauriers sont coupés</name>, which was titled <name type="work" key="ID_MISSING">We’ll to the Woods No More</name> (for JJ, Dujardin, and the English translation, see Ellmann, <name type="work" key="ID_MISSING">JJ</name> 519-20 &amp; n.*, 665). During 1920, as paid agent and foreign correspondent of <name type="work" key="W_DIAL">The Dial</name>, Pound was actively canvassing French authors for submissions to that New York magazine. It is likely that JJ discussed Dujardin with Pound when the two met in Sirmione in June 1920 or in Paris in July.</note>
+                <note xml:id="note13" target="#seg13" type="commentary">Probably André Lichtenberger (1870-1940), French novelist, sociologist, and historian. His recent books included a novel, <name type="work" key="ID_MISSING">Le Sang Nouveau</name> (1914). It is likely that he was among the numerous French writers that Pound was contacting in his role as agent and foreign correspondent for the New York magazine <name type="work" key="W_DIAL">The Dial</name>.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">
+                    <p>The “dossier” JJ refers to was a collection of papers documenting his 1918-1919 legal dispute in Zurich with Henry Carr and the subsequent conspiracy of British consular officials that JJ believed had formed to undermine him and the English Players, the acting troupe that he had cofounded and managed in Zurich. JJ wrote a statement, dated 28 April 1919, setting forth the history of perceived outrages (<name type="work" key="ID_MISSING">LII</name> 438-40). Pound, who received JJ’s dossier around the same time, complained to JJ that “you have given me no ‘case’ to present,” only “a lot of documents proving that a company of players put on a Chesterton play (for which they ought all to be poisoned until dead of gangrene)” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 153-54). Pound said that he would “leave things in [Richard Aldington’s] charge” (ibid., 154). The English writer and critic Richard Aldington (1892-1962) became a sort of official holder of the dossier (<name type="work" key="ID_MISSING">LII</name> 442). In July 1927, JJ was still trying to get “the dossier of the English Players” back from Aldington (<name type="work" key="ID_MISSING">LIII</name> 161-62). (For a fuller account of the Zurich litigation and the Rumbold affair, see <rs type="letter" key="L_68518">JJ to Pound, 1 April 1919</rs>, notes.)</p>
+                    <p>Pound had known Aldington since 1911 and had included him, along with JJ, H.D. (Hilda Doolittle, 1886-1961), and other poets, in the groundbreaking anthology, <name type="work" key="ID_MISSING">Des Imagistes</name> (1914). Aldington had been assistant editor of the English magazine <name type="work" key="W_THEEGOIST">The Egoist</name> when it serialized <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (1914-1915). He and T.S. Eliot later informally agreed to write competing reviews of <name type="work" key="W_ULYSSES">Ulysses</name> in progress. Aldington published “The Influence of Mr. James Joyce” in the <name type="work" key="ID_MISSING">English Review</name> (London), vol. 32 (April 1921): 333-41, praising <name type="work" key="W_ULYSSES">Ulysses</name> as “remarkable” and “an astonishing psychological document,” but worrying that its bold experiments in style would, among its imitators, degenerate into “incoherence, affectation, and wordy confusion,” since JJ with his “great undisciplined talent” was “more dangerous than a ship-load of Dadaistes” (333, 339). He also wrote: “<name type="work" key="W_ULYSSES">Ulysses</name> is more bitter, more sordid, more ferociously satirical than anything Mr. Joyce has yet written. It is a tremendous libel on humanity which I at least am not clever enough to refute” (336). Eliot took more than two years to reply to Aldington. Armed with the completed <name type="work" key="W_ULYSSES">Ulysses</name> and the Homeric parallels that JJ had circulated among the faithful, Eliot retorted that, while he did not know if it was “possible to libel humanity,” JJ had employed Homeric myth as “a continuous parallel between contemporaneity and antiquity … a method which others must pursue after him.” So much for Aldington’s dread of JJ’s undisciplined influence. Eliot added that JJ’s method was “simply a way of controlling, of ordering, of giving a shape and a significance to the immense panorama of futility and anarchy which is contemporary history” (“<name type="work" key="W_ULYSSES">Ulysses</name>, Order, and Myth,” <name type="work" key="W_DIAL">The Dial</name>, vol. 75, no. 5 [November 1923]: 481, 483).</p>
+                </note>
+                <note xml:id="note15" target="#seg15" type="commentary">The English writer, poet, and publisher John Rodker (1894-1955) had become foreign editor of <name type="work" key="W_THELITTLE">The Little Review</name> after Pound’s departure from that New York magazine. For a fuller account of Rodker’s role in JJ’s life and work at this time, see <rs type="letter" key="L_68628">JJ to Pound, letter fragment, late July 1920</rs>, notes.</note>
+                <note xml:id="note16" target="#seg16" type="commentary">Ludmila Bloch-Savitsky struggled to translate faithfully and sensitively JJ’s <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>. She complained that JJ was “not involved enough in a translation process that he did not take seriously,” and he blamed her “for delaying the translation he needed quickly to launch his career in France” (Leonid Livak, “‘A Thankless Occupation’: James Joyce and His Translator Ludmila Savitzky,” <name type="work" key="ID_MISSING">Joyce Studies Annual</name> [2013]: 39). Although the bulk of the translation was completed by April 1921, its publication was delayed for various reasons and appeared in 1924 as <name type="work" key="ID_MISSING">Dedalus; Portrait de l’artiste jeune par lui-même</name>, with Éditions de la Sirène of Paris.</note>
+                <note xml:id="note17" target="#seg17" type="commentary">The French poet and critic André Spire (1868–1966) had “arranged for Savitzky’s collaboration as a literary critic in British and American journals and encouraged her first translations from the works of Richard Aldington, Hilda Doolittle, F.S. Flint, and May Sinclair, a list she expanded to Ezra Pound, John Rodker, Virginia Woolf, and to Joyce himself” (Livak, “‘A Thankless Occupation,’” 35). May Sinclair (1863-1946) was a British writer who published novels, short stories, and poetry, was an active suffragist, and wrote critical assessments of modernist poetry and prose. She may have been the first to use the phrase “stream of consciousness” to describe modernist narrative technique in her review of part of the novel sequence <name type="work" key="ID_MISSING">Pilgrimage</name> by the British author Dorothy Richardson (1873-1957) (May Sinclair, “The Novels of Dorothy Richardson,” <name type="work" key="W_THEEGOIST">The Egoist</name>, vol. 5, no. 4 [April 1918]: 57-59; see also Sydney Kaplan, “‘Featureless Freedom’ or Ironic Submission: Dorothy Richardson and May Sinclair,” <name type="work" key="ID_MISSING">College English</name>, vol. 32, no. 8 [May 1971]: 914-17).</note>
+                <note xml:id="note18" target="#seg18" type="commentary">The Swedish translation by Ebba Atterbom (1868-1961) of <name type="work" key="W_APORTRAIT">A Portrait</name> was published, under the title <name type="work" key="ID_MISSING">Ett porträtt av konstnären som ung</name>, in Stockholm in 1921. JJ managed to work Atterbom into <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>: “<hi rend="italic">The Fin had a flux and his Ebba a ride. / Attabom, attabom, attabombomboom!</hi>” (<name type="work" key="W_FINNEGANSWAKE">FW</name> 103).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">The Spanish translation of <name type="work" key="W_APORTRAIT">A Portrait</name>, by Alfonso Donado (pseudonym of Dámaso Alonso, 1898-1990), was published under the title <name type="work" key="ID_MISSING">El Artista Adolescente (Retrato)</name> in 1926 in Madrid. JJ answered Alonso’s questions and referred him to the French translation of <name type="work" key="W_APORTRAIT">A Portrait</name> for hints (<name type="work" key="ID_MISSING">LIII</name> 128-30), but Alonso thought that his translation was “closer to the original character of the novel than the French one. There is in some respects a likeness between Spanish and Irish people’s idiosyncrasy” (<name type="work" key="ID_MISSING">LIII</name> 129 n.1). T.S. Eliot found Alonso’s translation of <name type="work" key="W_APORTRAIT">A Portrait</name>, with its introduction by Antonio Marichalar, interesting enough to merit review in <name type="work" key="ID_MISSING">The New Criterion</name>, vol. 5, no. 1 (January 1927): 158.</note>
+                <note xml:id="note20" target="#seg20" type="commentary">JJ suffered a severe attack of lumbago followed by glaucoma in August 1917, prompting his ophthalmologist, Ernst Sidler, to perform an iridectomy on his right eye at the Zurich Augenklinik a few days later. Resulting exudation from the eye during convalescence permanently reduced JJ’s vision (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 417).</note>
+                <note xml:id="note21" target="#seg21" type="commentary">“Away, quickly,” as one might say of a bad omen or memory. The phrase is also found in several places in Mozart’s operas, such as the epilogue in <name type="work" key="ID_MISSING">Don Giovanni</name>, where it means “Hurry up!”</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="monn92">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adrienne Monnier</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>monn92</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">47558008</idno>
+            <idno type="OCLC">lccn-n84006979</idno>
+            <persName type="reg">
+               <forename>Adrienne</forename> <surname>Monnier</surname>
+            </persName>
+            <persName type="full">Adrienne Monnier</persName>
+            <date type="birth" when="1892-04-26"/>
+            <date type="death" when="1955-06-19"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Parisian bookseller, publisher, editor, and poet. She opened her bookshop, “Maison des amis des livres”, in 1915; it became a magnet for contemporary French writers such as Claudel, <name type="person" key="larb81">Larbaud</name>, <name type="person" key="farg76">Fargue</name>, <name type="person" key="gide69">Gide</name>, and Valery. Monnier encouraged <name type="person" key="beac87">Sylvia Beach</name> to open a bookshop in 1919, which led to her acquaintance with JJ. Her literary review, <name type="work" key="ID_MISSING">Le Navire d’argent</name>, published JJ’s “From Work in Progress” (2, no. 5 [1 October 1925], 59-74). Monnier was the organizer and eventually publisher of the French translation of <name type="work" key="W_ULYSSES">Ulysses</name>, appearing first as fragments in <name type="work" key="ID_MISSING">Commerce</name> (1, i [Summer 1924], 121-58), and then as the entire <name type="work" key="W_ULYSSES">Ulysse</name> (Paris: La Maison des Amis des Livres, Adrienne Monnier, 1929). She sided with Sylvia Beach in the rupture with JJ in the early 1930s. Following a period of serious illness, Monnier committed suicide in 1955. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

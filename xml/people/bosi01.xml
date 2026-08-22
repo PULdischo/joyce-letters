@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bosi01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lauro De Bosis</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>bosi01</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">19807028</idno>
+            
+            <persName type="reg">
+               <forename>Lauro</forename> <surname>De Bosis</surname>
+            </persName>
+            <persName type="full">Lauro De Bosis</persName>
+            <date type="birth" when="1901-12-09"/>
+            <date type="death" when="1931-10-03"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Italian poet and translator. Though a recent university graduate with a degree in chemistry when he first met JJ, De Bosis was an eager literary translator, influenced by his father Adolfo De Bosis, who was known for his translations into Italian of works by Shelley. JJ and De Bosis apparently had a plan to produce a partial Italian translation of <name type="work" key="W_ULYSSES">Ulysses</name>, similar to the one in French proposed by <name type="person" key="larb81">Valery Larbaud</name> (<name type="work">LI</name> 199). Neither plan came to fruition, although De Bosis and JJ remained in contact for several years. An avowed anti-fascist and amateur pilot, he is remembered primarily for his flight over Rome on 3 October 1931 when he dropped some 400,000 anti-fascist leaflets over the city and then disappeared, never to be seen again. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

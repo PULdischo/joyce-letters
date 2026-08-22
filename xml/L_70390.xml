@@ -1,0 +1,128 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70390">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To John Gadsby. Tuesday, 24 April 1934</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70390</idno>
+            <idno type="internal">70390</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>National Library of Ireland</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1934-04-24" notAfter="1934-04-24">Tuesday, 24 April 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="gads84">
+                        <forename>John</forename> <surname>Gadsby</surname>
+                    </persName>
+               <persName type="full" key="gads84">John Gadsby</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <dateline>
+                    <name type="geo" key="G_FRA_PARI">Paris</name> <date when="1934-04-24">April the 24-th.1934</date>
+                </dateline>
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="gads84">John Gadsby</name> esq. C.B.E.</addrLine>
+                            <addrLine>Building N<hi rend="superscript">o</hi>13</addrLine>
+                            <addrLine>N<hi rend="superscript">o</hi>12 Marunouchi 2-Chome</addrLine>
+                            <addrLine>Kojimachi-Ku</addrLine> <addrLine>Tokyo.</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Dear Sir,</salute>
+                    </opener>
+                    <p>I beg to acknowledge hereby receipt of your favour of the <date when="1934-03-26">26-th.of March</date> <choice>
+                            <sic>contaning</sic>
+                            <corr>containing</corr>
+                        </choice> a cheque for the equivalent of 400 yen representing the proceeds of <name type="person" key="joyc82">Mr Joyce</name>’s claim against the <choice>
+                            <sic>japanese</sic>
+                            <corr>Japanese</corr>
+                        </choice> pirates.</p>
+                    <p>I enclose Mr Joyce’s <rs type="letter" key="L_71750">receipt</rs> for it.</p>
+                    <p>Let me thank you for your handling of this affair and the results which under the circumstances I understand could not have been better.</p>
+                    <p>I fully agree with the wording of your receipt.</p>
+                    <p>Will you please thank <name type="organisation" key="ID_MISSING">H.B.M.’s Consul</name> for his intervention as well as <name type="person" key="okak68">Prof. Okakura</name> who has done his best to bring about this understanding.</p>
+                    <closer>
+                        <salute>Believe me</salute>
+                        <salute>sincerely yours.</salute>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This letter has been transcribed from a typed carbon copy. It was sent as an enclosure with the <rs type="letter" key="L_71750">letter from Paul Léon of 24 April 1934</rs>.</note>
+            </div>  
+      </body>
+   </text>
+</TEI>

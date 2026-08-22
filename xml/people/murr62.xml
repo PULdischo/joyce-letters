@@ -1,0 +1,50 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="murr62">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Josephine Murray</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>murr62</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Josephine Mary</forename> <surname>Murray</surname>
+            </persName>
+            <persName type="full">Josephine Murray</persName>
+            <date type="birth" when="1862"/>
+            <date type="death" when="1924-11-15"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Josephine Mary Giltrap was the daughter of <name type="person" key="ID_MISSING">James J. Giltrap</name>, a Dublin law agent and official of the Irish Kennel Club (and owner of champion red setter Garryowen). She was educated at a convent school in England and married <name type="person" key="ID_MISSING">William Murray</name>, an accountant in her father’s office. William’s sister, <name type="person" key="joyc59">May</name>, was JJ’s mother.</p>
+                <p>Aunt Josephine, as she was called, became a surrogate mother to the Joyce children after the death of her sister-in-law by marriage, May Joyce (née Murray), in 1903. JJ remained attached to her throughout her life and wrote her many letters.</p>
+                <p>When JJ stayed with the Murrays in 1904, she tried in vain to persuade him to remain in Dublin. Later that year in Trieste, when <name type="person" key="barn84">Nora</name> was expecting <name type="person" key="joyc05">Giorgio</name>, he asked his brother <name type="person" key="joyc84">Stanislaus</name> to write to Aunt Josephine for advice on matters relating to Nora’s health. Josephine’s husband William (Richie Goulding in <name type="work" key="ID_MISSING">Ulysses</name>) died in 1912.</p>
+                <p>While working on <name type="work" key="ID_MISSING">Ulysses</name>, JJ wrote to her regularly for Dublin newspapers and magazines as well as source material such as a cheap hymn book or novelettes of the type Gertie McDowell might read. He also relied on her to check details such as the position of steps leading to Sandymount strand or whether someone could climb over the railings of 7 Eccles Street and drop into the basement.</p>
+                <p>When JJ sent her a copy of <name type="work" key="ID_MISSING">Ulysses</name>, she remarked that the book was not fit to read and passed it on. This resulted in an unpleasant exchange, but, as he planned his next work, he wrote again seeking details about characters from the Dublin of his youth. In November 1924, JJ learned that Josephine was terminally ill, and he was deeply grieved when his faithful aunt and informant passed away a short time later. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

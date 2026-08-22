@@ -1,0 +1,143 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71457">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Thursday, 23 January 1919</title>
+            <author key="chal91">chal91 Antoine</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71457</idno>
+            <idno type="internal">71457</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TLS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Fra"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="chal91">
+                        <forename>chal91</forename> <surname>Antoine</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_18">22 Theatrestrasse Zurich</placeName>
+               </address>
+               <date notBefore="1919-01-23" notAfter="1919-01-23">Thursday, 23 January 1919</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <dateline>
+                        <name type="geo" key="G_CHE_ZURI">Zurich</name>, le <date when="1919-01-23">23 Janvier 1919</date>.</dateline>
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="person" key="weav76">Miss Harriet Weaver</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_GBR_LOND_04">74, Gloucester Place</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_GBR_LOND">London</name>, W.1.</addrLine>
+                            <addrLine>-----------------------------</addrLine> </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Madame,</salute>
+                    </opener>    <p>
+                        <name type="person" key="joyc82">Mr. Joyce</name> étant malade depuis six jours, m’a chargé de Vous écrire pour Vous prier d’écrire à <name type="person" key="pink62">agent littéraire</name> afin que l’éditeur milanais sache les conditions pour la traduction de <seg xml:id="seg1" type="note-anchor">
+                            <rs type="work" key="W_APORTRAIT">son roman</rs>
+                        </seg>.</p>        	<p>Mr. Joyce accepte d’avance les conditions qu’on fixera. Le Chapitre d’<name type="work" key="W_ULYSSES">Ulysse</name> <seg xml:id="seg2" type="note-anchor">“Πλαγχται Πετραι”</seg> a été envoyé au dactylographe. Mr. Joyce Vous prie de remercier <name type="person" key="aldi92">Mr. Aldington</name> de ses paroles bienveillantes.</p>        	<closer>
+                        <salute>Saluations distinguées.</salute>                	<signed>
+                            <name type="person" key="chal91">Antoine Chalas</name>
+                        </signed>
+                        <address>
+                            <addrLine>Antoine Chalas</addrLine>
+                            <addrLine>22, Theaterstrasse</addrLine>
+                            <addrLine>Zurich (Switzerland).</addrLine>
+                        </address>
+                    </closer>
+                </div>
+                <div type="translation"> <p>Dear Miss Weaver,</p> <p>Mr Joyce, who has been ill for six days, has asked me to write to you to ask you to write to his literary agent so that the Milanese editor may know the terms for the translation of his novel.</p> <p>Mr Joyce accepts in advance the terms that will set down. The Ulysses chapter “Πλαγχται Πετραι” has been sent to the typist. Mr Joyce asks you to thank Mr Aldington for his kind words.</p> <closer>
+                        <salute>sincerely yours,</salute>
+                        <signed>
+                            <name type="person" key="chal91">Antoine Chalas</name>
+                        </signed>
+                        <address>
+                            <addrLine>Antoine Chalas</addrLine>
+                            <addrLine>22, Theaterstrasse</addrLine>
+                            <addrLine>Zurich (Switzerland).</addrLine>
+                        </address>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The episode “Wandering Rocks”. The Greek word Πλαγκταὶ (plangtai) means “roamers” or “wanderers”, and is used to describe the wandering rocks in Homer’s <name type="work">Odyssey</name>. See, e.g., Od. 12.61, where the gods are said to call the rocks Πλανγτὰς or “Wanderers”. The word Πέτραι (petrai) means rocks. Thanks to Stephanie Nelson for assistance with the Greek.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

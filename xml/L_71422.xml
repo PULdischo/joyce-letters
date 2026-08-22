@@ -1,0 +1,135 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71422">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Wednesday, 28 March 1928</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71422</idno>
+            <idno type="internal">71422</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Private collection</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_ROUE_01">Grand Hôtel de la Poste, Rouen</placeName>
+               </address>
+               <date notBefore="1928-03-28" notAfter="1928-03-28">Wednesday, 28 March 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+          <div type="letter">
+<div type="address">
+<ab>
+<address>
+<addrLine rend="printed">
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_FRA_ROUE_01">Grand Hôtel de la Poste Rouen</name>
+                                </seg>
+                            </addrLine>
+</address>
+</ab>
+</div>
+                <div type="mainBody">
+                    <dateline>
+                        <date when="1928-03-28">28.3.28</date>
+                    </dateline>
+                    <p>Dear <name type="person" key="poun85">Pound</name>, <seg xml:id="seg2" type="note-anchor">
+                            <name type="person" key="conn78">Conner</name> says</seg> <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="roth93">Roth</name>’s counsel</seg> will make a point if you do not answer his interrogation also. The whole thing takes about 20 minutes and you do not need to swear only to affirm. I suppose they would <seg xml:id="seg4" type="note-anchor">take your deposition</seg> (it will be like <seg xml:id="seg5" type="note-anchor">the copies I sent you</seg> only much shorter) at the nearest consulate – <name type="geo" key="G_ITA_GENO">Genoa</name>? I shall remit railway fare as well as the commission fee. I suppose you heard that Roth was <seg xml:id="seg6" type="note-anchor">arrested on another charge</seg>. Your non-evidence would score in his favour and I think he is speculating on it. It is a great bore for you to reopen the whole affair even for a half hour, I know, but as a signed declaration is not sufficient (I suggested that to Conner originally) I am afraid I shall have to put you to some inconvenience.</p>
+                    <closer>
+<salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+</closer>
+
+</div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>Starting in March 1928, partly to recover from exhaustion and intestinal complaints that had plagued him for months, JJ took a number of holidays from Paris. Ellmann notes: “In March 1928 he went to Dieppe, where he finished the fable of ‘The Ondt and the Gracehoper’ for <name type="work" key="ID_MISSING">transition</name> [<name type="work" key="ID_MISSING">FW</name> 403-428]. Since the port city was damp, he went on to Rouen on March 27, and returned to Paris a few days later” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 602). A contemporary guidebook described Rouen, on the River Seine in Normandy, as “a very important cotton-spinning place and river port (serving as a base for the British army during the War). In spite of the number of new streets that have been laid out in the last sixty years, it is still the richest of French cities in Gothic buildings, both civil and religious” (Karl Baedeker, <name type="work" key="ID_MISSING">Paris and its Environs</name> [Leipzig: Karl Baedeker, 1924], 439). Chief sites included the Palais de Justice, the Cathedral dedicated to Notre-Dame, the Musée-Bibliothèque, the Gothic church of St-Patrice, and the tower (“Tour de la Pucelle”) where St. Joan of Arc was imprisoned in 1430-1431 (ibid., 439-41).</p>
+                    <p>The Grand Hôtel de la Poste, on rue Jeanne-d’Arc, was a luxury hotel of the Belle Époque, built in 1908 by the noted architect Joachim Richard (1869-1960). The décor of its façade was designed by the French sculptor Alphonse Guilloux (1852-1939). In 1920, it was listed as a first-class hotel, completely refurbished in 1911, with 120 rooms from 9 to 20 francs, private sitting rooms from 45 francs, fifty bathrooms, and two elevators. Luncheon was 8 francs; dinner 9 francs; and board from 22 francs (<name type="work" key="ID_MISSING">Rouen and its Vicinity</name> [Paris: Hachette, 1920], 4).</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">After several attempts to find an attorney who would help stop the unauthorized reprinting of <name type="work" key="W_ULYSSES">Ulysses</name> by Samuel Roth (1893-1974) in New York, <name type="person" key="beac87">Sylvia Beach</name> turned to Benjamin Howe Conner (1878-1953) who ran the Paris office of the New York law firm, Chadbourne, Stanchfield &amp; Levy. A graduate of Albany Law School, Conner was a prominent figure in the American legal community in France, and was president of the American Chamber of Commerce at Paris. Later, he was appointed by the Egyptian king to the Mixed Court, an international tribunal at Cairo, on the recommendation of President Franklin D. Roosevelt. Joyce described Conner in 1927 as “the most influential American in Paris except the ambassador” (<name type="work" key="ID_MISSING">LIII</name> 162). Beach had known Conner personally for several years and had gone to him for assistance in securing a French copyright for <name type="work" key="W_ULYSSES">Ulysses</name>. After consultations in late 1926, the decision was made to sue Roth in the New York courts, not for copyright infringement (U.S. copyright in <name type="work" key="W_ULYSSES">Ulysses</name> was questionable) but rather for unlawful appropriation of JJ’s name for commercial purposes. JJ later refused to pay most of the legal invoices of Conner and his New York associates (some $3,000), citing various self-serving reasons. For years, Conner regularly invoiced JJ for $811.63 – the unpaid amount owed for Conner’s part of the litigation – and finally, in 1939, drew up a complaint to file against JJ in a Paris court. The dispute was never resolved. A few months later, the Joyces left Paris for Saint-Gérand-le-Puy (see Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing and the Public Domain</name> [New York: Oxford University Press, 2013], 198-200, 230-32).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In the litigation brought by JJ, Samuel Roth was represented primarily by Nathan Mordechai Padgug (1890-1976), a Lower East Side attorney who worked with a few associates. He had come to the United States from Minsk as a boy and later earned his law degree at night at New York University, graduating in the same class with the poet Charles Reznikoff. Padgug worked in New York politics as an inspector in the Bureau of Weights and Measures, and later served as Deputy Attorney General of the State of New York. As a lawyer, he was canny and resourceful, though he lacked the staff and the funding to meet JJ’s lawyers head-on (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 206-08).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">
+                    <p>JJ’s and Roth’s lawyers had been taking evidence in the form of depositions and interrogatories. Roth had been deposed in person by JJ’s lawyers in New York in June 1927 and January 1928. JJ had been given a set of direct interrogatories propounded by his own lawyers and another set of cross-interrogatories prepared by Roth’s counsel. On 8 and 19 March 1928, JJ appeared at the American Consulate in Paris to answer these questions, under oath, before the U.S. consul general (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 208-218).</p>
+                    <p>Pound’s testimony was relevant in the litigation because Roth had claimed as a defense that Pound, as JJ’s alleged agent, had granted Roth permission to publish <name type="work" key="W_ULYSSES">Ulysses</name> in a magazine. There was a grain of truth to this, but, as with many of Roth’s representations, it was exaggerated (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 218-19). Pound had already provided signed, unsworn declarations to JJ’s attorneys, but these were felt to be insufficient to counter Roth’s claims. JJ and his lawyers wanted Pound to answer interrogatories under oath at an American consulate in Genoa or some other Italian city. Replying to the present letter, Pound wrote to “Jhesus Aloysius” on 30 March 1928: “I have no objection to swearing – in seven languages and on the rump of al Koran that Mr Roth is the son of a son of all the galled bitches of Judea from the days of Caiphas [<hi rend="italic">sic</hi>] till the date of yr. birth.” But it would be more inconvenient than JJ thought. “Twenty minutes is … an exaggeration[;] to swear when one is resident in Rapallo even by the tits of St. Marie des Paluds in the Genoa consulate requires a minimum of four hours” (Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 545). Pound agreed to try to do it, but by late October 1928 he had still not had his “fingerprints taken vs. Roth ?? wotter hell … wot became of it … gone to trial without my Alf. David.??” (ibid., 550). Within a month, JJ learned that Roth was in jail and that his own lawsuit was in the process of being settled for a consensual injunction and no damages (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 218-25).</p>
+                </note>
+                <note xml:id="note5" target="#seg5" type="commentary">JJ had evidently sent Pound a carbon copy of the answers he had given to direct and cross-interrogatories at the American consulate in Paris earlier in March 1928. This carbon copy is found in the Ezra Pound Papers, YCAL MSS 43, box 26, folder 1115, Beinecke Library, Yale University.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">
+                    <p>Roth’s involvement in publishing and selling works deemed indecent was increasingly getting him into trouble with the law. In January 1928, he had been charged with mailing obscene circulars for Richard Burton’s translation of <name type="work" key="ID_MISSING">The Perfumed Garden</name>, the erotic classic by Sheik Nefzawi. After pleading guilty in federal court, Roth was fined and given a suspended sentence of six months, with a probation period of two years. Hardly four months into his probation, he was arrested for possessing obscene books and pictures. He was found guilty and sentenced by the Court of Special Sessions to three months on New York’s Welfare Island (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 220-25).</p>
+                    <p>Pound wrote his father about Roth’s incarceration, taking the opportunity to impugn Prohibition America as a country that would rather criminalize liquor than literary piracy: “I suppose [Roth] has had a glass of cognac or something. Inconceivable that he shd. have been jailed merely for theft and robbery” (<name type="work" key="ID_MISSING">Ezra Pound to His Parents: Letters 1895-1929</name>, ed. Mary de Rachewiltz et al. [Oxford: Oxford University Press, 2010], 674).</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

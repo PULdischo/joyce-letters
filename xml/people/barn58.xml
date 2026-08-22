@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barn58">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Annie Barnacle</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>barn58</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Annie</forename> <surname>Barnacle</surname>
+            </persName>
+            <persName type="full">Annie Barnacle</persName>
+            <date type="birth" when="1858"/>
+            <date type="death" when="1940-11-09"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Mother of JJ’s wife, <name type="person" key="barn84">Nora Barnacle</name>. Born in Galway City around 1858, only daughter of dealer <name type="person" key="ID_MISSING">Patrick</name> and <name type="person" key="ID_MISSING">Catherine Healy</name>, Annie Healy worked as a dressmaker. Known for her kind and cheerful disposition, in 1881 she married <name type="person" key="ID_MISSING">Thomas Barnacle</name>, a baker. They had eight children in a difficult marriage; Thomas was often in court, and the family moved house frequently. In 1900 he was jailed for a serious assault on Annie, which she said reflected his treatment of her throughout the marriage. After this he lived mostly away from home. When she died in Galway City in 1940, JJ wept like a child. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

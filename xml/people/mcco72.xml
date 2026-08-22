@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcco72">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edith Rockefeller McCormick</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>mcco72</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">31572147</idno>
+            <idno type="OCLC">lccn-no94016594</idno>
+            <persName type="reg">
+               <forename>Edith Rockefeller </forename> <surname>McCormick</surname>
+            </persName>
+            <persName type="full">Edith Rockefeller McCormick</persName>
+            <date type="birth" when="1872-08-31"/>
+            <date type="death" when="1932-08-25"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>American socialite, philanthropist and Jungian psychoanalyst. Daughter of the millionaire oilman, John D. Rockefeller, Edith married Harold Fowler McCormick in 1895 and, along with her husband, was active in Chicago social and cultural circles. In 1913, the McCormicks moved to Zurich to undertake treatment with Carl Jung; three years later, they were among the founder-funders of the Psychology Club Zurich. Edith resided at the Hotel Baur au Lac for eight years, offering financial support and encouragement to wartime arrivals such as Philipp Jarnach, Otto Luening, Ermanno Wolf-Ferrari, and JJ. Her eighteen-month patronage of JJ in 1918 and 1919 did not quite come out of the blue, however, as he had primed her with gifts of inscribed copies of his works. The ending of her monthly stipend probably stemmed from his refusal to undergo psychoanalysis. Nonetheless, JJ inscribed a copy of the 100 series <name type="work" key="W_ULYSSES">Ulysses</name> “To Edith Rockefeller / gratefully” on 2 March 1922. <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

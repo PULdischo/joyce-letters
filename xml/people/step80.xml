@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="step80">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>step80</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">79210673</idno>
+            <idno type="OCLC">lccn-n79109238</idno>
+            <persName type="reg">
+               <forename>James</forename> <surname>Stephens</surname>
+            </persName>
+            <persName type="full"/>
+            <date type="birth" when="1880-02-09"/>
+            <date type="death" when="1950-12-26"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Irish writer. His date of birth is uncertain, but probably not the 1882 which JJ believed. Raised in an orphanage, his early published writing began with pieces in the journal <name type="work" key="ID_MISSING">Sinn Féin</name>. He became a prolific author, making a name with fiction (notably <name type="work" key="ID_MISSING">The Crock of Gold</name>, 1912) but also publishing poetry and Irish history and culture. In 1925 he moved to London, and in the 1930s Stephens gave radio broadcasts for the BBC on assorted literary topics. While Stephens initially disdained JJ’s writing, JJ developed a fascination with Stephens in 1927, believing that they shared a birthday, and at one point suggested to Stephens that he should finish the then-languishing “Work in Progress” (noted first in JJ’s letter of 20 May 1927 to <name type="person" key="weav76">Harriet Shaw Weaver</name>, <name type="work" key="ID_MISSING">LI</name> 253-54). Fortunately this did not come to pass. Nevertheless, they became friends, corresponding and visiting from time to time. JJ translated Stephens’s poem “Stephen’s Green” into at least five languages. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

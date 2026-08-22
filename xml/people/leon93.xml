@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="leon93">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paul Léon</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>leon93</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">54204906</idno>
+            <idno type="OCLC">lccn-n92111511</idno>
+            <persName type="reg">
+               <forename>Paul</forename> <surname>Léon</surname>
+            </persName>
+            <persName type="full">Paul Léon</persName>
+            <date type="birth" when="1893"/>
+            <date type="death" when="1942-04"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Born in tsarist Russia where he studied and then taught sociology and philosophy. After the revolution he fled, first to England and then to Paris where he moved in émigré circles that in the thirties included <name type="person" key="ID_MISSING">Vladimir Nabokov</name>. He married <name type="person" key="leon99">Lucie</name> who would support the family as a fashion journalist for the <name type="work" key="ID_MISSING">New York Herald Tribune</name>, while her husband published translations of letters by the last tsar and his mother, an edition of the letters of <name type="person" key="ID_MISSING">Madame de Staël</name> to <name type="person" key="ID_MISSING">Benjamin Constant</name> and in 1930 a short biography of Benjamin Constant in “Maîtres des littératures”, a popular series published by Rieder.</p>
+                <p>Léon met JJ in 1928 and he quickly became the writer’s secretary for the work on <name type="work" key="ID_MISSING">Finnegans Wake</name> and his unpaid legal representative when JJ was engaged in one of his frequent campaigns against presumed enemies or former friends. In the thirties, most of JJ’s business administration is in the hand of Léon, and especially in the second half of the decade, Léon functioned as JJ’s bulldog. As a result, JJ himself could disappear above and behind his handiwork, while by passing on the writer’s not always friendly messages, Léon made enemies, among them <name type="person" key="elio88">T. S. Eliot</name>.</p> <p>After the German invasion, Léon helped JJ and his family escape Paris for Vichy, in the “free” sector of France, but the family returned to the capital because their son had to pass his baccalauréat exams. There they saved JJ’s papers and brought them to the Irish embassy, so they ended up in the National Library of Ireland. When JJ’s possessions were sold to pay unpaid rent, Léon bought most of them. In August 1941 and despite having been warned by <name type="person" key="beck06">Samuel Beckett</name> and others, Léon was arrested by the Germans and sent to Auschwitz where he was killed. <hi rend="bold">Geert Lernout</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

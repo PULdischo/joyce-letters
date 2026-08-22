@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="allg83">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sara Allgood</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>allg83</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">29729607</idno>
+            
+            <persName type="reg">
+               <forename>Sara</forename> <surname>Allgood</surname>
+            </persName>
+            <persName type="full">Sara Allgood</persName>
+            <date type="birth" when="1883-10-31"/>
+            <date type="death" when="1950-09-13"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Irish actress who began her career at the Abbey Theatre and gained popularity with her roles in <name type="person" key="ID_MISSING">Sean O’Casey</name>’s plays. Her film career included roles in several early Hitchcock films. At the 14th Academy Awards, she was nominated for Best Supporting Actress for her role in <name type="work" key="ID_MISSING">How Green Was My Valley</name>. She became an American citizen in 1945. Allgood was rumored to have planned a reading in London of <name type="work" key="ID_MISSING">Anna Livia Plurabelle</name> in September 1932. <hi rend="bold">Geert Lernout</hi> and <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

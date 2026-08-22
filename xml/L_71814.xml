@@ -1,0 +1,198 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71814">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. ca. 15-30 September 1933</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71814</idno>
+            <idno type="internal">71814</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1933-09-15" notAfter="1933-09-30">ca. 15-30 September 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>SUGGESTIONS:</p>
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">
+                            <choice>
+                                <sic>
+                                    <hi rend="underline">Supertsitions</hi>
+                                </sic>
+                                <corr>Superstitions</corr>
+                            </choice>
+                        </seg>: You forgot the deaf-mutes in the Augustinerhof and J.J.’s objection to them, also nuns. The three encountered yesterday gave him he says a stye on his eye. Also Greeks bringing good luck.</p>
+                    <p>
+                        <seg xml:id="seg2" type="note-anchor">
+                            <hi rend="underline">LOCAL COLOUR</hi>
+                        </seg>: re <name type="work" key="W_ULYSSES">Ulysses</name>: The babblers of Beurla (pronounce: Barelah means the English language) though he may have read Ulysses a dozen times and know it from cover to cover will be laughed out of court by any cadger in the Capital of Banba (one Irish name for Ireland) if he pronounce the proper names Moran, Costello, Connolly with the accent on the 2-nd syllable instead of on the first or if he does not know that in Dublin a “curate” is one who brings strong water.</p>
+                    <p>
+                        <seg xml:id="seg3" type="note-anchor">
+                            <hi rend="underline">BIRTHNIGHT</hi>
+                        </seg> chez J.J.: We did not sing either the Wearing of the Green or And Shall Trelawney Die? in honour of our respective Irish and Cornish forebears (to this day on account of the fact that my mother was a <seg xml:id="seg4" type="note-anchor">Curtis of</seg> J.J. refuses to consider me a true-born Englishman) but the evening was sure to close with a rendering by Ruggiero and J. of the Greek National Anthem ­­– <seg xml:id="seg5" type="note-anchor">
+                            <foreign xml:lang="ell">χαίρε, χαίρε, ελευθερία</foreign>!</seg> (Hail Hail oh! Liberty!)</p>
+                    <p>
+                        <seg xml:id="seg6" type="note-anchor">
+                            <hi rend="underline">Beach <choice>
+                                    <sic>ainting</sic>
+                                    <corr>painting</corr>
+                                </choice>
+                            </hi>
+                        </seg>: Slip in the name of Cornwall’s green strands where you painted.</p>
+                    <p>
+                        <hi rend="underline">
+                            <seg xml:id="seg7" type="note-anchor">Shaun</seg> – the post</hi>: A passing allusion to your work in the GPO especially if you did any nightwork would not be amiss in this connection. The more bewildered the reader is as to whether you are painter, sculptor, civil servant, sailor, postman etc. the better as the same applies to Ulysses.</p>
+                    <p>
+                        <hi rend="underline">
+                            <seg xml:id="seg8" type="note-anchor">Spies</seg> in Z’ch</hi>: Slip in also your diplomatic mission with the big sum of money to Lugano and a brief picture of the middle-European kike who had to pocket it. The reader will think: evidently an important fellow this Budgen! I can’t remember him at Harrow.</p>
+                    <p>
+                        <hi rend="underline">
+                            <seg xml:id="seg9" type="note-anchor">Isolde’s</seg> girl friends:</hi> These are twenty eight daughters of February Filldyke. She is born on the 29-th. a leap year child and is therefore only sweet fifteen when they are sour sixty. They make a chorus round Shaun embracing one another and giving one another the Pax, not Pox, and each sighes her name — the word in twenty nine different languages for peace. They have also their alphabet of twenty nine letters videlicet Ada, Bett, Celia, Dalia etc. <choice>
+                            <sic>anding</sic>
+                            <corr>ending</corr>
+                        </choice> with the last letter and Mee.</p>
+                    <p>
+                        <seg xml:id="seg10" type="note-anchor">
+                            <hi rend="underline">CONSULATE</hi>
+                        </seg>: S.D. appeals to father Rector <choice>
+                            <sic>aver</sic>
+                            <corr>over</corr>
+                        </choice> the head of Father Prefect. J.J. appeals to King George the V. over the head of <name type="person" key="rich72">Grant Richards</name>. The <seg xml:id="seg11" type="note-anchor">author</seg> of little victims appeals the <choice>
+                            <sic>Sovreign</sic>
+                            <corr>Sovereign</corr>
+                        </choice> Pontiff over the head of Father Ronald Knox. His reverence and His Majesty send courteous replies. His <choice>
+                            <sic>Holyness</sic>
+                            <corr>Holiness</corr>
+                        </choice> is another pair of candlesticks. As was his Excellency in <name type="geo" key="G_CHE_BERN">Berne</name>.</p>
+                    <p>
+                        <seg xml:id="seg12" type="note-anchor">
+                            <hi rend="underline">TENOR</hi>
+                        </seg>: W i P Pt II sect. 1 and 2 contain frequent lyrical reminiscences of count <name type="person" key="mcco84">MacCormack</name>’s voice. He is alluded to in J.J.’s letter to S published in the New Statesman as the tuning fork among tenors. W i P part I almost closes with a suspired rendering of the famous recitative E lucean le stelle by a pipe smoking Cavaradossi beginning “And the stellas were shining.” and breaking into the moving romance measure with the version: O dulcid dreamings languidous! Taboccoo!</p>
+                    <p>
+                        <seg xml:id="seg13" type="note-anchor">
+                            <hi rend="underline">EYES</hi>
+                        </seg>: When you met J.J. first he had undergone the 1-st. of 10 eye-operations; as this is the only point concerning which all Brittons are at one it should be put in. He had many oculists in <name type="geo" key="G_CHE_ZURI">Z’ch</name> of whom prof <name type="person" key="vogt79">Alfred Vogt</name> is the 8-th and about 45 or 50 all over Europe.</p>
+                    <p>
+                        <seg xml:id="seg14" type="note-anchor">
+                            <hi rend="underline">Patience</hi>
+                        </seg>: The more he <choice>
+                            <sic>think</sic>
+                            <corr>thinks</corr>
+                        </choice> about it the greater this seems to him to have been. Quote perhaps the line in <name type="person" key="monn92">Adrienne Monnier</name>’s poem to him: homme de (I will send you this line tomorrow with the last <seg xml:id="seg15" type="note-anchor">
+                            <rs type="letter" key="L_71718">
+                                <foreign xml:lang="fra">les dernières des dernières</foreign>
+                            </rs>
+                        </seg> <choice>
+                            <sic>chiwh</sic>
+                            <corr>which</corr>
+                        </choice> Mr Joyce promises me, concerning only three points</p>
+                    <list rend="numbered">
+                        <item n="a)">The unexpected windfall of money which began in <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                        </item>
+                        <item n="b)">The dancing-tic</item>
+                        <item n="c)">and of course Nausicaa</item>
+                    </list>
+                    <closer>
+                        <salute>Yours very sincerely</salute>
+                        <signed>
+                            <name type="person" key="leon93">Paul Léon</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Budgen wrote “The Augustinerhof was also the rendezvous of a society of deaf mutes. JJ regarded them as symbols of ill-fortune” (<name type="work">JJMU</name> 174; e.g. the <name type="work">Schweizerische Taubstummen-Zeitung 1</name>, no. 1 [1907] reported a monthly religious service for deaf people). A paragraph beginning “Joyce is a superstitious man” concludes “Nuns bring ill, Greeks good luck” (<name type="work">JJMU</name> 197-98). At the beginning of “Circe” a “deafmute idiot” appears and is cruelly teased by children (<name type="work" key="W_ULYSSES">U</name>15.14-24). The duo of characters Mutt and Jute, who have comic trouble in communicating, play a prominent role in <name type="work" key="W_FINNEGANSWAKE">FW</name>.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The curate who brings strong waters is mentioned by E. E. Mavrogordato in his review “Dubliners” (<name type="work">Times Literary Supplement</name> no. 648 [18 June 1914], 298). The term appears in this sense in <name type="work" key="W_ULYSSES">U</name>4.114 and <name type="work" key="W_ULYSSES">U</name>8.774, then in <name type="work" key="W_FINNEGANSWAKE">FW</name> 116.16-19.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ here suggested actual prose for Budgen, but it was not used: Budgen wrote in pencil over this note “Left out”, and “Don't like quoting Greek”, but included the reference to the two songs in “Further Recollections of James Joyce” (<name type="work">JJMU</name> 358), noting that JJ spoke of him as if he were Cornish (his mother was). Budgen wrote in <name type="work">JJMU</name> that Paul Ruggiero “was invaluable on Joyce's birthday night (a great event in the Joycean household) for the preparation of middle eastern exotic dishes” (<name type="work">JJMU</name> 174).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">“Curtis of” is followed by a blank space. Budgen wrote in pencil in the margin “Don't remember”.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">The Greek words were handwritten in pen.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">
+                    <name type="work">JJMU</name> 48 mentions Budgen painting Cornish seashores. “Done” is written in pencil over this sentence.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Budgen contrasts his own night work at two London post offices with Shaun's sleep “on beds of poppies” (<name type="work">JJMU</name> 297). “Done” and “Wip” are written in pencil over these lines.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Though Budgen described wartime Zurich as “the headquarters of spies of all nations” (<name type="work">JJMU</name> 34), and reports that when they first met, JJ suspected him of being a spy (<name type="work">JJMU</name> 14), the reference to diplomatic mission was omitted, and this paragraph was simply crossed out.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Budgen wrote “WiP” next to this paragraph. An abbreviated version of it appears in <name type="work">JJMU</name> 301. “February Filldyke” and the twenty-nine words for peace appear in <name type="work" key="W_FINNEGANSWAKE">FW</name> 470-71.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Budgen quoted JJ as saying “I always appeal to the highest instance” (<name type="work">JJMU</name> 202) and noted JJ's equating of schoolboy Stephen Dedalus's complaint to the Clongowes rector about his unjust punishment for breaking his glasses (<name type="work">Portrait</name> chapter I) and his appeal to British minister Horace Rumbold over his dispute with Henry Carr of the English Players (<name type="work">LII</name> 424-26). In this suggestion, JJ added to the mix his own letter to the English king asking whether his references in <name type="work">Dubliners</name> to King Edward VII were offensive (<name type="work">LII</name> 292). The appeals all result in nothing, either “courteous replies” or “another pair of candlesticks”. Budgen's penciled note over JJ's suggestion reads “would be too big an alteration”: it was not included in <name type="work">JJMU</name>.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">The author of <name type="work">Little Victims: A Novel</name> (London: Fortune Press, 1933) was Richard Rumbold, who became notorious for the novel's homosexual content and was refused communion at an Oxford chapel by Ronald Knox, translator of the Knox Bible. Rumbold publicized the incident (e.g. “Father Knox and Author: Refusal to Give Him Communion,” <name type="work">Daily Mirror</name> [12 June 1933], 2) and claimed that he would appeal to the Pope. According to Ellmann, Rumbold, as a member of the Oxford English Club, invited JJ to lecture at the University, but JJ declined. The date of the invitation is unspecified, but would have been winter or spring of 1933, when Richard Aldington, Frieda Lawrence, and W. B. Yeats spoke on the invitation of Rumbold, who was then the club's president (<name type="work">A Message in Code: The Diary of Richard Rumbold 1932-60</name>), ed. William Plomer [London: Weidenfeld &amp; Nicolson, 1964], 30-33). Rumbold was not, as Ellmann speculates, “a son of Sir Horace” (<name type="work">JJ</name> 458) although they may have been related.</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Budgen crossed through this suggestion in pencil with the note “Can’t write about music”. The “frequent lyrical reminiscences” are in what became <name type="work" key="W_FINNEGANSWAKE">FW</name> III.1 and 2. John McCormack's voice in “J.J.'s letter to S” as the “tuning fork among tenors” is in JJ's “From a Banned Writer to a Banned Singer”, <name type="work">New Statesman and Nation</name> n.s. 3, no. 53 (7 February 1932), 261. “E lucean le stelle” is sung in the third act of Puccini's <name type="work">Tosca</name> by Cavaradossi, preparing for his execution, and is paralleled by Shaun, who has just “vanesshed” near the end of <name type="work" key="W_FINNEGANSWAKE">FW</name> III.1: “And the stellas….Taboccoo!” (<name type="work" key="W_FINNEGANSWAKE">FW</name> 427.10-13). Budgen's only use of this was in “Further Recollections of James Joyce” (<name type="work">JJMU</name> 385).</note>
+                <note xml:id="note13" target="#seg13" type="commentary">Noted by Budgen in pencil as “done”, and “IX” written in pencil in margin. In <name type="work">JJMU</name> 178 Budgen mentions the ten eye operations.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">JJ’s note seems to be in reference to “Van Gogh said that well might the symbol of Saint Luke, patron saint of painters, be an ox, for without the patience and strength of an ox no man could paint” (<name type="work">JJMU</name> 219). But Budgen did not use the quotation from Monnier.</note>
+                <note xml:id="note15" target="#seg15" type="translation">French: the last of the last</note>
+            </div>
+      </body>
+   </text>
+</TEI>

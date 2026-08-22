@@ -1,0 +1,140 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68425">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 16 November 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68425</idno>
+            <idno type="internal">68425</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_LOCA_02">Pension Daheim, Locarno</placeName>
+               </address>
+               <date notBefore="1917-11-16" notAfter="1917-11-16">Friday, 16 November 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address> <addrLine>
+                                <name type="geo" key="G_CHE_LOCA_02">Pension Daheim</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody"> <p>Dear <name type="person" key="weav76">Miss Weaver</name>: Thanks for your card and good wishes. I have changed my address again you see. I am much better now and will send on some of the typescript of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> as soon as I can get it done. I can find nobody to do it here and fear I must send it to <name type="geo" key="G_CHE_ZURI">Zurich</name>. I sent you a copy of <hi rend="underline">
+                            <name type="work" key="W_DUBLINERS">Dubliners</name>
+                        </hi> signed and will send also <name type="work" key="W_CHAMBERMUSIC">
+                            <hi rend="underline">Chamber</hi> <hi rend="underline">Music</hi>
+                        </name>. May I ask you in the meantime to send me another copy for myself as I have none? Then I shall remit you what I owe if you will let me know the amount.</p>
+                    <p>        	I am glad to hear the second edition of <seg xml:id="seg1" type="note-anchor">
+                            <rs type="work" key="W_APORTRAIT">my novel</rs>
+                        </seg> is nearly ready. Will you please make the following <seg xml:id="seg2" type="note-anchor">correction</seg>:</p> <table rows="2" cols="2">
+                        <row>
+                            <cell>p. 253, l. 4:</cell> <cell>for <hi rend="underline">royal</hi> <hi rend="underline">Irish</hi> <hi rend="underline">academy</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>read <hi rend="underline">Kildare</hi> <hi rend="underline">house</hi>.</cell>
+                        </row>
+                    </table>
+                    <p>        	The copy of my novel which you sent has not yet reached me. My play <hi rend="underline">
+                            <name type="work" key="W_EXILES">Exiles</name>
+                        </hi> will be published shortly. I will ask you to accept a copy from me but I am afraid you will have to wait until I have time to get the copy here, sign it and send it back.</p>
+                    <closer>
+                        <salute>        	With kind regards</salute>
+                        <salute>                    	sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">                                	James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1917-11-16">16/xi/917</date>
+                        </dateline>
+                    </closer>  </div>
+            </div>  <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The first English edition with English sheets was published in <date when="1918-03">March 1918</date> under the imprint of The Egoist Ltd. with a note on the verso of the title page reading “First edition printed in the United States of America, 1916 | Second edition, 1917”.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">This correction appears on page 253 of the second edition.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

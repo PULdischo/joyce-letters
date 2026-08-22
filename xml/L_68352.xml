@@ -1,0 +1,144 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68352">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Friday, 30 March 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68352</idno>
+            <idno type="internal">68352</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Private collection</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-03-30" notAfter="1917-03-30">Friday, 30 March 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <gap reason="unavailable"/> … The book got <seg xml:id="seg1" type="note-anchor">a good press</seg> but, apart from the favourable opinions of twenty men of letters, due, I believe, to the articles written by you, Mr Wells and Mr Brock, it is <seg xml:id="seg2" type="note-anchor">
+                            <hi rend="underline">un fiasco discreto</hi>
+                        </seg>. From what Miss Weaver writes the <seg xml:id="seg3" type="note-anchor">sales came to a standstill</seg> after a fortnight or so. <gap reason="unavailable"/>
+                    </p>
+                    <p>… to some repertory theatre, <seg xml:id="seg4" type="note-anchor">
+                            <name type="organisation" key="O_THEPIONEER">pioneer players</name>
+                        </seg> or <seg xml:id="seg5" type="note-anchor">
+                            <name type="person" key="grei62">Mr Grein</name>
+                        </seg>. Produced or not I intend if possible, to publish it before the end of the year – for I hope to finish <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> in time for publication in 1918. Of course no publisher will look at it but if <name type="person" key="weav76">Miss Weaver</name> makes any margin of profit perhaps it can be <seg xml:id="seg6" type="note-anchor">published in the same way</seg> as the <rs type="work" key="W_APORTRAIT">last book</rs>.</p>
+                    <p>I confirm <rs type="letter" key="L_71617">my telegram</rs> “Please <seg xml:id="seg7" type="note-anchor">cable <name type="person" key="quin70">Quinn</name>
+                        </seg> my acceptance offer money to be sent you remitting cable expenses”. Perhaps the 10/– did not cover your expenses. If so, please let me know how much I am in your debt.</p>
+                    <p>I am writing again and am <seg xml:id="seg8" type="note-anchor">now doing Penelope</seg>. I find I have written more than I thought. But as usual it goes slowly. I am glad to hear you are <seg xml:id="seg9" type="note-anchor">at work on a poem</seg>. I should like to read <seg xml:id="seg10" type="note-anchor">your farce</seg> that the <name type="organisation" key="O_ABBEYTHEATRE">Abbey Theatre</name> would not put on.</p>
+                    <p>As regards <seg xml:id="seg11" type="note-anchor">your last copy</seg> of <name type="work" key="W_DUBLINERS">Dubliners</name> if it does not come back I will give you another copy signed.</p>
+                    <p>Excuse the brevity of this letter in reply to <seg xml:id="seg12" type="note-anchor">your very kind and long one</seg>.</p>
+                    <closer>
+                        <salute>
+                            <seg xml:id="seg13" type="note-anchor">
+                                <foreign xml:lang="ita">Una stretta di mano</foreign>
+                            </seg>
+                        </salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1917-03-30">30 March 1917</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This letter remains in private hands. It was offered by Sotheby’s New York on 17 December 1992, #138, and the catalog includes a facsimile reproduction of the second page of the letter from which this transcription has been made. The catalog notes “Answering Pound’s ‘very kind and long’ letter of 17 March 1917 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 100-03), Joyce acknowledges Pound’s elaborate efforts to bring modern medicine to bear on Joyce’s eyesight, and promises to respond at length later; he then goes on to discuss the critical and commercial reception of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, which had just been published – in America on 29 December and in England on 12 March.”</note>
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>JJ had been receiving clippings of reviews of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (published as a book in <name type="geo" key="G_USA_NEWY">New York</name> in December 1916 and in <name type="geo" key="G_GBR_LOND">London</name> in February 1917) courtesy of Harriet Shaw Weaver and B.W. Huebsch (see <name type="work" key="ID_MISSING">LI</name> 100-103; <name type="work" key="ID_MISSING">LII</name> 389-95). Positive notices had appeared by Pound, “James Joyce: At Last the Novel Appears,” <name type="work" key="W_THEEGOIST">Egoist</name>, vol. 4, no. 2 (February 1917): 21-22; <name type="person" key="well66">H.G. Wells</name>, “James Joyce,” <name type="work" key="ID_MISSING">Nation</name> (London), vol. 20 (24 February 1917): 710, 712, and <name type="work" key="ID_MISSING">New Republic</name>, vol. 10 (10 March 1917): 158-60; and Arthur Clutton-Brock, “Wild Youth,” <name type="work" key="ID_MISSING">Times Literary Supplement</name>, no. 789 (1 March 1917): 103-04. Wells (1866-1946) found <name type="work" key="W_APORTRAIT">A Portrait</name>’s claim to importance to be “as good as the claim of the last book of <name type="work" key="ID_MISSING">Gulliver’s Travels</name>,” even if JJ did betray “a cloacal obsession” (<name type="work" key="ID_MISSING">Nation</name>, 710). Clutton-Brock (1868-1924) wrote that JJ “gives us something that is worth having. It is wild youth, as wild as Hamlet’s, and full of wild music” (<name type="work" key="ID_MISSING">TLS</name>, 104).</p>
+                    <p>Other intelligent appreciations were written by John Quinn, “James Joyce, a New Irish Novelist,” <name type="work" key="ID_MISSING">Vanity Fair</name>, vol. 8, no. 3 (May 1917): 49, 128; J.C. Squire (“Solomon Eagle”), “Current Literature,” <name type="work" key="ID_MISSING">New Statesman</name> vol. 9, no. 210 (14 April 1917): 40; Francis Hackett, “Green Sickness,” <name type="work" key="ID_MISSING">New Republic</name>, vol. 10 (3 March 1917): 138-39; and James Huneker, “James Joyce,” <name type="work" key="ID_MISSING">Unicorns</name> (New York: Charles Scribner’s Sons, 1917), 187-94 (reprinted from the <name type="work" key="ID_MISSING">New York Sun</name>). Less enthusiastic reviews also appeared, such as the unsigned piece, “A Study in Garbage,” <name type="work" key="ID_MISSING">Everyman</name> (23 February 1917): 398, which called <name type="work" key="W_APORTRAIT">A Portrait</name> “an astonishingly powerful and extraordinary [<hi rend="italic">sic</hi>] dirty study of the upbringing of a young man by Jesuits, which ends – so far as we have been at all able to unravel the meaning of the impressionist ending – with his insanity.” Other reviews, including anonymous ones, are listed and quoted in Robert H. Deming, ed., <name type="work" key="ID_MISSING">James Joyce: The Critical Heritage, Volume 1, 1907-1927</name> (London: Routledge &amp; Kegan Paul, 1970), and George Monteiro, “Reviews and Notices of James Joyce in the United States, 1916-1920,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 52, no. 1 (Fall 2014): 105-128.</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ’s phrase “un fiasco discreto” plays on the Italian term “successo discreto,” or “modest success,” conventionally used to convey tepid, unenthusiastic approbation of a musical or dramatic performance. “Fiasco discreto” might translate, oxymoronically, to a “modest disaster.”</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Weaver wrote B.W. Huebsch on 14 March 1917 that after the appearance of reviews by H.G. Wells and <name type="person" key="ID_MISSING">Arthur Clutton-Brock</name>, sales of the English edition of <name type="work" key="W_APORTRAIT">A Portrait</name> “began to make a good start,” but that “this week . . . they have dropped off” (<name type="work" key="ID_MISSING">LII</name> 390-91).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ was eager to have his still unpublished play, <name type="work" key="W_EXILES">Exiles</name>, staged by some company. The Pioneer Players, founded in 1911 by <name type="person" key="ID_MISSING">Edith Craig</name> (1869-1947), was a London theater society, known for producing banned plays, dramas about women’s suffrage and social issues, and foreign plays in English. Performances were put on for private, subscribed audiences, to evade the Lord Chamberlain’s licensing strictures. Craig’s mother, the noted actress <name type="person" key="ID_MISSING">Ellen Terry</name> (1847-1928), was president of the Players, and <name type="person" key="shaw56">George Bernard Shaw</name> was an advisor. The Players staged, among other productions, Shaw’s <name type="work" key="ID_MISSING">Mrs. Warren’s Profession</name> (1912), <name type="person" key="ID_MISSING">Charlotte Perkins Gilman</name>’s <name type="work" key="ID_MISSING">Three Women</name> (1912); <name type="person" key="ID_MISSING">Reginald Wright Kauffman</name>’s <name type="work" key="ID_MISSING">The Daughters of Ishmael</name> (1914); and <name type="person" key="ID_MISSING">Magdalen Ponsonby</name>’s <name type="work" key="ID_MISSING">Idle Women: A Study in Futility</name> (1914). They did not perform <name type="work" key="W_EXILES">Exiles</name>. It was first performed in German translation (as <name type="work" key="ID_MISSING">Verbannte: Schauspiel in drei Akten</name>) in <name type="geo" key="G_DEU_MUNI">Munich</name> in August 1919, after it had been published as a volume in May 1918 in New York and London.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">J.T. (Jacob Thomas) Grein (1862-1935) came to London from <name type="geo" key="G_NLD">Holland</name> in 1885 and became an influential theatre producer and critic. He was an early promoter of Shaw and <name type="person" key="ibse28">Ibsen</name> in London theatres, and established <name type="organisation" key="ID_MISSING">the Independent Theatre</name> there, which put on many private-subscription plays, including Ibsen’s <name type="work" key="ID_MISSING">Ghosts</name> and Shaw’s <name type="work" key="ID_MISSING">Widowers’ Houses</name>. Grein created controversy by staging <name type="person" key="ID_MISSING">Oscar Wilde</name>’s <name type="work" key="ID_MISSING">Salome</name> in London in 1918, with <name type="person" key="ID_MISSING">Maud Allan</name> in the title role. He did not produce <name type="work" key="W_EXILES">Exiles</name>.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">JJ’s <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> was first serialized in Harriet Shaw Weaver’s magazine <name type="work" key="W_THEEGOIST">The Egoist</name> (1914-1915) and then published as a book, first by B.W. Huebsch in New York in December 1916 and then by Weaver’s <name type="organisation" key="ID_MISSING">Egoist Ltd.</name> in London in February 1917. JJ’s <name type="work" key="W_ULYSSES">Ulysses</name> would be far from finished in 1918. It was partially serialized in <name type="work" key="W_THEEGOIST">The Egoist</name> (1919) and in <name type="work" key="W_THELITTLE">The Little Review</name> (1918-1920), before being issued as a book in February 1922 in <name type="geo" key="G_FRA_PARI">Paris</name> by <name type="person" key="beac87">Sylvia Beach</name>’s <name type="organisation" key="ID_MISSING">Shakespeare and Company</name> and also, in October 1922, by <name type="organisation" key="ID_MISSING">the Egoist Press</name> of London, assisted by <name type="person" key="rodk94">John Rodker</name> who dispatched copies to purchasers from Paris (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 505 n).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">John Quinn (1870-1924), a collector of modern art and literary manuscripts, offered JJ £20 for his hand-corrected pages that had been used to set the American edition of <name type="work" key="W_APORTRAIT">A Portrait</name>, published by Huebsch in December 1916. JJ and Quinn transacted the purchase through Pound, whom JJ had cabled this message circa 19 March 1917. For a full account of the purchase, see that <rs type="letter" key="L_71617">telegram</rs> and <rs type="letter" key="L_68348">JJ’s letter to Pound, 19 March 1917</rs>, notes.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">“Penelope,” the last of the eighteen episodes of <name type="work" key="W_ULYSSES">Ulysses</name>, was initially drafted, along with other late episodes, early in JJ’s work on the book, as he suggested in letters to Harriet Shaw Weaver (<name type="work" key="ID_MISSING">LI</name> 143; <name type="work" key="ID_MISSING">LII</name> 387; see also Michael Groden, <name type="work" key="ID_MISSING">Ulysses in Progress</name> [Princeton, NJ: Princeton University Press, 1977], 77).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Pound wrote JJ in his letter of 17 March 1917 that he had “begun an endless poem, of no known category. Phanopoeia or something or other, all about everything. . . . Probably too sprawling and unmusical to find favour in your ears. Will try to get some melody into it further on” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 102). These tentative beginnings of Pound’s “endless poem,” eventually to become his lifelong project, <name type="work" key="ID_MISSING">The Cantos</name>, were published in installments as <name type="work" key="W_THREECANTOS">“Three Cantos,”</name> <name type="work" key="ID_MISSING">Poetry</name>, vol. 10, nos. 3-5 (June, July, August 1917): 113-21, 180-88, 248-54. Pound wrote in a note to the first installment: “As <name type="work" key="ID_MISSING">Poetry</name> circulates among people definitely interested in the art, I do not feel apologetic about presenting the opening cantos of an exceeding long poem. Most of the long poems that one can read were written before printing was invented, and circulated in fragments. More recent precedent may be found in the publication of separate cantos of <name type="work" key="ID_MISSING">Don Juan</name>” (<name type="work" key="ID_MISSING">Poetry</name> [June 1917]: 167).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">During his stay with <name type="person" key="yeat65">W.B. Yeats</name> (1865-1939) at Stone Cottage in Sussex in the winter of 1913-1914, Pound worked on translations of Japanese Noh plays, drawing on unpublished manuscripts of <name type="person" key="ID_MISSING">Ernest Fenollosa</name> (1853–1908), an American scholar of Japanese art. Pound published his translations along with an introduction in <name type="work" key="ID_MISSING">“Noh” or Accomplishment: A Study of the Classical Stage of Japan</name> (London: Macmillan and Co., 1916), and, with an introduction by Yeats, in <name type="work" key="ID_MISSING">Certain Noble Plays of Japan</name> (Churchtown: Cuala Press, 1916). His work on these short, intense, symbolic plays fascinated Yeats, who found in them a new direction for his own drama and wrote <name type="work" key="ID_MISSING">At the Hawk’s Well</name>, an abstract, hieratic, one-act play based on the Irish mythological hero Cuchulain and his quest for immortality. Yeats’s play was first performed, with music and dance, in April 1916 at the London home of <name type="person" key="ID_MISSING">Lady Cunard</name> (1872-1948), and was published in 1917.<p>Pound at this time also wrote a number of original short plays inspired by Noh drama. In his letter to JJ of 9 February 1917, he expressed doubt that <name type="organisation" key="O_ABBEYTHEATRE">the Abbey Theatre</name> in <name type="geo" key="G_IRL_DUBL">Dublin</name> would stage JJ’s <name type="work" key="W_EXILES">Exiles</name>, despite Yeats’s interest in JJ’s work (Pound was right). He then added: “They gibbed at a one act farce of mine on account of <hi rend="italic">indecency</hi>” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 92 [emphasis in original]). Around September 1916, he similarly wrote <name type="person" key="ID_MISSING">Iris Barry</name>: “Yeats made me lengthen a skit of mine before he would take it for the Abbey. (Later rejected by the manager on the grounds that its indecencies would cause a riot in Dublin.)” (<name type="work" key="ID_MISSING">Selected Letters of Ezra Pound, 1907-1941</name>, ed. D.D. Paige [New York: New Directions, 1971], 96). Pound’s “skit” or “farce” was most likely <name type="work" key="ID_MISSING">The Consolations of Matrimony</name>, which combined Synge-like folk drama, Irish vernacular, and Japanese farce. At Stone Cottage, he had become interested in <name type="person" key="ID_MISSING">Synge</name>, and he signed his short play with the pseudonym “Oge Terrence O’Cullough.” The play is an earthy, humorous dialogue of two men about women and marriage, with Syngean lines such as: “Ah you could have cracked a flea on either one of her breasts” (see James Longenbach, <name type="work" key="ID_MISSING">Stone Cottage: Pound, Yeats, and Modernism</name> [New York: Oxford University Press, 1988], xi, 209-213).</p>
+                    <p>Pound expected that his farce and Yeats’s <name type="work" key="ID_MISSING">At the Hawk’s Well</name> would be performed together, perhaps in the manner of a satyr play paired with a noble tragedy. He had written his father in February 1916 that their efforts were towards “a new dramatic movement, plays which won’t need a stage, and which won’t need a thousand people for 150 nights to pay the expenses of production. [Yeats’s] play and a brief skit of mine will be done in Lady Cunard’s big room, in, I suppose, April” (quoted in Longenbach, 205). In the end, Pound’s play was not performed at Lady Cunard’s home. Perhaps this was on the ground of indecency, as with the Abbey’s rejection, or perhaps, as Moody suggests, it was because there wasn’t time to rehearse both plays (A. David Moody, <name type="work" key="ID_MISSING">Ezra Pound: Poet, A Portrait of the Man and His Work</name>, vol. 1 [Oxford: Oxford University Press, 2007], 293). <name type="work" key="ID_MISSING">The Consolations of Matrimony</name> and other short plays by Pound were published in <name type="work" key="ID_MISSING">Plays Modelled on the Noh (1916)</name>, ed. Donald C. Gallup (Toledo, OH: Friends of the University of Toledo Libraries, 1987).</p>
+                </note>
+                <note xml:id="note11" target="#seg11" type="commentary">Pound wrote JJ on 17 March 1917: “I have a new copy of Dubliner’s [<hi rend="italic">sic</hi>], as your first copy went out propaganding [<hi rend="italic">sic</hi>] and never came home” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 103).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">That is, Pound’s long letter of 17 March 1917 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 100-103).</note>
+                <note xml:id="note13" target="#seg13" type="translation">It. a handshake.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

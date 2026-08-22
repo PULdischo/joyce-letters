@@ -1,0 +1,114 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68905">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Tuesday, 29 August 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68905</idno>
+            <idno type="internal">68905</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TLS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_GBR_LOND_01">Euston Hotel, London</placeName>
+               </address>
+               <date notBefore="1922-08-29" notAfter="1922-08-29">Tuesday, 29 August 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        
+                    </ab>
+                </div> <div type="mainBody">
+                    <opener>
+                        <dateline>
+                            <date when="1922-08-29">29th August 1922</date>
+                        </dateline> <salute>Dear Miss Weaver</salute>
+                    </opener>
+                    <p>Enclosed mysterious telegram has just arrived. I don’t know if <name type="person" key="hosf72">Dr Hosford</name> means 5, Harley Street at any time on Thursday or five o’clock in the <seg xml:id="seg1" type="note-anchor">afternoon</seg>. There has been no reply from <name type="geo" key="G_FRA_PARI">Paris</name>.</p>
+                    <p>There is no tension this morning but I have to go in the afternoon to <seg xml:id="seg2" type="note-anchor">the Hospital for leeches</seg> again.</p>
+                    <closer>
+                        <salute>With kindest regards,</salute>
+                        <salute>Sincerely yours,</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Since Dr John Stroud Hosford was based at 62 Harley Street, London, the “5” in the “mysterious telegram” probably meant 5pm.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">See also the treatment with leeches by Dr Louis Colin, on JJ’s holiday in Nice in the later months of 1922, who applied five leeches to drain blood from his eyes (<name type="work">JJ</name> 538).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="monr91">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Monro, Saw &amp; Co.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>monr91</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename/> <surname>Monro, Saw &amp; Co.</surname>
+            </persName>
+            <persName type="full">Monro, Saw &amp; Co.</persName>
+            <date type="birth" when="1891"/>
+            
+            <note type="gender"/>
+         </ab>
+         <div type="bio">
+            <p>A legal practice in London which represented <name type="person" key="weav76">Harriet Shaw Weaver</name>. Frederic John Monro (1841–1903) was in partnership in the 1860s and his son, Frederic Robert d’Ogley <name type="person" key="monr76">Monro</name>, replaced him in the firm around the turn of the century. The business was carrying on as Slack, Monro, Saw &amp; Co. at the time of its first correspondence with JJ when, writing “on behalf of an admirer” (Weaver), the firm informed him of her anonymous gift of £200 (letter of 22 February 1917, <name type="work" key="ID_MISSING">LII</name> 389). The practice became Monro, Saw &amp; Co. in 1919, under which name it carried on into the 1950s. As Monro, Wright &amp; Wasbrough, the firm was in business as late as 2021 when it merged with Bishop &amp; Sewell and began operating as Bishop &amp; Sewell LLP incorporating Monro Wright &amp; Wasbrough. <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,11 @@
+---
+layout: base.njk
+title: Places
+permalink: places/index.html
+---
+<h1>Places ({{ collections.places.length }})</h1>
+<ul class="entry-list">
+{% for place in collections.places %}
+  <li><a href="{{ place.url }}">{{ place.data.name }}</a> <code>{{ place.data.key }}</code></li>
+{% endfor %}
+</ul>

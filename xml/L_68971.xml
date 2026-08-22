@@ -1,0 +1,183 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68971">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 18 March 1923</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="KF">KF</name>
+                    <name xml:id="DVH">DVH</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="LLT">LLT</name>
+                    <name xml:id="LVR">LVR</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68971</idno>
+            <idno type="internal">68971</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1923-03-18" notAfter="1923-03-18">Sunday, 18 March 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+
+<text>
+    <body>
+        
+    <div type="letter"> 
+<div type="mainBody">
+<opener>
+<dateline>
+                            <name type="geo" key="G_FRA_PARI">Paris</name> <date when="1923-03-18">18.III.23.</date>
+                        </dateline>
+ 
+<salute>Dear <name type="person" key="weav76">Miss Weaver.</name>
+                        </salute>
+</opener>
+ 
+<p>I am dictating this to <rs type="person" key="joyc05">my son</rs> because on <seg xml:id="seg1" type="note-anchor">Tuesday</seg> I got <seg xml:id="seg2" type="note-anchor">sudden flare up in the eye</seg>, and have been in pain but <choice>
+                            <sic>must</sic>
+                            <corr>most</corr>
+                        </choice> of all in dread lest it should turn to iritis. But to-day <choice>
+                            <sic>sixt</sic>
+                            <corr>sixth</corr>
+                        </choice> day it is still confined to the conjunctiva and <name type="person" key="bors73">Dr Borsch</name> thinks iritis most improbable. The curious thing is, that even yesterday while the outer eye was all inflamed the <seg xml:id="seg3" type="note-anchor">dionine</seg> was still clearing up the film and the pupil. The doctor said: Your eye is as puzzling as the money market. So it is, and as ruinous.</p>
+      	<p>This morning I am better and had a good rest. I spent several sleepless nights partly in fear and partly <choice>
+                                <sic>wrighting</sic>
+                                <corr>writing</corr>
+                            </choice>
+                            <choice>
+                                <sic>wich</sic>
+                                <corr>which</corr>
+                            </choice> I dictated the next morning. The pages you call historic will be of course yours with <rs type="work" key="W_FINNEGANSWAKE">the manuscript</rs> when and if ever completed. <seg xml:id="seg4" type="note-anchor">The passage</seg> is towards the end of the book, but only the <choice>
+                            <sic>brieff</sic>
+                            <corr>brief</corr>
+                        </choice> draft written without <choice>
+                            <sic>nots</sic>
+                            <corr>notes</corr>
+                        </choice>.</p>
+      	<p>I dreamed last night that <name type="person" key="quin70">Mr Quinn</name> was hanged. This should <unclear>mean</unclear> some <choice>
+                            <sic>honor</sic>
+                            <corr>honour</corr>
+                        </choice> for him, which I hope he will get as he <choice>
+                                <sic>hase</sic>
+                                <corr>has</corr>
+                            </choice> done many things for me. Thank you for <seg xml:id="seg5" type="note-anchor">the Tribuna</seg>. Did <name type="person" key="cecc84">Mr Cecchi</name> get a press copy? If not perhaps one could be spared as his second article may <seg xml:id="seg6" type="note-anchor">hasten <name type="person" key="debo01">Mr <choice>
+                                    <sic>Debosis</sic>
+                                    <corr>de Bosis’s</corr>
+                                </choice>
+                            </name> plans</seg>.</p>
+      	<p>I shall dictate a letter in a few days about the Hamlet episode.</p>
+      	<p>It seems to me that <name type="person" key="dara82">Mr <choice>
+                                <sic>Darrantiére</sic>
+                                <corr>Darantiere</corr>
+                            </choice>
+                        </name> should demand the restitution of
+                            <choice>
+                                <sic>dose</sic>
+                                <corr>those</corr>
+                            </choice> copies. So <seg xml:id="seg7" type="note-anchor">sequestration</seg> seems to me quite illegal.</p>
+<closer> 	
+<salute>With kindest regards</salute>
+                	<salute>Sincerely yours</salute>
+                          	<seg xml:id="seg8" type="note-anchor">
+                            <signed>
+                                <name type="person" key="joyc82">James Joyce</name>
+                            </signed>
+                        </seg> 
+</closer>
+</div>
+</div>
+
+<div type="notes">
+<note xml:id="note1" target="#seg1" type="commentary">
+                    <date when="1923-03-13">13 March 1923.</date>
+                </note>
+
+<note xml:id="note2" target="#seg2" type="commentary">Despite <name type="person" key="joyc82">JJ</name>’s ongoing ocular ailments, Dr Borsch reassured him that he did not have glaucoma and (as <rs type="letter" key="L_68969">JJ had written to Weaver on 11 March 1923</rs>) “said too that I did well not to be operated in <name type="geo" key="G_GBR_LOND">London</name>, that my sight had resisted marvellously and that I am quite healthy!!!” (<name type="work">LI</name> 201). Borsch would not operate on JJ’s eyes until April 1923.</note>
+
+<note xml:id="note3" target="#seg3" type="commentary">JJ had begun dionine treatment for his eyes with <name type="person" key="ID_MISSING">Dr Louis Colin</name> during his holiday in <name type="geo" key="G_FRA_NICE">Nice</name> in the autumn of 1922 (<name type="work">JJ</name> 537-38).</note>
+
+<note xml:id="note4" target="#seg4" type="commentary">A week earlier (11 March 1923), JJ had written to Weaver: “Yesterday I wrote two pages – the first I have written since the final <hi rend="italics">Yes</hi> of <name type="work" key="W_ULYSSES">Ulysses</name>” (<name type="work">LI</name> 202). That was the Roderick O’Conor sketch (BM 47480-267r). On the verso, he partially wrote the first draft of a sketch known as the kiss of Tristan and Isolde, written on two folios which, at some point, were separated: one folio is now at the National Library of Ireland (NLI MS 41,818, f. 1) and one – the back of the Roderick O’Conor sketch – at the British Library (BL 47480-267v). In this sketch, Tristan recites JJ’s own lyrical poetry – “Night Piece”, partially published in <hi rend="italic">Poetry</hi> magazine (10, no. 2 [May 1917], 74), and later published in <hi rend="italic">Pomes Penyeach</hi>). In 1923, JJ’s plan for what would become <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name> placed this passage towards the end of the book. Later, it became the starting point of Book II, chapter 4 of <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>.</note> 
+
+<note xml:id="note5" target="#seg5" type="commentary">The Italian literary critic Emilio Cecchi published a review of <name type="work" key="W_ULYSSES">Ulysses</name> in <hi rend="italic">La Tribuna</hi> on <date when="1923-03-02">2 March 1923</date>. JJ wrote <rs type="letter" key="L_68969">to Weaver on 11 March 1923</rs>, “Would it be too much to ask you to send me registered the copy of <hi rend="italic">La Tribuna</hi> with the article by Mr Cecchi as I am sceptical about the arrival of another copy” (<name type="work">LI</name> 201).</note>
+
+<note xml:id="note6" target="#seg6" type="commentary">In a <rs type="letter" key="L_68955">letter to Weaver on 30 December 1922</rs>, JJ had written of the possibility of “an Italian edition of <name type="work" key="W_ULYSSES">Ulysses</name> exactly similar to Larbaud’s, to be published by Stock of Rome” and requested a press copy to be sent to Lauro de Bosis. In a letter sent to Cecchi on 2 April 1923, JJ enquired about his second article on <hi rend="italic">
+                        <name type="work" key="W_ULYSSES">Ulysses</name>
+                    </hi> for <hi rend="italic">Il Convegno</hi>. Cecchi’s second article does not appear to have been published (<name type="work">LIII</name> 75). </note>
+
+<note xml:id="note7" target="#seg7" type="commentary">500 copies of the second Egoist Press edition of <name type="work" key="W_ULYSSES">Ulysses</name> published in January 1923 were seized by English customs authorities at Folkestone (<name type="work">LI</name> 201).</note>
+
+<note xml:id="note8" target="#seg8" type="commentary">The signature is in JJ’s hand, not in Giorgio’s.</note>
+
+</div>
+        
+</body>
+    </text>
+
+</TEI>

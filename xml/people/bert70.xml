@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bert70">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thérèse Bertrand-Fontaine</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>bert70</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">78769188</idno>
+            
+            <persName type="reg">
+               <forename>Thérèse</forename> <surname>Bertrand-Fontaine</surname>
+            </persName>
+            <persName type="full">Thérèse Bertrand-Fontaine</persName>
+            <date type="birth" when="1895-10-15"/>
+            <date type="death" when="1987-12-24"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>French physician who treated  <name type="person" key="barn84">Nora</name>,  <name type="person" key="joyc07">Lucia</name>, and JJ from 1928 through the 1930s. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

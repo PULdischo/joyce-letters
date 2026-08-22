@@ -1,0 +1,145 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68685">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Friday, 5 November 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68685</idno>
+            <idno type="internal">68685</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">rue de l'Université 9, Paris</placeName>
+               </address>
+               <date notBefore="1920-11-05" notAfter="1920-11-05">Friday, 5 November 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <gap reason="published"/>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>… This is <seg xml:id="seg1" type="note-anchor">very pleasant news</seg> but before anything is concluded I must take advantage of the offer Mr Quinn made me lately of <seg xml:id="seg2" type="note-anchor">his legal services</seg>.</quote>
+                            <bibl>(<name type="work" key="ID_MISSING">LIII</name> 28).</bibl>
+                        </seg>
+                    </p>
+                    <p>I <seg xml:id="seg3" type="note-anchor">met <name type="person" key="hueb76">Mr Huebsch</name> here</seg> a month ago and I think legal aid and very able legal aid is needed in dealing with him. As you know he left me and my family <seg xml:id="seg4" type="note-anchor">very badly in the lurch</seg> on our arrival here. When I asked him if he had received my cable he answered that at that time he was preparing for his marriage and could not remember but that he thought that he had <seg xml:id="seg5" type="note-anchor">sent royalties</seg> to <name type="person" key="pink62">Mr Pinker</name>, my agent, and advised me to write to him. He pays no royalties or money of any kind on <name type="work" key="ID_MISSING">
+                            <hi rend="underline">Chamber</hi> <hi rend="underline">Music</hi>
+                        </name>, <name type="work" key="W_DUBLINERS">
+                            <hi rend="underline">Dubliners</hi>
+                        </name> or <name type="work" key="W_EXILES">
+                            <hi rend="underline">Exiles</hi>
+                        </name>, having got the American rights from my English publishers who, of course, never paid or pay me anything. My royalties on <seg xml:id="seg6" type="note-anchor">these three books</seg> for the last 13 years are, I believe, from England £3.-10-0 and from America nothing. Mr Huebsch suggested to me when I met him that I should alter certain parts of <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> (which, he says, he has not read) and so render it fit for publication. I declined to <seg xml:id="seg7" type="note-anchor">discuss the point</seg>. He then told me that he had made a sacrifice for my sake in publishing <name type="work" key="W_APORTRAIT">
+                            <hi rend="underline">A</hi> <hi rend="underline">Portrait</hi>
+                        </name> which had brought him no profits. As regards <hi rend="underline">Ulysses</hi> and the projected publication of an edition in <name type="geo" key="G_FRA_PARI">Paris</name> for sale in Europe he said ‘O, in that case, I can print the American edition if I like, and pay nothing according to American law’. He <seg xml:id="seg8" type="note-anchor">added with a smile</seg> ‘That is something which <name type="person" key="quin70">Mr Quinn</name> didn’t tell you’.</p>
+                    <p>Now, if he is capable of suggesting to me that he can defraud me unless the European edition is also issued by him he is also capable perhaps of suggesting that no copyright can exist <seg xml:id="seg9" type="note-anchor">in an immoral publication</seg>. I think it well to <seg xml:id="seg10" type="note-anchor">attack the question</seg> from this side because Mr Quinn’s argument turns largely on Mr Huebsch’s position as publisher of the book. Tomorrow I shall take up the other points but, to gain time, perhaps you can <seg xml:id="seg11" type="note-anchor">send this on</seg> or a digest of it.</p> <p>
+                        <seg type="published" function="context">
+                            <quote>The picture of Mr Quinn trying to teach the attorneygeneral (if that be his title) to spell my name is rather amusing. …</quote>
+                            <bibl>(<name type="work" key="ID_MISSING">LIII</name> 28).</bibl>
+                        </seg>
+                    </p>
+                    <gap reason="published"/>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>JJ learned on 4 November 1920, in a letter from Scofield Thayer (1889-1982) – financier and editor of the New York magazine <name type="work" key="W_DIAL">The Dial</name> – that an official complaint for obscenity had been filed against the New York magazine <name type="work" key="W_THELITTLE">The Little Review</name> for publishing the July-August 1920 number containing the portion of the “Nausicaa” episode of <name type="work" key="W_ULYSSES">Ulysses</name> in which Leopold Bloom masturbates at the seashore (<name type="work" key="ID_MISSING">LIII</name> 27-28). An unsolicited promotional copy of that number had been sent to the daughter of a prominent New York lawyer; the lawyer contacted the district attorney of New York County, and his office contacted John Saxton Sumner (1876-1971), executive secretary of the New York Society for the Suppression of Vice. On 29 September 1920, Sumner purchased copies of the July-August number from a New York bookshop and submitted them, along with a written complaint, to the Jefferson Market Police Court. The magistrate there issued a summons for the bookshop owner, but <name type="work" key="W_THELITTLE">The Little Review</name>’s editors – <name type="person" key="ande86">Margaret Caroline Anderson</name> (1886-1973) and <name type="person" key="heap83">Jane Heap</name> (1883-1964) – were substituted as defendants on 4 October 1920. They were charged under section 1141 of the New York penal code for publishing obscenity. The New York lawyer John Quinn (1870-1924) represented Anderson and Heap. On 15 October and at other times, he met with Sumner to try to persuade him to drop the case if his clients agreed to cease serializing <name type="work" key="W_ULYSSES">Ulysses</name> and if the work was published in a private, limited edition confined to the few that could afford it. No settlement was reached.</p>
+                    <p>On 21 October, Quinn and Sumner argued the question of obscenity at a preliminary hearing before the magistrate in the Jefferson Market Police Court. The magistrate bound the defendants over for trial in the Court of Special Sessions. Quinn then tried to delay the case by having it transferred to the Court of General Sessions, partly in the hope that by the time a jury trial came on in that court, <name type="work" key="W_ULYSSES">Ulysses</name> might already be published in a private edition. Despite Quinn’s efforts, a bench trial (without a jury) was set for 14 February 1921 in the Court of Special Sessions. There he argued vigorously and ingeniously before a panel of three judges, and put on expert witnesses to testify regarding the verbal opacity and psychological subtlety of <name type="work" key="W_ULYSSES">Ulysses</name>. After a week’s adjournment, during which the judges planned to read the contested portion of “Nausicaa,” the trial resumed on 21 February. Despite further argument by Quinn, the judges found Anderson and Heap guilty of publishing obscenity, and fined them $50 each (see Paul Vanderham, <name type="work" key="ID_MISSING">James Joyce and Censorship: The Trials of</name> Ulysses [London: Macmillan, 1998], 37-56; for criticism of Quinn’s litigation strategy as halfhearted and ineffective, see Joseph M. Hassett, <name type="work" key="ID_MISSING">The</name> Ulysses <name type="work" key="ID_MISSING">Trials: Beauty and Truth Meet the Law</name> [Dublin: Lilliput, 2016], 94-112). With the editors convicted of the crime of publishing obscenity, the serialization of <name type="work" key="W_ULYSSES">Ulysses</name> ceased after the initial portion of “Oxen of the Sun” appeared in <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 7, no. 3 (September-December 1920): 81-92.</p>
+                    <p>After the trial, Quinn claimed that Sumner had been interested in the idea of private book publication, but JJ had “side-stepped” Quinn’s recommendation. “You evaded it repeatedly in your letters,” Quinn told JJ. “That is your affair and not mine, but your evasions made it impossible for me to get anywhere with Sumner” (Quinn to JJ, 13 April 1921, John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library). Even before the prosecution of the <name type="work" key="W_THELITTLE">Little Review</name> editors, Quinn had been urging JJ to consider a private American edition, to be published by B.W. Huebsch if possible, limited to 1,000 or 1,250 copies selling for $8 or $10 each. Various print-runs and prices were discussed over time. Quinn thought that, later on, a trade edition might be published “from the same plates if at that time Huebsch wants to run the risk of prosecution.” No fan of immoral writing, Quinn grumbled: “The present orgy of disgusting sex novels may be over by that time and the public opinion may sway the other way so that a trade edition of Ulysses might go without prosecution.” Quinn thought that a private edition of <name type="work" key="W_ULYSSES">Ulysses</name> might escape prosecution as had George Moore’s <name type="work" key="ID_MISSING">A Story-Teller’s Holiday</name>, published in 1918 through Boni and Liveright of New York in a limited edition “privately printed for subscribers only,” selling for $10 a copy (Quinn to JJ, 15 August 1920, John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library; see also Ellmann, <name type="work" key="ID_MISSING">JJ</name> 497).</p>
+                    <p>In the end, Huebsch and other American publishers refused to take a chance on an unexpurgated <name type="work" key="W_ULYSSES">Ulysses</name>. Quinn reported to JJ on 13 April 1921 that he had called Huebsch to demand back the manuscript of <name type="work" key="W_ULYSSES">Ulysses</name> after Huebsch continued to suggest the need for sanitizing changes. “Huebsch wriggled and squirmed and did not want to let go,” Quinn wrote, a bit unkindly. “I told him repeatedly that it would have to be printed without a change, and then he would wriggle and wriggle” (Quinn to JJ, 13 April 1921, John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library). Huebsch soon bowed out completely.</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>The portion of this letter published by Richard Ellmann in 1966 breaks off here, giving the impression that JJ’s need for Quinn’s legal services concerned the ongoing criminal prosecution in New York (<name type="work" key="ID_MISSING">LIII</name> 27-28). But the missing portion of the letter – which we include here – shows that JJ felt he needed Quinn’s services for a very different reason: to help him prevent a possible piracy of <name type="work" key="W_ULYSSES">Ulysses</name> by his American publisher, B.W. Huebsch (1876-1964). When the two met in Paris in the fall of 1920, JJ misunderstood Huebsch because, as the notes below show, Huebsch was only trying to explain to JJ that by publishing the book version of <name type="work" key="W_ULYSSES">Ulysses</name> initially in Europe – as JJ was considering doing – he would lose any U.S. copyright he might have had in the work. And this is exactly what did happen in 1922 (see note 8 below).</p>
+                    <p>Ellmann’s deletion was made in an era when the questionable or nonexistent U.S. copyright in <name type="work" key="W_ULYSSES">Ulysses</name> was not fully understood or discussed; the JJ estate also wished to avoid any mischaracterizing of Huebsch, who had been an editor and executive at the Viking Press – the publisher of JJ’s <name type="work" key="ID_MISSING">Letters</name> and other texts – and was a person of principle who would never have tried to pirate anyone’s work (see Myron Schwartzman, “‘Quinnigan’s Quake!’ John Quinn’s Letters to James Joyce, 1916-1920,” <name type="work" key="ID_MISSING">Bulletin of Research in the Humanities</name>, vol. 81, no. 2 [Summer 1978]: 255 n.22). Ellmann’s deletion and our restoration show the changing shape of legal danger over the years, as perceived by Joyce scholars and others. By 1966, it had become safe to discuss the alleged obscenity and immorality of <name type="work" key="W_ULYSSES">Ulysses</name>, because that question had been put to rest by the federal courts some thirty years earlier. But JJ’s controversial copyrights in America were not thought safe to discuss then or later; and so, in a sense, copyright became, in the Joyce context, the new obscenity – the legally unspeakable. It was not until the 1990s that the copyright question was fully confronted (see Robert Spoo, “Copyright Protectionism and its Discontents: The Case of James Joyce’s <name type="work" key="W_ULYSSES">Ulysses</name> in America,” <name type="work" key="ID_MISSING">Yale Law Journal</name>, vol. 108, no. 3 [1998]: 633-67).</p>
+                </note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ’s American publisher, B.W. Huebsch (1876-1964), married a Swedish woman, Alfhild Fanny Lamm (1887-1982), in Stockholm on 14 or 15 September 1920 (report of American Consul General, Stockholm, Sweden, 12 October 1920; <name type="work" key="ID_MISSING">New-York Tribune</name> [15 September 1920]: 11). They returned to New York, sailing from London on 6 October 1920 and arriving on 16 October (ship manifest of S.S. Caronia, list of United States citizens). JJ reported to John Rodker on 29 September 1920 that “Mr Huebsch is in Paris and I shall speak to him” (<name type="work" key="ID_MISSING">LIII</name> 23). Thus, in late September or early October, Huebsch and JJ evidently discussed, among other things, publishing <name type="work" key="ID_MISSING">Ulysses</name> “in a private edition of 1000 copies at 150 frs each” (<name type="work" key="ID_MISSING">LI</name> 148).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">In his first weeks in Paris in July 1920, JJ was desperate to receive royalties due on books from Huebsch, and also a possible advance on royalties for the book version of <name type="work" key="W_ULYSSES">Ulysses</name> which Huebsch at that point hoped to publish. For a fuller account of JJ’s need for royalties at that time, see <rs type="letter" key="L_68631">JJ to Pound, 24 July 1920</rs>, notes.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">In his first months in Paris, JJ was expecting royalties and sums from various sources, and urging his London literary agent J.B. Pinker (prob. 1862 or 1863-1922) to collect these (<name type="work" key="ID_MISSING">LI</name> 143). For a fuller account of JJ’s need for royalties at that time, see <rs type="letter" key="L_68631">JJ to Pound, 24 July 1920</rs>, notes.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">JJ’s volume of poems, <name type="work" key="ID_MISSING">Chamber Music</name>, was initially published by <name type="person" key="math51">Elkin Mathews</name> in London in 1907, and in New York by B.W. Huebsch in 1918. His collection of short stories, <name type="work" key="W_DUBLINERS">Dubliners</name>, was first issued by <name type="person" key="rich72">Grant Richards</name> in London in 1914 and by Huebsch in 1916. His play <name type="work" key="W_EXILES">Exiles</name> was published simultaneously by Richards and Huebsch in May 1918.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">For the standoff between JJ and Huebsch regarding an expurgated <name type="work" key="W_ULYSSES">Ulysses</name>, see note 1 above and note 8 below.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">
+                    <p>JJ made a similar report of his conversation with Huebsch in a letter to John Quinn dated 17 November 1920 (John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library). But Huebsch’s version was undoubtedly more accurate. He wrote Quinn on 22 December 1920: “My conversation with Joyce related to the manner in which the book might be published without sacrificing his American rights and as these depend upon manufacturing the book in the U.S., I wanted him to understand that he was jeopardizing the thing that he holds most dear, namely, the publication of the book intact, by printing it in Paris, because that would leave the book free for a pirate after sixty days, and the pirate, in order to overcome the objections that now lie against it [in the New York criminal prosecution], would eliminate the offensive passages. Thus Joyce would lose not only his property but that which as an artist I presume he cherishes even more” (Photostat, Richard Ellmann Papers, McFarlin Library, University of Tulsa). Huebsch’s mention of “manufacturing” referred to the requirement of U.S. copyright law in this period that, to receive protection in the United States, a foreign-origin work in English had to be typeset, printed, and bound in America within a short time after its publication abroad (Act of Mar. 4, 1909, ch. 320, § 15, 35 Stat. 1075, 1078-79).</p>
+                    <p>Thus, Huebsch’s remark (as quoted by JJ in this letter), “O, in that case, I can print the American edition if I like, and pay nothing according to American law,” was probably an instructive pleasantry meant to illustrate his legal point. In fact, Huebsch’s argument to JJ was a flawless piece of legal prediction: JJ could publish first in the United States, but, to avoid running afoul of the obscenity law, he would have to expurgate. Alternatively, JJ could publish first in France and keep his work intact there, but in doing so he would risk not securing a copyright in the United States and inviting the depredations of pirates. And the pirates, to avoid running afoul of the obscenity law, would expurgate. Thus, whether JJ published first in the United States or in France, he would have to live with a sanitized American <name type="work" key="W_ULYSSES">Ulysses</name>. The difference was that if he chose the former course, he could control the alterations to the text, and his work would enjoy copyright protection in the United States. JJ, with an obstinacy born of earlier encounters with censors, refused to compromise his creative integrity by changing a word. Huebsch’s prophecy that <name type="work" key="W_ULYSSES">Ulysses</name> would be lawfully pirated was fulfilled by Samuel Roth, the New York pirate-pornographer, in the later 1920s. (For JJ’s many copyright problems, Roth’s piracies, and the consequent copyright difficulties created for the first authorized American edition of <name type="work" key="W_ULYSSES">Ulysses</name> issued by Random House, see Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing, and the Public Domain</name> [New York: Oxford University Press, 2013], 65-73, 153-262.)</p>
+                    <p>Pound appears to have replied to JJ’s present letter in a short letter also dated (rather oddly) 5 November 1920. To JJ’s worry that Huebsch might pirate <name type="work" key="W_ULYSSES">Ulysses</name> if it was published as a book abroad, Pound responded with impatient bluntness: “Huebsch cant pirate what is already copyright by L.R.” (Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 539). It was the belief of Pound and John Quinn that U.S. copyrights in the issues of <name type="work" key="W_THELITTLE">The Little Review</name> would be sufficient to protect as much of <name type="work" key="W_ULYSSES">Ulysses</name> as appeared in that journal. This was a doubtful legal theory for a number of reasons; tellingly, it was not vigorously pursued by JJ’s New York attorneys when they sued Samuel Roth in 1927 for pirating <name type="work" key="W_ULYSSES">Ulysses</name> in his New York magazine, <name type="work" key="ID_MISSING">Two Worlds Monthly</name> (Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 97-103, 156-60).</p>
+                </note>
+                <note xml:id="note9" target="#seg9" type="commentary">Whether or not copyright could exist in an immoral or obscene work in the United States (a debatable point, never fully resolved), this was not the legal point that Huebsch was trying to make. Instead, he was pointing out to JJ that failure to have a foreign work manufactured in the United States within a few months after its publication abroad would preclude any U.S. protection. Inability to have a work printed in America might result from its putatively immoral or indecent nature, but failure to manufacture would be the immediate cause of lost copyright.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Despite JJ’s worry that Huebsch was threatening to play the pirate – JJ’s mild paranoia at this time extended to other things as well – in the end, he came to trust Huebsch so completely that when years later he made a contract with the Viking Press for the publication of <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>, he inserted a clause stating that if Huebsch (who had merged his publishing house with Viking in 1925) should ever leave Viking and become his own publisher again, JJ would have the option of transferring <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name> to Huebsch’s new firm. Huebsch’s place with Viking was secure, and the clause was never invoked. JJ, in many ways ruthless and unyielding when it came to publishing decisions, felt a personal attachment and a lasting debt of gratitude to Huebsch (see Robert Spoo, “The Lawful Piracy of James Joyce’s Poems,” in <name type="work" key="ID_MISSING">Forgotten Intellectual Property Lore: Creativity, Entrepreneurship and Intellectual Property</name>, ed. Shubha Ghosh [Cheltenham, UK: Edward Elgar, 2020], 31-53).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">Pound replied irritably: “Where you think I am to get time to ‘brief’ yr. epistle – I dont know” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 539). Pound was growing impatient with JJ’s requests that he make abstracts of JJ’s letters to be sent on to other parties, such as Quinn.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

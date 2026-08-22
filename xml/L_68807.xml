@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68807">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Saturday, 29 October 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="RC">RC</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68807</idno>
+            <idno type="internal">68807</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Lilly Library, Indiana University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">rue de l'Université 9</placeName>
+               </address>
+               <date notBefore="1921-10-29" notAfter="1921-10-29">Saturday, 29 October 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: You will be glad to hear that with the conclusion of <seg xml:id="seg1" type="note-anchor">the <hi rend="underline">Ithaca</hi> episode</seg> this evening (<seg xml:id="seg2" type="note-anchor">
+                            <hi rend="underline">Penelope</hi>
+                        </seg> being already finished) <seg xml:id="seg3" type="note-anchor">the writing of <hi rend="underline">
+                                <name type="work" key="W_ULYSSES">Ulysses</name>
+                            </hi> is ended</seg>.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1921-10-29">29.x.921</date>
+                            <lb/>
+                            <name type="geo" key="G_FRA_PARI_04">rue de l’Université 9</name>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">“Ithaca” is the seventeenth and penultimate episode of <name type="work" key="W_ULYSSES">Ulysses</name>, and the second of the final three episodes constituting what JJ called the “Nostos” or homecoming of the book. In “Ithaca,” Leopold Bloom takes Stephen Dedalus to his home at 7 Eccles Street, talks to him of many things, shares hot cocoa with him, listens to him chant an old anti-Jewish ballad and intone the 113th psalm, and urges him, without success, to stay for the night. After the two men pause to urinate in the garden and gaze at the stars, Bloom listens as Stephen departs down an echoing lane. Bloom then reenters his house, contemplates his life, marriage, and aspirations, comes to terms, provisionally at least, with the fact that his wife Molly has had an affair several hours earlier with a young man named Blazes Boylan, and then drifts off to sleep, beside Molly, thinking of the Dublin pantomime of Sinbad the Sailor and his fabulous adventures. This strangely abstract, scientific, and spectral episode – which JJ called “the ugly duckling of the book and therefore … my favourite” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 500) – is written, as he explained, “in the form of a mathematical catechism. All events are resolved into their cosmic physical, psychical etc. equivalents … so that not only will the reader know everything and know it in the baldest coldest way, but Bloom and Stephen thereby become heavenly bodies, wanderers like the stars at which they gaze” (<name type="work" key="ID_MISSING">LI</name> 159-60). The Homeric parallel is found in Books 17-22 of <name type="work" key="ID_MISSING">The Odyssey</name>, where Odysseus and his son Telemachus enter the former’s palace and together slay the insolent suitors who have consumed his substance and paid unwanted court to his wife Penelope. The slaughter of the suitors is ruthless and bloody in Homer, but in “Ithaca,” Bloom eliminates the suitors – various men, including Boylan, who at some time were or may have been attracted to Molly – by progressing in his thoughts from envy and jealousy to abnegation and equanimity, and by renouncing violent forms of retribution (<name type="work" key="W_ULYSSES">U</name> 17.2154-2209).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">“Penelope” is the eighteenth and last episode of <name type="work" key="W_ULYSSES">Ulysses</name>, and the third of the final three episodes constituting what JJ called the “Nostos” or homecoming of the book. “Penelope” is given over entirely to Molly Bloom’s night thoughts as she reflects on her girlhood and youth, her romantic attachments and fantasies, her marriage to Leopold Bloom, and her sexual affair, several hours earlier, with the young man Blazes Boylan. Her interior monologue ends with a resonant “yes I said yes I will Yes” as she merges Bloom and her early beau Lieutenant Mulvey in her sleepy thoughts (<name type="work" key="W_ULYSSES">U</name> 18.1608-09). Spanning 43 pages in the first edition, “Penelope” consists of eight sentences almost entirely lacking in punctuation. JJ considered it the “last word (human all too human) [and] the indispensable countersign to Bloom’s passport to eternity” (<name type="work" key="ID_MISSING">LI</name> 160). The episode “begins and ends,” JJ explained, “with the female word <hi rend="italic">yes</hi>. It turns like the huge earth ball slowly surely and evenly round and round spinning, its four cardinal points being the female breasts, arse, womb and [cunt] expressed by the words <hi rend="italic">because, bottom … woman, yes</hi>. Though probably more obscene than any preceding episode it seems to me to be perfectly sane full amoral fertilisable untrustworthy engaging shrewd limited prudent indifferent <hi rend="italic">Weib</hi> [woman]” (<name type="work" key="ID_MISSING">LI</name> 170). Molly’s Homeric counterpart in <name type="work" key="ID_MISSING">The Odyssey</name> is Odysseus’s wife Penelope, who has remained faithful during his absence of many years, despite the importunings of the presumptuous suitors who lounge in Odysseus’s palace. Molly’s winding monologue mirrors the burial shroud that Penelope by day weaves and by night stealthily unweaves for her husband’s elderly father, cleverly telling the suitors that she will make her choice among them when she has finished the garment.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ’s final months of work on <name type="work" key="W_ULYSSES">Ulysses</name>, before its publication in February 1922 by Shakespeare and Company in Paris, were a flurry of multidirectional composition and revision as he labored over “Ithaca” and “Penelope” and revisited and revised early episodes on the proofs he was receiving from the Dijon printer, Maurice Darantiere. “The last stage,” Michael Groden writes, “consisted of a complicated mixture of new writing and revision, confused even more during the last six months by the efforts of both Joyce and Darantiere to see the book into print by a fixed deadline” (Ulysses <name type="work" key="ID_MISSING">in Progress</name> [Princeton, NJ: Princeton University Press, 1977], 166). Although the “writing of Ulysses” may have ended, as this letter announces, JJ continued to revise and enrich the text as he received and passed placards and proofs sent by Darantiere’s bemused, harried typesetters.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

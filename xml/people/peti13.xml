@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="peti13">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Armand-Marcel Petitjean</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>peti13</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">90714553</idno>
+            <idno type="OCLC">lccn-no2006071416</idno>
+            <persName type="reg">
+               <forename>Armand</forename> <surname>Petitjean</surname>
+            </persName>
+            <persName type="full">Armand-Marcel Petitjean</persName>
+            <date type="birth" when="1913-06-05"/>
+            <date type="death" when="2003-07-17"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Critic, novelist, editor, and businessman. In the 1930s Petitjean became affiliated with <name type="work" key="ID_MISSING">La Nouvelle revue française</name>, and at the same time became fascinated with JJ, publishing three significant articles and a short translation in the mid-1930s. With a position in the <name type="geo" key="ICH">Vichy</name> government, he was instrumental in assisting the Joyce family to cross the border into Switzerland in <date when="1940-12">December 1940</date>. During the 1940s, his writing became increasingly political, and by the 1950s Petitjean had largely left the world of literature. In 1961 he assumed management of the Lancôme perfume company, which his father had founded in 1935. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

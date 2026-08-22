@@ -1,0 +1,185 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68611">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Saturday, 5 June 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68611</idno>
+            <idno type="internal">68611</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE">[Trieste]</placeName>
+               </address>
+               <date notBefore="1920-06-05" notAfter="1920-06-05">Saturday, 5 June 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE_13">via Sanità, 2</name>, <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE">Trieste</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Have just sent you a <rs type="letter" key="68612">telegram</rs> in <seg xml:id="seg1" type="note-anchor">reply to both letters</seg> for which many thanks. I regret that <seg xml:id="seg2" type="note-anchor">you waited dinner for me</seg>. When did <seg xml:id="seg3" type="note-anchor">my <rs type="letter" key="68607">telegram</rs>
+                        </seg> announcing my non-departure arrive? I sent it at <date when="1920-05-31">noon</date>. I hope <name type="person" key="poun86">Mrs Pound</name> was not frightened by the <seg xml:id="seg4" type="note-anchor">thunderstorm</seg>. I should have been frightened out of my wits – any I have left.</p>
+                    <p>In spite of your very kind offer I think the difficulties in the way my of <seg xml:id="seg5" type="note-anchor">going to <name type="geo" key="G_ITA_SIRM">Sermione</name>
+                        </seg> (which, except for your presence there, I have no wish to visit) are too great. First, I excused the <seg xml:id="seg6" type="note-anchor">school</seg> <date notBefore="1920-05-31" notAfter="1920-06-06">this week</date>, believing I should be with you, and I can scarcely do so next week again. Second, <rs type="person" key="joyc07">my daughter</rs> has to finish her <seg xml:id="seg7" type="note-anchor">school term</seg>. Third, I have nothing ready for so prompt a departure neither sufficient money nor a trunk and I have a few boring affairs hanging on here which I must see to before I leave. Fourth, I have no passport for the U.K<supplied reason="omitted">.</supplied> (though <rs type="person" key="barn84">my wife</rs> and children have a separate one) and this has to be got from <name type="geo" key="G_ITA_ROME">Rome</name>.</p>
+                    <p>You leave Sermione on <date when="1920-06-14">the 14</date>, I gather, <seg xml:id="seg8" type="note-anchor">for <name type="geo" key="G_FRA_PARI">Paris</name>
+                        </seg>. I don’t know how long you stay there. Will you tell me when you will be in <name type="geo" key="G_GBR_LOND">London</name> so that I may arrange to meet you there. If there is any cheap hotel in your neighbourhood I could stop there and could explain things to you better. It is better not to take any definite steps <seg xml:id="seg9" type="note-anchor">until we meet</seg>. Would you allow me to have a <seg xml:id="seg10" type="note-anchor">small case of books</seg> sent on to your London address (where it would arrive after the middle of July) to be reforwarded to me to whatever part of the country I shall then be in? I shall make it as small as possible, am now eliminating as many as possible, and have it addressed, carriage paid, to me c/o you. I have been engaged in sifting out the notes of the last adventure <hi rend="underline">Circe</hi> which <seg xml:id="seg11" type="note-anchor">I purpose writing</seg> there. The three closing episodes have been sketched a long time ago but I shall take only the draft of the first <seg xml:id="seg12" type="note-anchor">
+                            <hi rend="underline">Eumeus</hi>
+                        </seg> with me. I hope by the way that the <hi rend="underline">Oxen</hi> <hi rend="underline">of</hi> <hi rend="underline">the</hi> <hi rend="underline">Sun</hi> has <seg xml:id="seg13" type="note-anchor">already been sent on</seg> to <name type="geo" key="G_USA_NEWY">N.Y<supplied reason="omitted">.</supplied>
+                        </name> and London. <seg xml:id="seg14" type="note-anchor">
+                            <name type="person" key="lina78">Linati</name>’s letter</seg>, forwarded by you, has not arrived yet.</p>
+                    <p>As regards clothing I would not buy even a <seg xml:id="seg15" type="note-anchor">spool of thread</seg> in this country at present if I could help it. I have been obliged to change bootlaces three times in a few weeks though I do not wear boots for more than an hour or so in the day, being always at home.</p>
+                    <p>My son (<seg xml:id="seg16" type="note-anchor">photograph</seg> enclosed) is more expensive than his father since he eats about four times as much and dresses much better. The price offered by <seg xml:id="seg17" type="note-anchor">
+                            <rs type="person" key="ID_MISSING">your friend</rs>
+                        </seg> is very reasonable in these times and for a holiday resort. It would be much better, as you say, if I could go there even now and talk the matter out with you but you see the difficulties. You are certainly having a quiet peaceful holiday on account of me!</p>
+                    <p>As regards <hi rend="underline">
+                            <name type="work" key="W_DIAL">Dial</name>
+                        </hi> and <hi rend="underline">
+                            <name type="work" key="W_ATHENAEUM">Athenaeum</name>
+                        </hi> I have absolutely <seg xml:id="seg18" type="note-anchor">nothing to offer them</seg>. The six years which I have already spent on <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> will need the addition of another six months in order to finish it. It is impossible for me to think of anything else. I have little or no inspiration or imagination and work very laboriously, exhausting myself about trifles. I take no interest whatever in anything that is not related to what I am writing. I daresay I am as disagreeable as the book itself. Singing was one of my diversions. Since I came here I never opened the piano but once when I discovered I had no voice. <date when="1920-06-04">Yesterday</date> however (or the day before) after several hours spent in the company of Mrs Circe (<seg xml:id="seg19" type="note-anchor">
+                            <foreign xml:lang="ita">Troja di Elena</foreign>
+                        </seg>) and her trained pigs I started some <foreign xml:lang="ita">vocalizzi</foreign> and today I <seg xml:id="seg20" type="note-anchor">could actually sing</seg> something. This is a good sign with me. I suppose you will find it hard to believe because you are always so energetic.</p>
+                    <p>Next point. I detest travelling. For this reason, I suppose, I remained in Trieste for so many years. And ruined as the city is I confess I do not like being ousted from it in this fashion. I have here or had the entire furniture of a flat (the result of eleven years slavery) some few thousand books and a small picture gallery. I can discuss this point – and several of the other causes of my embarrassing position – when we meet. After all, if all goes well, it is only a question of a few weeks more.</p>
+                    <p>Linati’s address in <name type="geo" key="G_ITA_MILA">Milan</name> is <name type="geo" key="G_ITA_MILA_01">24 via S. Spirito</name>. <seg xml:id="seg21" type="note-anchor">He is an <foreign xml:lang="ita">avvocato</foreign>
+                        </seg> so he probably has a telephone. Lord knows what his letter is about.</p>
+                    <p>I hope this letter explains things better. Please let me know if you are satisfied with it. Thanks once more for your kindness. I wish I could go there though one journey a year over an Italian railway is quite enough for me.</p>
+                    <p>
+                        <seg xml:id="seg22" type="note-anchor">Envoy:</seg>
+                    </p>
+                    <lg>
+                        <l>A bard once in lakelapt Sermione</l>
+                        <l>Lived in peace, eating locusts and honey</l>
+                        <l>Till a son of a bitch</l>
+                        <l>Left him dry on the beach</l>
+                        <l>Without boots, clothes, time, quiet or money.</l>
+                    </lg>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1920-06-05">5/6/920</date>
+                        </dateline>
+                    </closer>
+                    <postscript>
+                        <p>
+                            <label>P.S.</label> Can’t find <seg xml:id="seg23" type="note-anchor">photograph</seg>. Will send by next post.</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This letter replies to two letters by Pound, both written on 2 June 1920, the first one hastily to catch the post, the second at greater leisure (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170-74). It seems likely, however, that roughly two pages of what Forrest Read includes as part of Pound’s second 2 June letter (173-74) were actually written several days later in reply to the present 5 June letter by JJ. Pound’s letters are sometimes easy to mix and transpose because they lack transitions and consecutiveness and are scrawled or typed on oddments of paper. The portion of the putative 2 June letter that Pound probably wrote later may have been part of his letter to JJ of 7-8 June 1920, which, as Read notes, “breaks off” rather suddenly (<name type="work" key="ID_MISSING">Pound/Joyce</name> 177). As shown in several notes below, this hypothesis solves a number of puzzles, including the timeline for Pound’s and JJ’s dueling limericks and their inspiration for composing them.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">JJ had just cabled Pound around 1:30 p.m. on 5 June 1920 that he would write fully to explain the status of his plans to visit Pound in Sirmione. The present letter is that explanation. It also replies to two letters Pound wrote on 2 June with various ideas and offers to make it possible for JJ to visit (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170-72), despite the difficulties and setbacks JJ was experiencing (see <rs type="letter" key="L_68605">JJ telegrams to Pound, 26</rs> and <rs type="letter" key="L_68607">31 May 1920</rs>, notes).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">In the first of Pound’s letters of 2 June 1920 from Sirmione, he wrote that he and his wife Dorothy, probably on 31 May 1920, had “waited dinner till 8:00 and I had prepared such a nice opening speech” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170). Pound’s heart was set on meeting up with JJ in this northern Italian paradise on Lake Garda that he had first visited in 1910.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ’s telegram, stating that his departure was held up by a railway strike, was sent from Trieste on 31 May 1920 at 12.50 p.m., and was received in Sirmione on 1 June at 8.39 a.m. (<rs type="letter" key="L_68607">JJ telegram to Pound, 31 May 1920</rs>). Pound wrote John Quinn on 1 June that JJ’s “telegram came this a.m. saying he was held up by strike” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 186).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Pound mentioned in the first of his 2 June 1920 letters that during the evening and night that JJ was expected, “the tempest raged, at 4:25 such peals of thunder burst on Desenzano, as I thought cd. portend only the arrival of Vulcano Daedalus, attended befittingly with pomps &amp; trumpets” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170). Desenzano, a few miles from Sirmione, was the railway arrival point for visitors, and JJ did arrive there on the evening of 8 June 1920, without pomps or trumpets, but “bringing,” as he later wrote Harriet Shaw Weaver, “my son with me to act as a lightning conductor” (<name type="work" key="ID_MISSING">LI</name> 142). JJ had an intense fear of thunderstorms and would become virtually paralyzed until one had passed.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Yet the difficulties cleared rather suddenly, and JJ came to Sirmione on 8 June 1920 (see above and <rs type="letter" key="L_68605">JJ telegram to Pound, 26 May 1920</rs>, notes). “Sirmione” and “Sermione” (the latter was stamped on telegrams of the day) were alternative spellings, both found in Baedeker and other guidebooks of this period. Pound preferred “Sirmione.”</note>
+                <note xml:id="note6" target="#seg6" type="commentary">On returning to Trieste from Zurich, JJ had reclaimed his position teaching the English language at the Scuola Superiore di Commercio Revoltella, a commercial high school. He taught one hour a day, six days a week, for 3 shillings a day (<name type="work" key="ID_MISSING">Pound/Joyce</name> 177). He disliked the work intensely and often went through it in a preoccupied state. Sometimes, he “would smile abstractedly for almost a minute in the middle of a class. Often he stared at [the students] blankly or made gestures that were trancelike” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 472-73).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Lucia Joyce (1907-1982), daughter of JJ and Nora Barnacle, was almost thirteen years old at this time. In Zurich, she and her brother Giorgio (1905-1976) had attended a German-speaking public school (Carol Loeb Shloss, <name type="work" key="ID_MISSING">Lucia Joyce: To Dance in the Wake</name> [New York: Farrar, Straus and Giroux, 2003], 73). On returning to Trieste, Lucia was put back a year in school because she had fallen behind in her Italian; for the same reason, Giorgio was given a private tutor (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 471).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Pound planned to be in Paris at the Hotel de l’Elysée, 3 rue de Beaune, from 15 June 1920 “until at least the middle of July” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 176).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Pound’s two letters of 2 June 1920 teemed with schemes and ideas. As an alternative to the delights of Sirmione and Lake Garda, Pound suggested that he and JJ might meet in Paris if JJ went through with a plan he was then entertaining to visit Ireland for several months to finish <name type="work" key="ID_MISSING">Ulysses</name>. They could also meet in Pound’s current domicile of London, but he did not think that “accommodations wd. be as easily found. Though will of course find them for you, if you give me specifications” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 173). Little did each man know, perhaps, that they would both be residents of Paris within a matter of months. JJ and family arrived there in early July 1920. As Ellmann puts it: “He came to Paris to stay a week and remained for twenty years” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 482). Pound had begun to feel that there was “no longer any intellectual <hi rend="italic">life</hi> in England,” as he wrote William Carlos Williams in September 1920; he told a reporter for the Paris edition of the <name type="work" key="ID_MISSING">New York Herald</name> in January 1921 that “the decay of the British Empire [was] too depressing a spectacle to witness at close range” (quoted in Humphrey Carpenter, <name type="work" key="ID_MISSING">A Serious Character: The Life of Ezra Pound</name> [Boston: Houghton Mifflin, 1988], 376, 378). It took Pound a bit longer than JJ to finalize his approach to Paris, but he had already stamped his passport, emotionally, with his severe diagnosis of British stagnancy in the poetic sequence <name type="work" key="ID_MISSING">Hugh Selwyn Mauberley</name> (1920) and in his translation-interpretation <name type="work" key="ID_MISSING">Homage to Sextus Propertius</name> (1919), which implies a juxtaposition of Roman and British imperialism, belligerence, and Philistinism.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Pound replied on 7-8 June 1920: “Certainly send books in my care to London, not to the flat where there is but a witless female porter, but to 12 Brunswick Gdns. W.8.” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 177).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">“Circe” is the fifteenth episode of <name type="work" key="ID_MISSING">Ulysses</name> and the final episode of the group of twelve that JJ called the Odyssey or Wanderings. The longest episode of the book, it is set in Dublin’s brothel district, Nighttown, to which Leopold Bloom has protectively followed Stephen Dedalus and his friend Lynch after their drinking bout in the Maternity Hospital in “Oxen of the Sun.” The episode is rendered as a drama with stage directions and dialogue; JJ’s technique blends expressionism, hallucination, and cinematic effects to create an eerie, volatile narrative in which characters, living and dead, past and present, along with inanimate objects, appear and disappear, often (though not always) generated by the conscious or unconscious preoccupations of Bloom and Stephen. The episode ends with Stephen lying on the ground, felled by the fist of a drunken British soldier. As Bloom comes to the rescue, a final hallucinatory tableau reveals his dead infant son Rudy, uncannily returned in the form of a young boy dressed in an Eton suit, a vision prompted by the strong paternal feelings that Stephen has aroused in Bloom. The Homeric parallel is found in Book 10 of <name type="work" key="ID_MISSING">The Odyssey</name>, where Odysseus tells of the witch Circe who transformed his crew into swine and kept them in a sty – but not Odysseus, who was protected by a magic herb supplied by Hermes. Though JJ was preparing “Circe” for the New York magazine <name type="work" key="ID_MISSING">The Little Review</name>, the serialization of <name type="work" key="ID_MISSING">Ulysses</name> ended after the first portion of “Oxen of the Sun” in the September-December 1920 number, when the magazine’s editors were convicted in a New York court of publishing obscenity (the portion of “Nausicaa” in the July-August 1920 number). “Circe” had to await publication of <name type="work" key="ID_MISSING">Ulysses</name> as a book in Paris by Shakespeare and Company in February 1922.</note>
+                <note xml:id="note12" target="#seg12" type="commentary">“Eumaeus” is the sixteenth episode of <name type="work" key="ID_MISSING">Ulysses</name>, and the first of the three final episodes which JJ called the Nostos, or homecoming. Having rescued a tired, bruised Stephen from the brothel district at the end of “Circe,” Bloom now takes him to a cabman’s shelter near Butt Bridge where he urges the young man to drink some coffee and nibble on a bun. They talk of various things, largely past each other, and exchange remarks with a garrulous sailor calling himself Murphy who tells unlikely stories of his travels and gives other evidence of not being quite who he says he is. Bloom eagerly describes his wife Molly to Stephen, and as the episode concludes, he takes the young man with him to his house in Eccles Street. The style of the episode is, like Bloom, drowsy and garrulous, filled with tired clichés and nodding sentences. The Homeric parallel is located in Books 13-16 of <name type="work" key="ID_MISSING">The Odyssey</name>, where Odysseus, returned to Ithaca but wary of the carousing suitors who have installed themselves in his palace, is disguised by Athena as an old man and seeks out the shelter of his faithful swineherd Eumaeus. Eumaeus offers his disguised master hospitality and kindness, and Odysseus and his son Telemachus are united in the swineherd’s mountain hut. With the serialization of <name type="work" key="ID_MISSING">Ulysses</name> in <name type="work" key="ID_MISSING">The Little Review</name> ended following the conviction of its editors in a New York court for publishing obscenity (the portion of “Nausicaa” in the July-August 1920 number), “Eumaeus” did not appear until publication of <name type="work" key="ID_MISSING">Ulysses</name> as a book in Paris by Shakespeare and Company in February 1922.</note>
+                <note xml:id="note13" target="#seg13" type="commentary">Pound wrote JJ in a portion of a letter dated by Forrest Read 2 June 1920 (but probably written some days later in reply to the present 5 June letter of JJ’s – see above) that he had forwarded one typed copy of “Oxen of the Sun” to New York for serialization in <name type="work" key="ID_MISSING">The Little Review</name>, and would take the second copy with him to Paris “for safety’s sake,” since the London magazine <name type="work" key="ID_MISSING">The Egoist</name>, which had published only a few episodes of <name type="work" key="ID_MISSING">Ulysses</name> because of printers’ fears, would not publish the fourteenth episode (<name type="work" key="ID_MISSING">Pound/Joyce</name> 173). For a full discussion of “Oxen of the Sun,” see <rs type="letter" key="L_68575">JJ to Pound, 13 February 1920</rs>, notes.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">The Italian writer and translator, Carlo Linati (1878–1949), was actively involved at this time with two Milan-based literary reviews, <name type="work" key="ID_MISSING">Poesia</name> and <name type="work" key="ID_MISSING">Il Convegno</name>, and seeking to publish work by JJ and Pound. He translated JJ’s play <name type="work" key="ID_MISSING">Exiles</name> into Italian as <name type="work" key="ID_MISSING">Esuli</name> and published it in <name type="work" key="ID_MISSING">Il Convegno</name>, vol.1, nos. 3-5 (April, May, June 1920): 27-52, 27-46, 22–37. He also published a translation of JJ’s short story “Araby” in <name type="work" key="ID_MISSING">Il Convegno</name>, vol. 5, no. 5 (May 1924): 301-08, and excerpts from <name type="work" key="ID_MISSING">Ulysses</name> (selected by Pound) in the same journal, vol. 7, nos. 11-12 (November-December 1926): 813-28. In May 1920, Pound had hoped that Linati might come from Milan and join him and JJ at Sirmione (<name type="work" key="ID_MISSING">Pound/Joyce</name> 166), but this did not occur, and the two wrote him a joint letter from Sirmione on 9 June 1920 (<name type="work" key="ID_MISSING">LII</name> 469-71). For a more complete discussion of Linati and the Milan journals, see <rs type="letter" key="L_68602">JJ to Pound, 18 May 1920</rs>, notes.</note>
+                <note xml:id="note15" target="#seg15" type="commentary">Pound, man of many advices, suggested in one of his 2 June 1920 letters that JJ could buy clothes in Verona “at better terms than in London.” “I bought a coat there once,” he added, “&amp; it wore like iron” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 172).</note>
+                <note xml:id="note16" target="#seg16" type="commentary">JJ sent a photograph of his son Giorgio, dressed in suit and tie with a humorous note on the reverse, sometime later, possibly in the “next post,” as he states in the postscript to the present letter. It is also quite possible that JJ brought the photograph with him to Sirmione (see <rs type="letter" key="L_71635">JJ to Pound, n.d. [early June 1920]</rs>, notes).</note>
+                <note xml:id="note17" target="#seg17" type="commentary">In one of his 2 June 1920 letters, Pound told JJ that he and his family could have two rooms at Albergo de la Pace in Sirmione “@ 14 lire. i.e. 56 lire per day for the four of you,” meals included, “&amp; view on lake &amp; with garden.” The owner was a friend of Pound’s “old friend Menegatti” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 172), proprietor of the Hotel Eden in the Piazza Carducci, facing the boat landing, which Pound had first stayed at in 1910, and which he and his wife Dorothy were installed in now.</note>
+                <note xml:id="note18" target="#seg18" type="commentary">Pound had written JJ that “the Athenaeum &amp; Dial cd. provide you food &amp; shelter with less waste of energy than is implied in your Trieste job” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 171). At this time, Pound was acting as a paid European agent and correspondent for the New York magazine <name type="work" key="ID_MISSING">The Dial</name> (see <rs type="letter" key="L_68602">JJ to Pound, 18 May 1920</rs>, notes), and was being paid £10 a month as drama critic for the London <name type="work" key="ID_MISSING">Athenaeum</name>, edited by John Middleton Murry (1889-1957). Pound’s reviews for the latter, which he signed “T.J.V.,” were exercises in sustained jeering; as he told JJ, he had nothing to offer readers “save a general dislike of the modern English theatre” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 174). Murry fired Pound in July 1920 after one of T.J.V.’s published reviews suggested that the Welsh actress Mary Grey (1878-1974) was incapable of “act[ing] anything” (Carpenter, <name type="work" key="ID_MISSING">A Serious Character</name>, 353, 375).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">
+                    <p>JJ was writing the “Circe” episode at this time, with its dominant theme of the transformation of humans into beasts and its parallel between the Dublin brothel district of 1904 and the island of the witch Circe in Homer’s <name type="work" key="ID_MISSING">The Odyssey</name>. Circe’s magic turns Odysseus’s crew into penned pigs, just as Bella Cohen’s bawdyhouse changes Dubliners into bestial buyers and sellers of pleasure. JJ’s phrase “Troja di Elena” – “Troy of Helen” – reverses the traditional ideal of feminine beauty and, paired with the sorceress “Mrs Circe,” implies a darker, alternative tradition that viewed Helen as a runaway wife who abandoned her husband, King Menelaus, for the young playboy Paris, prince of Troy.The reversed epithet also suggests the bestial inversions and reversions of “Circe,” which culminate in a Black Mass celebrated with the intoning of “Dooooooooooog! … Goooooooooood!” (<name type="work" key="ID_MISSING">U</name> 15.4711-15). </p>
+                    <p>The phrase “Troja di Elena” is also found in Boccaccio’s <name type="work" key="ID_MISSING">Elegia di Madonna Fiammetta</name> (1343-1344), a fictional first-person account of Fiammetta’s suffering after being abandoned by her lover. Her nurse tries to console her by listing ancient examples of men who left their mates for another woman: “Paris,” she says, “si partì di Enone dalle selve d’Ida, e ritornò a Troja di Elena” (Giovanni Boccaccio, <name type="work" key="ID_MISSING">La Fiammetta</name> [Milan: Francesco Pagnoni, 1860], 156). Loosely: “Paris left Oenone and the woods of Ida, and returned to Troy with Helen.” The reference is to Paris, son of King Priam of Troy, who married and lived with the nymph Oenone on Mount Ida, later to abandon her by returning to Troy and then sailing to kidnap Helen from Sparta, causing the Greeks’ to make war on Troy.</p>
+                </note>
+                <note xml:id="note20" target="#seg20" type="commentary">JJ had an appealing light tenor voice and strong musical talent which he never fully developed. At the age of 22, he took the bronze medal in the tenor competition of the Feis Ceoil, the Dublin musical festival, and might have won the gold had he been able to sight-read some music for the judge (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 151-52). To JJ’s news of his restored singing voice, Pound replied – in the part of a letter that Forrest Read dates 2 June 1920 but was probably written some days later – that he was glad that JJ had got his “voice, or part of it back.” He added, on a personal note: “I have the organ of a tree toad, fortunately, for if I had been able ever to sing ‘My Countree tiz of Theeee,’ without going off the key four times in each bar, I shd. have warbled &amp; done no bloomin’ thing else” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 173).</note>
+                <note xml:id="note21" target="#seg21" type="commentary">Born in Como, Carlo Linati (1878-1949) studied law and painting at Turin and afterwards set up as a lawyer (“avvocato”) in Milan but practiced little, preferring to pursue literary and artistic interests (<name type="work" key="ID_MISSING">Poeti d’Oggi [1900-1925]</name>, comp. G. Papini and P. Pancrazi [Florence: Vallecchi Editore, 1925], 222-36).</note>
+                <note xml:id="note22" target="#seg22" type="commentary">JJ initially composed this limerick, with multiple revisions, on the reverse of Pound’s first letter of 2 June 1920 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170). The version in the present letter of 5 June represents a fair copy by JJ. Forrest Read suggests that in it “Joyce commemorated the meeting [with Pound]” (Ellmann uses the word “memorialized” [Ellmann, <name type="work" key="ID_MISSING">JJ</name> 479]), but it is far more likely that JJ composed his limerick before he left for Sirmione, in response to references to money, clothes, and “peace” in Pound’s first and second letters of 2 June (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170-72, 179). Read speculates that JJ offered his jingle in response to Pound’s own limerick (beginning “In vainest of exasperation [expectation?] / Mr. P passed his vacation”) (<name type="work" key="ID_MISSING">Pound/Joyce</name> 174). But the reverse is more likely: Pound wrote his limerick in response to JJ’s. It is probable that some of what Read takes to be part of Pound’s second 2 June letter – including his limerick – was actually written several days after 2 June (see analysis in general note, above).</note>
+                <note xml:id="note23" target="#seg23" type="commentary">A photograph of JJ’s son, Giorgio, which JJ sent or brought by hand to Pound later (see <rs type="letter" key="L_71635">JJ to Pound, n.d. [early June 1920]</rs>).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

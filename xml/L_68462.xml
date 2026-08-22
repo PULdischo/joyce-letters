@@ -1,0 +1,119 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68462">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Wednesday, 20 March 1918</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68462</idno>
+            <idno type="internal">68462</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_08">Universitätsstrasse 38, Zurich</placeName>
+               </address>
+               <date notBefore="1918-03-20" notAfter="1918-03-20">Wednesday, 20 March 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>The copy of the second edition of <rs type="work" key="W_APORTRAIT">my novel</rs> has also arrived as well as the copies you sent to the two local booksellers.</quote>
+                            <bibl>LI 112</bibl>
+                        </seg> These copies will probably be sold. I do not think however that it will be possible to sell many copies on account of <seg xml:id="seg1" type="note-anchor">the price</seg>. As regards the promise or suggestion of reviews in the French press I hope that they may be fulfilled. So far, except for the few lines written by <name type="person" key="ciol80">Mrs Ciolkowska</name>, nothing has appeared. I have looked through numbers of the <name type="work">
+                            <hi rend="underline">Mercure</hi> <hi rend="underline">de</hi> <hi rend="underline">France</hi>
+                        </name> for the article promised by Mr <name type="person" key="davr73">
+                            <choice>
+                                <sic>d’Avray</sic>
+                                <corr>Davray</corr>
+                            </choice>
+                        </name> but can find none.</p>
+                    <p>        	I thank you for having sent copies of your paper to <name type="person" key="murr62">Mrs Murray</name> and beg you again to charge the amount against me. I could perhaps get <seg xml:id="seg2" type="note-anchor">other subscribers</seg> here but in view of the <seg xml:id="seg3" type="note-anchor">attitude of the printers</seg> it is difficult to do so.</p>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>
+                                <name type="person" key="pink62">Mr Pinker</name> wrote me some time ago about ceding to you the book rights of <name type="work" key="W_ULYSSES">
+                                    <hi rend="underline">Ulysses</hi>
+                                </name>. I do so gladly.</quote>
+                            <bibl>LI 112</bibl>
+                        </seg>
+                    </p> </div> </div>    <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In his <rs type="letter" key="L_68460">letter to Harriet Weaver of 26 February 1918</rs>, JJ wrote: “At the present rate of exchange (40) my novel would sell at about 16 lire! I may say that it is almost impossible for any English novel published at 6/- to compete with continental novels selling at 3 or 4 francs.”</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Subscriptions for <name type="work" key="ID_MISSING">The Egoist</name>. In his <rs type="letter" key="L_68456">letter to Harriet Weaver of 4 February 1918</rs>, JJ wrote: “I have got some subscriptions for your journal here. They will reach you from various friends of mine in Switzerland”.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">British printers were refusing to reproduce the text of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> in full or at all. In her letter to JJ of <date when="1918-03-08">8 March 1918</date>, Harriet Weaver wrote: “I am sorry to say our printers are making difficulties over it. The first episode is in type but at the last moment before going to press for the March number they refused to print it – even with deletions” (Firth 179).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

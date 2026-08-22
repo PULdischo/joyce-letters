@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cour50">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>W[illiam] L[eonard] Courtney</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>cour50</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>W. L.</forename> <surname>Courtney</surname>
+            </persName>
+            <persName type="full">W[illiam] L[eonard] Courtney</persName>
+            <date type="birth" when="1850-01-05"/>
+            <date type="death" when="1928-11-01"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>English editor and journalist. Courtney attended Oxford and was elected to a fellowship there. Beginning in the 1880s, he began writing for the British press, and in 1890 left Oxford to become chief dramatic and literary editor for the <name type="work" key="ID_MISSING">Daily Telegraph</name>, where he stayed until 1925. He was also editor of the <name type="work" key="ID_MISSING">Fortnightly Review</name> from 1894 to 1928. While in that capacity, he accepted JJ’s first publication, “Ibsen’s New Drama” (67, no. 400  [1 April 1900]: 575-90). JJ visited Courtney in London the following month. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

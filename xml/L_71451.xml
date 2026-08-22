@@ -1,0 +1,157 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71451">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Thursday, 15 February 1917</title>
+            <author key="batt73">Antonio di Vincenzo Battara</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>KD</name>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71451</idno>
+            <idno type="internal">71451</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Fra"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="batt73">
+                        <forename>Antonio di Vincenzo</forename> <surname>Battara</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_17">Bahnhofplatz 2 III</placeName>
+               </address>
+               <date notBefore="1917-02-15" notAfter="1917-02-15">Thursday, 15 February 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">
+                                    <hi rend="underline">Zurich</hi>
+                                </name>, <date when="1917-02-17">17 février 1917</date> </addrLine>
+                            <addrLine>Bahnhofplatz 2 III</addrLine> </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener> <dateline>
+                            <name type="person" key="weav76">Madame Harriet Weaver</name>
+                        </dateline>
+                        <dateline>
+                            <name type="geo" key="G_GBR_LOND">Londres</name>
+                        </dateline>
+                        <lb/>
+                        <salute>Madame,</salute>
+                    </opener>
+                    <p>        	<name type="person" key="joyc82">Monsieur Joyce</name> étant <seg xml:id="seg1" type="note-anchor">malade</seg> me prie de vous <choice>
+                            <sic>rémercier</sic>
+                            <corr>remercier</corr>
+                        </choice> de vos deux lettres et de vos souhaits pour son jour. Il désire de voir les critiques de la presse anglaise aussitôt que possible et il vous prie de lui envoyer, comme vous pourrez, deux exemplaires pour <choice>
+                            <sic>completer</sic>
+                            <corr>compléter</corr>
+                        </choice> <seg xml:id="seg2" type="note-anchor">la première douzaine</seg>, avec la facture <choice>
+                            <sic>rélative</sic>
+                            <corr>relative</corr>
+                        </choice>. Il vous remettra l’argent aussitôt que le <choice>
+                            <sic>medecin</sic>
+                            <corr>médecin</corr>
+                        </choice> lui permettra de s’occuper de ses affaires.</p>            <closer>
+                        <salute>Agréez, Madame, mes salutations les plus empressées</salute>
+                        <salute>votre <choice>
+                                <sic>devoué</sic>
+                                <corr>dévoué</corr>
+                            </choice>
+                        </salute>
+                        <signed>
+                            <name type="person" key="batt73">Antonio Battara</name>
+                        </signed> </closer>
+                </div>
+                <div type="translation">
+                    <opener> <dateline>
+                            <name type="person" key="weav76">Miss Harriet Weaver</name>
+                        </dateline>
+                        <dateline>
+                            <name type="geo" key="G_GBR_LOND">London</name>
+                        </dateline>
+                        <lb/>
+                        <salute>Dear Miss Weaver,</salute>
+                    </opener> <p>Mr Joyce, since he is ill, asks me to thank you for your two letters and for your birthday greetings. He wishes to see the reviews in the English press as soon as possible, and he asks that you send him, as soon as you can, two copies to complete the first dozen, with the relevant invoice. He will pay you back as soon as the doctor allows him to attend to his affairs.</p>           <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="batt73">Antonio Battara</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Joyce was suffering from an attack of glaucoma and synecchia (<name type="work">JJ</name> 412).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The first dozen copies of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

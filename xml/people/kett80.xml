@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kett80">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>T. M. Kettle</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>kett80</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Thomas</forename> <surname>Kettle</surname>
+            </persName>
+            <persName type="full">T. M. Kettle</persName>
+            <date type="birth" when="1880-02-09"/>
+            <date type="death" when="1916-09-09"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Irish parliamentarian, economist, journalist, and soldier, killed in battle during the first World War. He and JJ knew each other while at University College. Kettle published a mixed review of <name type="work" key="ID_MISSING">Chamber Music</name> ([1 June 1907], 5). JJ incorporated some elements of Kettle into the character of Robert Hand in <name type="work" key="ID_MISSING">Exiles</name>. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

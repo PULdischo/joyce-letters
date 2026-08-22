@@ -1,0 +1,121 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71502">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To John Hinsdale Thompson. Friday, 8 March 1935</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71502</idno>
+            <idno type="internal">71502</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Huntington Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_29">27 rue Casimir Périer VII Paris</placeName>
+               </address>
+               <date notBefore="1935-03-08" notAfter="1935-03-08">Friday, 8 March 1935</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="thom07">
+                        <forename>John Hinsdale</forename> <surname>Thompson</surname>
+                    </persName>
+               <persName type="full" key="thom07">John Hinsdale Thompson</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">
+                                <name type="geo" key="G_FRA_PARI_29">27, RUE CASIMIR-PÉRIER VII<hi rend="superscript">
+                                        <hi rend="underline">E</hi>
+                                    </hi>
+                                </name>
+                            </addrLine>
+                            <addrLine rend="printed">LITTRÉ 88-89</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <dateline>Paris <date when="1935-03-08">March the 8-th. 1935</date> </dateline> <opener>
+                        <salute>Dear Sir, </salute>
+                    </opener> <p>Your <seg xml:id="seg1" type="note-anchor">letter</seg> of the 20-th. of December has been communicated to Mr Joyce. The translation he has done of two plays of <name type="person" key="haup62">Hauptmann</name> was done by Mr Joyce some 30 years ago when he was studying German. It has therefore no <choice>
+                            <sic>litterary</sic>
+                            <corr>literary</corr>
+                        </choice> value and Mr Joyce is absolutely opposed to any idea of its publication. It is merely an exercise, he even wonders how this Ms can have ever reached the <seg xml:id="seg2" type="note-anchor">market</seg> and suspects indiscretion.  </p>
+                    <closer>
+                        <salute>Believe me<lb/>yours sincerely</salute>
+                        <signed>	<name type="person" key="leon93">Paul Léon</name>
+                        </signed>
+                    </closer>
+                    <dateline>​​John Hinsdale Thompson, Grosse Point Michigan. U.S.A.</dateline>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Thompson’s letter requested permission to publish JJ’s 1901 translation of Gerhart Hauptmann’s play <hi rend="italic">Vor Sonnenaufgang</hi> as <hi rend="italic">Before Sunrise</hi>.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Thompson had acquired the play earlier that year at the American Art Association’s auction at Anderson Galleries in New York. In 1904 Joyce had given his translation to W. B. Yeats in hopes that it might be performed by the Irish Literary Theatre. The play passed through numerous hands before being acquired by Thompson. See William S. Brockman, “Collecting Joyces,” <name type="work" key="ID_MISSING">Joyce on the Threshold</name>, ed. Anne Fogarty and Timothy Martin (Gainesville: University Press of Florida, 2005), 273-84.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

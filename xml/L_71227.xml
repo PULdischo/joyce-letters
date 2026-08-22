@@ -1,0 +1,141 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71227">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Tuesday, 23 April 1940</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71227</idno>
+            <idno type="internal">71227</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zentralbibliothek Zürich</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fra"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_VICH_01">Hôtel Beaujolais, Vichy</placeName>
+               </address>
+               <date notBefore="1940-04-23" notAfter="1940-04-23">Tuesday, 23 April 1940</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_71227_01.jpg">
+            <desc>
+                <caption>Zentralbibliothek Zürich</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_VICH_01">
+                                    <choice>
+                                        <sic>​​hotel beaujolais</sic>
+                                        <corr>Hotel Beaujolais</corr>
+                                    </choice>
+                                </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_VICH">Vichy</name> Allier,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA">France</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Merci. Vous répondez toujours vite et à propos. Nous passons quelques semaines ici assez agréablement.</p> <closer>
+                        <salute>Salutations à toute la famille</salute>
+                        <salute>bien à vous</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <ab>
+                        <address>
+                            <addrLine>Hotel Beaujolais</addrLine>
+                            <addrLine>Vichy Allier,</addrLine>
+                            <addrLine>France</addrLine>
+                        </address>
+                    </ab>
+                    <p>Thanks. You always answer quickly and to the point. We are spending a few weeks here quite pleasantly.</p> <closer>
+                        <salute>Greetings to the whole family</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>James Joyce</signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This postcard shows a tinted photograph captioned “364 – Vichy. – Source de la Grande Grille, température 41⁰ débit 3000 litres à l’heure”. The image depicts the Grande Grille, one of the celebrated Vichy springs, the water of which flowed naturally at a temperature of 41 degrees Celsius (106 degrees Fahrenheit) and with an output of 3,000 liters per hour, according to the caption. The postcard was produced by “Édition la Cicogne”, Place de l’Hôtel de Ville, Vichy.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

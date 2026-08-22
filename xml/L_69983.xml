@@ -1,0 +1,145 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69983">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 21 July 1931</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RC">RC</name>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69983</idno>
+            <idno type="internal">69983</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCI</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_GBR_LOND_05">28B Campden Grove, Kensington</placeName>
+               </address>
+               <date notBefore="1931-07-21" notAfter="1931-07-21">Tuesday, 21 July 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_GBR_LOND_06">28b Campden Grove</name>
+                            </addrLine>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_GBR_LOND">Kensington</name>
+                                </seg>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: I sent <seg xml:id="seg2" type="note-anchor">your letter after <name type="person" key="poll98">
+                                <choice>
+                                    <sic>Pallinger</sic>
+                                    <corr>Pollinger</corr>
+                                </choice>
+                            </name>
+                        </seg> who is on leave but had no reply yet. I suppose it is all the same but he would have preferred <seg xml:id="seg3" type="note-anchor">a regular publisher here</seg>. I too. As soon as he writes I will let you know. <seg xml:id="seg4" type="note-anchor">
+                            <name type="person" key="harm03">D. Harmsworth</name> also wrote</seg> to me.</p>
+                    <closer>
+                        <salute>
+                            <seg xml:id="seg5" type="note-anchor">
+                                <foreign xml:lang="ita">Tante belle cose</foreign>
+                            </seg>
+                        </salute>
+                        <signed>
+                            <name type="person" key="joyc82">J.J.</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>From May to September 1931, JJ rented a flat at 28b Campden Grove, Kensington, London – a few minutes’ walk from Pound’s former apartment in Church Walk. JJ described 28b Campden Grove as a “tiny place at a low rent” (<name type="work" key="ID_MISSING">LI</name> 304). He and his family were not particularly happy there; JJ felt the street should have been named “Campden Grave,” and thought it was “inhabited by mummies” (<name type="work" key="ID_MISSING">LI</name> 317). But Bowker writes: “Life in Campden Grove was not as dull as Joyce implied. He and Nora dined with Eliot, Padraic Colum, John Dulanty, the Irish High Commissioner, and the Lynds, and they attended concerts and theatrical events” (Gordon Bowker, “Joyce in England,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 48, no. 4 [Summer 2011]: 674).</p>
+                    <p>Much of JJ’s purpose in going to London was to legalize his relationship with his partner, <name type="person" key="barn84">Nora Barnacle</name> (1884-1951), in a regular marriage ceremony under British law, so as to legitimize his children, <name type="person" key="joyc05">Giorgio</name> (1905-1976) and <name type="person" key="joyc07">Lucia</name> (1907-1982), and ensure the enforceability of the will he would draw up on 5 August 1931. The wedding ceremony took place on 4 July 1931 at the London registry office. JJ, who thought himself well and truly wedded already, wrote of the formal ratification: “While I was signing the roll the King was signing the new law the English call the Marry-Your-Aunt Bill [a statute altering the relational degrees of permitted marriage]. He should now sign a Marry-Your-Wife Bill” (<name type="work" key="ID_MISSING">LIII</name> 221). He also remarked: “If twenty-six years ago I did not want a clerk with a pen behind his ear or a priest in his nightshirt to interfere in my matrimonium, I certainly do not now want a score of journalists with pencils in their hands intruding where they are not wanted” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 637).</p>
+                    <p>JJ and Nora were annoyed by press reporters and photographers who besieged them after the ceremony and for two days at their flat. Pound wrote JJ on 23 July 1931 to offer “a belated wreath to the bride” and made a teasing reference to “de casto connubio” (“of holy [or virtuous] wedlock”), an encyclical that Pope Pius XI had issued on 31 December 1930, denouncing “temporary,” “experimental,” or “companionate” unions lacking the Church’s sanction and based on expediency or whim (see Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 561-62).</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>By 1929-1930, Pound had become frustrated that his prose writings remained uncollected. “NONE of my prose wisdom is available in handy vollums,” he wrote the American Objectivist poet, <name type="person" key="ID_MISSING">Louis Zukofsky</name> (1904-1978). “It is god damn well time for some agitation re/ publication of my collected prose” (<name type="work" key="ID_MISSING">Pound/Zukofsky: Selected Letters of Ezra Pound and Louis Zukofsky</name>, ed. Barry Ahearn [New York: New Directions, 1987], 85, 88). Pound wrote JJ on 29 January 1931 with a similar complaint about American publishers: “the decorum of my god damned country wd. approach more nearly to the ideal if they printed what is ready for them” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 557). Pound continued the attack, this time on the British flank, in his 23 July 1931 reply to JJ’s present letter: Yr/ own Xperience from 1908 ONWARD ought to inskrukt you as to what the god damned shitten shepherds of the ShitishschottischeBritishBotchishce publishing world are likely to print. The buggard bastuds have boycotted me since 19whenever it was 1916” (ibid., 561).</p>
+                    <p>In a reversal of roles, JJ was now trying to help Pound find a British publisher for the bulky manuscript of his collected prose writings (not his <name type="work" key="ID_MISSING">Cantos</name>, as Ellmann states [<name type="work" key="ID_MISSING">LIII</name> 217 n.4]). Writing Pound from London on 7 May 1931, JJ said that he had spoken with <name type="person" key="ID_MISSING">Laurence Edward Pollinger</name> (1898-1976), who was then with the London-based literary agency, <name type="person" key="ID_MISSING">Curtis Brown</name>, and hoped that Pound would leave the manuscript with Pollinger for a few months (<name type="work" key="ID_MISSING">LIII</name> 218). Ten days earlier, JJ had written to <name type="person" key="mcal95">Robert McAlmon</name> (1895-1956) about simultaneous British-American publication of this work (<name type="work" key="ID_MISSING">LIII</name> 217). JJ was also trying to raise money by subscription to offset publishing and advertising costs of such a large volume (see <rs type="letter" key="L_70011">JJ to Pound, 20 August 1931</rs>, notes). On 8 May 1931, Pound thanked JJ for his “noble efforks in my be½” and said that he had “just given a 6 weeks opshun on the deal,” possibly to Curtis Brown (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 559).</p>
+                    <p>JJ’s “efforks” in England came to nothing. Finally, <name type="person" key="ID_MISSING">George Oppen</name> (1908-1984), the American Objectivist poet then living in France, founded “TO Publishers” there with his wife Mary, née Colby (1908-1990), and promised to bring out several volumes of Pound’s prose. Oppen soon went out of business, but not before he had issued the first Pound volume, <name type="work" key="ID_MISSING">Prolegomena 1-2</name>, in June 1932, containing “How to Read – Prolegomena” and “Spirit of Romance, Part One” (Donald Gallup, <name type="work" key="ID_MISSING">Ezra Pound: A Bibliography</name> [Charlottesville: The University Press of Virginia, 1983], 49). Pound’s other prose writings came out slowly in various collections over the years. In 1934, a substantial selection appeared in <name type="work" key="ID_MISSING">Make It New</name>, published by Faber and Faber in England and (the next year) by Yale University Press in the United States. In 1954, <name type="person" key="elio88">T.S. Eliot</name> edited and introduced a substantial volume, <name type="work" key="ID_MISSING">Literary Essays of Ezra Pound</name>, published by Faber and Faber in England and New Directions in America. Pound’s <name type="work" key="ID_MISSING">Selected Prose, 1909-1965</name>, edited by William Cookson, was published by Faber and Faber and New Directions in 1973.</p>
+                </note>
+                <note xml:id="note3" target="#seg3" type="commentary">Laurence Pollinger was hoping that the London firm of <name type="person" key="ID_MISSING">Martin Secker</name> – publisher of D.H. Lawrence, George Orwell, and others – might issue Pound’s prose writings (<name type="work" key="ID_MISSING">LIII</name> 217), but this plan did not materialize.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">
+                    <p>JJ was attempting to interest Desmond Harmsworth (1903-1990), British painter, writer, and London publisher, in publishing Pound’s prose writings (see <name type="work" key="ID_MISSING">LIII</name> 220). Harmsworth did not publish that large manuscript, but he did issue in December 1931 Pound’s small volume, <name type="work" key="ID_MISSING">How to Read</name>, which Pound considered “the summa of all I have learned about literchoor” (A. David Moody, <name type="work" key="ID_MISSING">Ezra Pound: Poet, A Portrait of the Man and his Work</name>, vol. 2 [Oxford: Oxford University Press, 2014], 72).</p>
+                    <p>In September or October 1932, the first English edition (printed in France) of JJ’s <name type="work" key="ID_MISSING">Pomes Penyeach</name>, with decorated initial letters (or lettrines) designed by JJ’s daughter, Lucia (1907-1982), and the poems rendered in facsimile of JJ’s handwriting, was published by Desmond Harmsworth Ltd. in London and The Obelisk Press in Paris. <name type="work" key="ID_MISSING">Pomes Penyeach</name>, containing thirteen poems by JJ, had initially been published in an ordinary edition in 1927 by Shakespeare and Company in Paris. Harmsworth later wrote about his acquaintance with JJ and Nora, and of his rather comical attempt to draw JJ (“James Joyce: A Sketch,” <name type="work" key="ID_MISSING">Harper’s Bazaar</name>, no. 2848 [April 1949]: 128-29, 198). Harmsworth was the nephew of Alfred Harmsworth, 1st Viscount Northcliffe (1865-1922), the British newspaper magnate who owned the <name type="work" key="ID_MISSING">Daily Mail</name> and the <name type="work" key="ID_MISSING">Daily Mirror</name>, and was a pioneer of popular, sensational journalism.</p>
+                </note>
+                <note xml:id="note5" target="#seg5" type="commentary">A standard Italian wish for “many nice things.”</note>
+            </div>
+      </body>
+   </text>
+</TEI>

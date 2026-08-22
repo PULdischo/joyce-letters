@@ -1,0 +1,129 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68846">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Monday, 30 January 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="LLT">LLT</name>
+                    <name xml:id="LVR">LVR</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68846</idno>
+            <idno type="internal">68846</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">9 rue de l'Université, Paris</placeName>
+               </address>
+               <date notBefore="1922-01-30" notAfter="1922-01-30">Monday, 30 January 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         
+
+
+<div type="letter">
+                                                      <div type="address">
+<ab>
+<address>
+<addrLine>
+<name type="geo" key="G_FRA_PARI_04">rue de   l’Université 9</name>
+</addrLine>
+<addrLine>
+<name type="geo" key="G_FRA_PARI">Paris VII</name>
+</addrLine>
+</address>
+</ab>
+</div>
+<div type="mainBody">
+<p>Dear <name type="person" key="weav76">Miss Weaver</name>: I return more of <seg xml:id="seg1" type="note-anchor">the proofsheets of <name type="work" key="W_EXILES">
+                                <hi rend="underline">Exiles</hi>
+                            </name>
+                        </seg> and will send the rest tomorrow. The text on p. 114 is all right. I don’t understand the marking on p. 81. I approve of a uniform edition of all the books. If they are of the same size so much the better. After a great deal of express letter writing and telegraphing it seems that Ulysses will be published on <seg xml:id="seg2" type="note-anchor">Thursday</seg>. I worked on the text until last night but have now bundled all the books and papers off my table. As regards the list of my books in front of <hi rend="underline">Exiles</hi> the Paris edition has not at all been sold and I have no clear opinion of what way it is likely to sell. The actual number I forget but it was between 510 and 560. I don’t think it wise to tell this figure to people as the general opinion seems to be that it is almost sold out. Possibly they are right in their opinion. I shall send you a <rs type="letter" key="L_68850">telegram</rs> as soon as <hi rend="underline">Ulysses</hi> is definitely published.</p>
+                             <closer>  	
+<salute>With kind regards</salute>
+                                           <salute>sincerely yours</salute>
+                                                       	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+<dateline>
+                            <date when="1922-01-30">30.1.922</date>
+                        </dateline>
+</closer>
+</div>
+</div>
+
+<div type="notes">
+
+<note xml:id="note1" target="#seg1" type="commentary">JJ was still working on page proofs of <hi rend="italic">Exiles</hi> in January 1922 because the second English edition (published by Harriet Weaver’s Egoist Press in 1921, as stated in the colophon) had not actually been printed until early 1922.</note>
+
+<note xml:id="note2" target="#seg2" type="commentary">A first complete edition of <hi rend="italic">
+                        <name type="work" key="W_ULYSSES">Ulysses</name>
+                    </hi> was published in <name type="geo" key="G_FRA_PARI">Paris </name>on <name type="person" key="joyc82">JJ</name>’s fortieth birthday on Thursday, <date when="1922-02-02">2 February 1922</date>.</note>
+</div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rugg87">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paul Ruggiero</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>rugg87</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Paul</forename> <surname>Ruggiero</surname>
+            </persName>
+            <persName type="full">Paul Ruggiero</persName>
+            <date type="birth" when="1887-02-08"/>
+            <date type="death" when="1972-02-23"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Zurich bank employee and friend of JJ. Born in Thessaloniki (then Saloniki), his family moved to Zurich in 1916, where in 1923 he married <name type="person" key="frie03">Berta Friedli</name> (1903-?). Their son <name type="person" key="ID_MISSING">Alfred</name> was born in 1924. A member of the “Club des Étrangers”, the informal group of ex-patriots whom JJ befriended in Zurich in 1916, he spoke with and sometimes corresponded with JJ in Italian, Greek, and French. He helped the Joyce family to find a flat at Seefeldstrasse 73 in 1917. When JJ sang an accompaniment for the English Players’ production of <name type="person" key="ID_MISSING">Robert Browning</name>’s <name type="work" key="ID_MISSING">In a Balcony</name>, Ruggiero accompanied him on a guitar (which he later maintained that JJ had given him, and which in 1966 Ruggiero donated to the Joyce Tower Museum in Sandycove). The two corresponded occasionally while JJ lived in Paris, and their friendship proved to be critically important during the last months of 1940, when Ruggiero was, with <name type="person" key="gied93">Carola Giedion-Welcker</name>, a key figure in enabling the Joyce family to enter Switzerland during the German occupation of France. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

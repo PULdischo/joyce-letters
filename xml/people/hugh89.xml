@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hugh89">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Suzanne Hughes</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>hugh89</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">91056582</idno>
+            <idno type="OCLC">lccn-n2009045496</idno>
+            <persName type="reg">
+               <forename>Suzanne</forename> <surname>Hughes</surname>
+            </persName>
+            <persName type="full">Suzanne Hughes</persName>
+            <date type="birth" when="1889-11-20"/>
+            <date type="death" when="1972-12-21"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Actor and the second wife of composer <name type="person" key="hugh82">Herbert Hughes</name>. The daughter of Dublin shoemaker <name type="person" key="ID_MISSING">James</name> and <name type="person" key="ID_MISSING">Maria McKernan</name>, Susan McKernan lived in Drumcondra near the Joyces. As a young woman she moved to London. She attended the Academy of Dramatic Art and, in 1921, joined the Abbey Theatre breakaway company, The Irish Players, for the American tour of <name type="person" key="robi86">Lennox Robinson</name>’s <name type="work" key="ID_MISSING">The White-Headed Boy</name>. She married Hughes in New Jersey the following year. After Herbert’s death in 1937 Suzanne remained in London, dying in Chelsea in December 1972. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vogt79">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alfred Vogt</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>vogt79</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Alfred</forename> <surname>Vogt</surname>
+            </persName>
+            <persName type="full">Alfred Vogt</persName>
+            <date type="birth" when="1879-10-31"/>
+            <date type="death" when="1943-12-10"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Ophthalmologist. Vogt studied medicine at the universities of Zurich and Basel, with specialized study in Basel and Turin. He practiced in Aarau and Basel, and from 1923 to 1943 was Director of the Zürcher Augenklinik. Vogt’s <name type="work" key="ID_MISSING">Atlas der Spaltlampenmikroskopie des lebenden Auges</name> (1921), after several editions and an English translation, remains a standard resource on the subject. Vogt performed cataract surgery on JJ in May of 1930 in Zurich (see Vogt’s report, <name type="work" key="ID_MISSING">LIII</name> 197-98). JJ continued to consult him in Zurich a number of times throughout the 1930s and expressed great respect for Vogt’s skill. Between 1930 and 1939, JJ presented Vogt’s daughter, <name type="person" key="ID_MISSING">Helene</name>, with several inscribed limited editions of his works; these were donated to the Zurich James Joyce Foundation in 2014. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

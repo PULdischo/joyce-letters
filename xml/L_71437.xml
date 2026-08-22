@@ -1,0 +1,116 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71437">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Sunday, 16 November 1930</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>undefined</respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71437</idno>
+            <idno type="internal">71437</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TLS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">192 rue de Grenelle, Paris</placeName>
+               </address>
+               <date notBefore="1930-11-16" notAfter="1930-11-16">Sunday, 16 November 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_16">192 rue de Grenelle</name>
+                            </addrLine>                                	<addrLine>Paris</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Dear budgen</salute>
+                    </opener>
+                    <p>        	I am very glad to hear that you are well and that <name type="person" key="schw99">Schwarz</name> thinks he has a buyer for the fine <seg xml:id="seg1" type="note-anchor">portrait</seg> you did of me in Zurich. I would have added it to my small gallery but I have already about 30 canvasses on a limited wallspace to which <name type="person" key="john78">Augustus John</name> has just adde<supplied reason="off-margin">d</supplied> the fine drawing he made last week. I like the pose in your portrait but for the love of <name type="person" key="manf19">Manfield</name> tell the buyer that my size in shoes is a small seven.</p>
+                    <p>        	I hope you will have better luck with your house after Xmas. Money is tied at this time. I am kep<supplied reason="off-margin">t</supplied> here for some days still.</p>
+                    <p>        	I typed this myself.</p>
+                    <p>Kind greetings to <name type="person" key="budg96">Mrs Budgen</name> and yourself and remember us to the <name type="person" key="sarg81">sargent</name>
+                        <lb/>
+                        <name type="person" key="joyc82">James Joyce</name>
+                    </p>
+                    <dateline>
+                        <date when="1930-11-16">16 Nov 193o</date>
+                    </dateline>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Since this was typed by Joyce, spacing has been normalized but spelling follows the original letter.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">The portrait is the oil painting of Joyce in a semi-reclining and somewhat convoluted pose (now held at the <rs type="external" key="http://onlinecollection.nationalgallery.ie/objects/8689/portrait-of-james-joyce-18821941-author?ctx=c9f56230-405a-4f2b-9a51-6f6efc7da5c4&amp;idx=0">National Gallery of Ireland</rs>) that Budgen used as the frontispiece for the first edition of <name type="work">JJMU</name>. The painting prominently displays Joyce’s right shoe. Thanks to Aaron M. Lisec of Southern Illinois University for identifying the location of the painting.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

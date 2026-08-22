@@ -1,0 +1,121 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71615">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Monday, 20 August 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="MG">MG</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71615</idno>
+            <idno type="internal">71615</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Telegram</note>
+            <note type="coc_abbr">Telegram</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Manuscripts and Archives Division, New York Public Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI">Zurich</placeName>
+               </address>
+               <date notBefore="1917-08-20" notAfter="1917-08-20">Monday, 20 August 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zürich</name>
+                            </addrLine>
+                            <addrLine>7</addrLine>
+                        </address>
+                    </ab>
+                    <p>
+                        <name type="person" key="poun85">Pound</name> <name type="geo" key="G_GBR_LOND_06">5 Holland Place</name>, Chambers <name type="geo" key="G_GBR_LOND">London</name> W8</p>
+                </div>
+                <div type="mainBody">
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">Cable <name type="person" key="quin70">Quinn</name>
+                        </seg> confirm or remit you telegraphically nothing here remitting</p>
+                    <closer>
+                        <signed>
+                            <name type="person" key="joyc82">Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Official notations on this telegram indicate that JJ sent it to Pound from Zurich on 20 August 1917 at 11 a.m. These data agree with a follow-up letter that JJ wrote Pound the same day (<name type="work" key="ID_MISSING">SL</name> 226-27). The English office stamp and additional notations indicate that the telegram was received in London on 22 August at 7 a.m. Pound replied to JJ the next day, 23 August, by cable and by separate letter (<name type="work" key="ID_MISSING">Pound/Joyce</name> 124-25).</note>
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>On 23 August 1917, Pound wrote JJ to say that he was baffled by this cabled message and added that he had cabled JJ back: “WHAT do you want cash[?]” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 124-25). The New York lawyer John Quinn (1870-1924), a collector of modern art and literary manuscripts, had arranged to purchase items from JJ, including the manuscript of his play <name type="work" key="W_EXILES">Exiles</name>. Pound had written JJ on 17 July 1917 that Quinn had sent “an advance” on the <name type="work" key="W_EXILES">Exiles</name> manuscript (<name type="work" key="ID_MISSING">Pound/Joyce</name> 121). JJ was still eagerly awaiting that payment (“nothing here”) and wanted Quinn to cable the cash to Pound’s care (“confirm or remit you telegraphically”). JJ explained the cable in a letter to Pound dated the same day, 20 August, and also described the “violent Hexenschuss” (lumbago) that had attacked him while he was walking in Zurich on 18 August and then a resurgence of glaucoma the following day (<name type="work" key="ID_MISSING">SL</name> 226-27). A few days later, JJ was to undergo surgery for an iridectomy at the Zurich Augenklinik (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 417). For JJ’s belief that his eye problems were connected to rheumatism, see <rs type="letter" key="L_68237">JJ to Pound,19 July 1915</rs>, notes; 10 March 1916, notes.</p>
+                    <p>Later, when Quinn finally received acts two and three of <name type="work" key="W_EXILES">Exiles</name>, he sent JJ, on 18 August 1917, a “Zurich draft for 522.50 francs, being the equivalent of £25,” which did not reach JJ until mid-September (Myron Schwartzman, “‘Quinnigan’s Quake!’ John Quinn’s Letters to James Joyce, 1916-1920,” <name type="work" key="ID_MISSING">Bulletin of Research in the Humanities</name>, vol. 81, no. 2 [Summer 1978]: 231).</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71812">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. ca. 15-30 September 1933</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71812</idno>
+            <idno type="internal">71812</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1933-09-15" notAfter="1933-09-30">ca. 15-30 September 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">
+                            <foreign xml:lang="fra">Les Toutes dernières des Dernières</foreign>
+                        </seg> (leaving only one other possibility which is <seg xml:id="seg2" type="note-anchor">
+                            <foreign xml:lang="fra">les toutes dernières des toutes dernières</foreign>
+                        </seg>)</p>
+                    <p>                               	SUGGESTIONS:</p>
+                    <p>
+                        <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="byrn89">Donn Byrne</name>
+                        </seg> This book was sent to you yesterday consult page 128 also description of the Joyce country and <choice>
+                            <sic>charcateristics</sic>
+                            <corr>characteristics</corr>
+                        </choice> of the tribe which you might perhaps quote. If anywhere you allude to talent checked by premature decay (gumley – <hi rend="underline">loquitur</hi>) you could cite him though he died in an accident and <name type="person" key="kett80">Thomas Kettle</name> a <choice>
+                            <sic>danish</sic>
+                            <corr>Danish</corr>
+                        </choice> family <choice>
+                            <sic>descebdebt</sic>
+                            <corr>descended</corr>
+                        </choice> from Ketyl flat-nose. The Ketyl was a precious <choice>
+                            <sic>couldron</sic>
+                            <corr>cauldron</corr>
+                        </choice>.</p>
+                    <p>
+                        <seg xml:id="seg4" type="note-anchor">Archiduchessa</seg> – they have a wine in Savoy named Altesse but we went one better.</p>
+                    <p>
+                        <seg xml:id="seg5" type="note-anchor">Swift</seg>: there is in WiP Part I a ferocious travesty of his dull elucubration on the death of Mrs Esther Johnson which begins “The just defunct Mrs Saunders who (the Loyd insure her!) I was shift and shuft to....”</p>
+                    <p>
+                        <seg xml:id="seg6" type="note-anchor">Limmat and Sihl</seg>: Why not work in their mention in ALP “well that's the Limmat as el Negro wynced when he wonced in Laplate” and “Lagging a gig or so on the sihl to show them how to shake their benders”.</p>
+                    <p>
+                        <seg xml:id="seg7" type="note-anchor">Magazine</seg>: Have you used this late explosion. Swift said of the magazine</p>
+                    <lg>
+                        <l>Behold a proof of Irish sense</l>
+                        <l>Here Irish wit is seen</l>
+                        <l>Where nothing’s left that's worth defence</l>
+                        <l>They build a magazine.</l>
+                    </lg>
+                    <p>re <seg xml:id="seg8" type="note-anchor">Consulate</seg> In this connection the terms Father Prefect and Father Rector must mean little to nine tenths of your readers. The reader should imagine an English public-school boy appealing to the head of Eton against his housemaster.</p>
+                    <p>Bloom’s <seg xml:id="seg9" type="note-anchor">bath</seg>: Does your reader realize what a unique event this was in the Dublin I knew up to 1904.</p>
+                    <p>The <seg xml:id="seg10" type="note-anchor">King V. Humphrey</seg>: You say this is a difficult case but some years ago I read a court in India had to try a case of a <choice>
+                            <sic>hindu</sic>
+                            <corr>Hindu</corr>
+                        </choice> goddess (who was allowed to plead by proxy) versus <name type="person" key="tago61">
+                            <choice>
+                                <sic>Rabindranth</sic>
+                                <corr>Rabindranath</corr>
+                            </choice> Tagore</name>.</p>
+                    <p>
+                        <seg xml:id="seg11" type="note-anchor">Dancing</seg>: The combination you mention is quite good but would it not be better and more what you mean if you amplified it in some such way as this (I leave the wording to you but avoid your phrase “a cross between” which you have already used more than once) something like:</p>
+                    <p>A festive caricature, if one could imagine it, of <name type="person" key="niji90">Nijinsky</name> as Autolycus and <name type="person" key="tree52">Tree</name>’s Malvolio, a snapper up of unconsiderate trifles and ‘gull turned heathen and very renegado’.</p>
+                    <p>
+                        <seg xml:id="seg12" type="note-anchor">Arms</seg>: Are the trams really cobalt-blue? in any case the heraldic name of blue and white are: azur and argent. As for the division of the shield the Ordinary is a BEND but I do <supplied reason="omitted">not</supplied> know what the charge on the sinister part of the shield thus divided are called. They look like matches which they always give for <choice>
+                            <sic>nithing</sic>
+                            <corr>nothing</corr>
+                        </choice> in <name type="geo" key="G_CHE_ZURI">Z’ch</name> in the tobacco-shops. There are 156 communes in the Canton of Z’ch. Each with a separate shield. Borach 21 Bellerive strasse will show them to you.  </p>
+                    <p>
+                        <seg xml:id="seg13" type="note-anchor">Wine women and song</seg>: It is perhaps impossible for you to give your reader a just idea of the state of enthusiasm which this trinity one at a time please caused him (J.) You have put in your Auerbach cellar picture enthusiasm No1. As for enthusiasm No3 perhaps <choice>
+                            <sic>Leon</sic>
+                            <corr>Léon</corr>
+                        </choice> who is typing this will shoot you off a pen picture in Russian Ballet-French describing my antics in the stalls of the Paris Opera for the scandal of the blasé-abonné and the ensuing story made up of it in the Press. But as regards No2 and this in relation to Nausicaa even the vocabulary of WiP is insufficient.</p>
+                    <p>
+                        <seg xml:id="seg14" type="note-anchor">St Bernard</seg> wrote <foreign xml:lang="lat">“qui me amat amat et canem meum”</foreign> but the love-philter of Isolde is alluded to somewhere by her in WiP with this free translation “Love me, love my <choice>
+                            <sic>drugrs</sic>
+                            <corr>drugs</corr>
+                        </choice>” <foreign xml:lang="lat">verbum sap</foreign>.</p>
+                    <p>                    	The stiry ti-morrow and this is the END</p>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="translation">Eng: The very last of the last</note>
+                <note xml:id="note2" target="#seg2" type="translation">Eng: The very last of the very last</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Budgen crossed through this paragraph and wrote in pencil “L.O.” (left out), but it is clear to see the appeal for JJ of novelist Byrne's words: “Connemara raises in the distance the threatening spears of its mountains—spears of purple and black, like the picked and terrible troops of some dreaded army; but as you come nearer you find in the Joyce's Country an unsurpassable beauty of heather, a hospitality unbounded, great courtesy, comeliness of men and women” (Donn Byrne, <name type="work">Ireland, the Rock Whence I Was Hewn</name> [Boston: Little Brown and Company, 1929], 128). “Talent checked” refers to Byrne's death in an automobile accident at a relatively early age. Gumley, the night watchman whose name comes up in “Aeolus”, “Cyclops” and “Eumaeus” of <name type="work" key="W_ULYSSES">Ulysses</name>, seems to have suffered from financial misfortune. Thomas Kettle, a friend and contemporary of JJ's (and according to JJ a descendant of the 9th century Norse king Ketill Flatnose), was killed in the first World War.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ here recalls his nickname for the Swiss Fendent de Sion wine that he and Budgen favoured. This was elaborately described by Budgen (<name type="work">JJMU</name> 172).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">JJ's note is probably related to <name type="work">JJMU</name> 185, in which Budgen and JJ converse about Swift's “secret grief”. But Budgen did not explicitly use JJ's suggestion.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">These phrases (with minor variations from <name type="work" key="W_FINNEGANSWAKE">FW</name> 198.13-14 and 200.23-24) had appeared in slightly different form in <name type="work">Anna Livia Plurabelle: Fragment of Work in Progress</name>, Criterion Miscellany, 15 (London: Faber &amp; Faber, 1930), 7, 10, but Budgen did not incorporate them into <name type="work">JJMU</name>.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">JJ mentioned the explosion at the Magazine in Phoenix Park (which occurred on 4 September 1933) in his <rs type="letter" key="L_70349">letter to Budgen of 5 September</rs>. The lines quoted here are said to be Jonathan Swift's last written work (<name type="work">The Poems of Jonathan Swift</name>, ed. Harold Williams [Oxford: Oxford University Press, 1937], 843). Not used by Budgen.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Budgen quoted JJ as saying “I always appeal to the highest instance” (<name type="work">JJMU</name> 202) and noted JJ's equation of schoolboy Stephen Dedalus's complaint to the Clongowes rector about his unjust punishment for breaking his glasses (<name type="work" key="W_APORTRAIT">Portrait</name> chapter I) and his appeal to British minister Horace Rumbold over his dispute with Henry Carr of the English Players (<name type="work">LII</name> 424-26). Budgen's pencil note reads, simply “I think the reader will understand. I understood”.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Unique in 1904 Dublin, but not used by Budgen. However, Budgen wrote in pencil “if poss.” in the margin.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">In <name type="work">FW</name> 196.21 as "the King fierceas Humphrey". But not used by Budgen.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">Budgen accepted JJ's suggestion (<name type="work">JJMU</name> 194-95): “On festive occasions and with a suitable stimulus, beribboned and wearing a straw picture hat (Autolycus turned pedant and keeping school, Malvolio snapping up unconsidered trifles) JJ would execute a fantastic dance.” Autolycus was the Greek mythological thief who could transform both himself and the stolen goods. Maria in Shakespeare's <name type="work">Twelfth Night</name> has turned Malvolio into a fool: “Yond gull Malvolio is turned heathen, a very renegade” (III.3.67-68). <name type="person" key="tree52">Beerbohm Tree</name>'s production of <name type="work">Twelfth Night</name> played for 125 performances in London in 1901. Photographs and lithographs of Tree in the role of Malvolio were widely published. Budgen noted in pencil “To be done”.</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Budgen ignored JJ's digression regarding heraldic details, writing in pencil “Better that I talk like a painter”.</note>
+                <note xml:id="note13" target="#seg13" type="commentary">The reference in JJ's suggestions to “Auerbach cellar” as enthusiasm number 1, “wine”, likens his drinking with Budgen and others in the Pfauen restaurant and elsewhere to Auerbachs Keller in Goethe's <name type="work">Faust</name> I. Enthusiasm number 3, “song”, is described as an event in the Paris Opera in a separate letter written by Léon (referenced in the present letter's final line, “the stiry ti-morrow…”). Along with letters <rs type="letter" key="L_71711">to Budgen from 7 May 1933</rs> (<name type="work">LIII</name> 279-80) and <rs type="letter" key="L_71709">30 March 1933</rs>, this letter regards as ineffable some aspect of “Nausicaa”. Avoiding explicit reference, Budgen settled for a long paragraph in <name type="work">JJMU</name> 213-14 on changing attitudes toward fashion and the significantly different perspectives on clothing between the “Nausicaa” of 1904 and Budgen's book of 1934.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">Bernard's phrase (literally “He who loves me loves my dog”) is commonly translated into English as “love me, love my dog”, quoted in “Further Recollections of James Joyce” (<name type="work">JJMU</name> 356).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

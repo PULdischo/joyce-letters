@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kaha87">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jack Kahane</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>kaha87</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            <idno type="OCLC">lccn-no89007585</idno>
+            <persName type="reg">
+               <forename>Jack</forename> <surname>Kahane</surname>
+            </persName>
+            <persName type="full">Jack Kahane</persName>
+            <date type="birth" when="1887-07-20"/>
+            <date type="death" when="1939-09-02"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Publisher, born in England, but made his name in Paris. With <name type="person" key="babo75">Henri Babou</name>, he published JJ’s <name type="work" key="ID_MISSING">Haveth Childers Everywhere</name> (1930), distributed in the United States by Elbridge Adams’s Fountain Press. The following year Kahane established the Obelisk Press, which in 1932 published a limited edition of <name type="work" key="ID_MISSING">Pomes Penyeach</name> decorated with initial letters designed by <name type="person" key="joyc07">Lucia Joyce</name>. The Obelisk Press became widely known for its avant-garde list. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

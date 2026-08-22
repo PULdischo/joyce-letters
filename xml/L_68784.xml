@@ -1,0 +1,131 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68784">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 7 August 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68784</idno>
+            <idno type="internal">68784</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_09">71 rue du Cardinal Lemoine, Paris</placeName>
+               </address>
+               <date notBefore="1921-08-07" notAfter="1921-08-07">Sunday, 7 August 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <opener>
+                        <salute>
+                            <seg type="published" function="context">
+                                <quote>Dear <name type="person" key="weav76">Miss Weaver</name>:</quote>
+                                <bibl>LI 168</bibl>
+                            </seg>
+                        </salute>
+                    </opener> <p>I wonder if you are back in <name type="geo" key="G_GBR_LOND">London</name> and have received the Italian papers I sent for the second time. I should like to have them back later on by post or in a letter. Parcels seem to take six weeks to travel.</p> <p>
+                        <seg type="published" function="context">
+                            <quote>I have had five weeks of delightful vacation with <seg xml:id="seg1" type="note-anchor">my eyes</seg> … The subscriptions have been rather slow and poor and now seem to have come or be coming to an end.</quote>
+                            <bibl>LI 168</bibl>
+                        </seg>
+                    </p> <p>I believe some 5000 <seg xml:id="seg2" type="note-anchor">prospectuses</seg> were sent out and the capture is 260 but people ought not to be told this figure.</p> <p>
+                        <seg type="published" function="context">
+                            <quote>I am trying to make up for lost time. … About three months ago I received a note of four lines from <name type="person" key="pink62">Mr Pinker</name> to which I replied by a note of no lines at all – which is shorter still. I think it would be well if <name type="work" key="W_ULYSSES">
+                                    <hi rend="underline">Ulysses</hi>
+                                </name> makes my name to unify my publishers.</quote>
+                            <bibl>LI 168</bibl>
+                        </seg>
+                    </p> <p>
+                        <name type="person" key="math51">Mr Mathews</name> and <name type="person" key="rich72">Mr Richards</name> are two bores quite as incompetent as <rs type="person" key="pink62">my agent</rs> and swindlers into the bargain. Perhaps they could be induced to pass over their rights and remainders of copies to you. The former never paid me any royalties on either edition, from the latter I got about £10 in as many years. <name type="person" key="hueb76">Mr Huebsch</name> began rather well but has changed his mind. Whether he sends any royalties to Mr Pinker or not I don’t know. Perhaps he does. I daresay my agent will hold them up until I reply to his fourlined note of challenge.</p>           <p>
+                        <seg type="published" function="context">
+                            <quote>I was going to take a forty-eight hour holiday somewhere but decided not to do so. … Bloom and all the Blooms will soon be dead, thank God. Everyone says he ought to have died long ago.</quote>
+                            <bibl>LI 168</bibl>
+                        </seg>
+                    </p> <p>I shall return to <seg xml:id="seg3" type="note-anchor">the subject</seg> of our last letters shortly but not today. I heard still another description of myself as a very elegant fashionable person. I hope you will laugh as much at this as I did.</p> <closer>
+                        <salute>With kind regards</salute>
+                        <salute>sincerely yours</salute> <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1921-08-07">7.8.921</date>
+                        </dateline> </closer>
+                </div> </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In early July, JJ suffered an attack of iritis, from which he spent five weeks recovering with the aid of repeated doses of cocaine to relieve the pain (<name type="work">JJ</name> 517).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">When plans for an American publication fell through, Sylvia Beach offered JJ to publish <name type="work" key="W_ULYSSES">Ulysses</name> in Paris. The plan was for a first edition of 1,000 copies, to be sold in advance by subscription. A four-page prospectus was mailed to several hundred people and shops in England and in France that had expressed interest and might subscribe to <name type="work" key="W_ULYSSES">Ulysses</name>. The names of the persons and shops in England were supplied to Beach by Harriet Weaver (<name type="work">JJ</name> 506). An image of the prospectus can be found on the <rs type="external" key="https://www.bl.uk/collection-items/g-b-shaws-order-form-for-ulysses">website of the British Library</rs>.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Harriet Weaver had expressed alarm after hearing rumours about JJ’s excessive drinking habits (<name type="work">JJ</name> 509). JJ replied with a lengthy letter enumerating preposterous “legends” that supposedly had been circulating about him in various countries and bemoaned the lack of support in Paris for his work (<rs type="letter" key="L_68777">JJ to Harriet Weaver, 24 June 1921</rs> [<name type="work">SL</name> 281-84]).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

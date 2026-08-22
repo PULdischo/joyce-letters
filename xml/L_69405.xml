@@ -1,0 +1,131 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69405">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 16 November 1926</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>RS</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69405</idno>
+            <idno type="internal">69405</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_16">2 Square Robiac, Paris</placeName>
+               </address>
+               <date notBefore="1926-11-16" notAfter="1926-11-16">Tuesday, 16 November 1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">2, Square Robiac</addrLine>
+                            <addrLine rend="printed">192, rue de Grenelle</addrLine>
+                            <addrLine>Paris</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Can you give me the address of <seg xml:id="seg1" type="note-anchor">a trustworthy lawyer</seg> in <name type="geo" key="G_USA_NEWY">New York</name>? We <seg xml:id="seg2" type="note-anchor">cabled to <name type="person" key="kief81">Paul <choice>
+                                    <sic>Kiefer</sic>
+                                    <corr>Kieffer</corr>
+                                </choice>
+                            </name>
+                        </seg> who has taken over <name type="person" key="quin70">John Quinn</name>’s practice as <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="fost79">Mrs Foster</name> told me</seg> he was a great admirer of mine. He <seg xml:id="seg4" type="note-anchor">cabled back declining</seg> to take up the case. I had absolutely <seg xml:id="seg5" type="note-anchor">no negotiations whatever</seg> with <name type="person" key="roth93">Roth</name> about <name type="work" key="W_ULYSSES">Ulysses</name>. He is pirating it, bowdlerizing it and vilifying me at the same time as enriching himself. His monthly sales already in <date when="1926-08">August</date> amounted to one million francs. If he completes his plan he will collect about 20,000,000 francs out of my work which he has mutilated and probably bring my sales in <name type="geo" key="G_FRA_PARI">Paris</name> to a standstill<supplied reason="omitted">.</supplied>
+                    </p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1926-11-16">16/xi/926</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Samuel Roth (1893-1974), New York writer, magazine editor, literary pirate, and pornographer, began an unauthorized and expurgated serialization of <name type="work" key="W_ULYSSES">Ulysses</name> in his magazine <name type="work" key="ID_MISSING">Two Worlds Monthly</name>, reprinting the first three episodes (“Telemachus,” “Nestor,” and “Proteus”) in the initial July 1926 number (93-128) and dedicating the number to JJ “who will probably plead the cause of our time at the bar of posterity” (3). JJ had heard exaggerated reports that Roth was selling “40,000 copies a month” (<name type="work" key="ID_MISSING">LI</name> 246), and was convinced that the bowdlerized piracy would erode sales of his Paris edition of <name type="work" key="W_ULYSSES">Ulysses</name>. Roth continued reprinting the work through the “Oxen of the Sun” episode in October 1927, ceasing when JJ’s lawsuit and financial difficulties had worn him down. In the end, Roth published only a few more pages of <name type="work" key="W_ULYSSES">Ulysses</name> than <name type="work" key="W_THELITTLE">The Little Review</name> had managed before a criminal conviction for publishing obscenity had forced its editors to discontinue the serialization (see Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing and the Public Domain</name> [New York: Oxford University Press, 2013], 172-92).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Paul Kieffer (1881-1969), a Harvard Law graduate and Rhodes Scholar, was a New York lawyer who had been the partner of the New York lawyer and art patron John Quinn (1870-1924) and, after Quinn’s death, continued to run the firm as Kieffer &amp; Woodward. Kieffer was the uncle (not the father, as Ellmann says [Ellmann, <name type="work" key="ID_MISSING">JJ</name> 524]) of Helen Kieffer (1905-1958), the young woman who became Lucia Joyce’s friend and dance companion in Paris and Deauville in 1922 and 1923 (see Carol Loeb Shloss, <name type="work" key="ID_MISSING">Lucia Joyce: To Dance in the Wake</name> [New York: Farrar, Straus and Giroux, 2003], 83-85, 89, 96-97, 115). Helen, from Hagerstown, Maryland, was the daughter of Paul Kieffer’s brother, the banker John B. Kieffer (1872-1948), whose wife, née Alice V.B. Hays (1878-1962), was the sister of Helen Nutting, née Helen Ashe Hays (1876-1947), the wife of the American artist Myron Chester Nutting (1890-1972). Myron and Helen Nutting became friends of JJ and the Joyce family during the 1920s. Thus, Helen Kieffer was the niece of Paul Kieffer, on her paternal side, and the niece of Helen Nutting, on her maternal side.</note>
+                <note xml:id="note3" target="#seg3" type="commentary"> Jeanne Robert Foster (1879-1970), American writer, journalist, editor, and fashion model, had been the friend and romantic companion of the New York lawyer and art patron John Quinn (1870-1924) from 1918 until his death. She knew and corresponded with many writers and authors, including John Butler Yeats, W.B. Yeats, Ezra Pound, Ford Madox Ford, Picasso, and Constantin Brancusi. She also met JJ in Paris, who purportedly gave her a recipe for an Italian way to cook artichokes. For a number of years, Foster was assistant editor of the <name type="work" key="ID_MISSING">American Review of Reviews</name>, and was also American editor of the <name type="work" key="ID_MISSING">Transatlantic Review</name>, edited by Ford Madox Ford in 1924. She wrote and published books of narrative verse and volumes of stories. Her collection of letters, diaries, manuscripts, and clippings was acquired by the New York Public Library (Edwin McDowell, “A New Yorker’s Link with Literary Figures,” <name type="work" key="ID_MISSING">New York Times</name> [3 September 1984]: 12). For her relationship with Quinn, see Richard Londraville and Janis Londraville, <name type="work" key="ID_MISSING">Dear Yeats, Dear Pound, Dear Ford: Jean Robert Foster and Her Circle of Friends</name> (Syracuse, NY: Syracuse University Press, 2001), 134-52.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">
+                    <p>In October or November 1926, with the help of the American poet and lawyer Archibald MacLeish (1892-1982), JJ cabled the New York lawyer Paul Kieffer, requesting his assistance in obtaining an injunction against Samuel Roth’s unauthorized serialization of <name type="work" key="W_ULYSSES">Ulysses</name>. Kieffer cabled JJ a terse refusal on 5 November 1926: “REGRET UNABLE UNDERTAKE CASE” (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 198-99).</p>
+                    <p>Pound replied to JJ’s present letter on 19 November 1926: “Sorry, I dunno no lawyer,” and urged JJ not to bring a lawsuit against the probably impecunious Roth but instead to “write to as many papers as possible, denouncing Roth, and stating that the text is garbled and unauthorized” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 225). JJ took both Pound’s advice and his own. First, he issued to the press an international protest against Roth, signed by more than 160 writers and intellectuals, in time for publication on JJ’s birthday, 2 February 1927. (Pound refused to sign it because it assailed Roth rather than “the infamous state of the American law” that encouraged Roth’s piracies [<name type="work" key="ID_MISSING">Pound/Joyce</name> 226].) Second, JJ retained the New York law firm of Chadbourne, Stanchfield &amp; Levy to bring suit against Roth in the New York courts for appropriating JJ’s name for commercial purposes, in violation of New York statutory law. JJ’s lawyers took this approach because U.S. copyright protection for <name type="work" key="W_ULYSSES">Ulysses</name> was questionable at best. After much litigation, the lawyers obtained a consensual injunction against Roth, issued by the New York Supreme Court (a trial court) in December 1928, while Roth was incarcerated for possessing obscene books and pictures (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 182-232).</p>
+                    <p>Pound earlier had his own run-in with Roth, who had listed Pound’s name as a contributing editor of his New York magazine, <name type="work" key="ID_MISSING">Two Worlds</name>. When Pound learned of Roth’s unauthorized reprinting of portions of JJ’s “Work in Progress” – also unprotected by U.S. copyrights – he wrote Roth in November 1925 demanding the removal of his name from the masthead. Roth complied but then made it known that he planned to reprint some of Pound’s poems – also lacking copyright – in a forthcoming issue. Pound exploded and cabled his father to seek an injunction against Roth’s use of his name, but was told that there was no legal recourse in the circumstances. Roth wrote witty, abusive letters to Pound and reprinted several of his poems, dedicating the April 1927 number of his other review, <name type="work" key="ID_MISSING">Two Worlds Monthly</name>, to “Ezra Pound who is, for all that, the greatest poet of this age.” This combination of insolence and sincerity was characteristic of Roth (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 193-96).</p>
+                </note>
+                <note xml:id="note5" target="#seg5" type="commentary">JJ had not authorized or even known of Roth’s plan to serialize <name type="work" key="W_ULYSSES">Ulysses</name> in <name type="work" key="ID_MISSING">Two Worlds Monthly</name>. Roth had already reprinted uncopyrighted extracts from JJ’s “Work in Progress” in several issues of his other review, <name type="work" key="ID_MISSING">Two Worlds</name>. He did, however, enjoy a fleeting legitimacy after making two separate payments of $100 to JJ, retroactively, for the reprinting of “Work in Progress.” Roth then offered $300 for JJ’s new, not-yet-published chapters of Shaun the Post, but JJ became wary of Roth’s reputation and questionable dealings (<name type="work" key="ID_MISSING">LI</name> 240). It was then that Roth turned lawful pirate with a vengeance, reprinting another portion of “Work in Progress” in <name type="work" key="ID_MISSING">Two Worlds</name> and initiating the unauthorized serialization of <name type="work" key="W_ULYSSES">Ulysses</name> in <name type="work" key="ID_MISSING">Two Worlds Monthly</name> in July 1926 (see Spoo, <name type="work" key="ID_MISSING">Without Copyrights</name>, 165-72).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

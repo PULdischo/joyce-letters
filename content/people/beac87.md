@@ -1,0 +1,11 @@
+---
+key: beac87
+name: Sylvia Beach
+viaf: '35247539'
+oclc: lccn-n79121733
+birthDate: '1887-03-14'
+deathDate: '1962-10-05'
+gender: F
+---
+
+Bookseller and publisher Beach’s long collaboration with JJ was among the most important developments of literary modernism. An American, one of three daughters of a Presbyterian minister, Beach’s travels with the family to Europe presaged her settling in [Paris](/places/G_FRA_PARI/) in 1916. With the help of French bookshop owner [Adrienne Monnier](/people/monn92/), in November 1919 she opened [Shakespeare and Company](/people/O_SHAKESPEAREANDCOMPANY/), a lending library and shop devoted to English-language books. She and Monnier maintained a long relationship until the latter’s death in 1955. Beach met JJ within days of his arrival in Paris on 8 July 1920; he quickly became a frequent customer. Following the prosecution in February 1921 of [The Little Review](/works/W_THELITTLE/) in [New York](/places/G_USA_NEWY/) for including purportedly obscene episodes of [Ulysses](/works/W_ULYSSES/), Beach agreed to publish the entire [Ulysses](/works/W_ULYSSES/) under the imprint of her shop. Beach negotiated for printing by [Maurice Darantiere](/people/dara82/) of Dijon, solicited subscriptions as a form of advance for JJ, arranged for typists of the manuscript, and managed to have the first two copies delivered to Paris on JJ’s birthday, 2 February 1922. Giving JJ extraordinary royalties, she oversaw nine printings of [Ulysses](/works/W_ULYSSES/) through 1931, during which time she also published in 1927 JJ’s slim poetry collection, Pomes Penyeach, and in 1929 the collection of essays on the nascent [Finnegans Wake](/works/W_FINNEGANSWAKE/), Our Examination Round His Factification for Incamination of Work in Progress. JJ exploited Shakespeare and Company as a secretarial office, a post office, and a bank. Yet, despite Beach’s support, her relations with JJ soured as his popularity soared. Facing financial difficulties, Beach organized a sale of her manuscripts from JJ and other authors in May 1935. The German occupation of Paris led to Beach’s abrupt closing of her shop in December 1941. Continuing as a Paris resident, Beach became a resource for the postwar growth of JJ scholarship. **William Brockman**

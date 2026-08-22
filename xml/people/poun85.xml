@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="poun85">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ezra Pound</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>poun85</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">24606774</idno>
+            <idno type="OCLC">lccn-n78097014</idno>
+            <persName type="reg">
+               <forename>Ezra</forename> <surname>Pound</surname>
+            </persName>
+            <persName type="full">Ezra Pound</persName>
+            <date type="birth" when="1885-10-30"/>
+            <date type="death" when="1972-11-01"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Ezra Pound — American poet, translator, journalist, and editor — was a founder of literary modernism and a crucial promoter of JJ’s career. Born in Idaho, Pound moved with his parents to Pennsylvania at a young age. After studying languages and serving briefly as a college professor, he went to Europe in 1908, settling in London where he met both young and established figures who would form a nucleus of avant-garde writers and artists. He also met <name type="person" key="yeat65">W.B. Yeats</name>, who told him of JJ. Seeking an Irish contributor for his poetry anthology, <name type="work" key="ID_MISSING">Des Imagistes</name>, Pound reprinted JJ’s “I hear an army”, from <name type="work" key="W_CHAMBERMUSIC">Chamber Music</name>. If Pound first thought of JJ as an Irish Imagiste, he soon viewed him as an Irish Flaubert after encountering the precise, lyrical realism of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, which Pound helped serialize in <name type="work" key="W_THEEGOIST">The Egoist</name> in 1914-1915. Pound became a patron of JJ, assisting him with subsidies, easing his transition to Paris, and serving as an editor and conduit of <name type="work" key="ID_MISSING">Ulysses</name> as JJ produced episodes for <name type="work" key="W_THEELITTLE">The Little Review</name>, of which Pound was foreign editor. After <name type="work" key="W_THEELITTLE">The Little Review</name>’s serialization ended with its editors’ conviction for publishing obscenity, Pound, living in Paris, helped to distribute <name type="work" key="W_ULYSSES">Ulysses</name>, published there as a book in 1922. Increasingly interested in politics and economics, Pound viewed JJ’s “Work in Progress” – later published as <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name> – as a coddled product of patronage and coterie, and he refused to join the public criticism of <name type="person" key="roth93">Samuel Roth</name>’s lawful piracy of <name type="work" key="ID_MISSING">Ulysses</name> in New York. By the 1930s, Pound and JJ corresponded infrequently. Pound’s attraction to Italian fascism, which JJ viewed with weary irony, led Pound, by 1941, to broadcast anti-Ally, anti-Semitic tirades over Mussolini’s Rome Radio. Indicted for treason but never tried, Pound spent thirteen years in a federal mental hospital in Washington, DC. Released in 1958, he returned to Italy, where he lived for the remainder of his life. <hi rend="bold">Robert Spoo</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

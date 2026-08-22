@@ -1,0 +1,123 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68576">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Friday, 13 February 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68576</idno>
+            <idno type="internal">68576</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zentralbibliothek Zürich</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE_13">Via della Sanità 2, Trieste</placeName>
+               </address>
+               <date notBefore="1920-02-13" notAfter="1920-02-13">Friday, 13 February 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_68576_01.jpg">
+            <desc>
+                <caption>Zentralbibliothek Zürich</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE_13">via Sanità, 2, </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE">Trieste.</name> </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Caro <name type="person" key="rugg87">Ruggiero</name>: Mille ringraziamenti del gentile ricordo del mio compleanno. Non è stato però come <seg xml:id="seg1" type="note-anchor">l’ultimo da noi</seg>. Ahimè! Spero di rivederla presto – o qui o là. Lavoro a stento. Ma scrivo sempre.</p>        	<closer>
+                        <salute>Una cordiale stretta di mano</salute>                    	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <date when="1920-02-13">13/2/920</date>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <p>Dear Ruggiero: A thousand thanks for kindly remembering my birthday. It was not, however, like the last one at our place. Alas! I hope to see you soon – either here or there. I have difficulty working. But I’m always writing. </p>
+                    <closer>
+                        <salute>A cordial handshake </salute>
+                        <signed>James Joyce </signed> <date when="1920-02-13">13/2/920</date>
+                    </closer>
+                </div>
+            </div> ​​<div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">According to Frank Budgen, Ruggiero “was invaluable on Joyce’s birthday night (a great event in the Joycean household) for the preparation of middle eastern exotic dishes”. JJ must be remembering his birthday celebration in 1919 (<name type="work" key="ID_MISSING">JJJMU</name>, 174).</note>
+            </div> 
+      </body>
+   </text>
+</TEI>

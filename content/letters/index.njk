@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Letters
+permalink: letters/index.html
+---
+<h1>Letters</h1>
+<ul class="entry-list">
+{% for letter in collections.letters %}
+  <li>
+    <a href="{{ letter.url }}">{{ letter.data.title }}</a>
+    &mdash; {{ letter.data.correspondence.date }} &middot; {{ letter.data.format }}
+  </li>
+{% endfor %}
+</ul>

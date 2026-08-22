@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="joyc32">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stephen James Joyce</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>joyc32</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">76435802</idno>
+            <idno type="OCLC">lccn-no2016150235</idno>
+            <persName type="reg">
+               <forename>Stephen James</forename> <surname>Joyce</surname>
+            </persName>
+            <persName type="full">Stephen James Joyce</persName>
+            <date type="birth" when="1932-02-15"/>
+            <date type="death" when="2020-01-23"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Stephen James Joyce was the son of JJ’s only son <name type="person" key="joyc05">Giorgio</name> and <name type="person" key="joyc94">Helen Kastor Fleischman</name> (a New Yorker of German-Jewish heritage). Family difficulties meant that Stephen spent time from 1938 to 1941 with his grandparents in Paris and Zurich, and later with <name type="person" key="barn84">Nora</name>, until in 1946 he went to the USA for his education. He married <name type="person" key="ID_MISSING">Solange Raythchine</name> in 1955 and worked for about 30 years for the OECD in Paris, retiring in 1991.</p>
+                <p>All his life he “defended the legacy of the Joyce family in literary and personal terms,” keeping an iron grip on JJ’s printed work and impeding research on unpublished manuscripts and letters (“Stephen Joyce, 87, Fierce Protector of Grandfather’s Literary Legacy, Dies,” <name type="work" key="ID_MISSING">New York Times</name> [8 February 2020]: B13). <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fost79">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jeanne Robert Foster</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>fost79</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">18133062</idno>
+            <idno type="OCLC">lccn-n86104445</idno>
+            <persName type="reg">
+               <forename>Jeanne Robert</forename> <surname>Foster</surname>
+            </persName>
+            <persName type="full">Jeanne Robert Foster</persName>
+            <date type="birth" when="1879-03-10"/>
+            <date type="death" when="1970-09-22"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>American writer, journalist, editor, and model. Foster was the companion of New York lawyer and art patron <name type="person" key="quin70">John Quinn</name> from 1918 until his death in 1924. She knew and corresponded with many writers and authors, including <name type="person" key="ID_MISSING">John Butler Yeats</name>, <name type="person" key="yeat65">W.B. Yeats</name>, <name type="person" key="poun85">Ezra Pound</name>, <name type="person" key="ford73">Ford Madox Ford</name>, <name type="person" key="ID_MISSING">Picasso</name>, and <name type="person" key="ID_MISSING">Constantin Brancusi</name>. Foster was assistant editor of the <name type="work" key="ID_MISSING">American Review of Reviews</name>, and in 1924 also American editor of Ford Madox Ford’s <name type="work" key="ID_MISSING">Transatlantic Review</name> when the first installment of JJ’s “Work in Progress” appeared. She wrote and published books of narrative verse and volumes of stories. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

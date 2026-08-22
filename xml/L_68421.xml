@@ -1,0 +1,127 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68421">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Claud Sykes. Monday, 5 November 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68421</idno>
+            <idno type="internal">68421</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TCL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Morris Library, Southern Illinois University Carbondale</repository>
+                  <idno>Lund #152</idno>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_LOCA_01">Pension Villa Rosa, Locarno</placeName>
+               </address>
+               <date notBefore="1917-11-05" notAfter="1917-11-05">Monday, 5 November 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="syke83">
+                        <forename>Claud Walter</forename> <surname>Sykes</surname>
+                    </persName>
+               <persName type="full" key="syke83">Claud Sykes</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <dateline>
+                    <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                    <lb/>
+                    <date when="1917-11-05">5/XI/17</date>  <seg xml:id="seg1" type="note-anchor">--1</seg>
+                </dateline>
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_LOCA_02">Pension Daheim</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="syke83">Mr. Sykes</name>: This is a new address. I send you back <seg xml:id="seg2" type="note-anchor">
+                            <hi rend="underline">Irish Blather</hi>
+                        </seg> which I have read. Many thanks. If possible I should like to see other numbers, old or new. I <choice>
+                            <sic>suuppose</sic>
+                            <corr>suppose</corr>
+                        </choice> the Fortnightly has not yet arrived. Weather good here. Two dull days since we came. For the rest, sun. <rs type="person" key="barn84">My wife</rs> got <name type="person" key="race85">Mrs. <choice>
+                                <sic>Syke’s</sic>
+                                <corr>Sykes’s</corr>
+                            </choice>
+                        </name> kind letter and will write – very soon. Am getting on with <rs type="work" key="W_ULYSSES">my book</rs>.</p>
+                    <closer>
+                        <salute>Kind regards from us all to Mrs. Sykes and yourself.</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>.</signed>
+                    </closer>
+                </div>
+            </div> <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The original of this item was transcribed by Claud Sykes for Herbert Gorman. See Steven Lund, <name type="work" key="ID_MISSING">James Joyce: Letters, Manuscripts, and Photographs at Southern Illinois University</name> (Troy: Whitston, 1983), 11. Typographical oddities have been retained.</note> <note xml:id="note2" target="#seg2" type="commentary">Joyce is returning the <name type="work" key="ID_MISSING">Irische Blätter</name>, the newsletter of the Deutsch-Irische Gesellschaft, from which he copied material for <name type="work" key="W_ULYSSES">Ulysses</name>.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

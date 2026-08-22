@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: James Joyce Letters — POC
+permalink: index.html
+---
+<h1>James Joyce Letters — Sveltia/Eleventy POC</h1>
+<p>
+  A proof-of-concept conversion of a sample of TEI-encoded letters from the
+  <a href="https://joyceletters.uantwerpen.be/">University of Antwerp James Joyce correspondence edition</a>
+  into Markdown + YAML frontmatter, editable via Sveltia CMS and built with Eleventy.
+  Search is powered by Pagefind (run <code>npm run build:search</code> then serve <code>_site/</code>).
+</p>
+<ul class="entry-list">
+{% for letter in collections.letters %}
+  <li><a href="{{ letter.url }}">{{ letter.data.title }}</a> — {{ letter.data.correspondence.date }}</li>
+{% endfor %}
+</ul>
+<p>See also: <a href="/letters/">all letters</a>, <a href="/people/">people</a>, <a href="/places/">places</a>, <a href="/works/">works</a>.</p>

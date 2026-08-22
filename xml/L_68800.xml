@@ -1,0 +1,131 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68800">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 11 October 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RC">RC</name>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68800</idno>
+            <idno type="internal">68800</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Lilly Library, Indiana University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">rue de l'Université 9, Paris VII</placeName>
+               </address>
+               <date notBefore="1921-10-11" notAfter="1921-10-11">Tuesday, 11 October 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_FRA_PARI_04">rue de l'Université 9</name>
+                                </seg>,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris VII</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Enclosed shows you that I have <seg xml:id="seg2" type="note-anchor">won another bet</seg>. Although no use can be made of it in print since it ought to be made known to a few of those who are going to pay 150 francs for a book. But if you imagine that <seg xml:id="seg3" type="note-anchor">
+                            <rs type="person" key="shaw56">the elderly Irish gentleman</rs>
+                        </seg> who wrote it (the letter not the book) has not subscribed anonymously for a copy of the revolting record through a bookseller you little know my countrymen.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1921-10-11">11.x.921</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The recent Paris addresses of JJ and his family included an expensive flat at 5 Boulevard Raspail and a small, charming apartment at 71 rue du Cardinal Lemoine, located near the Jardin du Luxembourg. The latter had been offered to JJ rent-free by Valery Larbaud, who considered <name type="work" key="W_ULYSSES">Ulysses</name> “the vastest and most human work written in Europe since Rabelais,” and felt that the “Circe” episode alone “would suffice to make the fame of a French writer for life” (<name type="work" key="ID_MISSING">LIII</name> 45-46 n.5). Now that Larbaud had returned from travels abroad, the Joyces were back, as of 1 October 1921, in the private hotel at 9 rue de l’Université where they had stayed when they first came to Paris in July 1920 and at other times. They would remain here off and on until 19 October 1922.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ had bet <name type="person" key="beac87">Sylvia Beach</name>, who was soon to publish <name type="work" key="W_ULYSSES">Ulysses</name> (1922) through her Paris bookshop <name type="organisation" key="O_SHAKESPEAREANDCOMPANY">Shakespeare and Company</name>, that the Irish writer and playwright <name type="person" key="shaw56">George Bernard Shaw</name> (1870-1954) would not subscribe to purchasing the book, a prospectus for which had been sent to him. The bet had been a silk handkerchief against a box of cigars (<name type="work" key="ID_MISSING">LIII</name> 51 n.2). Shaw wrote Beach a letter – a copy of which JJ evidently encloses for Pound here – in which he remarked that <name type="work" key="W_ULYSSES">Ulysses</name>, portions of which he had read in serial form, was a “revolting” but “truthful” record of the Dublin and the Dubliners he had known in his youth, with all their “foul mouthed, foul minded derision and obscenity.” He added that it was “some consolation to find that at last somebody has felt deeply enough about it to face the horror of writing it all down and using his literary genius to force people to face it” (<name type="work" key="ID_MISSING">LIII</name> 50).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <p>In his letter to Beach, Shaw said that he was “an elderly Irish gentleman, and … if you imagine that any Irishman, much less an elderly one, would pay 150 francs for a book, you little know my countrymen” (<name type="work" key="ID_MISSING">LIII</name> 50). Beach’s prospectus announced that <name type="work" key="W_ULYSSES">Ulysses</name>, “suppressed four times during serial publication in ‘The Little Review’[,] will be published by ‘Shakespeare and Company’ complete as written.” Limited to 1,000 copies, this private edition was to consist of 100 copies, signed, on Dutch handmade paper for 350 francs each; 150 copies on vergé d’Arches for 250 francs each; and 750 copies on handmade paper for 150 francs each. These prices in British and American currency were, respectively, £7 7s. and $30; £5 5s. and $22; and £3 3s. and $14. These sums were substantial when compared to the cost of living in that period (see Lawrence Rainey, <name type="work" key="ID_MISSING">Institutions of Modernism: Literary Elites and Public Culture</name> [New Haven, CT: Yale University Press, 1998], 62-63).</p>
+                    <p>Beach’s <name type="work" key="W_ULYSSES">Ulysses</name> prospectus also stated that the volume would run to 600 pages, but because of JJ’s substantial late revisions and additions, the printer <name type="person" key="ID_MISSING">Maurice Darantiere</name> of Dijon produced a volume of 732 pages, not counting front and back matter. The prospectus went on: “Subscribers will be notified when the volume appears, which will be sent to them by registered post immediately on receipt of payment.” JJ wrote <name type="person" key="weav76">Harriet Shaw Weaver</name> that fellow Irish writers who had not yet openly subscribed to purchase <name type="work" key="W_ULYSSES">Ulysses</name> – notably, W.B. Yeats, George Moore, and Shaw – might subscribe “anonymously through a bookseller” (<name type="work" key="ID_MISSING">LIII</name> 51).</p>
+                    <p>Pound was incensed by Shaw’s attitude and engaged in an exchange of letters with him that JJ described as a “long wordy war” (<name type="work" key="ID_MISSING">LI</name> 184). In this epistolary battle over his refusal to purchase <name type="work" key="W_ULYSSES">Ulysses</name>, Shaw wrote: “Do I have to like everything you like, Ezra? As for me, I take care of the pence and let the Pounds take care of themselves” (quoted in Charles Norman, <name type="work" key="ID_MISSING">Ezra Pound</name>, rev. ed. [New York: Minerva Press, 1969], 244). Pound was not about to let it go at that. In his “Paris Letter” to <name type="work" key="W_DIAL">The Dial</name>, vol. 72, no. 6 (June 1922), he replied directly to Shaw’s remark to Beach about JJ’s making the Irish “face” the “horror” of Dublin life: “[JJ] has presented Ireland under British domination a picture so veridic that a ninth rate coward like Shaw (Geo. B.) dare not even look it in the face” (627). In another article, “James Joyce et Pécuchet,” Pound wrote: “Pour George Moore et Shaw, il est de la nature humaine de ne pas vouloir se voir éclipsé par un écrivain de plus grande importance qu’eux-mêmes” [“For George Moore and Shaw, it’s human nature not to want to see themselves eclipsed by a writer of greater importance than they”] (<name type="work" key="ID_MISSING">Mercure de France</name>, vol. 156, whole no. 575 [1 June 1922]: 318). Pound finished his quarrel with the Edwardians over <name type="work" key="W_ULYSSES">Ulysses</name> by scrawling a postcard to Arnold Bennett: “You have heard your Master’s Voice” (quoted in Ellmann, <name type="work" key="ID_MISSING">JJ</name> 532). The jibe cast Bennett as the bemused dog Nipper listening to his owner’s recorded voice, used as a trademark of the British Gramophone Company and its U.S. affiliate, the Victor Talking Machine Company.</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

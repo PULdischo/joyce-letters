@@ -1,0 +1,126 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71522">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Tuesday, 28 August 1917</title>
+            <author key="barn84">Nora Barnacle</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71522</idno>
+            <idno type="internal">71522</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="barn84">
+                        <forename>Nora</forename> <surname>Barnacle</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73 III, Zurich</placeName>
+               </address>
+               <date notBefore="1917-08-28" notAfter="1917-08-28">Tuesday, 28 August 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_06">Seefeldstrasse 73</name> <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zürich</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <dateline>
+                        <date when="1917-08-28">28.8.1917</date>
+                    </dateline>
+                    <opener>
+                        <salute>Dear Miss <name type="person" key="weav76">Weaver</name>
+                        </salute>
+                    </opener>
+                    <p>        	<rs type="person" key="joyc82">My husband</rs> is recovering slowly after <seg xml:id="seg1" type="note-anchor">the operation</seg>. It was difficult but we hope successful. He thinks that as <seg xml:id="seg2" type="note-anchor">
+                            <rs type="work" key="W_APORTRAIT">the second edition</rs>
+                        </seg> is set up perhaps the owner of the printinghouse will consent to <seg xml:id="seg3" type="note-anchor">allow it to go out</seg>. If not perhaps <name type="person" key="mars72">Mr Edward Marsh</name> Colonial Office, Downing Street, can assist you in the matter of importing <seg xml:id="seg4" type="note-anchor">sheets</seg> from <name type="work" key="G_USA_NEWY">New York</name>. If so, you could at once cable for sheets the expenses being to my husband’s charge. I shall see that the <seg xml:id="seg5" type="note-anchor">1000 press notices</seg> are sent on to you. I am glad I have this opportunity of thanking you dear <name type="person" key="weav76">Miss Weaver</name> for your heroic efforts in my husband’s interest.</p>
+                    <closer>
+                        <salute>        	sincerely yours</salute>
+                        <signed>                    	<name type="person" key="barn84">Nora Joyce</name>
+                        </signed> </closer> </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ suffered a severe attack of glaucoma on the evening of <date when="1917-08-18">August 18</date>. An iridectomy was performed on his right eye (<name type="work">JJ</name> 417).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Second edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>. This edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> appeared in <date when="1918-03">March 1918</date> and was the first to be typeset and printed in England.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In her letter to JJ of <date when="1917-08-17">17 August 1917</date>, Harriet Weaver told him of “a catastrophe” that had occurred and that would “cause considerable delay in the appearance of the second English edition” of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>: “The text is already set up (I think) but the manager who had undertaken the work has gone off on military service and his successor declines to produce the book without deletion” (Firth 176). Weaver feared a shortage of supply, as the first edition was running out.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">In other words, if it is impossible for the novel to be typeset and printed in England, the recourse would be to use sheets printed by Huebsch in New York, as had been the case with the first English edition of <date when="1917-03">March 1917</date>.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">In her letter to JJ of <date when="1917-08-17">17 August 1917</date>, Harriet Weaver had suggested that <name type="work" key="ID_MISSING">The Egoist</name> should have a supply of 1,000 copies of extracts from press notices about <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> “for insertion in copies of the paper going to new people and copies of Mr. Eliot’s small book <name type="work">Prufrock</name> and Mr. Pound’s <name type="work">Dialogues of Fontenelle</name>” (Firth 176).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

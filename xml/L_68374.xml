@@ -1,0 +1,159 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68374">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 5 June 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68374</idno>
+            <idno type="internal">68374</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-06-05" notAfter="1917-06-05">Tuesday, 5 June 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_06">Seefeldstrasse 73 <hi rend="superscript">III</hi>
+                                </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII</addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: I owe you an apology for my <seg xml:id="seg1" type="note-anchor">delay in answering your letters</seg>. Your friends in <name type="geo" key="G_ITA_VENI">Venice</name> sent me the name of the oculist (<name type="person" key="haab50">Dr Haab</name>). Please thank <name type="person" key="poun86">Mrs Pound</name> for her kindness in <seg xml:id="seg2" type="note-anchor">writing to them about me</seg>. The card came this afternoon but in the morning I had been to <name type="person" key="sidler69">Dr Sidler</name> (Dr. Haab’s brother-in-law who with him <seg xml:id="seg3" type="note-anchor">directs the <foreign xml:lang="deu">Augenklinik</foreign> here</seg>). I imagine there cannot be a great difference therefore between the two opinions except that Dr Sidler’s fee is somewhat less. He says he thinks an operation is unavoidable but as the pressure is not so great in the eye now he wants to wait a fortnight. He says however that I must not go in the country (which I had no intention of doing) as immediately I have any bad symptoms I must have a doctor at hand. He thinks also that the climate here is bad for me. He spoke about testing my blood. I asked can <seg xml:id="seg4" type="note-anchor">synechia be cured without iridectomy</seg>. He said not. I should like to wait if I can for <seg xml:id="seg5" type="note-anchor">
+                            <name type="person" key="goul48">Dr Gould</name>’s opinion</seg>. Forgive me therefore if I am not a very good letter writer at present.</p>
+                    <p>I hope <seg xml:id="seg6" type="note-anchor">
+                            <rs type="work" key="W_THELITTLE">your new review</rs>
+                        </seg> is a success. <name type="person" key="monr60">Miss <choice>
+                                <sic>Monro</sic>
+                                <corr>Monroe</corr>
+                            </choice>
+                        </name> writes me that she likes <seg xml:id="seg7" type="note-anchor">the verses</seg> I sent and will print them in <hi rend="underline">
+                            <name type="work" key="W_POETRY">Poetry</name>
+                        </hi> so that I suppose they will not appear in your pages. I hope I shall be able to send you something else instead. I am not allowed to write much because my eye becomes hard if I strain it. As regards <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> I managed to finish the draft of Hades’ house and also the lotuseaters and am getting together <seg xml:id="seg8" type="note-anchor">the notes</seg> for the Eolian episode.</p>
+                    <p>I had to interrupt this letter on account of a violent thunderstorm and I resume it with gastric cramps resultant therefrom. Like <seg xml:id="seg9" type="note-anchor">
+                            <name type="person" key="maet62">Mr Maeterlinck</name>’s heroine</seg> I am not brave. Please convey to <seg xml:id="seg10" type="note-anchor">
+                            <name type="person" key="bosc78">Mr de Bosschère</name>
+                        </seg> my thanks for his good opinion of <rs type="work" key="W_APORTRAIT">my book</rs>. Perhaps he will review it for some French paper? I hear that a second edition came out in <name type="geo" key="G_USA_NEWY">New York</name> a month ago but I do not know how many copies were in the <seg xml:id="seg11" type="note-anchor">first edition</seg>. Has <name type="person" key="quin70">Mr Quinn</name> received <seg xml:id="seg12" type="note-anchor">
+                            <rs type="work" key="W_EXILES">my play</rs>
+                        </seg>? I do not know whether the <seg xml:id="seg13" type="note-anchor">
+                            <name type="organisation" key="O_STAGESOCIETY">Stage Society</name>
+                        </seg> is putting it on or not.</p>
+                    <p>I hope you are well and in your usual admirable good humour. I hope also that you will come here on your way to the south. I should be very glad indeed to see you. Please let me know if you think of <seg xml:id="seg14" type="note-anchor">coming here during the next months</seg>.</p>
+                    <p>
+                        <rs type="person" key="barn84">My wife</rs> bids me thank you for your letter, with its encouraging references to <rs type="work" key="W_APORTRAIT">my novel</rs> with the <seg xml:id="seg15" type="note-anchor">concertina title</seg>, and joins me in sending to Mrs Pound and yourself all friendly regards.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1917-06-05">5 June 1917</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Pound had written to JJ on 19 April and 18 May 1917, and to Nora Barnacle on 7 and 14 May 1917 while JJ was indisposed with eye trouble (<name type="work" key="ID_MISSING">Pound/Joyce</name> 110-18).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Dorothy Pound, née Shakespear (1886-1973), English artist who married Pound in <name type="geo" key="G_GBR_LOND">London</name> in April 1914. Writing JJ on 27 June 1917, Pound commented on efforts to find a proper eye specialist: “I trust a good deal to old Eden having been ready to go to Zurich” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 120). Dorothy and her mother, the novelist <name type="person" key="ID_MISSING">Olivia Shakespear</name>, had travelled in <name type="geo" key="G_ITA">Italy</name> before World War I and had become friends with <name type="person" key="ID_MISSING">an English couple named Eden</name> who resided in Venice. Olivia dedicated her novel, <name type="work" key="ID_MISSING">Uncle Hilary</name> (1910), “To my friend Frederic Eden.” Scholars have identified this figure as the Reverend Frederick Nugent Eden (1857-1926), an Anglican clergyman (John Harwood, <name type="work" key="ID_MISSING">Olivia Shakespear and W.B. Yeats: After Long Silence</name> [New York: St. Martin’s Press, 1989], 123, 204 n.29), but this is incorrect. The Frederic Eden (1829-1916) whom Dorothy knew was the well-known English author of <name type="work" key="ID_MISSING">A Garden in Venice</name> (1903) and designer of a celebrated garden on the island of Giudecca in Venice, where he and his wife entertained writers and artists at their villa. This is clear from a March 1910 letter in which Pound told his mother that in Venice “the Shakespears [Dorothy and Olivia] usuly [<hi rend="italic">sic</hi>] put up at the Edens – (of the Venetian Garden)” (<name type="work" key="ID_MISSING">Ezra Pound to his Parents: Letters 1895-1929</name>, ed. Mary de Rachewiltz et al. [Oxford: Oxford University Press, 2010], 225). In a March 1914 letter to Dorothy, Pound referred to “old Eden” in Venice, who had given her a wedding gift of £20 (<name type="work" key="ID_MISSING">Ezra Pound and Dorothy Shakespear: Their Letters, 1909-1914</name>, ed. Omar Pound and A. Walton Litz [New York: New Directions, 1984], 323). The difficulty here is that the Frederic Eden of the Venice garden appears to have died in December 1916, so it is unclear exactly who the “old Eden” was who was willing to go to Zurich to assist JJ in 1917. Perhaps Pound had misunderstood. In any case, JJ’s phrase “Your friends in Venice” almost certainly refers to the Eden family in Venice whom Dorothy knew and must have contacted for JJ.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Otto Haab (1850-1931) directed <name type="organisation" key="ID_MISSING">the eye clinic (Augenklinik) of the University of Zurich</name> from 1885 to 1919. He was succeeded as director by Ernst Sidler-Huguenin (1869-1922), who in turn was succeeded by <name type="person" key="ID_MISSING">Alfred Vogt</name> (1879-1943). All three of these professors of ophthalmology treated JJ’s eyes.</note>
+                <note xml:id="note4" target="#seg4" type="gloss">For synechia, see <rs type="letter" key="L_68361">JJ to Pound, 13 April 1917</rs>, notes. JJ suffered a severe attack of glaucoma in August 1917, prompting his ophthalmologist, Ernst Sidler, to perform an iridectomy on his right eye at the Zurich Augenklinik a few days later. Resulting exudation from the eye during convalescence permanently reduced JJ’s vision (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 417).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">George Milbry Gould (1848-1922), a noted ophthalmologist and prolific author who practiced in Philadelphia before settling in Ithaca, NY, and Atlantic City, NJ, in later years. Pound had been treated by Gould some years before this, and felt that he might be able to help JJ. For a full account, see <rs type="letter" key="L_68361">JJ to Pound, 13 April 1917</rs>, notes.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">For two years, Pound had been casting about for a magazine to edit with John Quinn’s financial support. Quinn agreed to help underwrite Pound’s role as foreign editor of <name type="work" key="W_THELITTLE">The Little Review</name>, and Pound announced in the May 1917 issue that he viewed the magazine as “a place where the current prose writings of James Joyce, <name type="person" key="lewi82">Wyndham Lewis</name>, <name type="person" key="elio88">T.S. Eliot</name>, and myself might appear regularly, promptly, and together, rather than irregularly, sporadically, and after useless delays” (<name type="work" key="W_THELITTLE">Little Review</name>, vol. 4, no. 1 [May 1917]: 3). See also <rs type="letter" key="L_68361">JJ to Pound, 13 April 1917</rs>, notes.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Harriet Monroe (1860-1936) was editor of the Chicago-based magazine <name type="work" key="ID_MISSING">Poetry</name>, which she launched in 1912 with financial support from local business leaders. Monroe published JJ’s poems “Simples,” “Tutto è Sciolto,” “Flood,” “A Flower Given to My Daughter,” and “Nightpiece” as a group in the May 1917 issue of <name type="work" key="ID_MISSING">Poetry</name>, and “On the Beach at Fontana,” “Alone,” and “She Weeps over Rahoon” in the November 1917 issue. These poems, with revisions, were all collected in <name type="work" key="ID_MISSING">Pomes Penyeach</name> (1927).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">“Lotus-Eaters,” “Hades,” and “Aeolus” are, respectively, the fifth, sixth, and seventh episodes of <name type="work" key="W_ULYSSES">Ulysses</name> (1922), initially published serially in the July, September, and October 1918 numbers of <name type="work" key="W_THELITTLE">The Little Review</name> in New York. “Hades” was also published serially in <name type="work" key="W_THEEGOIST">The Egoist</name> in London in the numbers for July and September 1919.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Possibly a reference to the play <name type="work" key="ID_MISSING">Princess Maleine</name> (1889) by the Belgian author <name type="person" key="ID_MISSING">Maurice Maeterlinck</name> (1862-1949). During Act II when she meets Prince Hjalmar in a wood at night, Maleine repeatedly murmurs, “I am afraid.” Thunderstorms are frequent in the play, and Maleine is murdered during one of them. JJ was morbidly fearful of thunderstorms throughout his life.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Jean de Bosschère (1878-1953), Belgian artist and author, moved to London during World War I and there met Pound and other avant-garde writers. Pound helped to place his poems and drawings in <name type="work" key="W_THELITTLE">The Little Review</name> and promoted his work in other ways. In a letter to Nora Barnacle dated 7 May 1917, Pound quoted Bosschère’s praise for <name type="work" key="W_APORTRAIT">A Portrait</name> as being free from “tout ornement rhétorique” and being “l’oeuvre le plus sérieux en anglais que j’ai lu” (free of “all rhetorical ornament” and “the most serious work in English I have read”) (<name type="work" key="ID_MISSING">Pound/Joyce</name> 114-15).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">
+                    <name type="person" key="hueb76">B.W. Huebsch</name> of New York first issued <name type="work" key="W_APORTRAIT">A Portrait</name> as a book in December 1916 in an edition of unascertained size. He produced a second printing in April 1917 (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 18).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">On 13 May 1917, JJ wrote John Quinn – who was seeking to purchase manuscripts by JJ – that he had sent him (through Pound) the manuscript of <name type="work" key="W_EXILES">Exiles</name> (<name type="work" key="ID_MISSING">LII</name> 396).</note>
+                <note xml:id="note13" target="#seg13" type="commentary">Founded in 1899, the London-based Incorporated Stage Society presented new, experimental, and sometimes controversial plays, including those by <name type="person" key="shaw56">George Bernard Shaw</name>, <name type="person" key="yeat65">W.B. Yeats</name>, <name type="person" key="ibse28">Henrik Ibsen</name>, and <name type="person" key="haup62">Gerhart Hauptmann</name>. Shaw, <name type="person" key="ID_MISSING">J.M. Barrie</name>, and others were officials of the company, which staged private performances of plays that had been denied a license for public performance by the Lord Chamberlain. The Society considered <name type="work" key="W_EXILES">Exiles</name> during 1916 and 1917 but in the end did not mount it, possibly because of disagreement over certain “tabooed” words, as Shaw later suggested (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 443 n.). The Society finally presented <name type="work" key="W_EXILES">Exiles</name> at London’s <name type="organisation" key="ID_MISSING">Regent Theatre</name> on 14 and 15 February 1926, with <name type="person" key="ID_MISSING">W.G. Fay</name> as director.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">Pound had written Nora Barnacle on 7 May 1917: “I shall go to the Lago di Garda after the war, unless I am destroyed, and I shall manage to pass through Zurich or Italy redeemed or wherever J.J. is at that time” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 115). Pound had first stayed at Sirmione on Lago di Garda in northern Italy in 1910. With its literary associations going back to Catullus, the lake became for Pound a mystical, paradisal spot and is a recurrent setting in his <name type="work" key="ID_MISSING">Cantos</name> and other poems. In his early poem “The Flame,” Pound wrote of Lake Garda: “Who can look on that blue and not believe?” (<name type="work" key="ID_MISSING">Personae: The Shorter Poems</name>, ed. Lea Baechler and A. Walton Litz [New York: New Directions, 1990], 49). He revisited the lake in later years, and first met JJ there in June 1920.</note>
+                <note xml:id="note15" target="#seg15" type="commentary">Pound had written Nora Barnacle on 7 May 1917 of his and others’ admiration for <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (“the concertina title”), adding: “I dont know what the press can say that they haven’t said already. So far as press notices can make a book, the ‘Portrait’ is ‘made.’ And J.J. may derive what satisfaction he can from it. He knew the work was good, or at least he ought to have known, if he didn’t” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 115).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

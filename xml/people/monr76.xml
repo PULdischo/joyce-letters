@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="monr76">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>F. R. D’O. Monro</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>monr76</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">280810838</idno>
+            
+            <persName type="reg">
+               <forename>Frederic Robert D'Oyly</forename> <surname>Monro</surname>
+            </persName>
+            <persName type="full">F. R. D’O. Monro</persName>
+            <date type="birth" when="1876-12-23"/>
+            <date type="death" when="1966-10-19"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Solicitor and cricketer. Born in Hampstead, London, Frederic Robert D’Oyly Monro went up to Oxford and, in 1904, became a member of the Law Society. By 1907, he was a partner in the firm of Slack, Monro &amp; Atkinson which, in 1911, became <name type="person" key="monr91">Slack, Monro, Saw &amp; Co</name>. A second cousin once removed of <name type="person" key="ID_MISSING">Harold Monro</name>, he was also the poet’s solicitor. He became friendly with <name type="person" key="weav76">Harriet Shaw Weaver</name> through his sister Ela who married Weaver’s brother <name type="person" key="ID_MISSING">Edward</name>. Served as lieutenant in the Royal Garrison Artillery during the First World War. Administrator of the Estate of James Joyce (with Weaver) until 1951. <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

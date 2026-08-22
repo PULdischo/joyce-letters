@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anth00">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>George Antheil</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>anth00</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">5120859</idno>
+            <idno type="OCLC">lccn-n80004366</idno>
+            <persName type="reg">
+               <forename>George</forename> <surname>Antheil</surname>
+            </persName>
+            <persName type="full">George Antheil</persName>
+            <date type="birth" when="1900-07-08"/>
+            <date type="death" when="1959-02-12"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Born in the United States, Antheil moved to Paris in 1922 where he became known as the “bad boy of music”. He lived in a small flat directly over <name type="person" key="beac87">Sylvia Beach’s</name> bookshop and was one of <name type="person" key="poun85">Ezra Pound’s</name> special enthusiasms. Joyce attended a private performance of Antheil’s <name type="work" key="ID_MISSING">Ballet Mechanique</name>, a part of which he said was like Mozart (<name type="work">JJ</name> 557-558), and he was also present at the Ballets Suédois on 4 October 1923 when the composer played his <name type="work" key="ID_MISSING">Sonata Sauvage</name>, <name type="work" key="ID_MISSING">Airplane Sonata</name> and <name type="work" key="ID_MISSING">Mechanisms</name>. Antheil then concocted a magnificent plan for an electric opera which used the “Cyclops” episode of <name type="work" key="W_ULYSSES">Ulysses</name> as its libretto. The idea fascinated Joyce, but Antheil disappointed him by turning to other work. <hi rend="bold">Dirk Van Hulle</hi> and <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

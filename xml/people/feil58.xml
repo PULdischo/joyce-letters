@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="feil58">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siegmund Feilbogen</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>feil58</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">218691854</idno>
+            <idno type="OCLC">lccn-no2019149381</idno>
+            <persName type="reg">
+               <forename>Siegmund</forename> <surname>Feilbogen</surname>
+            </persName>
+            <persName type="full">Siegmund Feilbogen</persName>
+            <date type="birth" when="1858-03-27"/>
+            <date type="death" when="1928-07-26"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Professor of political economy in Vienna, later in Zurich a writer and editor of the <name type="work" key="ID_MISSING">Internationale Rundschau</name>. Published the first German-language articles on JJ in 1917, 1918, and 1919. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

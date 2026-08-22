@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="larb81">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Valery Larbaud</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>larb81</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">13334</idno>
+            <idno type="OCLC">lccn-n50039264</idno>
+            <persName type="reg">
+               <forename>Valery</forename> <surname>Larbaud</surname>
+            </persName>
+            <persName type="full">Valery Larbaud</persName>
+            <date type="birth" when="1881-08-29"/>
+            <date type="death" when="1957-02-02"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>French writer and poet. Larbaud became a friend and admirer of JJ after they met in 1920, and he loaned the Joyce family a Paris apartment during the summer of 1921. On 7 December 1921, Larbaud famously gave a séance on <name type="work" key="ID_MISSING">Ulysses</name> in <name type="person" key="monn92">Adrienne Monnier</name>’s Paris bookshop, La Maison des Amis des Livres. Published as an article entitled “James Joyce” in the <name type="work" key="ID_MISSING">Nouvelle revue française</name> 18, no. 103 (1 April 1922): 385-409, it was one of the earliest enthusiastic French responses to JJ’s work. Larbaud later supervised the French translation of <name type="work" key="ID_MISSING">Ulysses</name>, published in 1929. JJ’s contact with Larbaud diminished in the 1930s, though he remained in touch after Larbaud suffered a stroke in 1935, which resulted in aphasia and partial paralysis. <hi rend="bold">Dirk Van Hulle</hi> and <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

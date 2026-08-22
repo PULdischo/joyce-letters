@@ -1,0 +1,138 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71534">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 16 February 1923</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name xml:id="RC">RC</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71534</idno>
+            <idno type="internal">71534</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_VENI_01">c/o Gioacchino Veneziani, Venice</placeName>
+               </address>
+               <date notBefore="1923-02-16" notAfter="1923-02-16">Friday, 16 February 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+
+<text>
+    <body>
+        <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_11">Paris</name> <dateline>
+                                    <date when="1923-02-16">16.2.23</date>
+                                </dateline> </addrLine>
+<addrLine>
+                                <name type="geo" key="G_FRA_PARI_11">26 avenue Charles Floquet</name> </addrLine>
+<addrLine>
+                                <name type="geo" key="G_FRA_PARI_11">VII<hi rend="superscript">ème</hi>
+                                </name>
+                            </addrLine>
+                        </address>
+                    </ab> </div>
+
+<div type="mainBody">
+                    <p>Dear<name type="person" key="weav76"> Miss Weaver</name>, </p>
+<p>
+                        <rs type="person" key="joyc82">My father</rs> asks me to tell you that the <seg xml:id="seg1" type="note-anchor">dionine-treatment</seg> was begun on <choice>
+                            <sic>thursday</sic>
+                            <corr>Thursday</corr>
+                        </choice> and continued yesterday. He is to go again to-day but it will not be possible to know if it had a good effect for some days. Unfortunately there seems to be since yesterday some trouble in the other eye but <rs type="person" key="bors73">the doctor</rs> thinks it will not develop. </p>
+<p>
+                        <rs type="person" key="joyc82">My father</rs> was not able to continue the corrections as you wish because the <seg xml:id="seg2" type="note-anchor">copy</seg> from <name type="person" key="rodk94">Mr. Rodker</name> arrived only to-day but as soon as this experiment is over he will continue them here and in the hospital. </p>
+<closer>
+                        <salute>With best greetings, </salute>
+<signed>
+                            <name type="person" key="joyc07">Lucia Joyce</name>
+                        </signed>
+                    </closer>
+
+</div>
+</div>
+
+<div type="notes">
+<note xml:id="note1" target="#seg1" type="commentary">JJ began dionine treatment with <name type="person" key="ID_MISSING">Dr Louis Colin</name> in <name type="geo" key="G_FRA_NICE">Nice</name> in the autumn of 1922 and continued it with Dr Borsch. Rather than heeding Colin’s recommendation for a “strong solution”, Borsch “prefers to continue the treatment gradually and to wait and see if the film will thin more” according to a <rs type="letter" key="L_68967">letter from JJ to Weaver on <date when="1923-02-26">26 February 1923</date>
+                    </rs> (<name type="work">LIII</name> 72). See <rs type="letter" key="L_68945">letter to Harriet Weaver, 13 November 1922</rs> for JJ’s early mention of dionine treatment in Nice. </note>
+
+<note xml:id="note2" target="#seg2" type="commentary">In <date when="1923-01">January 1923</date>, John Rodker printed an additional 500 copies of the <name type="work" key="ID_MISSING">Egoist Press</name> edition of <hi rend="italic">
+                        <name type="work" key="W_ULYSSES">Ulysses</name>
+                    </hi> that had been published in <date when="1922-10">October 1922</date>.</note>
+
+</div>
+</body>
+    </text>
+
+</TEI>

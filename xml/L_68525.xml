@@ -1,0 +1,122 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68525">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Tuesday, 20 May 1919</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68525</idno>
+            <idno type="internal">68525</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="English"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_LOCA_02">Pension Daheim, Locarno</placeName>
+               </address>
+               <date notBefore="1919-05-20" notAfter="1919-05-20">Tuesday, 20 May 1919</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <div type="address">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <name type="geo" key="G_CHE_LOCA_02">Pension Daheim</name>
+                                </addrLine>
+                                <addrLine>
+                                    <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                                </addrLine>
+                                <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                            </address>
+                        </ab> </div>
+                    <div type="mainBody">
+                        <p>Dear Sir (or Madam): <name type="person" key="monr91">Messrs Monro Saw</name> have informed me of your proposal to settle £5000 on me in order that I may be freer to continue my writing. I do not know how I am to express gratitude for a gift so munificent. It arrives at what is for me a time of depression brought about by some worries, by the frequent recurrence of my illness and by the difficulties of the <rs type="work" key="W_ULYSSES">book I am writing</rs>. Moreover, I did not see on any side a hope that my writings would bring me any material help within a reasonable time. The prospect which your wonderful and self-effacing generosity opens to me is now, I hope, a brighter one. As soon as I am able to leave this climate (I speak of <name type="geo" key="G_CHE_ZURI">Zurich</name> not of Locarno where I am staying for a few days) I hope also that my health will improve to such an extent that if the relapses be inevitable I may be better able to resist them. It seems that this is all that can be done in my case.</p>
+                        <p>        	I assume that this gift is made to me on the same condition as before, that I am to respect the anonymity of the giver. I accept this condition. It is my hope, and seemingly your belief, that what I write (with difficulty, with hesitation and often with despair) will outlive for some time the hand that writes and therefore you have chosen, I suppose, the least unworthy part of what I am to know me by. But if, without infringing the conditions imposed, you would care to read more than the poor and few letters which I have written I should deem it an honour to be allowed this audience.</p>
+                        <p>        	I trust that such a suggestion may not seem to you intrusive. I make it only because I am painfully conscious of the inadequacy of this acknowledgment of an act of generosity, so freely and nobly made, which, if I have not deserved it hitherto, I illude myself I may yet deserve.</p>
+                        <p>        	I am, dear sir (or madam), with respect and deep gratitude</p>
+                        <closer>
+                            <salute>                    	very sincerely yours</salute>
+                            <signed>
+                                <name type="person" key="joyc82">                                	James Joyce</name>
+                            </signed> <dateline>
+                                <date when="1919-05-20">20 May 1919</date>
+                            </dateline>
+                        </closer>
+                    </div>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Although JJ had been corresponding with Harriet Weaver since 1915 and had received royalties from her, he was not aware that it was she, via Monro Saw, who had given him £200 through 1917 and 1918 and was now the donor of the substantial sum of £5,000. It was not until later in a letter from Weaver of <date when="1919-07-06">6 July 1919</date> (Firth 18-82) that JJ was to learn of the benefactor’s identity.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

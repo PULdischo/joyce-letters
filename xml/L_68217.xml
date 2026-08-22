@@ -1,0 +1,145 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68217">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Friday, 7 May 1915</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68217</idno>
+            <idno type="internal">68217</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_VENI_01">c/o Gioacchino Veneziani, Venice</placeName>
+               </address>
+               <date notBefore="1915-05-07" notAfter="1915-05-07">Friday, 7 May 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <choice>
+                                    <abbr>c/o</abbr>
+                                    <expan>care of</expan>
+                                </choice> <name type="person" key="vene45">
+                                    <choice>
+                                        <sic>Gioacchino</sic>
+                                        <corr>Gioachino</corr>
+                                    </choice> Veneziani</name>,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_VENI_01">Murano</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_VENI">Venice</name>,</addrLine>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">(<name type="geo" key="G_ITK">Italy</name>)</seg>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>My dear <name type="person" key="poun85">Mr Pound</name>
+                        </salute>
+                    </opener>
+                    <p>I think it may interest you to know the fate of my book <hi rend="underline">
+                            <name type="work" key="W_DUBLINERS">Dubliners</name>
+                        </hi> which <seg xml:id="seg2" type="note-anchor">you reviewed so favourably</seg>. The publisher <name key="rich72" type="person">Mr Grant Richards</name> sends me a statement of sales by which I see that 379 copies have been sold in the <name type="geo" key="G_GBI">United Kingdom</name> to date. I receive no royalty and was, in fact, obliged to <seg xml:id="seg3" type="note-anchor">buy and pay for 120 copies</seg>. This is the epilogue of what you called in your article <seg xml:id="seg4" type="note-anchor">a curious history</seg>.</p>
+                    <p>I have appointed <name type="person" key="pink62">Mr Pinker</name> <seg xml:id="seg5" type="note-anchor">my literary agent</seg> and have also given him the disposal of the dramatic rights of <rs type="work" key="W_EXILES">my play</rs>. Mr Grant Richards has not yet decided <seg xml:id="seg6" type="note-anchor">whether he will publish or not <rs type="work" key="W_APORTRAIT">my novel</rs>
+                        </seg>.</p>
+                    <p>I have not heard from you <seg xml:id="seg7" type="note-anchor">for some time</seg> and hope you are not ill again.</p>
+                    <closer>
+                        <salute>With kind regards</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1915-05-07">7 May 1915</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">For JJ’s use of this wartime mailing address, see <rs type="letter" key="L_68205">JJ to Pound, 3 April 1915</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Pound had published a penetrating and positive review of <name type="work" key="ID_MISSING">Dubliners</name> in <name type="work" key="W_THEEGOIST">The Egoist</name>, vol. 1, no. 14 (15 July 1914): 267, under the title “‘Dubliners’ and Mr. James Joyce.” He stated there that JJ “writes a clear hard prose” and presents things “with such clarity of outline that he might be dealing with locomotives or with builders’ specifications.” JJ’s prose, Pound thought, had the “definiteness” of <name type="person" key="ID_MISSING">Flaubert</name> and reflected an “international standard” rather than “the promotion of Irish peasant industries.” JJ’s “more rigorous selection of the presented detail marks him,” Pound added, “as belonging to my own generation” (267). A quotation from this review was printed in a two-page leaflet of press extracts issued in penetrating connection with the publication of <name type="work" key="W_DUBLINERS">Dubliners</name>.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Grant Richards sent JJ an account of the sales of the English edition of <name type="work" key="W_DUBLINERS">Dubliners</name> on 29 April 1915. The statement indicated that of the 1,250 copies printed, 117 had been given away free for review or promotion, and that 499 had been sold. These 499 copies were to be treated as 461 according to the royalty agreement by which thirteen copies counted as twelve. Of these 461 copies, JJ himself had purchased 120. Richards’ statement noted that “No royalty is payable till after 500 copies are sold” (Scholes, “Grant Richards to James Joyce,” 157-58). JJ apparently arrived at 379 as the number of copies sold by subtracting the 120 he had bought from the total of 499 sold, ignoring the thirteen-as-twelve arrangement. On 13 May 1915, Richards replied to JJ’s characterization of sales as “disastrous” by reminding him that he was a “new writer,” that collections of stories were “always handicapped,” and that there was a war on (Scholes, 158).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">In <name type="work" key="W_THEEGOIST">The Egoist</name>, vol. 1, no. 2 (15 January 1914): 26-27, Pound had published JJ’s grim account of the two publishers, Grant Richards in London and <name type="organisation" key="O_MAUNSEL">Maunsel &amp; Co. in Dublin</name>, that had contracted to publish <name type="work" key="W_DUBLINERS">Dubliners</name> but later refused to do so without substantial changes to the collection or financial undertakings by JJ. The account, titled “A Curious History,” incorporated letters from JJ and was issued in May 1917 as a promotional broadside by <name type="person" key="hueb76">B.W. Huebsch</name>, the American publisher of <name type="work" key="W_DUBLINERS">Dubliners</name>.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">For the role of JJ’s agent, J.B. Pinker, in arrangements for <name type="work" key="W_EXILES">Exiles</name> and <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, see <rs type="letter" key="L_68205">JJ to Pound, 3 April 1915</rs>, notes.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Grant Richards wrote to JJ on 18 May 1915, declining to exercise his option to publish <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> and citing the war and “the general depression” as reasons. Richards added that the novel “demands a public of intelligent readers. There are such readers but they are … peculiarly difficult to get at now” (Scholes, 158-59). B.W. Huebsch of New York published <name type="work" key="W_APORTRAIT">A Portrait</name> in December 1916, and the novel was first published as a book in England in February 1917 by <name type="organisation" key="ID_MISSING">the Egoist Ltd. of London</name>.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Pound wrote to JJ ca. June 1915, stating that he felt it was “entirely vain and useless to write to you, at least until we know that the Italians have rescued Trieste” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 34).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

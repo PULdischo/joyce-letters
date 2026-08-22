@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="chal91">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Antoine Chalas</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>chal91</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>chal91</forename> <surname>Antoine</surname>
+            </persName>
+            <persName type="full">Antoine Chalas</persName>
+            <date type="birth" when="18??"/>
+            <date type="death" when="19??"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>A correspondent for a New York newspaper, one of JJ’s several Greek friends in Zurich during the WWI years. When JJ was suffering from severe eye problems in 1919, he dictated some letters to Chalas, and later suggested to the American publisher <name type="person" key="hueb76">B. W. Huebsch</name> (<name type="work">LI</name> 124) that he issue a translation of a pamphlet by Chalas (<name type="work" key="ID_MISSING">Le Président Woodrow Wilson: personnification des plus hautes idées politiques de tout temps et les plus réalistes</name> [Zurich: Borsig, 1918]). <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

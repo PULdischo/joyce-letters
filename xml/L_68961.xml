@@ -1,0 +1,120 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68961">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Saturday, 13 January 1923</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68961</idno>
+            <idno type="internal">68961</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_11">26 avenue Charles Floquet, Paris</placeName>
+               </address>
+               <date notBefore="1923-01-13" notAfter="1923-01-13">Saturday, 13 January 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_11">26 Avenue Charles Floquet</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris VII</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <opener>
+                        <salute>Dear Miss Weaver:</salute>
+                    </opener> <p>I am very sorry to get your letter with such <seg xml:id="seg1" type="note-anchor">bad news</seg>. It must have been a terrible time for you<supplied reason="omitted">.</supplied> I offer you my condolence. It is lamentable that such a sad event should be the beginning of the rest you need so much. I remember you were to have some there early in October. I can understand how dreary and lonely it must be for <seg xml:id="seg2" type="note-anchor">
+                            <rs type="person" key="ID_MISSING">the other sister</rs>
+                        </seg> and how trying for you<supplied reason="omitted">.</supplied> Please don’t fatigue yourself with any correspondence about <rs type="work" key="W_ULYSSES">my book</rs>
+                        <supplied reason="omitted">.</supplied> I  hope sincerely that in some way or from your own patience and fortitude you will have some consolation and peace of mind.</p>      	<closer>
+                        <salute>With kindest regards</salute>                	<salute>sincerely yours</salute>                          	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1923-01-13">13 January 1923</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Harriet Shaw Weaver’s aunt Emily died on 4 January 1923 in Frodsham. (Jane Lidderdale and Mary Nicholson, <name type="work">Dear Miss Weaver: Harriet Shaw Weaver 1876-1961</name> (New York: The Viking Press, 1970), 214.)</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Harriet Shaw Weaver’s unmarried aunts, Emily and “the other sister” Harriet Elizabeth Wright, had been living together in Frodsham.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

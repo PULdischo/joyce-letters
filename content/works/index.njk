@@ -1,0 +1,11 @@
+---
+layout: base.njk
+title: Works
+permalink: works/index.html
+---
+<h1>Works ({{ collections.works.length }})</h1>
+<ul class="entry-list">
+{% for work in collections.works %}
+  <li><a href="{{ work.url }}">{{ work.data.name }}</a> <code>{{ work.data.key }}</code></li>
+{% endfor %}
+</ul>

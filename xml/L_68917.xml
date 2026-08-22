@@ -1,0 +1,121 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68917">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 29 September 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68917</idno>
+            <idno type="internal">68917</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_10">12 rue de l'Odéon, Paris</placeName>
+               </address>
+               <date notBefore="1922-09-29" notAfter="1922-09-29">Friday, 29 September 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="organisation" key="O_SHAKESPEAREANDCOMPANY">Shakespeare and Company</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_10">12, Rue de l’Odéon</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris  (VI<hi rend="superscript">E</hi>)</name>
+                            </addrLine>
+                        </address> </ab>
+                </div>
+                <div type="mainBody"> <p>Dear Miss Weaver: I cannot find information in the dictionaries here about two words you have corrected. Of course my notes are all locked up.<list rend="simple"> <item>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <hi rend="underline">iris</hi>
+                                </seg>: which plural is used? English or Latin?</item>        	<item>
+                                <seg xml:id="seg2" type="note-anchor">
+                                    <hi rend="underline">feintruled</hi>
+                                </seg>: my impression is that the correct term is with an “e”</item>
+                        </list>        	Will you please look them up and correct accordingly. I prefer the form ‘irides’ but if it is not used perhaps the other form will do.</p>
+                    <closer>
+                        <salute>Kindest regards</salute>                    	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In guarded terms, JJ suggests Weaver undo two of the corrections she made for the Egoist Press edition. For the plural of “iris” in <name type="work" key="W_ULYSSES">Ulysses</name>’s “Lestrygonians” episode, JJ insisted on the Latin form, “irides”, which he had used in the first edition (p. 159; cf. “His lids came down on the lower rims of his irides”; <name type="work" key="ID_MISSING">U</name> 8.563). Weaver’s correction was therefore not included in the errata list (<name type="work">JJA</name> 12, 203ff.) for the Egoist Press edition, which came out in October 1922.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ politely overrules Weaver’s correction, insisting on his spelling of the word “feintruled” as it appears in the first edition of <name type="work" key="W_ULYSSES">Ulysses</name>’s “Ithaca” episode: “1 pack of 1 dozen creamlaid envelopes and feintruled notepaper” (p. 673; cf. <name type="work" key="ID_MISSING">U</name> 17.1806). Consequently, the word was not included in the errata list (<name type="work">JJA</name> 12, 203ff.).</note> </div>
+      </body>
+   </text>
+</TEI>

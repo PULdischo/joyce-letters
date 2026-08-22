@@ -1,0 +1,32 @@
+---
+layout: base.njk
+---
+<article>
+  <h1>{{ title }}</h1>
+  <dl class="meta">
+    <dt>From</dt><dd><a href="/people/{{ correspondence.sender }}/">{{ correspondence.sender }}</a></dd>
+    <dt>To</dt><dd><a href="/people/{{ correspondence.recipient }}/">{{ correspondence.recipient }}</a></dd>
+    <dt>Date</dt><dd>{{ correspondence.date }}</dd>
+    <dt>Format</dt><dd>{{ format }}</dd>
+    <dt>Repository</dt><dd>{{ repository }}</dd>
+  </dl>
+
+  {{ content | safe }}
+
+  {% if editorialNotes and editorialNotes.length %}
+  <div class="conversion-note">
+    <strong>Editorial note{{ "s" if editorialNotes.length > 1 }}:</strong>
+    <ul>
+    {% for note in editorialNotes %}
+      <li>{{ note }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <p class="conversion-note">
+    POC conversion from TEI XML — some source apparatus (choice/sic alternates, editorial
+    corrections) is preserved only as an HTML comment in the Markdown source, not rendered
+    here. See <code>scripts/conversion_report.csv</code> for every flagged item in this file.
+  </p>
+</article>

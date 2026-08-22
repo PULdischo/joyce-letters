@@ -1,0 +1,135 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71459">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Sunday, 22 February 1931</title>
+            <author key="joyc07">Lucia Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RC">RC</name>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71459</idno>
+            <idno type="internal">71459</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc07">
+                        <forename>Lucia</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_16">192 rue de Grenelle</placeName>
+               </address>
+               <date notBefore="1931-02-22" notAfter="1931-02-22">Sunday, 22 February 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <dateline>
+                        <name type="geo" key="G_FRA_PARI">Paris</name> <date when="1931-02-22">22-2-31</date>
+                    </dateline>
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_16">192 rue de Grenelle</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>
+                            <seg xml:id="seg1" type="note-anchor">Dear <name type="person" key="poun85">Mr. Pound</name>
+                            </seg>,</salute>
+                    </opener>
+                    <p>
+                        <rs type="person" key="joyc82">My father</rs> asks you to excuse him for delay in replying but we are <seg xml:id="seg2" type="note-anchor">leaving this flat</seg> in a few weeks and he has been rather busy packing away books, pictures and manuscripts. He says that you may print <seg xml:id="seg3" type="note-anchor">any verses you like</seg> on <name type="work" key="ID_MISSING">Chamber Music</name> provided that <seg xml:id="seg4" type="note-anchor">
+                            <name type="person" key="cape79">Mr. Jonathan Cape</name> also agrees</seg> and that due acknowledgement is made. He has not seen <seg xml:id="seg5" type="note-anchor">
+                            <name type="work" key="ID_MISSING">the Tatler</name>
+                        </seg> but will order a copy to-morrow.</p>
+                    <closer>
+                        <salute>With kindest regards,</salute>
+                        <salute>Yours sincerely,</salute>
+                        <signed>
+                            <name type="person" key="joyc07">Lucia Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ evidently directed his daughter Lucia (1907-1982) to write this letter for him.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">In April 1931, JJ and family moved out of 2 square Robiac, 192 rue de Grenelle, where they had lived for nearly five years, and stayed in a series of hotels and flats in Paris, London, and other cities before settling into a small, furnished flat at 2 avenue St. Philibert, in Passy, in October 1931.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <p>Pound had written JJ (“Dear Jayzuss”) from Rapallo on 24 January 1931 to ask if a Milan publisher, <name type="person" key="ID_MISSING">Giovanni Scheiwiller</name>, could reprint JJ’s poem “I Hear an Army,” from <name type="work" key="ID_MISSING">Chamber Music</name> (1907), in an anthology of twentieth-century English and American poetry, for the purpose of “orienting a few of the better Italian writers [who] are beginning to substitute english for french, or at least to include it in their concept of contemporaneity” (Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 555-56). The poem duly appeared in the privately printed volume, <name type="work" key="ID_MISSING">Profile: An Anthology Collected in MCMXXXI</name> (Milan, 1932), limited to 250 numbered copies. Pound, Padraic Colum, W.B. Yeats, William Carlos Williams, Marianne Moore, Mina Loy, T.S. Eliot, and other poets also appeared in the volume. Pound considered it a “collection of poems which have stuck in my memory and which may possibly define their epoch, or at least rectify current ideas of it in respect to at least one contour” (note by Pound, <name type="work" key="ID_MISSING">Profile</name>, recto of first leaf). Pound considered “I Hear an Army” to be an important Irish example of the clear, unrhetorical qualities of Imagism, and had earlier included it in <name type="work" key="ID_MISSING">Des Imagistes: An Anthology</name> (New York: Albert and Charles Boni, 1914).</p>
+                    <p>Giovanni Scheiwiller (1889-1965) worked for the Milan publishing firm of Ulrico Hoepli (1847-1935) but also published limited editions on his own. Pound described him affectionately as “employee, publisher and messenger boy” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound, 1907-1941</name>, ed. D.D. Paige [New York: New Directions, 1971], 220), and told Louis Zukofsky that he was a “good guy/ ought to be NNNNcouraged” (<name type="work" key="ID_MISSING">Pound/Zukofsky: Selected Letters of Ezra Pound and Louis Zukofsky</name>, ed. Barry Ahearn [New York: New Directions, 1987], 126). Scheiwiller admired Pound’s work and published his <name type="work" key="ID_MISSING">Confucius: Digest of the Analects</name> in 1937. Scheiwiller’s son, Vanni, carried on the firm and issued many works by Pound in later years.</p>
+                </note>
+                <note xml:id="note4" target="#seg4" type="commentary">The first two English editions of JJ’s <name type="work" key="ID_MISSING">Chamber Music</name> were published by <name type="person" key="math51">Elkin Mathews</name> of London (1907, 1918), the third by the Egoist Press of London (1923). In 1924, the volume was acquired by Jonathan Cape, Ltd., of London, which issued its first edition of the work in 1927, with further printings in 1934, 1943, 1945, and later (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 9-10). Herbert Jonathan Cape (1879-1960) founded the firm with Wren Howard in 1921, going on to publish works by H.G. Wells, W.H. Davies, Samuel Butler, Sinclair Lewis, Ernest Hemingway, Margaret Mead, and other authors. Cape also acquired <name type="work" key="W_DUBLINERS">Dubliners</name>,<name type="work" key="W_APORTRAIT"> A Portrait of the Artist as a Young Man</name>, and <name type="work" key="W_EXILES">Exiles</name> from the Egoist Press in 1924.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">
+                    <name type="work" key="ID_MISSING">The Tatler</name> was an English weekly magazine founded in 1901 by the British journalist <name type="person" key="ID_MISSING">Clement Shorter</name> (1857-1926). By 1931, it was a shilling photo-journal, heavy on advertisements for brandies and cigarettes, expensive automobiles, stylish clothing and corsetry, and offering content that pandered to consumers of fashion, high society, gossip, tony weddings and social gatherings, movie stars, foxhunting (“the recent shoot”), and the horsey set. Pound refers to a “slick guy” reading (or not reading) “The Tatler” in Canto 19, first published in 1925-1926, a section of Pound’s epic poem that records snatches of dialogue and anecdotes illustrating economic abuse and exploitation in early twentieth-century Britain and America (<name type="work" key="ID_MISSING">The Cantos</name> [New York: New Directions, 1995], 85).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

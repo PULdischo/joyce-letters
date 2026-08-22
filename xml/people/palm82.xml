@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="palm82">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G. Molyneux Palmer</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>palm82</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">6065902</idno>
+            <idno type="OCLC">lccn-n92063142</idno>
+            <persName type="reg">
+               <forename>Geoffrey Molyneux</forename> <surname>Palmer</surname>
+            </persName>
+            <persName type="full">G. Molyneux Palmer</persName>
+            <date type="birth" when="1882-10-08"/>
+            <date type="death" when="1957-11-29"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Born in England of Irish parents, studied music at Oxford and moved to Ireland in 1910. Geoffrey Molyneux Palmer wrote several operas based on Irish sagas and composed tunes for popular songs and ballads that were published in England. Palmer’s career was restricted by multiple sclerosis that manifested itself while he was in his twenties. As his illness progressed, he was cared for by his sisters in Dublin. Palmer was the first to compose settings for <name type="work" key="ID_MISSING">Chamber Music</name>, and JJ was very pleased with the result. The music, long presumed lost, was rediscovered in 1982 in the library of Southern Illinois University Carbondale. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

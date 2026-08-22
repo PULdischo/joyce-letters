@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bosc78">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jean de Boschère</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>bosc78</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">9841229</idno>
+            <idno type="OCLC">lccn-n80166958</idno>
+            <persName type="reg">
+               <forename>Jean de</forename> <surname>Boschère</surname>
+            </persName>
+            <persName type="full">Jean de Boschère</persName>
+            <date type="birth" when="1878-07-05"/>
+            <date type="death" when="1953-01-17"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Belgian artist and writer. During WWI he became associated with the Imagists and met <name type="person" key="poun85">Ezra Pound</name>, who helped to place his poems and drawings in <name type="work" key="ID_MISSING">The Little Review</name>. Pound reported to JJ that Boschère expressed great praise for <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>. He visited JJ in Paris in June 1921 and was one of the signers of the 2 February 1927 letter of protest against <name type="person" key="roth93">Samuel Roth</name>’s publication of <name type="work" key="W_ULYSSES">Ulysses</name>. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

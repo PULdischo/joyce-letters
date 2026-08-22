@@ -1,0 +1,1 @@
+{ "layout": "letter.njk", "tags": ["letters"], "eleventyComputed": { "permalink": "letters/{{ page.fileSlug }}/index.html" } }

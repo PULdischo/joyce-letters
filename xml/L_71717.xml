@@ -1,0 +1,179 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71717">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. ca. 1-31 July 1933</title>
+            <author key="joyc07">Lucia Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>MG</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71717</idno>
+            <idno type="internal">71717</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc07">
+                        <forename>Lucia</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1933-07-01" notAfter="1933-07-31">ca. 1-31 July 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="appendix">
+                    <p>
+                        <hi rend="underline">Zurich <seg xml:id="seg1" type="note-anchor">Figures</seg>
+                        </hi>
+                    </p>
+                    <p>
+                        <hi rend="underline">Metzger <seg xml:id="seg2" type="note-anchor">Lenz</seg>
+                        </hi>, a more than <choice>
+                            <sic>Velasquez</sic>
+                            <corr>Velázquez</corr>
+                        </choice> figure, meat warrior. He occupied all the                                          	tram platform.</p>
+                    <p>
+                        <hi rend="underline">The King of Oil’s <seg xml:id="seg3" type="note-anchor">daughter</seg>
+                        </hi>, born <name type="person" key="mcco72">Edith Rockefeller</name>, ill favoured, <foreign xml:lang="fra">malsaine</foreign>                                        	fantastic distinguished and benevolent, she stalked about the town distributing                                         	charities houses and <choice>
+                            <sic>jachts</sic>
+                            <corr>yachts</corr>
+                        </choice>. <name type="person" key="raws88">
+                            <choice>
+                                <sic>Rossen</sic>
+                                <corr>Rawson</corr>
+                            </choice>
+                        </name> taught her husband McCormick,                                 	to whistle the song it ain’t gonna Waltza no more.</p>
+                    <p>
+                        <seg xml:id="seg4" type="note-anchor">She is the daughter</seg> of one Rockefeller whose oil brought more death into our world and much of our woe.</p>
+                    <p>
+                        <hi rend="underline">Oom <seg xml:id="seg5" type="note-anchor">Paul</seg>
+                        </hi> Of Niederdorf Ministre de la Grille, Dutch interior mais où sont les 	           	Bifteks D’Antan?</p>
+                    <p>
+                        <hi rend="underline">
+                            <seg xml:id="seg6" type="note-anchor">L’homme</seg> qui rit,</hi> He had a lion’s mouth from ear to ear and walked about the bourse                                         	with a copious <choice>
+                            <sic>english</sic>
+                            <corr>English</corr>
+                        </choice> newspaper held up to his face.</p>
+                    <p>
+                        <hi rend="underline">
+                            <name type="person" key="vrie77">Juda Devries</name>
+                        </hi> Dentist thief cinematograf producer (pink not paper with the allied                             flags crossed on the top) contrabandist in shirtwaists <choice>
+                            <sic>sinthetic</sic>
+                            <corr>synthetic</corr>
+                        </choice> pearls and bouillon Kub. Canary gloves patent shoes. Alias Joe Martin. Alias Jules Moreau, his father the venerable <choice>
+                            <sic>ginecologist</sic>
+                            <corr>gynecologist</corr>
+                        </choice> in <name type="geo" key="G_NLD_AMST">Amsterdam</name>; my father got him out of jail in hospital. He wrote a scenario Wine, Woman and Song. While in <choice>
+                            <sic>Prison</sic>
+                            <corr>prison</corr>
+                        </choice> made a wooden Bible money box, a surprise entitled “My first Success” by James Joyce.                              </p>
+                    <p>
+                        <hi rend="underline">
+                            <name type="person" key="feil58">Sigmund <seg xml:id="seg7" type="note-anchor">Feilbogen</seg>
+                            </name>
+                        </hi>	Ear trumpet which he oriented and occidented night and day to                                     	catch rumours of peace anywhere at any hour. The slings and                                                	arrows of outrageous fortune had hit him hard. Said to have lost his                              	<choice>
+                            <sic>proffesorship</sic>
+                            <corr>professorship</corr>
+                        </choice> in the higher school of Commerce in <name type="geo" key="G_AUT_VIEN">Vienna</name> because                                          	his wife (Rubens type with one eye gone West) urged by female                                          	curiosity half consumed the host the pope gave her in St. Peter’s                                   	and then spat it into her handkerchief.</p>
+                    <p>
+                        <hi rend="underline">Zirrizittig <seg xml:id="seg8" type="note-anchor">Extrablatt</seg>
+                        </hi> All through the War he stood at the corner of the <choice>
+                            <sic>Banhofplatz</sic>
+                            <corr>Bahnhofplatz</corr>
+                        </choice>                                	with a plaster on his chest and distributed Havas Stephanie                                         	Reuter and Wolff with Vierwaldstätter je m’en foutisme.</p>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Dear Mr. Budgen,</salute>
+                    </opener>
+                    <p>           	My father sends you the above hints as companion pictures of that of <seg xml:id="seg9" type="note-anchor">
+                            <name type="person" key="ferr66">Busoni</name>
+                        </seg> and his dog. We hope you weathered the storm safely.</p>
+                    <closer>
+                        <salute>                          	Sincerely yours,</salute>
+                        <signed>                                         	<name type="person" key="joyc07">Lucia Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">The letter makes suggestions for Budgen’s book that were incorporated into the galley proofs, set probably in August 1933.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Budgen describes these Zurich personalities, at times quoting directly from this letter, in <name type="work">JJMU</name> 26-30.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <name type="person" key="lenzXX">Jakob Lenz</name>, a Zurich butcher, whom Budgen notes “in girth surpassing Velasquez’s actor”, (<name type="work">JJMU</name> 29) perhaps in reference to the painting “El bufón Barbarroja”.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In <name type="work">JJMU</name> 28 Budgen made reference to Edith Rockefeller's philanthropy, but omitted JJ's caustic comment.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">This sentence is written in the left margin in the hand of JJ.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">The nickname of Paul Kruger, the president of South Africa during the Boer War, and here a humorous reference to the Dutch <name type="person" key="ephr71">Jan Ephraim</name> (“Oom Jan”), owner of the Meierei restaurant in Zurich’s Niederdorf, famous for his grilled steaks. The question echoes the line <foreign xml:lang="fra">“Mais où sont les neiges d'antan?”</foreign> from François Villon’s poem “La Ballade des dames du temps jadis”. As translated by Dante Gabriel Rosetti, “But where are the snows of yesteryear?” the question appears in the <name type="work">Wake</name> as “but wowhere are those yours of Yestersdays?” (<name type="work" key="W_FINNEGANSWAKE">FW</name> 54.03).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">A reference to the Victor Hugo novel of 1869 published in English under the title <name type="work">The Man Who Laughs</name>.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">The incident prompting the loss of his professorship was apparently due to his sister-in-law, not his wife (Andreas Fischer, <name type="work">James Joyce in Zurich: A Guide</name> [Cham: Palgrave Macmillan, 2020], 117). He appears in the <name type="work">Wake</name> as “Father Freeshots Feilbogen” (<name type="work">FW</name> 464.29-30).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">A local colloquial reference to the “extra” section of the <name type="work">Neue Zürcher Zeitung</name>, the most prominent newspaper in Zurich during JJ’s time there. JJ used the nickname in a letter <rs type="letter" key="L_70186">to Lucia of 8 August 1932</rs> (<name type="work">LIII</name> 255), and it appears in <name type="work">JJMU</name> as “Zürizitig”. The term “Zürizitig” is still used as a nickname for the newspaper. Havas, Stefani, Reuters, and Wolffs were press agencies located in, respectively, France, Italy, Britain, and Germany. They appear in the <name type="work">Wake</name> (along with others) as “Tass, Patt, Staff, Woff, Havv, Bluvv and Rutter” (<name type="work" key="W_FINNEGANSWAKE">FW</name> 593.06). “Vierwaldstättersee” is the German name of Lake Lucerne. “Je m’en foutisme” is the noun form of the French phrase “je m’en fous”, meaning “I don’t care”.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Busoni’s strolls in the company of his St. Bernard dog, “Giotto”, were a familiar sight on Bahnhofstrasse during JJ's years in Zurich. Budgen reported that Busoni would walk to his concerts in Zurich's Tonhalle in the company of the dog (<name type="work">JJMU</name> 26).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

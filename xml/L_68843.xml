@@ -1,0 +1,157 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68843">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Tuesday, 10 January 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="LLT">LLT</name>
+                    <name xml:id="LVR">LVR</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68843</idno>
+            <idno type="internal">68843</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">9 rue de l'Université, Paris</placeName>
+               </address>
+               <date notBefore="1922-01-10" notAfter="1922-01-10">Tuesday, 10 January 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         
+<div type="letter">
+<div type="address">
+<ab>
+<address>
+<addrLine>
+<name type="geo" key="G_FRA_PARI_04">rue de   l’Université 9</name>
+</addrLine>
+<addrLine>
+<name type="geo" key="G_FRA_PARI">Paris VII</name>
+</addrLine>
+</address>
+</ab>
+</div>
+<div type="mainBody">
+<p>Dear <name type="person" key="weav76">Miss Weaver</name>: Many thanks for <rs type="work" key="ID_MISSING">the draft</rs> received. These few lines are to beg you to send a copy of <seg xml:id="seg1" type="note-anchor">
+                            <name type="work" key="ID_MISSING">
+                                <hi rend="underline">The</hi> <hi rend="underline">Observer</hi>
+                            </name>
+                        </seg> (marked) also to:
+        	<p>
+                            <name type="person" key="fran78">Mr Alessandro Francini</name>
+ <lb/>                      
+
+                            <seg xml:id="seg2" type="note-anchor">Associazione della Stampa della Venezia Giulia</seg>
+<lb/>                    
+        	
+                            <name type="geo" key="ID_MISSING">Piazza Verdi 1</name>,</p>
+ <lb/>       	
+                            <name type="geo" key="G_ITA_TRIE">Trieste (Italy)</name>
+                        </p>
+                        
+<p>He is writing an article for some Italian review.</p>
+       <p> I have seen <seg xml:id="seg3" type="note-anchor">a very curious article</seg> by <name type="person" key="hone82">Mr Hone</name> in the current number of the London Mercury. Copies of it, I think, ought to be sent also to the three addresses I gave you and to the fourth above – but they would come better from my publisher than from me direct.</p>
+       <p> 	Mr Hone’s article is, so far as I know, the first allusion made to me or my writing by any member or hanger-on of the Irish literary movement in an account (in review or paper or history) of that phenomenon. He is, or was, the financer and the head of the firm <name type="organisation" key="O_MAUNSEL">Maunsel and Co</name> who were responsible for <seg xml:id="seg4" type="note-anchor">the burning of my book</seg> <name type="work" key="W_DUBLINERS">
+                            <hi rend="underline">Dubliners</hi>
+                        </name>. When reading it please pay attention to the last paragraph about which I shall have more to say later on.</p>
+ <p>       	By all means send me proofs of <name type="work" key="W_EXILES">
+                            <hi rend="underline">Exiles</hi>
+                        </name>. I shall send you tomorrow more proofs of <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> and a photograph which was made for <seg xml:id="seg5" type="note-anchor">an article</seg> to be published in <hi rend="underline">Vanity</hi> <hi rend="underline">Fair</hi>, <name type="geo" key="G_USA_NEWY">New York</name>.</p>
+<closer>   	
+<salute>With very many thanks from your troublesome petitioner and his kindest regards</salute>
+<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+<dateline>
+                            <date when="1922-01-10">
+                                <choice>
+                                    <sic>10.1.921</sic>
+                                    <corr>10.1.922</corr>
+                                </choice>
+                            </date>
+                        </dateline>
+</closer>
+</div>
+</div>
+
+<div type="notes">
+
+<note xml:id="note1" target="#seg1" type="commentary">
+                    “<hi rend="italic">Ulysses</hi>: James Joyce and his chef d’oeuvre”, <hi rend="italic">The Observer</hi> (11 December 1921): 9.</note>
+
+<note xml:id="note2" target="#seg2" type="commentary">See Alessandro Francini Bruni’s <hi rend="italic">Joyce intimo spogliato in piazza (un’indiavolata caricatura dello scrittore irlandese)</hi>, Trieste: La Editoriale Libraria, 1922. An English translation was published in <hi rend="italic">James Joyce Quarterly</hi>, vol. 14, no. 2 (Winter 1977): 127-59.</note>
+<note xml:id="note3" target="#seg3" type="commentary">This article is <name type="person" key="hone82">J. M. Hone</name>’s “A Letter from Ireland” published in <hi rend="italic">London Mercury</hi>, 5, no. 27 (January 1922): 306-08. The last paragraph begins, “For us in Ireland Mr. Joyce’s significance lies in this, that he is the first man of literary genius, expressing himself in perfect freedom, that Catholic Ireland has produced in modern times”.</note>
+<note xml:id="note4" target="#seg4" type="commentary">On 11 September 1912 printer John Falconer burned 1,000 copies of <hi rend="italic">Dubliners</hi> before its anticipated publication by Maunsel &amp; Co. See <rs type="letter" key="L_68284">JJ to Pound, 10 March 1916</rs>, note 7.</note>
+<note xml:id="note5" target="#seg5" type="commentary">See <name type="person" key="barn92">Djuna Barnes</name>’s “A Portrait of the Man Who Is, at Present, One of the More Significant Figures in Literature” published in <hi rend="italic">Vanity Fair</hi>,  vol. 18, no. 2 (April 1922): 65, 104.</note>
+
+</div>
+
+      </body>
+   </text>
+</TEI>

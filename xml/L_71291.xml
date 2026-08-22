@@ -1,0 +1,219 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71291">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Tuesday, 3 December 1940</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                    <name>SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>WB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71291</idno>
+            <idno type="internal">71291</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                            <handNote xml:id="unknown">undefined undefined</handNote>
+                        </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fra"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_STGE_03">Maison Ponthenier, Allier</placeName>
+               </address>
+               <date notBefore="1940-12-03" notAfter="1940-12-03">Tuesday, 3 December 1940</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_STGE_03">Maison Ponthenier</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_STGE">
+                                    <choice>
+                                        <sic>S. Gerand-Le Puy</sic> <corr>Saint-Gérand-le-Puy</corr>
+                                    </choice>
+                                </name>
+                            </addrLine>
+                            <addrLine>Allier, France</addrLine>
+                        </address>
+                        <date when="1940-12-03">3.xii.1940</date>
+                    </ab>
+                </div>                                                                                        	 <div type="mainBody">
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">Circular Letter</seg>: prière de la remettre à <name type="person" key="gied93">M<hi rend="underline">
+                                <hi rend="superscript">me</hi>
+                            </hi> <choice>
+                                <sic>Gideon</sic>
+                                <corr>Giedion</corr>
+                            </choice>
+                        </name> qui pourra la remettre à <name type="person" key="augs02">M. Augsbourg</name>: <name type="geo" key="G_CHE_LAUS_02">Villa El-Sol <add place="added below in pencil" hand="#unknown">Avenue des Alpes</add> Prilly, Lausanne</name>. Comme cela je n’écris pas les mêmes choses trois fois. Cher amis: Mon <rs type="person" key="joyc05">fils</rs> alla hier à <name type="geo" key="G_CHE_VICH">Vichy</name> malgré l’interdiction de circulation car il fallait et il faudra y aller. Voici les résultats de ce voyage.</p> <p>
+                        <hi rend="underline">
+                            <choice>
+                                <sic>Legation</sic>
+                                <corr>Légation</corr>
+                            </choice> d’Irlande</hi>. Le message de l’ambassade d’Allemagne à <name type="geo" key="G_FRA_PARI">Paris</name> au sujet de <rs type="person" key="joyc07">ma fille</rs> est final pour elle. Le ministre n’estime pas qu’une intervention éventuelle de personnes irlandaises haut <choice>
+                            <sic>placés</sic>
+                            <corr>placées</corr>
+                        </choice> en Suisse ou en Allemagne auprès du gouvernement allemand à <name type="geo" key="G_DEU_BERL">Berlin</name> aboutirait à grande chose. Il suggère plutôt une intervention officielle ou officieuse des U.S.A soit de Paris, soit en Suisse ou en Allemagne – ambassade ou croix rouge etc. C’est un refus mais le ministre, qui est très courtois et amical, admet qu’il y aura toujours une solution par une autre voie.</p> <p>
+                        <hi rend="underline">Ambassade des U<supplied reason="omitted">.</supplied>S.A</hi>. Mon fils n’a pas pu toucher la mensualité réduite qu’on nous passe le premier de chaque mois. Il y a <choice>
+                            <sic>des</sic>
+                            <corr>de</corr>
+                        </choice> nouveaux règlements et <choice>
+                            <sic>des</sic>
+                            <corr>de</corr>
+                        </choice> nouveaux engagements au sujet des dettes envers le gouvernement britannique. Les nouveaux papiers ne sont encore prêts. On le prie de revenir après quelques jours. Ce n’est pas un refus.</p> <p>
+                        <hi rend="underline">Ministère de <choice>
+                                <sic>l’Interieur</sic>
+                                <corr>l’Intérieur</corr>
+                            </choice>
+                        </hi>
+                        <supplied reason="omitted">.</supplied> Mon fils se présente et l’on <choice>
+                            <sic>s’etonne</sic>
+                            <corr>s’étonne</corr>
+                        </choice> 1° que le permis de sortie a été accordé comme il l’a été 2° que nous n’avons pas <choice>
+                            <sic>profiter</sic>
+                            <corr>profité</corr>
+                        </choice> de ce permis. Il n’a rien en mains pour justifier son assertion que nous avons demandé et redemandé le visa suisse qui n’a été accordé que le <date when="1940-11-30">30 novembre</date> sauf quelques dépêches de particuliers car la <choice>
+                            <sic>legation</sic>
+                            <corr>légation</corr>
+                        </choice> suisse <choice>
+                            <sic>réfuse</sic>
+                            <corr>refuse</corr>
+                        </choice> d’informer le ministère à ce propos alléguant qu’elle ne pourrait faire aucune démarche en faveur d’un étranger mais que, si le ministère lui en faisait demande elle aurait répondu que le visa était prêt. On dit à mon fils qu’on allait rouvrir tout le dossier, examiner le cas et qu’on nous écrirait. On ajouta que leurs instructions étaient de plus en plus sévères et que si un permis de sortie accordé il y a 7 semaines était exceptionnel son renouvellement serait exceptionnellement exceptionnel. M. Demay, ami de M. Augsbourg, et <name type="person" key="peti13">M. Petitjean</name>, un mien, m’ont fait parvenir pourtant des messages d’espoir.</p> <p>
+                        <hi rend="underline">
+                            <choice>
+                                <sic>Legation</sic>
+                                <corr>Légation</corr>
+                            </choice> Suisse:</hi> Quand mon fils se présente on lui dit que les visas <choice>
+                            <sic>etaient</sic>
+                            <corr>étaient</corr>
+                        </choice> là pour nous tous, Lucia aussi. On voulait savoir pourtant la durée de notre séjour en Suisse. Mon fils répondit qu’il ne pouvait pas la préciser. On lui dit alors que pour timbrer les passeports il fallait non seulement le timbre de sortie de la France mais aussi le timbre de rentrée en France. Mon fils répondit qu’il était assez difficile à présent d’obtenir le premier et qu’il croyait que ce serait impossible d’obtenir le <choice>
+                            <sic>sécond</sic>
+                            <corr>second</corr>
+                        </choice>. On lui promit de réfléchir sur ce problème en attendant la <choice>
+                            <sic>decision</sic>
+                            <corr>décision</corr>
+                        </choice> du ministère de <choice>
+                            <sic>l’interieur</sic>
+                            <corr>l’intérieur</corr>
+                        </choice>. À l’interrogation s’il y avait à Paris un <choice>
+                            <sic>rappresentant</sic>
+                            <corr>représentant</corr>
+                        </choice> de la Suisse, chargé d’affaires ou d’autre, qui <choice>
+                            <sic>pourait</sic>
+                            <corr>pourrait</corr>
+                        </choice> mettre le visa sans le passeport de Lucia (ce passeport se trouve au consulat général des U.S.A<supplied reason="omitted">.</supplied> à Paris dans son dossier), en vue du blocus postal entre les deux zones si les autorités occupantes donnaient le permis de sortie à nouveau il <choice>
+                            <sic>fût</sic>
+                            <corr>fut</corr>
+                        </choice> répondu qu’en aucun cas on ne pouvait mettre un visa d’entrée en Suisse sur le passeport d’un étranger résidant dans la zone occupée. Il faudrait que cet étranger quitte d’abord ladite zone et qu’une fois entré en zone libre, il se présente au consulat ou à la légation suisse pour avoir le timbre de l’un ou de l’autre.</p>
+                    <p>Voilà, cher amis, où nous en sommes actuellement.</p>
+                    <closer>
+                        <salute>salutations amicales</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer> <postscript>
+                        <p>
+                            <label>PS.</label> Merci pour l’adresse de <name type="person" key="lest88">Lester</name>.</p>
+                    </postscript>
+                </div>
+                <div type="translation">
+                    <ab>
+                        <address>
+                            <addrLine>​​Maison Ponthenier</addrLine>
+                            <addrLine>Saint-Gérand-le-Puy</addrLine>
+                            <addrLine>Allier, France</addrLine>
+                        </address>
+                        <date when="1940-12-03">3.xii.1940</date>
+                    </ab>
+                    <p>Circular Letter: please transmit this to Mrs Gideon, who will be able to transmit it to Mr Augsbourg:  Villa EP-Sol Avenue des Alpes Prilly, Lausanne. This way, I’m not writing the same things three times. Dear friends: My son went to Vichy yesterday despite the travel ban, since it was and will be necessary to go there. Here are the results of this trip.</p> <p>
+                        <hi rend="underline">Irish Legation</hi>. The message from the German Embassy in Paris about my daughter is final for her. The Minister does not believe that any intervention by high-ranking Irish people in Switzerland or Germany with the German government in Berlin would achieve much. He suggests instead an official or semi-official intervention by the U.S.A. either from Paris, in Switzerland, or in Germany – embassy or Red Cross etc. It’s a rejection but the minister, who is very courteous and friendly, admits that there will always be a solution through a different channel.   </p> <p>
+                        <hi rend="underline">Embassy of the U.S.A.</hi> My son could not touch the reduced monthly payment that we get on the first of each month. There are new regulations and new commitments regarding debts toward the British government. The new papers are not ready yet. He is asked to return after a few days. This is not a refusal.   </p> <p>
+                        <hi rend="underline">Ministry of the Interior</hi>. My son presents himself and one is surprised 1° that the exit permit was granted as it was 2° that we did not make use of this permit. He has nothing on hand to justify his claim that we had applied and reapplied for a Swiss visa that was only granted on 30 November except for a few dispatches from particular individuals, because the Swiss Legation refuses to notify the minister in this regard, alleging that it couldn’t take any steps in on behalf of a foreigner but that, if the Ministry had asked, it would have replied that the visa was ready. My son was told that they would reopen the whole dossier, review the case and write to us. They added that their instructions were increasingly strict and if an exit permit granted 7 weeks ago was exceptional, its renewal would be exceptionally exceptional. Mr Demay a friend of Mr Augsbourg and Mr Petitjean, one of mine, nevertheless have sent me messages of hope. </p> <p>
+                        <hi rend="underline">Swiss Legation:</hi> When my son presents himself, he is told that the visas were there for all of us, including Lucia. They nevertheless wanted to know how long we would be staying in Switzerland. My son answered that he could not be more specific. He was told that to stamp the passports, not only the stamp for exiting France, but also the stamp for re-entering France was required. My son replied that it was rather difficult at present to obtain the former and that he believed it was impossible to obtain the latter. He was promised that they would think about this problem while waiting for the decision from the Ministry of the Interior. Upon enquiring whether there was a Swiss representative in Paris, a chargé d’affaires or other, who could issue the visa without Lucia’s passport (this passport is in her dossier at the Consulate of the U.S.A. in Paris) in view of the postal blockade between the two zones, if the occupying authorities granted the exit permit again, it was replied that in no case could an entry visa for Switzerland be issued on the passport of a foreigner living in the occupied zone. This foreigner would have to leave the zone in question first and, once he has entered the free zone, he would have to present himself to the Swiss Consulate or Legation to obtain the stamp from the one or the other.</p>
+                    <p>This, dear friends, is where we are at present.</p>
+                    <closer>
+                        <salute>friendly greetings</salute>
+                        <signed>James Joyce</signed> </closer>
+                    <postscript>
+                        <p>
+                            <label>P.S.</label> Thank you for Lester’s address.</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Paul Ruggiero, Carola Giedion-Welcker and Géa Augsbourg were among the people who helped the Joyces to enter Switzerland (see also <rs type="letter" key="L_71294">JJ to Ruggiero, 8 December 1940</rs>). Thanks to David Spurr for assistance with the transcription and translation.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

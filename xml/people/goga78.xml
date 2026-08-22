@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="goga78">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oliver St John Gogarty</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>goga78</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">32004745</idno>
+            <idno type="OCLC">lccn-n81040729</idno>
+            <persName type="reg">
+               <forename>Oliver St John</forename> <surname>Gogarty</surname>
+            </persName>
+            <persName type="full">Oliver St John Gogarty</persName>
+            <date type="birth" when="1878-08-17"/>
+            <date type="death" when="1957-09-22"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Born in Dublin the eldest son of surgeon <name type="person" key="ID_MISSING">Henry Gogarty</name> and his wife <name type="person" key="ID_MISSING">Margaret</name> (née Oliver), he was educated initially by the Christian Brothers and later attended Jesuit schools including Clongowes. He studied medicine at Trinity College Dublin 1897-1904 and became well-known as a champion cyclist and swimmer. He won prizes for poetry and his Rabelaisian verses (such as “The Ballad of Joking Jesus”) circulated widely.</p> <p>Gogarty met JJ in 1901. They were good friends for a while and in 1904 shared the Martello Tower in Sandycove for a few weeks. Later, JJ came to believe that Gogarty was conspiring against him, while Gogarty saw his portrayal in <name type="work" key="ID_MISSING">Ulysses</name> as a betrayal of their friendship. JJ’s literary portrayal of him did, in fact, seriously affect his reputation as a respectable surgeon and senator and continues to irritate aficionados of his writings.</p>  <p>Gogarty was a close friend of <name type="person" key="ID_MISSING">Arthur Griffith</name>’s and an advocate of his policies. After the latter’s death, he strongly supported <name type="person" key="ID_MISSING">W. T. Cosgrave</name> and his government and was an active member of the Senate of the Irish Free State from 1922 to 1936. During this time, he maintained a busy, highly regarded medical practice in Dublin and hosted an influential salon while continuing to write poetry that was admired by <name type="person" key="yeat65">W. B. Yeats</name>.</p> <p>De Valera’s Ireland was not to Gogarty’s liking, and in 1939, he moved permanently to the USA where he made a living from journalism and lecturing. Apart from poetry, he is noted for his reminiscences and the memoirs <name type="work" key="ID_MISSING">As I was going down Sackville Street</name> (1937) and <name type="work" key="ID_MISSING">Tumbling in the Hay</name> (1939). Ironically, today Oliver St John Gogarty is best remembered as Buck Mulligan, a character created by the writer whom he once called “an unlovable and lonely man”. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1 @@
+{ "layout": "entity.njk", "tags": ["works"], "eleventyComputed": { "permalink": "works/{{ page.fileSlug }}/index.html", "kind": "work" } }

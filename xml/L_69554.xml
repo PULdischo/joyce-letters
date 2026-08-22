@@ -1,0 +1,116 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69554">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Claud Sykes. Wednesday, 23 November 1927</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69554</idno>
+            <idno type="internal">69554</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1927-11-23" notAfter="1927-11-23">Wednesday, 23 November 1927</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="syke83">
+                        <forename>Claud Walter</forename> <surname>Sykes</surname>
+                    </persName>
+               <persName type="full" key="syke83">Claud Sykes</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_69554_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University. The image on the postcard shows a coloured photograph of the Trocadéro in Paris and the Jena Bridge.</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="syke83">Mr Sykes</name>: Did you get a signed copy of the <seg xml:id="seg1" type="note-anchor">
+                            <hi rend="underline">edition</hi> <hi rend="underline">de</hi> <hi rend="underline">Luxe</hi>
+                        </seg> of my verses, <name type="work" key="ID_MISSING">
+                            <hi rend="underline">Pomes</hi> <hi rend="underline">Penyeach</hi>
+                        </name> sent you on <date when="1927-07-13">13 July last</date> by registered post and also various numbers of <hi rend="underline">transition</hi>? I ask because I have a copy of the German edition of <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> to send you also but want to hear from you first about the others. I hope your silence has not been due to ill health<supplied reason="omitted">.</supplied>
+                    </p> <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1927-11-23">23/xi/27</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>    <div type="notes">
+                <note xml:id="global-note1" type="global">This postcard image is of “PARIS – Le Trocadero et le Pont d’Iena”. For the 1878 World’s Fair, the Palais du Trocadéro was built to the design of architect Gabriel Davioud, with a large concert hall in a style blending Moorish and Byzantine elements. Pont d'Iéna (“Jena Bridge”), construction of which was ordered by Napoleon I to commemorate his victory at the Battle of Jena in 1806, spanned the River Seine, linking the Eiffel Tower on the Left Bank to the district of Trocadéro on the Right Bank. This postcard was produced by A. Papeghin (1900-1931), Paris and Tours, a publisher of collotype postcards that chiefly depicted local views of amusement areas and sporting events, especially in Paris and its environs.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Joyce’s short collection of 13 poems, <name type="work" key="ID_MISSING">Pomes Penyeach</name>, was issued by Shakespeare and Company in 1927 in a trade edition of 5,000 copies and a de luxe edition, on Dutch handmade paper, of 13 copies.</note>
+            </div> 
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pink62">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J[ames] B[rand] Pinker</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>pink62</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">23579472</idno>
+            <idno type="OCLC">lccn-n85180790</idno>
+            <persName type="reg">
+               <forename>James B.</forename> <surname>Pinker</surname>
+            </persName>
+            <persName type="full">J[ames] B[rand] Pinker</persName>
+            <date type="birth" when="1863-10-13"/>
+            <date type="death" when="1922-02-08"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Prominent British literary agent. After working as a correspondent in Turkey for the <name type="work" key="ID_MISSING">Levant Herald</name>, he returned to England where he spent several years in editorial positions with <name type="work" key="ID_MISSING">Black &amp; White</name> and <name type="work" key="ID_MISSING">Pearson’s Magazine</name>. Pinker established his agency in 1896 at a time when the profession of literary agent was a new one; Pinker, along with A. P. Watt and the American Albert Curtis Brown, was one of its forerunners. His early clients included Arnold Bennett, Joseph Conrad, Ford Madox Ford, D. H. Lawrence, Violet Hunt, and <name type="person" key="well66">H. G. Wells</name>, and he prided himself on promoting young emerging writers. It was Wells who drew Pinker’s attention to The Egoist’s serial publication of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, which led to Pinker’s offering his services to JJ in 1915. From then through the end of the decade JJ and Pinker were in frequent contact, with JJ sending sometimes imperious and contradictory instructions, and Pinker replying with patience. He negotiated methodically with the erratic publisher <name type="person" key="rich72">Grant Richards</name> for Joyce’s royalties, and was instrumental in placing <name type="work" key="W_EXILES">Exiles</name> with Richards and in negotiating the contract for <name type="work" key="W_APORTRAIT">A Portrait of the Artist</name> with <name type="person" key="hueb76">B. W. Huebsch</name>. Pinker’s negotiations with Huebsch for publication of <name type="work" key="W_ULYSSES">Ulysses</name> marked the diminishing of JJ’s correspondence with him as publication plans were then made directly with Shakespeare and Company. On 8 February 1922, only days after the publication in Paris of <name type="work" key="W_ULYSSES">Ulysses</name>, Pinker died suddenly of influenza and pneumonia while on a trip to New York. His sons, <name type="person" key="pink91">Eric</name> and <name type="person" key="pink00">James Ralph</name>, carried on the business of the literary agency. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

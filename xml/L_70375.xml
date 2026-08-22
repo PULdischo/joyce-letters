@@ -1,0 +1,133 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70375">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To John Gadsby. Monday, 22 January 1934</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70375</idno>
+            <idno type="internal">70375</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>National Library of Ireland</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1934-01-22" notAfter="1934-01-22">Monday, 22 January 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="gads84">
+                        <forename>John</forename> <surname>Gadsby</surname>
+                    </persName>
+               <persName type="full" key="gads84">John Gadsby</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="person" key="gads84">John Gadsby</name> C.B.E. esq.</addrLine>
+                            <addrLine>Building 13</addrLine>
+                            <addrLine>№12 Marunouchi-2-Chome</addrLine>
+                            <addrLine>Kojimachi-Ku Tokyo</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <dateline>c/o <name type="person" key="leon93">Mr Paul Léon</name>
+                            <lb/>
+                            <name type="geo" key="G_FRA_PARI">Paris</name>, <date when="1934-01-22">
+                                <choice>
+                                    <sic>january</sic>
+                                    <corr>January</corr>
+                                </choice> the 22nd 1934</date>
+                        </dateline>
+                        <salute>
+                            <choice>
+                                <sic>Dea</sic>
+                                <corr>Dear</corr>
+                            </choice> Sir,</salute>
+                    </opener>
+                    <p>I beg to authorise you herewith to deal and terminate the matter concerning the <choice>
+                            <sic>japanese</sic>
+                            <corr>Japanese</corr>
+                        </choice> translation of my work entitled <name type="work" key="W_ULYSSES">ULYSSES</name> and to receive all moneys in this connection and deliver the necessary <choice>
+                            <sic>recipts</sic>
+                            <corr>receipts</corr>
+                        </choice> and give the necessary authorisations in my name.</p>
+                    <closer>
+                        <salute>Believe me</salute>
+                        <salute>sincerely yours</salute>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This letter has been transcribed from a typed carbon copy.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

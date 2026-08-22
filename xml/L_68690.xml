@@ -1,0 +1,203 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68690">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 16 November 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RC">RC</name>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68690</idno>
+            <idno type="internal">68690</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">rue de l'Université 9, Paris</placeName>
+               </address>
+               <date notBefore="1920-11-16" notAfter="1920-11-16">Tuesday, 16 November 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_FRA_PARI_04">rue de l’Université  9</name>
+                                </seg>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name> VII</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear  <name type="person" key="poun85">Pound</name>: Sorry to hear you have <seg xml:id="seg2" type="note-anchor">been laid up</seg>. <seg xml:id="seg3" type="note-anchor">I was too</seg>, which is one reason for the delay in writing. Everybody here is ill with a tiresome <seg xml:id="seg4" type="note-anchor">form of influenza</seg>. Tomorrow I shall forward you a <seg xml:id="seg5" type="note-anchor">
+                            <rs type="letter" key="L_68691">letter</rs> for <name type="person" key="quin70">Quinn</name>
+                        </seg> so that you may read it and redirect it simply. Meanwhile I shall try to cable him in <seg xml:id="seg6" type="note-anchor">Lieber’s or ABC code</seg> if I can find a copy of one. Have you a spare copy of <name type="work" key="W_DIAL">
+                            <hi rend="underline">The</hi> <hi rend="underline">Dial</hi>
+                        </name> with <seg xml:id="seg7" type="note-anchor">
+                            <name type="person" key="scot93">Miss Scott</name>’s article about <hi rend="underline">
+                                <name type="work" key="W_ULYSSES">Ulysses</name>
+                            </hi>
+                        </seg>? It is not on sale in Paris, is it? As regards the <seg xml:id="seg8" type="note-anchor">trial in <name type="geo" key="G_USA_NEWY">New York</name>
+                        </seg> the person, I think, who enjoyed it most, between his judicial chambers and the courtroom, was <name type="person" key="corr75">Magistrate Corrigan</name>. I hope he had a supply of moonshine concealed in his umbrella handle to complete his bliss.</p>
+                    <p>News from here. <seg xml:id="seg9" type="note-anchor">Of <name type="person" key="fels91">Mr Fels</name>
+                        </seg> no trace. People are still writing, wiring, <seg xml:id="seg10" type="note-anchor">telephoning to <name type="person" key="vall58">Mr <choice>
+                                    <sic>Valette</sic>
+                                    <corr>Vallette</corr>
+                                </choice>
+                            </name>
+                        </seg> about me and he is trying to find out who, what and where I am. <seg xml:id="seg11" type="note-anchor">
+                            <name type="person" key="font65">Mr Fontainas</name>
+                        </seg> is still reading the frontispiece of A.P.O.T.A.A.A.Y.M. and <name type="person" key="savi81">Mrs Bloch</name> does not seem to have done much of the translation. She is not in good health, I think, or has worries of some kind so I don’t press her about it all the more as it would not mean publication. <name type="person" key="budr83">Mr Budry</name>, editor of <name type="work" key="W_ECRITSNOUVEAUX">
+                            <hi rend="underline">Ecrits</hi> <hi rend="underline">Nouveaux</hi>
+                        </name>, was enthusiastic about <seg xml:id="seg12" type="note-anchor">publishing it in his review</seg> but having measured it with a footrule he finds it too long. He then proposed to translate <hi rend="underline">Ulysses</hi> which he has not read. One evening he ran after me through the Cimmerian obscurity of <seg xml:id="seg13" type="note-anchor">
+                            <foreign xml:lang="fra">
+                                <hi rend="underline">la</hi> <hi rend="underline">ville</hi> <hi rend="underline">lumière</hi>
+                            </foreign>
+                        </seg> and begged me to allow him to translate <hi rend="underline">
+                            <name type="work" key="W_DUBLINERS">Dubliners</name>
+                        </hi>. I gave him permission. A <seg xml:id="seg14" type="note-anchor">
+                            <name type="person" key="ID_MISSING">Miss Pointet</name>
+                        </seg>, a friend of his, <seg xml:id="seg15" type="note-anchor">translated <hi rend="underline">A</hi> <hi rend="underline">Mother</hi>
+                        </seg> (a story in <hi rend="underline">Dubliners</hi>) and submitted it to me asking to be put right on certain points. The translation was very faulty so I wrote asking her to call so that we might go over it together. No answer. I met Mr Budry by chance a few days ago. He told me he had written to Mrs Bloch twice about sending it (the translation) in for publication by <name type="person" key="ID_MISSING">Emile Paul</name>, <seg xml:id="seg16" type="note-anchor">their reader <name type="person" key="suar68">Mr Suarès</name>
+                        </seg> being an admirer of the book. He got no answer from her. Mrs Bloch told me that she did not answer because he is not serious.</p>
+                    <p>As regards <name type="work" key="W_EXILES">Exiles</name> a <foreign xml:lang="fra">mot-à-<hi rend="underline">mot</hi>
+                        </foreign> of the play was made by <seg xml:id="seg17" type="note-anchor">a person named <name type="person" key="nata01">
+                                <choice>
+                                    <sic>Nathanson</sic>
+                                    <corr>Natanson</corr>
+                                </choice>
+                            </name>
+                        </seg> who, <seg xml:id="seg18" type="note-anchor">
+                            <name type="person" key="serr86">Miss Serruys</name>
+                        </seg> says, is a hack secretary of <seg xml:id="seg19" type="note-anchor">
+                            <name type="person" key="lugn69">Lugne Poe</name>’s</seg>. The translation she found very bad. I didn’t read it. Lugne Poe now sends a message to the effect that he will produce <hi rend="underline">Exiles</hi> if I give in writing what he calls <foreign xml:lang="fra">
+                            <hi rend="underline">carte</hi> <hi rend="underline">blanche</hi>
+                        </foreign> to Mr <choice>
+                            <sic>Nathanson</sic>
+                            <corr>Natanson</corr>
+                        </choice> to adapt the play as he may think fit.</p>
+                    <p>It was <seg xml:id="seg20" type="note-anchor">a presentiment of these things</seg> coupled with material troubles which, during the two occasions when I was admitted to the society of artistic, literary and political celebrities here, caused a thoughtful expression to <seg xml:id="seg21" type="note-anchor">steal gradually over my handsome features</seg>.</p>
+                    <p>Would you believe this? <date when="1929-11-15">Yesterday</date> I received a letter from the governing council of <seg xml:id="seg22" type="note-anchor">the commercial university of <name type="geo" key="G_ITA_TRIE">Trieste</name>
+                        </seg>, as they call it, stating that some supplementary examinations have to be held and offering me an examiner’s fee of <hi rend="underline">one lira</hi> <seg xml:id="seg23" type="note-anchor">(2½ d)</seg> per candidate! I am having copies of the letter made, and will send you one.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1920-11-16">16.xi.920</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The Russian-born Ludmila Bloch-Savitsky (1881-1957) and her husband, a railroad chief engineer named Marcel Bloch (1881-1951), had allowed JJ and family to live in their Paris flat at 5 rue de l’Assomption, rent-free, for their first three months in Paris. The Blochs wanted the flat back at the end of October 1920 (<name type="work" key="ID_MISSING">LI</name> 148). JJ wrote Pound on 5 November 1920 that after an “entire month of flathunting,” he and his family were back at 9 rue de l’Université, the private hotel with furnished rooms they had stayed at when they first arrived in Paris in July 1920 (<name type="work" key="ID_MISSING">LIII</name> 27). They remained there until the beginning of December 1920.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Pound wrote John Quinn on 8 November 1920: “Am typing this [in] bed (fog, throat etc.) … Expect to be out in a day or two” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 201).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ wrote John Quinn on 17 November 1920 that in early November he was “ill with a kind of influenza” (Myron Schwartzman, “‘Quinnigan’s Quake!’ John Quinn’s Letters to James Joyce, 1916-1920,” <name type="work" key="ID_MISSING">Bulletin of Research in the Humanities</name>, vol. 81, no. 2 [Summer 1978]: 254).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">The deadly influenza pandemic known as the Spanish flu lasted from early 1918 until spring 1920. Rashes of flu, typically less deadly, continued to break out afterwards.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">JJ wrote the New York lawyer John Quinn (1870-1924) on 17 November 1920 (John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library), repeating points he had made in his letter to Pound of 5 November 1920, including his fear that his American publisher B.W. Huebsch (1876-1964) might try to pirate <name type="work" key="W_ULYSSES">Ulysses</name> as a book (see <rs type="letter" key="L_68685">JJ to Pound, 5 November 1920</rs>; <name type="work" key="ID_MISSING">LIII</name> 27-28). JJ asks Pound here simply to “redirect” to Quinn his present letter, because Pound exploded with irritation when JJ earlier asked him to make for Quinn a “digest” of his 5 November letter to Pound. “Where you think I am to get time to ‘brief’ yr. epistle – I dont know,” Pound wrote JJ in a letter also dated (oddly) 5 November 1920 (Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 539).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Various codes had been developed to disguise and abbreviate telegram messages. Benjamin Franklin Lieber (1853-1915) published a popular code in <name type="work" key="ID_MISSING">Lieber’s Standard Telegraphic Code</name> (New York: Lieber Publishing Co., 1896). William Clauson-Thue (1834-1907) created a hugely successful code, known as the ABC Code, that was described in <name type="work" key="ID_MISSING">The ABC Universal Commercial Electric Telegraphic Code</name> (London, 1873). In cabling Quinn, JJ used what he called “Scott’s Code, American edition” (<name type="work" key="ID_MISSING">LIII</name> 30), possibly some version of E.B. Scott’s <name type="work" key="ID_MISSING">The Ship Owners’ Telegraphic Code</name>, 2nd ed. (London, 1880).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">The American novelist and poet Evelyn Scott (1893-1963) published an article, “A Contemporary of the Future,” in <name type="work" key="W_DIAL">The Dial</name>, vol. 69 (October 1920): 353-67, ranging over all of JJ’s published works and concluding with praise for <name type="work" key="W_ULYSSES">Ulysses</name>: “James Joyce, to my mind, expresses, more clearly than any other writer of English prose in this time, the conviction of modernity – a new and complex knowledge of self which has passed its period of racial gestation and is ready for birth in art” (367). Pound thought that Scott’s essay was an example of the stodginess he was trying to expel from <name type="work" key="W_DIAL">The Dial</name>. “All right to boost Joyce,” he wrote John Quinn on 9 October 1920, “but a fifteen page pompous female essay in a number that has nothing, practically but essays…!!!!” (<name type="work" key="ID_MISSING">Selected Letters of Ezra Pound to John Quinn</name>, 196).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">On 21 October 1920, the New York lawyer John Quinn (1870-1924) appeared at the Jefferson Market Police Court in New York to defend his clients, the <name type="work" key="W_THELITTLE">Little Review</name> editors Margaret Caroline Anderson (1886-1973) and Jane Heap (1883-1964), against charges of having published an obscene issue containing the portion of the “Nausicaa” episode of <name type="work" key="W_ULYSSES">Ulysses</name> in which Leopold Bloom masturbates at the seashore. Magistrate Judge Joseph Eugene Corrigan (1875-1935), who presided at this preliminary hearing, repaired to his judicial chambers at one point to read the contested passages. Quinn reported all this to Pound on 21 October 1920 (in the language JJ alludes to here): “I don’t know whether the judicial urinal or judicial water closet abutted on his chambers but I supposed it did. At any rate, chambers struck me as the right place for him to read the July-August number.” After arguments by counsel, Judge Corrigan ruled that the passage “where the man went off in his pants [was] smutty, filthy within the meaning of the statute.” At the end of the hearing, Judge Corrigan bound the defendants over for trial in the Court of Special Sessions (quoted in Paul Vanderham, <name type="work" key="ID_MISSING">James Joyce and Censorship: The Trials of</name> Ulysses [London: Macmillan, 1998], 44, 46; for a more complete account of the case, see <rs type="letter" key="L_68685">JJ to Pound, 5 November 1920</rs>, notes; <name type="work" key="ID_MISSING">LIII</name> 27-28).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Florent Fels (1891–1977), French publisher, journalist, and author, had planned to issue a French translation of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> in his journal, <name type="work" key="ID_MISSING">Action: Cahiers de philosophie et d’art</name> (<name type="work" key="ID_MISSING">LI</name> 120; <name type="work" key="ID_MISSING">The Cornell Joyce Collection</name>, 69-70). Candidates for translator were, first, Louis Bagnan (<name type="work" key="ID_MISSING">LII</name> 450), then Ludmila Bloch-Savitzky (<name type="work" key="ID_MISSING">LI</name> 142), but Fels produced only a review of the novel in <name type="work" key="ID_MISSING">Action</name>, no. 6 (December 1920): 63–64. The translation by Savitzky (1881-1957) was published as a book, <name type="work" key="ID_MISSING">Dedalus; Portrait de l’artiste jeune par lui-même</name>, by the Paris house, Éditions de La Sirène, in 1924.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">JJ had hopes – unrealized in the end – that a French translation of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> would be published serially in the journal <name type="work" key="ID_MISSING">Mercure de France</name>, founded and edited by Alfred Vallette (1858-1935). For more details, see <rs type="letter" key="L_68674">JJ to Pound,  28 September 1920</rs>, notes.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">André Fontainas (1865-1948), Belgian poet, novelist, critic, art historian, and good friend of Ludmila Bloch-Savitzky (1881-1957). Both were trying – fruitlessly, as it turned out – to persuade the journal <name type="work" key="ID_MISSING">Mercure de France</name> to serialize a French translation of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (see <rs type="letter" key="L_68674">JJ to Pound,  28 September 1920</rs>, notes).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Paul Budry (1883-1949), Swiss writer and art critic who founded, with André Germain, the journal <name type="work" key="ID_MISSING">Les Écrits nouveaux</name> in 1917. This review did not publish a French translation of <name type="work" key="W_APORTRAIT">A Portrait</name>. It did, however, publish French translations of JJ’s stories, “Eveline” and “Araby,” by Hélène du Pasquier, and “A Little Cloud,” by Yva Fernandez, in November 1921, February 1922, and December 1922, respectively (for details, see John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 112-13).</note>
+                <note xml:id="note13" target="#seg13" type="commentary">
+                    <p>In a manner typical of his two-plane thinking while writing <name type="work" key="W_ULYSSES">Ulysses</name>, JJ here combines the Cimmerian land of darkness, mentioned in Book 11 of <name type="work" key="ID_MISSING">The Odyssey</name>, and the modern-day Paris, City of Light (<hi rend="italic">la ville lumière</hi>). Homer’s passage describing the Cimmerian land comes just after Odysseus and his men have left the island of the sorceress Circe, whose ability to transform men into beasts forms the general theme of “Circe,” the fifteenth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, on which JJ was laboring at this time. Pound translated the relevant portion of <name type="work" key="ID_MISSING">The Odyssey</name> in his Canto 1:</p>
+                    <lg>
+                        <l>Came we then to the bounds of deepest water,</l>
+                        <l>To the Kimmerian lands, and peopled cities</l>
+                        <l>Covered with close-webbed mist, unpierced ever</l>
+                        <l>With glitter of sun-rays</l>
+                        <l>Nor with stars stretched, nor looking back from heaven</l>
+                        <l>Swartest night stretched over wretched men there.</l>
+                    </lg>
+                    <p>(<name type="work" key="ID_MISSING">The Cantos</name> [New York: New Directions, 1995], 3)</p>
+                </note>
+                <note xml:id="note14" target="#seg14" type="commentary">Uncertain. A “Mlle Pointet” was a member of the Société Française de Musicologie and attended meetings of the Société at the Salle Gaveau, the classical concert hall in Paris, in 1921 (“Comptes Rendus des Séances de la Société,” <name type="work" key="ID_MISSING">Bulletin de la Société française de musicologie</name>, vol. 2, no. 9 (July 1921): 157-161). There is no particular reason to believe that this Mademoiselle Pointet was JJ’s “Miss Pointet,” except that the latter chose to translate the most musical of the <name type="work" key="W_DUBLINERS">Dubliners</name> stories and, according to JJ, did so rather inexpertly, perhaps because her interest and skill were more musical than literary. We offer this possibility as a direction for research.</note>
+                <note xml:id="note15" target="#seg15" type="commentary">“A Mother,” the thirteenth story in JJ’s <name type="work" key="W_DUBLINERS">Dubliners</name> (1914), was tenth in the order of composition, completed by late September 1905. Based on JJ’s early experience of Dublin musical circles, the story depicts the grim, uncompromising determination of Mrs. Kearney to advance her daughter Kathleen, a pianist, in the social and cultural ranks of the Irish Revival. Mrs. Kearney brokers a contract for her daughter to perform at a series of concerts, but on the final evening she refuses to allow Kathleen to take the stage after the interval until she has been paid the full amount of the contract. When the organizers are unable to produce the entire sum on the spot, Mrs. Kearney makes a scene and takes her daughter home, condemned by the entire company. The story satirizes the pretensions of the Irish Revival and explores the norms and expectations of musical performers and organizers in turn-of-the-century Dublin. The story has been the subject of important feminist readings (see, e.g., Margot Norris, <name type="work" key="ID_MISSING">Suspicious Readings of Joyce’s</name> Dubliners [Philadelphia: University of Pennsylvania Press, 2003], 185-96).</note>
+                <note xml:id="note16" target="#seg16" type="commentary">The Paris publishing house Émile-Paul Frères, tracing its origins back to 1882, published, in addition to the journal <name type="work" key="ID_MISSING">Les Écrits nouveaux</name> (1917-1922), works by the French poet and critic André Suarès (1868-1848), as well as works by Natalie Clifford Barney, Jean Giraudoux, Paul Valéry, and many other writers. In late October 1920, JJ appealed to Suarès for help in finding a new apartment, evidently without success (<name type="work" key="ID_MISSING">LIII</name> 24).</note>
+                <note xml:id="note17" target="#seg17" type="commentary">Jacques Natanson (1901-1975) served as secretary to the French theater director Lugné-Poë at this time, but very soon was authoring his own plays, such as <name type="work" key="ID_MISSING">L’Age heureux</name> (1922) and <name type="work" key="ID_MISSING">L’Enfant truqué</name> (1922), both of which Lugné-Poë produced at Théâtre de l’Œuvre in Paris. Natanson was chosen to provide a French translation and adaptation of JJ’s <name type="work" key="W_EXILES">Exiles</name>, and the play was to be produced by Lugné-Poë (<name type="work" key="ID_MISSING">LIII</name> 26, 36; Ellmann, <name type="work" key="ID_MISSING">JJ</name> 498). But the project was abruptly called off by Lugné-Poë in June 1921 (for more details, see <rs type="letter" key="L_68645">JJ to Pound, 18 August 1920</rs>, notes).</note>
+                <note xml:id="note18" target="#seg18" type="commentary">Jenny Serruys (1886-1983), a French literary figure who helped JJ and his family shortly after they arrived in Paris. She produced a French translation of <name type="work" key="W_EXILES">Exiles</name> (<name type="work" key="ID_MISSING">Les Exilés</name>) which was published under her married name J.S. Bradley by nrf Gallimard in Paris in 1950 (for more details, see <rs type="letter" key="L_68631">JJ to Pound, 24 July 1920</rs>, notes).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">Aurélien-Marie Lugné (1869-1940), known as Lugné-Poë, was a French actor, theater director, and scenic designer who considered producing JJ’s play <name type="work" key="W_EXILES">Exiles</name> in Paris, but in June 1921 concluded that the effort would lose money (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 497-98; for a fuller account, see <rs type="letter" key="L_68645">JJ to Pound, 18 August 1920</rs>, notes). For the “mot-à-mot” (word-for-word) translation of <name type="work" key="W_EXILES">Exiles</name> that Lugné-Poë used in working with the play (at least according to JJ), see <rs type="letter" key="L_68674">JJ to Pound,  28 September 1920</rs>, notes.</note>
+                <note xml:id="note20" target="#seg20" type="commentary">JJ later told Harriet Shaw Weaver that “a cursory inspection” of Lugné-Poë had led him to suspect that he would not in the end produce <name type="work" key="W_EXILES">Exiles</name> (<name type="work" key="ID_MISSING">LI</name> 166).</note>
+                <note xml:id="note21" target="#seg21" type="commentary">JJ’s phrasing here is reminiscent of popular novelistic prose of the nineteenth century: “A smile, a wicked smile of superiority, if not of contempt, stole over his handsome features” ([Anonymous], <name type="work" key="ID_MISSING">The Fair Carew; or, Husbands and Wives</name>, vol. 1 [London: Smith, Elder, 1851], 65). This palpitating style remains a staple of romantic fiction to this day: “One moment he was wearing that remote, polite expression, then next, a genuine smile stole over his handsome features. She stared at it, her pulse shivering” (RaeAnne Thayne, <name type="work" key="ID_MISSING">Reunion on Rocky Shores</name> [Harlequin Digital Sales Corp., 2020], n.p.). JJ ‘s most famous pastiche of this style is the “Nausicaa” episode of <name type="work" key="W_ULYSSES">Ulysses</name>, written, he said, in “a namby-pamby jammy marmalady drawersy (alto là!) style with effects of incense, mariolatry, masturbation, stewed cockles, painter’s palette, chitchat, circumlocutions, etc. etc.” (<name type="work" key="ID_MISSING">LI</name> 135).</note>
+                <note xml:id="note22" target="#seg22" type="commentary">Both before and after the war, JJ taught the English language at the Scuola Superiore di Commercio Revoltella, a commercial high school in Trieste. After the postwar annexation of Trieste by Italy, with the issuance of a royal decree of 7 November 1920 (no. 1667), the school was granted the status of a university, equal to other such Italian institutions. But JJ preferred to call it “the revolver university” (<name type="work" key="ID_MISSING">LIII</name> 10); it had been founded in 1877 by a bequest of Baron Pasquale Revoltella (1795-1869).</note>
+                <note xml:id="note23" target="#seg23" type="commentary">Twopence halfpenny in 1920 was worth about 50p in today’s money. Joyce’s usage is figurative rather than hyperbolic as “twopenny halfpenny” was also an epithet of disparagement (<name type="work" key="ID_MISSING">OED</name>).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

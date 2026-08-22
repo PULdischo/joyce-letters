@@ -1,0 +1,129 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70911">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. ca. 15-30 September 1933</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70911</idno>
+            <idno type="internal">70911</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1933-09-15" notAfter="1933-09-30">ca. 15-30 September 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">Enthusiasm</seg> No3</p>
+                    <p>Late spring three years ago. J.J. coming back from <name type="geo" key="G_CHE_ZURI">Z’ch</name> after a second visit to <rs type="person" key="vogt79">Vogt</rs> – sight may be a little better.</p>
+                    <p>Concert of <rs type="person" key="laur92">Volpi</rs> heard. Also much talk about a performance of William Tell with Volpi in the part of Arnold. Conversations with Sullivan establish that Volpi had the entire score cut by some half of it and the key lowered by a half note. This Volpi-performance is narrated with all sorts of compliments in the N.Y. Herald (Paris edition) by their official musical critic (M. Louis Schneider). Immediately a letter is written to him <choice>
+                            <sic>contaning</sic>
+                            <corr>containing</corr>
+                        </choice> a wager by <name type="person" key="sull77">Sullivan</name> to let him and Volpi sing both the part of Arnold in the original score in any concert hall – the arbiter to be – <name type="person" key="ID_MISSING">Mr Schneider</name> and the stakes to be a copy of the original full score nicely bound. Naturally no reply from either Schneider or Volpi (considering Schneider had written that nobody at present could sing the part of Arnold as had been done by Volpi).</p>
+                    <p>A week later – performance of Guillaume Tell with Sullivan sitting in the fifth row right aisle next to the passage your obedient servant next to him J.J. next to him <rs type="person" key="leon99">Mrs Léon</rs> and next to her <rs type="person" key="barn84">Mrs J.</rs> – somewhere in the stalls an Irish Miss correspondent of some paper, and a gentleman correspondent of the Neue <choice>
+                            <sic>Züricher</sic>
+                            <corr>Zürcher</corr>
+                        </choice> Zeitung.</p>
+                    <p>First and second act pass with great applause, J.J. being greatly enthused. Third act where there is no Sullivan on the stage spent in the buffet.</p>
+                    <p>Fourth Act after the Aria “Asile héréditaire” sung with great brio and real feeling by S. appleuse [sic] interminable. J.J. excited to the extreme shouts Bravo Sullivan – Merde pour Lauri Volpi. The abonnés (this being I believe a <choice>
+                            <sic>friday</sic>
+                            <corr>Friday</corr>
+                        </choice>) rather astonished, one of them saying: <seg xml:id="seg2" type="note-anchor">
+                            <foreign xml:lang="fra">Il va un peu fort celui-là</foreign>
+                        </seg>.</p>
+                    <p>Half an hour later: at the Café de la Paix. Great conversation in which S. joins after he has changed <choice>
+                            <sic>cloths</sic>
+                            <corr>clothes</corr>
+                        </choice>.  At the moment of parting the Neue <choice>
+                            <sic>Züricher</sic>
+                            <corr>Zürcher</corr>
+                        </choice>  Zeitung correspondent having been talked to all evening about music approaches J.J with the following words:</p>
+                    <p>The Correspondent: Thank you so much for the <choice>
+                            <sic>delightfull</sic>
+                            <corr>delightful</corr>
+                        </choice> evening. I have some pull with my paper and should you wish I could arrange for an article or two by you to appear there about your Paris impressions:</p>
+                    <p>J.J. Many thanks but I never write for the newspapers.</p>
+                    <p>The correspondent: Oh! I see you are simply a musical critic.</p>
+                    <p>Next day article in the press/ M. J.J returned from Z’ch after a successful operation goes with friends to the Opera to hear his compatriot S. sing William Tell. Sitting in a box. After the fourth act aria he takes off his spectacles and is heard saying: “Thank God I have recovered my eyesight!”</p>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In the suggestions headed <rs type="letter" key="L_71812">“Les Toutes dernières des Dernières”</rs> JJ had promised that Léon “will shoot you off a pen picture in Russian Ballet-French describing my antics in the stalls of the Paris Opera”. This present statement is the result. Budgen quoted this whole page in “Further Recollections of JJ”, in which he wrote that “three years ago” in the first line would be 1930; so this page is from 1933, probably September (<name type="work">JJMU</name> 362-63).</note>
+                <note xml:id="note2" target="#seg2" type="translation">French: This one is going a bit far.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

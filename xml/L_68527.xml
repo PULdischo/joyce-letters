@@ -1,0 +1,122 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68527">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Saturday, 14 June 1919</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68527</idno>
+            <idno type="internal">68527</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="English"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_09">Universitätsstrasse 29, Zurich</placeName>
+               </address>
+               <date notBefore="1919-06-14" notAfter="1919-06-14">Saturday, 14 June 1919</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_09">Universitätstrasse 29 <hi rend="superscript">III</hi>
+                                </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine> </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear Sir (or Madam): <name type="person" key="monr91">Messrs Monro, Saw and Co</name> have transmitted to me your message and I have to thank you for the permission it gives me. It would certainly give me satisfaction to take advantage of it and I should do so were the difficulty of the anonymity removed. It is not to defend my own slowness of wit that I suggest that I have too few data to lead me to any likely conclusion. Messrs Monro Saw’s first letter informed me that their client had obtained my address from the current issue of <name type="work">
+                            <hi rend="underline">Who’s</hi> <hi rend="underline">Who</hi>
+                        </name>? This would seem to imply that your interest in me was evoked only by my meagre writings (at that time they were still more meagre) and not through the intervention of any person acquainted with me. On the other hand, I have observed more than once that on the occasion of certain relapses of my illness a remittance from your solicitors was accompanied by a kind message of friendly comfort from which it would seem that you are aware in some way of my movements. Needless to say I have asked myself often and especially in the last few weeks who my benefactor or benefactress might be and also to what I owed this delicate and bountiful favour, to what quality or tendency of my writing. I could not find the answer to the first question for though probabilities point in one direction more than in another they are not infallible guides in a matter which would be improbable were it not a fact. May I therefore suggest that, as it <supplied reason="omitted">is</supplied> also your desire that its anonymity should not persist beyond the time the conditions of this case seem naturally to prescribe for it, you allow me by some overt sign on your part to annul it and to confirm myself in a knowledge which would be made thereby conscious of itself? Interrogation from my side would be unseemly while error would be only more offensive than accuracy. I understand that is characteristic that you should wish to remain as long as possible apart from your act but I feel and hope that as I have been the receiver and the rewarded hitherto so shall I be whenever you deign to grant me the confidence of your name.</p>        	<p>I am, dear sir (or madam)</p>
+                    <closer>
+                        <salute>most gratefully and sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1919-06-14">14 June 1919</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Although JJ had been corresponding with Harriet Weaver since 1915 and had received royalties from her, he was not aware that it was she, via Monro Saw, who had given him £200 through 1917 and 1918 and was now the donor of the substantial sum of £5,000. It was not until later in a letter from Weaver of <date when="1919-07-06">6 July 1919</date> (Firth 18-82) that JJ was to learn of the benefactor’s identity.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

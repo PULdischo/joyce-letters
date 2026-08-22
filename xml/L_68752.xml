@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68752">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 3 April 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68752</idno>
+            <idno type="internal">68752</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_06">Boulevard Raspail 5, Paris</placeName>
+               </address>
+               <date notBefore="1921-04-03" notAfter="1921-04-03">Sunday, 3 April 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <gap reason="published"/>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>As regards <hi rend="underline">
+                                    <name type="work" key="W_ULYSSES">Ulysses</name>
+                                </hi> itself <name type="person" key="quin70">Mr. Quinn</name> about four months or more than three months ago drew up a scheme for <seg xml:id="seg1" type="note-anchor">a limited edition</seg>. I agreed to his terms and he said he would have the contract signed</quote>
+                            <bibl>LI 160</bibl>
+                        </seg> remit from <name type="person" key="hueb76">Mr Huebsch</name> 33% of the total amount as in the contract and have the first proofs forwarded. I never heard any more from him or from Mr Huebsch. I discussed the matter about ten days ago with <name type="person" key="larb81">Mr Larbaud</name> and showed him Mr Quinn’s suggestion. In reply he took out of his pocket a royalties account of recent date relative to the publication of a <seg xml:id="seg2" type="note-anchor">new book</seg> of his here in a limited edition of 500, pointing out that the Paris publisher had paid 22% in advance on it whereas the New York proposal to me came to 16%. He considered the amount absurd in the case of what he was enthusiastic enough to describe as ‘one of the masterpieces of literature’ and advised me to withdraw my consent. There was then in Paris a famous (or so I was told) New York doctor, a friend of Mr Quinn’s, who professed great admiration for me and asked me to meet him. He suggested that I should rewrite passages of the first novel in the language of the consulting-room so as to make it sell better in his country. As the conversation went no farther he asked (knowing my present circumstances and that I was unable to get any news from there) if he could carry a personal message from me which he could deliver verbally on his arrival (today, I think). Accordingly I gave him a signed letter to be brought to Mr Quinn and communicated to Mr Huebsch.</p>        	<p>The terms were 22%, one third on signing of contract, ⅓ on delivery of final MS and ⅓ on day of publication. I stated that this proposal was to be submitted to Mr Huebsch and accepted or refused within two days. If refused the typescript to be taken out of his possession immediately and returned to me here by registered mail on the same day. I thought it necessary to take this step as, exhausted and worried as I am, I could not face the recommended correspondence with these people and I prefer a definite refusal to uncertainty. As for the <name type="work">
+                            <hi rend="underline">Little</hi> <hi rend="underline">Review</hi>
+                        </name> nobody seems to <seg xml:id="seg3" type="note-anchor">know anything about it</seg>. I have not heard anything from <name type="person" key="poun85">Mr Pound</name> for four months and do not even know where he is as someone gave me an address different from that which you sent. <name type="person" key="rodk94">Mr Rodker</name> (who is English editor) told me in December that he (Mr R.) was going to settle down in Madrid and that <name type="person" key="butt90">Mrs Rodker</name> would edit it. Now you write that he is in London and Mrs Rodker knows nothing of this matter. My interest in the review is chiefly curiosity but my interest in the publication of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> is not.</p>        <p>
+                        <seg type="published" function="context">
+                            <quote>It looks as if this year (1+9+2+2=13) is to be one incessant trouble to me.</quote>
+                            <bibl>LI 161</bibl>
+                        </seg>
+                    </p>
+                    <gap reason="published"/>
+                </div> </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In a letter of <date when="1920-08-15">15 August 1920</date> (John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library), Quinn had proposed a private American edition, to be published by B. W. Huebsch, limited to 1,000 or 1,250 copies selling for $8 or $10 each. Such an edition, intended for limited distribution to subscribers only, would enable JJ to publish <name type="work" key="W_ULYSSES">Ulysses</name> without any cuts or alterations to the manuscript and might escape prosecution on obscenity charges.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <name type="work">Beauté, mon beau souci</name> (Paris: Editions de la Nouvelle Revue Française, 1920).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Following the complaint for obscenity that had been filed against the New York magazine <name type="work">The Little Review</name> for publishing the <date notBefore="1920-07" notAfter="1920-08">July-August 1920</date> number containing the portion of the “Nausicaa” episode of <name type="work" key="W_ULYSSES">Ulysses</name> in which Leopold Bloom masturbates at the seashore, a trial had been conducted on <date when="1920-02-21">21 February 1921</date> at the New York Court of Special Sessions. Despite John Quinn’s defense of <name type="work">The Little Review</name>, its two editors were found guilty and fined $50 each. The magazine had ceased publishing <name type="work" key="W_ULYSSES">Ulysses</name> in 1920.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

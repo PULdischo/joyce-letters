@@ -1,0 +1,114 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68607">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Monday, 31 May 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68607</idno>
+            <idno type="internal">68607</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Telegram</note>
+            <note type="coc_abbr">Telegram</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE">Trieste</placeName>
+               </address>
+               <date notBefore="1920-05-31" notAfter="1920-05-31">Monday, 31 May 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <dateline>
+                        <name type="geo" key="G_ITA_TRIE">Trieste</name>
+                    </dateline>
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">partenza sospesa causa sciopero scrivo</seg>
+                    </p>
+                    <closer>
+                        <seg xml:id="seg2" type="note-anchor">
+                            <name type="person" key="joyc82">Joyce</name>
+                        </seg>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">According to dates and times stamped on this telegram, it was sent by JJ from Trieste on 31 May 1920 at “12.50” (p.m.), and was received in Sirmione on 1 June at “8.39” (a.m.).</note>
+                <note xml:id="note1" target="#seg1" type="commentary">“departure held up due to strike will write.” JJ did write a long letter, most likely also on 31 May 1920, to explain that he had been prevented from leaving Trieste by the wreck of a passenger train on the line and by cancellations resulting from a railway strike. Now he hoped, he said, to meet Pound in England, en route for Ireland, sometime in the near future, as his present plan was to get out of Trieste for several months and finish <name type="work" key="W_ULYSSES">Ulysses</name> in Dublin or Galway in the relative peace of his nuclear family (<name type="work" key="ID_MISSING">Pound/Joyce</name> 167-69; <name type="work" key="ID_MISSING">LII</name> 467-69). Richard Ellmann dates JJ’s letter 5 June 1920 (<name type="work" key="ID_MISSING">LII</name> 467; <name type="work" key="ID_MISSING">SL</name> 252), but Forrest Read more cogently makes it 31 May for reasons internal and external to the epistolary documents (<name type="work" key="ID_MISSING">Pound/Joyce</name> 167). Despite JJ’s trouble getting to Sirmione, he did manage to arrive there, with his son Giorgio, on the night of 8 June 1920, and spent two days with Pound and his wife Dorothy. For a more complete account of JJ’s visit to Sirmione, see <rs type="letter" key="L_68605">JJ telegram to Pound, 26 May 1920</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>The reverse of the message side of this telegram contains arithmetic calculations in what appears to be Pound’s hand. It is difficult to know exactly what they mean, but it is quite possible that they represent attempts to determine whether and how much Pound could contribute to a visit to Sirmione by JJ and his family. Pound’s letters to JJ between 2 and 8 June 1920 are filled with ideas to tempt JJ to the Lake Garda paradise, including an offer of a gift of 1,000 lire to tide JJ over, and affordable rooms at Albergo de la Pace for JJ and three family members at 14 lire a day for one person or 56 lire for four, meals included, “&amp; view on lake &amp; with garden” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 170-73). Pound’s letter to JJ of 7-8 June 1920 shows that he was also reckoning how much JJ was making by teaching in Trieste—another possible reason for some of the numbers scratched on this telegram (<name type="work" key="ID_MISSING">Pound/Joyce</name> 176-77).</p>
+                    <p>Pound’s generous desire to provide financial assistance, characteristic in any case, was probably fortified by his having received, around 1 June 1920, “2050 lire. (alias $100)” from the New York magazine <name type="work" key="W_DIAL">The Dial</name>, for which he was now acting as a paid foreign agent and correspondent. The New York lawyer and art patron John Quinn (1870-1924), who had helped to subsidize <name type="work" key="W_THELITTLE">The Little Review</name> when Pound served as its foreign editor, had also helped arrange Pound’s new role with <name type="work" key="W_DIAL">The Dial</name>, for which Pound was grateful (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 187).</p>
+                    <p>It is worth noting that Pound was also at this time calculating the number of pounds it might take to get his friend, the American poet and critic <name type="person" key="elio88">T.S. Eliot</name> (1888-1965), out of his time-consuming job in Lloyds Bank in London. Eliot wrote him circa June 1920 with an account of his annual earnings and expectations (<name type="work" key="ID_MISSING">The Letters of T.S. Eliot</name>, vol. 1, ed. Valerie Eliot [New York: Harcourt Brace Jovanovich, 1988], 385). The effort culminated in Pound’s impetuous scheme, Bel Esprit, to get thirty people to subscribe £10 a year to liberate Eliot from the bank. When the idea began to get about, Eliot panicked at the publicity, and Bel Esprit faded out by late 1922 (Humphrey Carpenter, <name type="work" key="ID_MISSING">A Serious Character: The Life of Ezra Pound</name> [Boston: Houghton Mifflin, 1988], 409-412).</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

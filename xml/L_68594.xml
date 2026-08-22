@@ -1,0 +1,125 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68594">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Sunday, 4 April 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                    <name>SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>WB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68594</idno>
+            <idno type="internal">68594</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zentralbibliothek Zürich</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                            <handNote xml:id="barn84">Nora Barnacle</handNote>
+                            <handNote xml:id="joyc07">Lucia Joyce</handNote>
+                        </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE">[Trieste]</placeName>
+               </address>
+               <date notBefore="1920-04-04" notAfter="1920-04-04">Sunday, 4 April 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_68594_01.jpg">
+            <desc>
+                <caption>Zentralbibliothek Zürich</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Caro <name type="person" key="rugg87">Ruggiero</name>: Mille grazie del <seg xml:id="seg1" type="note-anchor">gentile ricordo</seg>. Contraccambiamo cordialmente. <name type="person" key="joyc05">Giorgio</name> manca <choice>
+                            <sic>perchè</sic> <corr>perché </corr>
+                        </choice> è partito oggi per una breve vacanza nel <name type="geo" key="ID_MISSING">Friuli</name>. Vede <name type="person" key="budg82">Budgen</name>? Sembra parta. Se lo vede me lo saluti.</p>
+                    <closer> 	<salute>Ci rivedremo – ma non so dove!</salute>                    	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>                    	<signed hand="#barn84">
+                            <name type="person" key="barn84">Nora Joyce</name>
+                        </signed>                    	<signed hand="#joyc07">
+                            <name type="person" key="joyc07">Lucia Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <p>Dear Ruggiero: Many thanks for the kind wishes. We cordially reciprocate. Giorgio isn’t here because he left today for a short holiday in Friuli. Will you see Budgen? It seems he is leaving. If you see him give him my regards. </p>
+                    <closer> 	<salute>We’ll meet again – but I don’t know where!</salute>                    	<signed>James Joyce</signed>                    	<signed>Nora Joyce</signed>                    	<signed>Lucia Joyce</signed>
+                    </closer>
+                </div>
+            </div> ​​<div type="notes">
+                <note xml:id="global-note1" type="global">The postcard shows a color drawing of a woman with a leashed bunny, printed with an Easter greeting (“Buona Pasqua!”). The artist is Mela Köhler (1885-1960), born in Vienna, Austria, and trained at the School of Applied Arts under the guidance of Koloman Moser and Berthold Löffler. She later worked as a freelance artist, designed postcards for the Wiener Werkstätte, and created numerous fashion illustrations. She also worked for the magazine Wiener Mode and illustrated books for the Vienna publisher, Carl Konegen. Around 1934, she emigrated to Sweden (see askART at https://www.askart.com/artist/Mela_Koehler/11328240/Mela_Koehler.aspx).</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Postcard from Ruggiero to JJ of 27 March 1920 (Carl A. Kroch Library, Cornell University).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

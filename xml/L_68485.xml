@@ -1,0 +1,169 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68485">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Wednesday, 28 August 1918</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68485</idno>
+            <idno type="internal">68485</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_08">Universitätsstrasse 38, Zurich</placeName>
+               </address>
+               <date notBefore="1918-08-28" notAfter="1918-08-28">Wednesday, 28 August 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_08">Universitätsstrasse 38 I</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Thanks for your card and good opinion of the <seg xml:id="seg1" type="note-anchor">Hades</seg> episode. I sent you some days ago express the <seg xml:id="seg2" type="note-anchor">Eolus episode</seg>. I am very sorry I did not receive <seg xml:id="seg3" type="note-anchor">
+                            <rs type="work" key="W_FUTURE_BOOKSCURRENT">your new article</rs>
+                        </seg> about the <rs type="work" key="W_APORTRAIT">novel</rs> (?). Perhaps <seg xml:id="seg4" type="note-anchor">
+                            <name type="person" key="mars72">Mr Edward Marsh</name>
+                        </seg> of the Home Office could help you to send these things quickly. I have not seen any number of <name type="work" key="W_THELITTLE">
+                            <hi rend="underline">The</hi> <hi rend="underline">Little</hi> <hi rend="underline">Review</hi>
+                        </name> since the <seg xml:id="seg5" type="note-anchor">June issue</seg>. <seg xml:id="seg6" type="note-anchor">
+                            <rs type="person" key="hueb76">My American publisher</rs>
+                        </seg> sent me several long controversial articles about <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> which appeared in papers there – <seg xml:id="seg7" type="note-anchor">
+                            <rs type="work" key="W_CHICAGODAILY_BOOBBABBLE">one very benevolent</rs>
+                        </seg>, by <name type="person" key="ID_MISSING">Mr Hecht</name>. As he is <seg xml:id="seg8" type="note-anchor">a collaborator</seg> may I beg you to convey my thanks to him when you have occasion to write to him. I shall send you as quickly as I can the <seg xml:id="seg9" type="note-anchor">Lestrygonians</seg> and after that the Hamlet chapter (<seg xml:id="seg10" type="note-anchor">Scylla and Charybdis</seg>). I received your M.O. (£10) and thank you very much. If you need a collective receipt for <seg xml:id="seg11" type="note-anchor">the £30</seg> I shall send it on demand. I regret that <name type="person" key="davr72">Mr Davray</name> has not <seg xml:id="seg12" type="note-anchor">kept his promise</seg> in the <hi rend="underline">Mercure</hi> <hi rend="underline">de</hi> <hi rend="underline">France</hi>. <name type="person" key="ID_MISSING">Mr Brock</name> wrote <seg xml:id="seg13" type="note-anchor">an <rs type="work" key="W_TIMESLITERARY_MINDTO">article</rs>
+                        </seg>, I believe, in the Times (lit. supplement) about <hi rend="underline">
+                            <name type="work" key="W_EXILES">Exiles</name>
+                        </hi> and suggests that the <name type="organisation" key="O_THEPIONEER">Pioneers</name> or the <name type="organisation" key="O_STAGESOCIETY">Stage Society</name> do it. I shall write several postcards accordingly.</p>
+                    <p>I shall be glad to hear how and what you yourself are doing. For my part <seg xml:id="seg14" type="note-anchor">I am house-hunting</seg> – a difficult business as furnished flats are very rare and dear. I was quite comfortable in these rooms till the adjoining hospital bought the house. <name type="person" key="weav76">Miss Weaver</name> tells me that a criticism of my book appeared in a Japanese review. I should like to see it as a curiosity. I can get it translated here by a Japanese whom I know, <name type="person" key="ID_MISSING">Mr Oikawa</name>. There is a proposal also to <seg xml:id="seg15" type="note-anchor">translate it into Danish</seg>. Meanwhile in 6 months 40 copies have been sold – which is very encouraging. I hope your good wishes about <seg xml:id="seg16" type="note-anchor">my wretched eyes</seg> will come true – 4 attacks in 16 months! I shall send you a letter for <name type="person" key="lewi82">Mr Lewis</name> when I write again. One of his pictures was hung here in a show – a <seg xml:id="seg17" type="note-anchor">
+                            <name type="work" key="W_RUSSIANMADONNA">Russian madonna</name>
+                        </seg>. He sent me a <seg xml:id="seg18" type="note-anchor">copy of <hi rend="underline">
+                                <name type="work" key="W_TARR">Tarr</name>
+                            </hi>
+                        </seg>. <rs type="person" key="rich72">My publisher</rs> has not yet sent copies of <hi rend="underline">Exiles</hi> here! This explains why I did not send you a presentation copy. He has not sent copies to <seg xml:id="seg19" type="note-anchor">the critics whose names I gave him</seg> (Swiss, Italian, French). I shall write to him also several postcards.</p>
+                    <p>Enough now of literature.</p>
+                    <p>
+                        <seg xml:id="seg20" type="note-anchor">My son <name type="person" key="joyc05">Giorgio</name>
+                        </seg> is fast developing into the swimming champion of Switzerland. He swam 6 kilometres yesterday and the day before 2 km., fully dressed and with weighted boots. His performances are watched by an admiring population – but he would need an extra bread allowance. We have white bread here, thank God, but the coal for the winter is a problem. I have a very nice doctor. He says: Eat all you can, don’t get up early in the morning and amuse yourself.</p>
+                    <closer>
+                        <salute>With kind regards to <name type="person" key="poun86">Mrs Pound</name> and yourself in which my wife joins</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1918-08-28">28/8/918</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ sent a copy of “Hades,” the sixth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, to Pound in July 1918, along with a copy for Harriet Shaw Weaver and her magazine <name type="work" key="W_THEEGOIST">The Egoist</name> (<name type="work" key="ID_MISSING">LI</name> 115). It recounts Leopold Bloom’s journey by carriage with other <name type="geo" key="G_IRL_DUBL">Dublin</name> men to Glasnevin cemetery in Dublin, where there is a chapel funeral service for an acquaintance, Paddy Dignam. The episode loosely parallels Odysseus’s visit to the underworld in Book 11 of <name type="work" key="ID_MISSING">The Odyssey</name>, where he meets many ghosts and seeks out the prophet Tiresias for help in returning to his island home, Ithaca. “Hades” appeared in <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 5 (September 1918): 15-37.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The seventh episode of <name type="work" key="W_ULYSSES">Ulysses</name>, “Aeolus,” is set in the Dublin offices of the <name type="work" key="ID_MISSING">Freeman’s Journal</name>, where Leopold Bloom and Stephen Dedalus are on the premises but do not meet. Stephen joins in with a group of men who are entertaining each other by reciting windy speeches and trading witty banter, and tells a story about two aging Dublin women as he leads the group off for drinks at a pub. The Homeric parallel is found in Book 10 of <name type="work" key="ID_MISSING">The Odyssey</name>, where Odysseus meets Aeolus, guardian of the winds and king of the island of Aeolia. Aeolus gifts Odysseus with a bag in which stormy winds are confined, but his curious sailors open it and release a storm that blows all ships back to Aeolia. “Aeolus” appeared in <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 6 (October 1918): 26-51.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Probably Pound’s article, “Books Current,” <name type="work" key="ID_MISSING">Future</name>, vol. 2, no. 6 (May 1918): 161-63, in which he reviewed the recent <name type="organisation" key="ID_MISSING">Egoist Ltd.</name> edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (March 1918). <name type="work" key="W_APORTRAIT">A Portrait</name>, wrote Pound, “has become almost the prose bible of a few people,” and contains “clear-cut and definite sentences” and a “swift alternation of subjective beauty and external shabbiness, squalor, and sordidness” (161-62). Pound also took the opportunity to comment on a new edition of <name type="work" key="ID_MISSING">Chamber Music</name> issued by <name type="person" key="math51">Elkin Mathews</name> in <name type="geo" key="G_GBR_LOND">London</name> (January 1918), praising the poems’ “clean-cut ivory finish, and … the interest of the rhythms, the cross run of the beat and the word, as of a stiff wind cutting the ripple-tops of bright water” (162).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Edward Marsh (1872-1953), translator and editor, had assisted JJ with obtaining a grant of £100 from <name type="organisation" key="ID_MISSING">the British Civil List</name> while serving as assistant private secretary to British Prime Minister <name type="person" key="asqu52">H.H. Asquith</name> (see <rs type="letter" key="L_68317">JJ to Pound, 14 September 1916</rs>, notes). With the fall of Asquith’s government in December 1916, Marsh acted as private secretary to <name type="person" key="ID_MISSING">Winston Churchill</name>, by then Minister of Munitions, and served in that capacity for several more years.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">“Calypso,” the fourth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, appeared in the <name type="geo" key="G_USA_NEWY">New York</name> magazine, <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 2 (June 1918): 39-52. The issue, “An American Number,” also contained work by <name type="person" key="ID_MISSING">Wallace Stevens</name>, <name type="person" key="ID_MISSING">William Carlos Williams</name>, <name type="person" key="ID_MISSING">Amy Lowell</name>, <name type="person" key="ID_MISSING">Carl Sandburg</name>, <name type="person" key="barn92">Djuna Barnes</name>, and others. The section called “The Reader Critic” printed letters to the editor attacking JJ for incomprehensibility (“I swear I’ve read his ‘Ulysses’ and haven’t found out yet what it’s about, who is who or where” [54]) and immorality (“Justify some of Joyce’s obscene commonplaces taken from life neither for power nor beauty nor for any reason but to arrest attention, cheap Bowery vileness” [56]), followed by defenses of JJ’s method and art by “jh,” the magazine’s coeditor, <name type="person" key="heap83">Jane Heap</name> (1883-1964).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">By August 1918, the New York publisher B.W. Huebsch (1876-1964) had published the first edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, the first American editions of <name type="work" key="W_DUBLINERS">Dubliners</name> and <name type="work" key="W_EXILES">Exiles</name>, and would shortly issue the first authorized American edition of <name type="work" key="ID_MISSING">Chamber Music</name> in September 1918.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Ben Hecht (1894-1964), journalist, playwright, and novelist, was born in New York, raised in Wisconsin, and became a member of a group of writers in Chicago just after World War I. JJ possibly refers here to his piece, “Boob Babble,” <name type="work" key="ID_MISSING">Chicago Daily News</name> (3 July 1918): 6, which praised JJ as “a capable and persuasive writer…. Reading Joyce and understanding him is no more difficult than listening to a crowd of people talking and understanding them, their natures and their motives. The thing requires a degree of intelligence and sophistication. And until reading becomes for the muzhik as well as the local Brahmin and the curious faithful something more than a perfunctory stare at printed words, the hee-haw chorus will continue to greet Joyce and his followers, good and bad.” For the chaotic, often combative reactions to the serialized <name type="work" key="W_ULYSSES">Ulysses</name>, both favorable and unfavorable, in Chicago newspapers in 1918, see Robert Billings and Donald Zochert, “<name type="work" key="W_ULYSSES">Ulysses</name> and the Hog Butchers,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 11, no. 1 (Fall 1973): 27-32.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Hecht’s work appeared in <name type="work" key="W_THELITTLE">The Little Review</name> beginning in 1915, and included book reviews, critical essays, and impressionistic prose pieces. For example, the May 1918 number featured his “Nocturne,” the story of a person wandering the city streets at night and entering a movie theater where he alternately watches the film and members of the audience (45-52). The June 1918 number contained his short piece “Lust,” an account of a woman who plays violin at an inn and, finding the city dirty and repulsive, commits suicide during a vacation in the country (14-20). Pound wrote of him: “Hecht is an asset. Hard reading and a bit heavy, but [h]e is the sound stuff, that with right pages open to him can develop” (<name type="work" key="ID_MISSING">Pound/</name>The Little Review <name type="work" key="ID_MISSING">: The Letters of Ezra Pound to Margaret Anderson:</name> The Little Review <name type="work" key="ID_MISSING">Correspondence</name>, ed. Thomas L. Scott and Melvin J. Friedman [New York: New Directions, 1988], 220).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">“Lestrygonians,” the eighth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, appeared in two numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, nos. 9-10/11 (January and February-March 1919): 27-50, 58-62. The episode follows Leopold Bloom through Dublin as he encounters an old flame, Josie Breen, has lunch in a pub, and afterwards spots Blazes Boylan, the young man he knows will have a rendezvous with his wife Molly later that day, and avoids him by escaping through the gate of the National Museum. The Homeric parallel is found in Book 10 of <name type="work" key="ID_MISSING">The Odyssey</name>, where many of Odysseus’s men are devoured by giant cannibals, the Lestrygonians, and only Odysseus and his crew escape the deadly island.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">“Scylla and Charybdis,” the ninth episode of Ulysses, appeared in two numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 12-vol. 6, no. 1 (April and May 1919): 30-43, 17-35. In this episode, Stephen Dedalus presents his theory about Shakespeare and <name type="work" key="ID_MISSING">Hamlet</name> to a group of writers and librarians in the National Library; as Stephen and Buck Mulligan leave the building, Leopold Bloom politely passes between them. In Book 12 of <name type="work" key="ID_MISSING">The Odyssey</name>, Odysseus sails his ship perilously between the monster Scylla and the deadly whirlpool Charybdis, losing several crew to Scylla.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">Payments for the printing of <name type="work" key="W_ULYSSES">Ulysses</name> in <name type="work" key="W_THELITTLE">The Little Review</name>. In a letter to Nora Barnacle dated 10 September 1917, Pound mentioned that he hoped to pay JJ £50 or more, in due course, for the serialization (<name type="work" key="ID_MISSING">Pound/Joyce</name> 125-26).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Henry D. Davray (1873-1944), a French critic who contributed regularly on English literature to the <name type="work" key="ID_MISSING">Mercure de France</name>, discussed JJ’s <name type="work" key="W_EXILES">Exiles</name> and other writings in “Lettres anglaises,” published in the <name type="work" key="ID_MISSING">Mercure</name>, vol. 121, no. 495 (1 February 1919): 512-18. See <rs type="letter" key="L_68393">JJ to Pound, 24 July 1917</rs>, notes.</note>
+                <note xml:id="note13" target="#seg13" type="commentary">Arthur Clutton-Brock (1868–1924), English essayist, critic, and journalist. In “The Mind to Suffer,” <name type="work" key="ID_MISSING">Times Literary Supplement</name> (25 July 1918): 346, he wrote that <name type="work" key="W_EXILES">Exiles</name> “reveals resources of spiritual passion and constructive power which should greatly cheer the friends of [JJ’s] talent.” After a lengthy discussion of the play’s plot and themes, Clutton-Brock asked: “Will not the Stage Society or the Pioneers let us and the author see this play, so that its shortcomings may become apparent to him and its virtues be brought home to us with their full force?”<p>Despite the efforts of JJ and others, the London-based Incorporated Stage Society did not produce <name type="work" key="W_EXILES">Exiles</name> at this time (see <rs type="letter" key="L_68374">JJ to Pound, 5 June 1917</rs>, notes). The Society finally presented the play at London’s <name type="organisation" key="ID_MISSING">Regent Theatre</name> on 14 and 15 February 1926, with <name type="person" key="ID_MISSING">W.G. Fay</name> as director. <name type="organisation" key="O_THEPIONEER">The Pioneer Players</name>, a London theater society known for producing banned and controversial plays, never staged <name type="work" key="W_EXILES">Exiles</name> (see <rs type="letter" key="L_68352">JJ to Pound, 30 March 1917</rs>, notes).</p>
+                </note>
+                <note xml:id="note14" target="#seg14" type="commentary">JJ and family moved from Universitätstrasse 38 to <name type="geo" key="G_CHE_ZURI_09">Universitätstrasse 29</name> in late October 1918.</note>
+                <note xml:id="note15" target="#seg15" type="commentary">
+                    <name type="person" key="ID_MISSING">Maja Maag</name>, in Hellerup, Denmark, had written JJ circa July 1918 that she was considering translating <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> into Danish (<name type="work" key="ID_MISSING">LI</name> 116). <name type="work" key="W_APORTRAIT">A Portrait</name> was translated into Danish by <name type="person" key="ID_MISSING">Ove Brusendorff</name> and published as <name type="work" key="W_APORTRAIT">Portræt af kunstneren som ungt menneske</name> (Copenhagen: Athenaeum Dansk Forlag, 1941).</note>
+                <note xml:id="note16" target="#seg16" type="commentary">JJ wrote Harriet Shaw Weaver on 29 July 1918: “After nine weeks’ illness I am at last able to read and write again” (<name type="work" key="ID_MISSING">LI</name> 115). Despite eye surgery in August 1917, JJ was still suffering from painful attacks.</note>
+                <note xml:id="note17" target="#seg17" type="commentary">The English painter and writer Wyndham Lewis (1882-1957) created “Russian Madonna” or “Russian Scene” (pen and ink, chalk, and watercolor) in 1912; it depicts a mother and child in the manner of a Russian icon. The painting was part of an exhibition, <name type="work" key="ID_MISSING">Englische Moderne Malerei</name>, organized by <name type="organisation" key="ID_MISSING">the Contemporary Arts Society</name> in London, and hung at <name type="organisation" key="ID_MISSING">the Zurich Kunsthaus</name> from 8 to 28 August 1918. Together with Lewis’s one painting, the show featured a total of 107 paintings by twenty-five artists, including <name type="person" key="ID_MISSING">Vanessa Bell</name>, <name type="person" key="ID_MISSING">Max Beerbohm</name>, <name type="person" key="ID_MISSING">Frederick Etchells</name>, <name type="person" key="ID_MISSING">Roger Fry</name>, <name type="person" key="ID_MISSING">Duncan Grant</name>, <name type="person" key="john78">Augustus John</name>, <name type="person" key="ID_MISSING">Paul Nash</name>, <name type="person" key="ID_MISSING">Will Rothenstein</name>, <name type="person" key="ID_MISSING">Walter Sickert</name>, and others. Instrumental in organizing the Zurich exhibition was a British artist, <name type="person" key="ID_MISSING">Horace Taylor</name> (1881-1934), who had two paintings in the show and wrote a three-page introduction, in German, for the exhibition catalogue (“Englische moderne Malerei,” <name type="work" key="ID_MISSING">Ausstellung 8. - 28. August 1918</name> [Zurich: Kunsthaus Zürich, 1918]: 3-5). It was through Taylor that JJ met the English painter <name type="person" key="budg82">Frank Budgen</name> (1882-1971), who, like Taylor, was working at the time for the British government at <name type="organisation" key="ID_MISSING">the Ministry of Information</name> in Zurich. Budgen tells of meeting JJ at Taylor’s pension “in the early summer of 1918” (Frank Budgen, <name type="work" key="ID_MISSING">James Joyce and the Making of Ulysses</name> [1934; rpt. Bloomington: Indiana University Press, 1960], 9-15; see also Ellmann, <name type="work" key="ID_MISSING">JJ</name> 429). Lewis’s “Russian Madonna” was acquired by London’s <name type="organisation" key="ID_MISSING">Victoria and Albert Museum</name> in 1919. He later produced several noted portrait drawings of JJ, whom he met for the first time in the summer of 1920. His portrait drawings and paintings of Pound are also celebrated.</note>
+                <note xml:id="note18" target="#seg18" type="commentary">
+                    <name type="work" key="W_TARR">Tarr</name>, a novel by Wyndham Lewis, was serialized in the London magazine <name type="work" key="W_THEEGOIST">Egoist</name> in 1916-1917 and published as a book in 1918 by <name type="organisation" key="ID_MISSING">the Egoist Ltd.</name> in London and by <name type="person" key="ID_MISSING">Alfred A. Knopf</name> in New York – in each case with significant variants. The story is laid in “bourgeois-bohemian” Paris before World War I, and follows two artists, the Englishman Frederick Tarr and the German Otto Kreisler, as they contend with and for aesthetics, women, and social philosophies. JJ asked his friend, the English painter and writer Frank Budgen (1882-1971), to read <name type="work" key="W_TARR">Tarr</name> for him, as JJ had “still to read it myself and write to [Lewis] about it” (<name type="work" key="ID_MISSING">LII</name> 419). JJ tried to get the novel reviewed in the <name type="work" key="ID_MISSING">Neue Zürcher Zeitung</name> and the <name type="work" key="ID_MISSING">Zürcher Post</name> (<name type="work" key="ID_MISSING">LI</name> 122), but by late February 1919 neither had yet done so (<name type="work" key="ID_MISSING">LII</name> 437).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">B.W. Huebsch in New York published <name type="work" key="W_EXILES">Exiles</name> in May 1918 simultaneously with its publication in London by Grant Richards. At various points, JJ expressed urgency or frustration about copies reaching him or persons he had designated to receive it (<name type="work" key="ID_MISSING">LII</name> 418, 420).</note>
+                <note xml:id="note20" target="#seg20" type="commentary">Giorgio Joyce (1905-1976) became a professional singer, making his début in 1929. He married <name type="person" key="joyc94">Helen Kastor Fleischman</name> in 1930, and in February 1932 their son, <name type="person" key="joyc32">Stephen James Joyce</name>, was born.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

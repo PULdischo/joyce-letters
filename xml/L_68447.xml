@@ -1,0 +1,153 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68447">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 1 January 1918</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68447</idno>
+            <idno type="internal">68447</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Manuscripts and Archives Division, New York Public Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_LOCA_02">Pension Daheim, Locarno</placeName>
+               </address>
+               <date notBefore="1918-01-01" notAfter="1918-01-01">Tuesday, 1 January 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_LOCA_02">Pension Daheim</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <dateline>
+                            <date when="1918-01-01">1/i/918</date>
+                        </dateline>
+                    </opener>
+                    <p>My <seg xml:id="seg1" type="note-anchor">dear editor</seg>: A line to wish you a happy New Year and to thank <supplied resp="SA WB" reason="omitted">you</supplied> <seg xml:id="seg2" type="note-anchor">for £10</seg> received. I suppose you have now the first and second episodes. The third will follow in a week or so and I daresay <seg xml:id="seg3" type="note-anchor">the three</seg> will carry you over three months. I cannot <seg xml:id="seg4" type="note-anchor">get more typed</seg> or more quickly as <rs type="person" key="syke83">my typist</rs> has not much free time. Typing is also an expense. I calculate <seg xml:id="seg5" type="note-anchor">the typing expenses</seg> of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> at £20 or £25. Possibly I shall cover this by sale of the MS. <seg xml:id="seg6" type="note-anchor">
+                            <foreign xml:lang="ita">e così una mano lava l’altra</foreign>
+                        </seg>. I am much obliged by your kindness and that of <name type="person" key="weav76">Miss Weaver</name>
+                        <hi rend="strike-through">'s</hi> in <seg xml:id="seg7" type="note-anchor">advancing money</seg> to me on an unseen MS. I had a letter some time ago <seg xml:id="seg8" type="note-anchor">from a <name type="person" key="mcco72">Mrs M’Cormick</name>
+                        </seg> who is staying in the <name type="geo" key="G_CHE_ZURI_20">Hotel Baur au Lac</name>, <name type="geo" key="G_CHE_ZURI">Zurich</name>. She is, I hear, a daughter of <name type="person" key="rock39">Mr Rockefeller</name>. At her request I sent her <seg xml:id="seg9" type="note-anchor">a copy of <hi rend="underline">
+                                <name type="work" key="W_EXILES">Exiles</name>
+                            </hi>
+                        </seg>. I shall write you a letter in a day or two<supplied reason="omitted">.</supplied>
+                    </p>
+                    <closer>
+                        <salute>Kind regards</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                    <postscript>
+                        <p>
+                            <label>P.S. </label>On p. 8 of second episode please read <seg xml:id="seg10" type="note-anchor">“baited” for “bated”</seg> in both copies.</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>Pound was serving as foreign editor of the <name type="geo" key="G_USA_NEWY">New York</name> magazine <name type="work" key="W_THELITTLE">The Little Review</name>, edited by <name type="person" key="ande86">Margaret Anderson</name> and <name type="person" key="heap83">Jane Heap</name>. As JJ finished the early episodes in Locarno, he sent them off to Zurich to be typed; typed copies were then sent to Pound in <name type="geo" key="G_GBR_LOND">London</name> who reviewed and passed a copy on to New York for printing in <name type="work" key="W_THELITTLE">The Little Review</name>. Clare Hutton observes that JJ “required three typed copies … one to keep for future reference, one for Pound, and the third either for Weaver and <name type="work" key="W_THEEGOIST">The Egoist</name> [which published a few episodes of <name type="work" key="W_ULYSSES">Ulysses</name>], or for onward submission to the <name type="work" key="W_THELITTLE">Little Review</name>” (Hutton, <name type="work" key="ID_MISSING">Serial Encounters:</name> Ulysses <name type="work" key="ID_MISSING">and</name> The Little Review [Oxford: Oxford University Press, 2019], 87). It is clear from the postscript in this postcard, however, that Pound had been sent two copies (“both copies”).</p>
+                    <p>After receiving “Telemachus,” the first episode of <name type="work" key="W_ULYSSES">Ulysses</name>, Pound wrote JJ of his enthusiasm on 19 December 1917: “I think it is the only youth that has ever been written down.” Then he lapsed into stage backwoods-American, a persona he often adopted to cover strong emotion: “Wall, Mr. Joice, I recon your a damn fine writer, that’s what I recon’. An’ I recon’ this here work o’ yourn is some concarn’d litterchure. You can take it from me, an’ I’m a jedge” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 128-29).</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">Presumably payment from Pound as foreign editor of <name type="work" key="W_THELITTLE">The Little Review</name> for the first episodes of <name type="work" key="W_ULYSSES">Ulysses</name>, following through on Pound’s hope, expressed in his letter of 19 December 1917, to “forward a few base sheckles in a few days time” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 129).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In Locarno, JJ was finishing the first three episodes of <name type="work" key="W_ULYSSES">Ulysses</name> – “Telemachus,” “Nestor,” and “Proteus” – and sending them off to Zurich to be typed, thence to be transmitted to Pound. “Telemachus” was sent to Pound circa 12 December 1917 (<name type="work" key="ID_MISSING">LI</name> 110). Pound had thought that “Telemachus,” running to seventeen pages in typescript, might be broken into three installments for <name type="work" key="W_THELITTLE">The Little Review</name> (<name type="work" key="ID_MISSING">Pound/Joyce</name> 129), but the episode appeared entire in the number for March 1918. “Nestor” and “Proteus” were printed in the numbers for April and May 1918, respectively.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">As JJ finished each episode in Locarno, he sent it to his British friend, the professional actor Claud W. Sykes (1883-1964), for typing in Zurich. Sykes had been given the loan of a typewriter for the job by <name type="person" key="ID_MISSING">Rudolf Goldschmidt</name> (1880-1975), a grain merchant in Zurich who was a friend and pupil of JJ. Goldschmidt had married a Triestine woman, <name type="person" key="ID_MISSING">Gemma Weiss</name> (1891-1970), in 1913. Gemma was the sister of <name type="person" key="ID_MISSING">Ottocaro Weiss</name> (1896-1971), a student at <name type="organisation" key="ID_MISSING">the University of Zurich</name> and close friend of JJ and his family. Another sibling was <name type="person" key="ID_MISSING">Paula or Paola Weiss</name> (1900-1990), who may have inspired JJ to give Leopold Bloom his middle name of Paula (<name type="work" key="W_ULYSSES">U</name> 17.1855; Ellmann, <name type="work" key="ID_MISSING">JJ</name> 464).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">JJ remitted to Claud Sykes, for typing the <name type="work" key="W_ULYSSES">Ulysses</name> episodes, a money order for “20 francs in advance as per our agreement” in November 1917 (<name type="work" key="ID_MISSING">LI</name> 108) and further payments of 10 francs and 4 francs in December (<name type="work" key="ID_MISSING">LII</name> 413, 415).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">
+                    <p>It. “And so one hand washes the other” (or “You scratch my back and I scratch yours”), an expression suggesting that mutual favors are being performed – here, the notion that the costs of typescript will be covered by sums given for manuscript. The New York lawyer <name type="person" key="quin70">John Quinn</name> (1870-1924), a collector of modern art and literary manuscripts, had been purchasing items from JJ, including the manuscript of his play <name type="work" key="W_EXILES">Exiles</name> and the setting copy used for the American edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (1916) (see  <rs type="letter" key="L_68348">JJ to Pound, 19 March 1917</rs>, notes, and <rs type="letter" key="L_68393">24 July 1917</rs>, notes).</p>
+                    <p>As JJ anticipates in this postcard, Quinn later inquired, in a letter to JJ of 26 June 1919, if he could purchase the autograph manuscript of <name type="work" key="ID_MISSING">Ulysses</name>; and on 5 February 1920 he cabled JJ an advance of 3,000 lire or $153.85, and on 15 August 1920 another advance of 3,400 francs or $250, with an additional payment of 1,400 francs in the fall of 1920 (Myron Schwartzman, “‘Quinnigan’s Quake!’ John Quinn’s Letters to James Joyce, 1916-1920,” <name type="work" key="ID_MISSING">Bulletin of Research in the Humanities</name>, vol. 81, no. 2 [Summer 1978]: 237, 241-42, 245-46, 254, 258). The manuscript ran to 1,200 pages (<name type="work" key="ID_MISSING">Library of John Quinn</name>, pt. 1 [New York: Anderson Galleries, 1923], 487). JJ was irritated when Quinn later sold it along with other items from his library (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 558).</p>
+                </note>
+                <note xml:id="note7" target="#seg7" type="commentary">In a letter to <name type="person" key="barn84">Nora Barnacle</name> dated 10 September 1917, Pound mentioned that JJ should have received “£10 telegraphed by the Egoist,” which was planning to publish episodes of <name type="work" key="W_ULYSSES">Ulysses</name> in London, and he hoped to pay him £50 or more, in due course, for the work’s serialization in <name type="work" key="W_THELITTLE">The Little Review</name> in New York (<name type="work" key="ID_MISSING">Pound/Joyce</name> 125-26). After receiving the typescript of “Telemachus,” Pound wrote JJ on 19 December 1917, “Hope to forward a few base sheckles in a few days time” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 129).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Mrs. Harold McCormick (Edith Rockefeller) (1872-1932) was the daughter of oil tycoon <name type="person" key="ID_MISSING">John D. Rockefeller</name>. She was a Chicago patron of the arts and of psychoanalysis who lived in Zurich during World War I and contributed generously to the Psychological Club there. She financed translations of <name type="person" key="jung75">C.G. Jung</name> into various languages and established a foundation to patronize writers, musicians, and artists. She spontaneously gifted JJ a stipend of 1,000 Swiss francs per month from March 1918 through September 1919, when she just as suddenly terminated the benefaction (<name type="work" key="ID_MISSING">LII</name> 453-54). Her abrupt change of mind may have had to do with JJ’s refusal to be psychoanalyzed by Jung (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 422-23, 466-69).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">JJ had recently corrected proof on <name type="work" key="W_EXILES">Exiles</name> and the play was published on 25 May 1918. He may here be referring to a typescript copy of the work: in late November 1917, for example, he had instructed <name type="person" key="pink62">James Pinker</name> to lend “the other typescript” (<name type="work" key="ID_MISSING">LII</name> 410) to the Stage Society for consideration. It is also possible that JJ is referring to a dedication copy and <name type="work" key="W_EXILES">Exiles</name> is a slip for <name type="work" key="W_APORTRAIT">A Portrait</name>. He had inscribed a copy of the Egoist <name type="work" key="W_APORTRAIT">Portrait</name> to <name type="person" key="mcco72">McCormick</name> on 19 December 1917; a copy of <name type="work" key="W_EXILES">Exiles</name> would follow, inscribed on 30 May 1918.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">In the “Nestor” episode of <name type="work" key="W_ULYSSES">Ulysses</name> – typescript of which had been sent to Pound from Zurich circa 27 December 1917 (<name type="work" key="ID_MISSING">LI</name> 110) – Stephen Dedalus, working as a teaching assistant in a private school, hears the clamor of the schoolboys playing hockey in the yard and is put in mind of savage combat: “a shout of spearspikes baited with men’s bloodied guts” (<name type="work" key="W_THELITTLE">Little Review</name>, vol. 4, no. 12 [April 1918]: 41; <name type="work" key="W_ULYSSES">U</name> 2.318).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

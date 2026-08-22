@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="symo65">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Arthur Symons</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>symo65</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">61558452</idno>
+            <idno type="OCLC">lccn-n79141282</idno>
+            <persName type="reg">
+               <forename>Arthur</forename> <surname>Symons</surname>
+            </persName>
+            <persName type="full">Arthur Symons</persName>
+            <date type="birth" when="1865-02-28"/>
+            <date type="death" when="1945-01-22"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>British poet, critic, and editor. Symons had been introduced to Joyce by <name type="person" key="yeat65">W. B. Yeats</name>, after which Symons corresponded with Joyce about his collection of poems, <name type="work">Chamber Music</name>. In October 1906 Symons recommended the book to <name type="person" key="math51">Elkin Mathews</name>, who published it in May 1907. Symons and Joyce corresponded sporadically through the early 1930s, and Symons contributed the “Epilogue” to <name type="work">The Joyce Book</name>, edited by <name type="person" key="hugh82">Herbert Hughes</name> (London: Sylvan Press and Humphrey Milford Oxford University Press, 1933). <hi rend="bold">Dirk Van Hulle</hi> and <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

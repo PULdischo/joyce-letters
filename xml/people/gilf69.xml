@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gilf69">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Evelyn Gilford</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>gilf69</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Evelyn</forename> <surname>Gilford</surname>
+            </persName>
+            <persName type="full">Evelyn Gilford</persName>
+            <date type="birth" when="1869"/>
+            <date type="death" when="1952-02-06"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Ran the independent Midland Scholastic Agency in Market Rasen, Lincolnshire, to which JJ applied in 1904 in search of a teaching post on the Continent. Gilford established a short-lived carter’s business in 1892 and, around 1902, founded the Midland Scholastic Agency, advertising regionally to fill vacancies at Berlitz schools. His financial difficulties brought him to court on several occasions, and his recruitment methods were publicly criticized. In 1911 he left England with his family for New Zealand and then New South Wales, where he continued to work as an agent. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

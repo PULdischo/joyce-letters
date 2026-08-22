@@ -1,0 +1,50 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barn84">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nora Barnacle</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>barn84</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">50023168</idno>
+            <idno type="OCLC">lccn-n83010690</idno>
+            <persName type="reg">
+               <forename>Nora</forename> <surname>Barnacle</surname>
+            </persName>
+            <persName type="full">Nora Barnacle</persName>
+            <date type="birth" when="1884-03-21"/>
+            <date type="death" when="1951-04-10"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Nora Barnacle was born in Galway as the second of eight children of <name type="person" key="ID_MISSING">Thomas Barnacle</name>, a baker and <name type="person" key="barn58">Annie Healy</name>, a seamstress. She left school aged thirteen and, for seven years, worked as a portress in a convent until 1904 when she went to Dublin to work in Finn’s Hotel. Soon after her arrival there she met JJ who was attracted by her natural manner, wit and determination.</p>
+                <p>Less than four months later, they left for the continent and eventually settled in Trieste where JJ secured work at the Berlitz school. Their son <name type="person" key="joyc05">Giorgio</name> was born in 1905. <name type="person" key="joyc84">Stanislaus Joyce</name> joined them some months later and helped financially. <name type="person" key="joyc07">Lucia</name> was born in 1907 and by 1910, Eva and <name type="person" key="joyc89">Eileen Joyce</name> had come from Dublin to live with them, providing company and help for Nora.</p>
+                <p>When war broke out, the family left Trieste for Zurich where they lived comfortably with income from patrons and publications. After the war they moved to Paris where they lived in hotels and later rented an apartment. In 1922, despite JJ’s protests, Nora visited Galway with their children but had a bad experience due to the Irish Civil War.</p>
+                <p>Though Nora recovered from cancer in the late 1920s, she was upset by Giorgio’s relationship with <name type="person" key="joyc94">Helen Kastor Fleischman</name> and increasingly worried about Lucia’s behaviour. She and JJ were formally married in London in 1931. Unfortunately, Lucia got worse, and she was finally institutionalised in 1936.</p>
+                <p>The family fled Paris at the beginning of World War II. They lived for a year in the French village of Saint-Gérand-le-Puy before they managed to get to Switzerland in December 1940, four weeks before JJ died. Nora continued to live in Zurich where Giorgio also resided, with only brief visits to Paris to help sort out and sell what they had left behind. She died in 1951. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

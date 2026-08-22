@@ -1,0 +1,134 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70195">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Wednesday, 17 August 1932</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70195</idno>
+            <idno type="internal">70195</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCI</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_AUT_FELD_02">Hotel zum Löwen, Feldkirch</placeName>
+               </address>
+               <date notBefore="1932-08-17" notAfter="1932-08-17">Wednesday, 17 August 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_70195_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Too late to arrange. Y<hi rend="superscript">
+                            <hi rend="underline">r</hi>
+                        </hi> card forwarded here. But <seg xml:id="seg1" type="note-anchor">he</seg> can simply apply to <name type="person" key="cape79">J. Cape</name>. Hope all with you well.</p>
+                    <closer>
+                        <signed>
+                            <name type="person" key="joyc82">J.J.</name>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_AUT_FELD_02">Hotel zum Loewen</name>
+                            </addrLine>
+                            <addrLine>
+                                <seg xml:id="seg2" type="note-anchor">
+                                    <name type="geo" key="G_AUT_FELD">Feldkirch</name>
+                                </seg>, <name type="geo" key="G_AUT">Austria</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <dateline>
+                    <date when="1932-08-17">17/8/932</date>
+                </dateline>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">The face of this postcard shows a photograph of “Feldkirch Neustadt,” a central street in Feldkirch, Austria, with the <name type="geo" key="G_AUT_FELD_02">Hotel zum Loewen</name>, where the Joyces were staying, visible on the left side of the street. The postcard was produced by L. Heim, a photo publisher in nearby Dornbirn. (For Feldkirch and JJ’s stay there, see note 2, below.)</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Unidentified. The publisher Jonathan Cape, Ltd., of London, acquired from <name type="organisation" key="ID_MISSING">the Egoist Press</name> in 1924 the rights to JJ’s <name type="work" key="MISSING_ID">Chamber Music</name>, <name type="work" key="W_DUBLINERS">Dubliners</name>, <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, and <name type="work" key="W_EXILES">Exiles</name>. Herbert Jonathan Cape (1879-1960) founded the firm with Wren Howard in 1921, going on to publish works by <name type="person" key="well66">H.G. Wells</name>, <name type="person" key="davi71">W.H. Davies</name>, <name type="person" key="lewi85">Sinclair Lewis</name>, <name type="person" key="hemi99">Ernest Hemingway</name>, <name type="person" key="mead01">Margaret Mead</name>, and other authors. For additional details, see <rs type="letter" key="L_71459">Nora Joyce to Pound, 22 February 1931</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>Feldkirch, a medieval town in western Austria, bordering on Switzerland and Liechtenstein. A contemporary guidebook described it as “an old town of 12,000 inhab., on the [River] <hi rend="italic">Ill</hi>, … dominated by the [medieval castle] <hi rend="italic">Schattenburg</hi> [with] a large Jesuit College. The parish church dates from the 15-16th centuries.” The Hotel zum Loewen (also spelled Löwen or Löwe) had “72 beds at 3½ to 8S” (Karl Baedeker, <name type="work" key="ID_MISSING">Austria Together with Budapest, Prague, Karlsbad, Marienbad</name>, 12th rev. ed. [Leipzig: Karl Baedeker, 1929], 380).</p>
+                    <p>In July 1932, JJ went to Zurich to consult his eye surgeon, <name type="person" key="ID_MISSING">Professor Alfred Vogt</name> (1879-1943). He placed his daughter, <name type="person" key="joyc07">Lucia</name>(1907-1982), whose mental health was deteriorating, with a nurse under the supervision of friends, <name type="person" key="jola94">Eugène Jolas</name> (1894-1952) and <name type="person" key="jola93">Maria Jolas</name> (1893-1987), who were on family holiday in Feldkirch. After several weeks, JJ left Zurich for Feldkirch and stayed at the Hotel zum Loewen from 10 August to 6 September, in order to be with the restless, volatile Lucia, who worked on alphabet designs that were later used as decorated initial letters in <name type="work" key="MISSING_ID">A Chaucer A.B.C.</name>, published by The Obelisk Press of Paris with a preface by <name type="person" key="gill76">Louis Gillet</name> in 1936. For a fuller account of Lucia’s alphabet designs, known as lettrines, see <rs type="letter" key="L_70275">JJ to Pound, 9 November 1932</rs>, notes.</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

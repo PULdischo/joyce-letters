@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68916">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 29 September 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68916</idno>
+            <idno type="internal">68916</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">9 rue de l'Université, Paris</placeName>
+               </address>
+               <date notBefore="1922-09-29" notAfter="1922-09-29">Friday, 29 September 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>Maison de Famille</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_04">9, Rue de l’Université, 9</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris (VII<hi rend="superscript">E</hi>)</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <p>Dear <name type="person" key="weav76">Miss Weaver</name>: I groped my way through a few pages of <hi rend="underline">Ithaca</hi> and found <seg xml:id="seg1" type="note-anchor">the enclosed mistakes</seg>. Can you please see that they are added to your proof in their proper places? I hope the <seg xml:id="seg2" type="note-anchor">copies of the <hi rend="underline">Evening</hi> <hi rend="underline">Standard</hi>
+                        </seg> have gone off to the various addresses. If you have one left I should like to have it.</p>
+                    <closer>
+                        <salute>With kindest regards</salute>                    	<salute>sincerely yours</salute>                               	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1922-09-29">29.ix.922</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The enclosure with these corrections to the proofs of <name type="work" key="W_ULYSSES">Ulysses</name>’s second edition, published on 12 October 1922 by Weaver’s Egoist Press, has been separated from the letter, but it is also kept at the British Library (BL 57356-10, 10v, 11; <name type="work" key="ID_MISSING">JJA</name> 12: 182-84).</note> <note xml:id="note2" target="#seg2" type="commentary">Possibly the review “A Monstrous Book” in the London <hi rend="italic">Evening Standard</hi> from which Sisley Huddleston later quoted extensively in <hi rend="italic">
+                        <name type="work">Paris Salons, Cafés, Studios</name>
+                    </hi> (London: J. B. Lippincott, 1928), 208-20.</note> </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="budg82">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Frank Budgen</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>budg82</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">64945572</idno>
+            <idno type="OCLC">lccn-n88152549</idno>
+            <persName type="reg">
+               <forename>Frank</forename> <surname>Budgen</surname>
+            </persName>
+            <persName type="full">Frank Budgen</persName>
+            <date type="birth" when="1882-03-01"/>
+            <date type="death" when="1971-04-26"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Painter, socialist activist and ear to JJ. Born in Crowhurst, Surrey, Frank Spencer Curtis Budgen spent several years at sea before settling in London as a postal worker. He became General Secretary of the Socialist Labour Party in 1907. In 1910, he went to Paris to study painting, supporting himself as a model for the Swiss sculptor <name type="person" key="sute87">August Suter</name>. During his years in Paris, he became acquainted with the French writer <name type="person" key="ID_MISSING">Blaise Cendrars</name> and the Swiss poet and translator <name type="person" key="ID_MISSING">Siegfried Lang</name>. At the invitation of August Suter he moved to Switzerland shortly before World War I, where he was employed in Zurich at Great Britain’s Ministry of Information, established for “the spread of British propaganda in neutral countries”. In Zurich, he became acquainted with JJ who engaged in lengthy discussions with him about <name type="work" key="W_ULYSSES">Ulysses</name>, at the time in progress. Budgen wrote about these essential insights in his reminiscences, <name type="work" key="ID_MISSING">James Joyce and the Making of “Ulysses”</name> (1934).</p>
+                <p>In his own right, Budgen was a painter, mostly of landscapes, and made several portraits, sketches and charcoal drawings of JJ. He was a model for a sculpture by August Suter which can be seen in Zurich’s Uraniastrasse. After the war Budgen returned to London, where he lived until his death. He was married to <name type="person" key="budg96">Francine Budgen</name> (1896-1977) with daughter <name type="person" key="budg36">Joan</name>. Frank and Francine Budgen are buried at the graveyard of St George’s Church, Crowhurst, Surrey. Budgen was a guest of honour at the first International James Joyce Symposium in Dublin, June 1967, and participated for a few days in the second one, 1969. Budgen’s vivid autobiography of his first forty years, <name type="work">Myselves When Young</name>, was published in 1970. <hi rend="bold">Fritz Senn</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

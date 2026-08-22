@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bera92">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lisa Beran</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>bera92</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Lisa</forename> <surname>Beran</surname>
+            </persName>
+            <persName type="full">Lisa Beran</persName>
+            <date type="birth" when="1892-06-05"/>
+            <date type="death" when="1987-07-28"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Born Elise Fanny Schiek on 5 June 1892, Lisa Beran was the second wife of <name type="person" key="bera68">Felix Beran</name>, the Austrian engineer, poet, and translator. JJ corresponded with Lisa in Zurich in the early 1930s. She was the daughter of Nikolaus Schiek and Elise (née Lindegger), from Waldsee, in Germany, and married Beran in 1924. She became a naturalised Swiss citizen in 1927. Lisa worked as an interior designer and also translated real-life exploration stories into German with her husband. In the 1960s, she worked as a secretary at the Hotel Freihof in Heiden, a spa resort above Lake Constance. In 1974 she moved to Trimbach in the Gösgen District, west of Zurich, and lived there for the remainder of her life. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

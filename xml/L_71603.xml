@@ -1,0 +1,161 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71603">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To T. S. Eliot. Thursday, 4 December 1930</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71603</idno>
+            <idno type="internal">71603</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>National Library of Ireland</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1930-12-04" notAfter="1930-12-04">Thursday, 4 December 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="elio88">
+                        <forename>T. S.</forename> <surname>Eliot</surname>
+                    </persName>
+               <persName type="full" key="elio88">T. S. Eliot</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="person" key="elio88">T. S. Eliot</name> esq. </addrLine>
+                            <addrLine>c/o Faber &amp; Faber </addrLine>
+                            <addrLine>24 <choice>
+                                    <sic>Russel</sic>
+                                    <corr>Russell</corr>
+                                </choice> square. </addrLine>
+                            <addrLine>London. </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <dateline>
+                            <date when="1930-12-04">December the 4-th. 1930</date>
+                        </dateline>
+                        <salute>Dear Sir</salute>, </opener>
+                    <p>Mr Joyce who feels rather exhausted after his journey to Zürich and also worried about different things wishes me to write to you in order to inform you of all the details concerning the publication of a cheap edition of “Haveth Childers Everywhere” and to explain <supplied reason="omitted">to</supplied> you how things are now standing. </p>
+                    <p>When Mr Joyce signed the contract with Messrs <name type="person" key="babo75">Babou</name> and <name type="person" key="kaha87">Kahane</name> he was under the impression that the contract as drawn was completely in accord with the previous contracts he had signed for the publication of his previous fragments i.e. that six months after the publication of the de luxe edition all rights for other publications returned to him. In fact he was even assured of this. Hence he did not take the trouble to read attentively or should I say more correctly to listen attentively when it was read to him. On this assumption he signed the contract with you a few months ago.  </p>
+                    <p>Just before leaving for Zürich however having to look through his papers the contract with Messrs. Babou and Kahane came to his notice and he found that the contract provided the sale of the world copyright. Though the terms of this document are slightly <choice>
+                            <sic>contracdictory</sic>
+                            <corr>contradictory</corr>
+                        </choice> as they do not seem to give or provide any other form of publication of the fragment Mr Joyce found that he was placing himself in a dangerous position and that the formal legal right was on the side of Messrs. B. &amp; K. As it was the eve of his departure for Zürich he could not start anything and had to cable you asking you to stop <choice>
+                            <sic>privisionally</sic>
+                            <corr>provisionally</corr>
+                        </choice> privisionally the printing of the fragment. </p>
+                    <p>On coming back to Paris he lost no time and went on the very first day with a friend of his and myself to see Mr. Babou and to explain <supplied reason="omitted">to</supplied> him the situation. </p>
+                    <p>Mr Babou having taken <choice>
+                            <sic>congnisance</sic>
+                            <corr>cognisance</corr>
+                        </choice> of the contract and of the situation said openly in <choice>
+                            <sic>fornt</sic>
+                            <corr>front</corr>
+                        </choice> of two witnesses that when he bought the rights he had in view to bring out merely a de luxe edition and had not the question been raised he would have never raised any objection to any kind of cheap edition. Mr Joyce offered him to cancel the contract <choice>
+                            <sic>woth</sic>
+                            <corr>with</corr>
+                        </choice> you or to abandon all royalties to be received from your edition to him but Mr. Babou said it was not necessary as he considered Mr. Joyce free to do what he liked but since the question was raised he had to consult Mr Kahane and would write or speak to him in the sense he had just explained to us. He had let the word drop that it might be possible to combine your publication with some publicity for the remaining copies of his and Mr. Joyce offered to have a slip printed and put in every copy of your edition mentioning the Babou edition as being the first and original edition of this fragment. Mr Babou said that some sort of combination would certainly be arrived at and that he <choice>
+                            <sic>coseuqently</sic>
+                            <corr>consequently</corr>
+                        </choice> need not worry. He promised to give us Mr. Kahane’s view in the course of twenty four hours. On the strength of this conversation Mr. Joyce cabled you to proceed with the printing. </p>
+                    <p>In spite of my ringing him up every day it is only yesterday that we heard that Mr. Kahane took exception to the cheap edition and wanted its sale either postponed for some considerable time or that you buy from him the remaining copies. </p>
+                    <p>I have spoken personally to Mr Kahane this morning over the ’phone and told him that a sale of his copies to you could not be considered. After some argument he gave me as his opinion that he insist on a six months postponement of your edition. Saying that you could proceed with the printing of the volumes since the type is set but that the sale be fixed to the 1-st of May. He promised me also to give me a written permission to make your edition. I am going to receive this written statement <choice>
+                            <sic>to moroow</sic>
+                            <corr>to-morrow</corr>
+                        </choice> morning and will hand it to Mr. Joyce immediately so that from this point of view we shall be quite safe. </p>
+                    <p>Mr. Kahane gave me as his reasons for objection that owing to his prolonged illness he had been unable to appoint an agent for the sale of the de luxe edition in London, that he was going now over to London (on <date when="1930-12-08">Monday the 8-th inst.)</date> to appoint one and that he hoped to dispose quickly of the remaining volumes (a hundred I <choice>
+                            <sic>belive</sic>
+                            <corr>believe</corr>
+                        </choice>). Naturally in case the sale of the de luxe edition is finished sooner you will be entitled to begin the sale of <choice>
+                            <sic>you</sic>
+                            <corr>your</corr>
+                        </choice> edition earlier. Anyhow I will certainly keep you au courant as far as it will be possible for me. The first of <choice>
+                            <sic>may</sic>
+                            <corr>May</corr>
+                        </choice> is understood to be the farthest limit. </p>
+                    <p>You can easily imagine how annoying it is for Mr Joyce to have all this trouble and how aggravating it is for him to be placed in such a position first towards Messrs. B. &amp; K. where owing to a lack of attention and having all the moral right for him as attested by Mr. Babou himself who said, I insist on it, that he never had the intention to buy anything but an edition de luxe, he looked as having tried to circumvene them. And secondly because he does <choice>
+                            <sic>appreciates</sic>
+                            <corr>appreciate</corr>
+                        </choice> greatly the value of your edition in the diffusion of his thought. </p>
+                    <p>I hope that now the thing <choice>
+                            <sic>i</sic>
+                            <corr>is</corr>
+                        </choice> settled. I will try and obtain during the interview to-morrow perhaps a shorter delay and will let you know at once. </p>
+                    <closer>
+                        <salute>Believe me yours sincerely. </salute>
+                    </closer>
+                </div>
+            </div>       
+      </body>
+   </text>
+</TEI>

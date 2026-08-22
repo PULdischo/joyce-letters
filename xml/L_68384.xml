@@ -1,0 +1,181 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68384">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Monday, 9 July 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68384</idno>
+            <idno type="internal">68384</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-07-09" notAfter="1917-07-09">Monday, 9 July 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_06">Seefeldstrasse 73 <hi rend="superscript">III</hi>
+                                </name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII, <name type="geo" key="G_CHE">Switzerland</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: I sent you <seg xml:id="seg1" type="note-anchor">
+                            <rs type="letter" key="68382">a card</rs>
+                        </seg> <date when="1917-07-07">yesterday</date>, interrupted I fear. My eyes are quiet for the moment  –  probably because I have been <seg xml:id="seg2" type="note-anchor">ill for the past week</seg> with my throat  –  the intention of providence being perhaps to take away my voice and thus leave me without even that to fall back on. (<seg xml:id="seg3" type="note-anchor">The <rs type="person" key="saue80">
+                                <hi rend="underline">prima</hi> <hi rend="underline">donna</hi>
+                            </rs>
+                        </seg> of the opera here heard me a few days ago singing. She lives at the end of this house. She stopped <rs type="person" key="barn84">my wife</rs> in the corridor and said I had a <seg xml:id="seg4" type="note-anchor">
+                            <hi rend="underline">wunderschöne</hi> <hi rend="underline">Stimme</hi>
+                        </seg> and asked would I go with her on tour for concerts during the operatic recess.) Perhaps it is this climate which brings to the surface and magnifies every weakness of the body or perhaps it is the result of nine years’ worry breaking out here and there. I make a special diet, without fish, meat, fowl, tea, coffee, cocoa, chocolate, eggs, lentils, peas, beans, composed chiefly of oatmeal and various leaves. Needless to say I do not mind this in the least and would exist cheerfully on sawdust if I could avoid an operation thereby. <seg xml:id="seg5" type="note-anchor">
+                            <name type="person" key="goul48">Dr Gould</name>
+                        </seg>’s opinion evidently is to operate all cases of glaucoma. There is something to be said for doctors because they do not know much and want to prevent any possibility of disaster. I am (or was) making a treatment for the blood and shall resume it again in September when the <seg xml:id="seg6" type="note-anchor">next instalment</seg> of money arrives as it is rather expensive.</p>
+                    <p>I am quite tired in consequence of a <rs type="letter" key="68383">very long letter</rs> which <rs type="person" key="pink62">my agent</rs> made me write. <name type="person" key="rich72">Mr Richards</name> announced his intention of publishing <hi rend="underline">
+                            <name type="work" key="W_EXILES">Exiles</name>
+                        </hi> on the basis of my agreement with him for <hi rend="underline">
+                            <name type="work" key="W_DUBLINERS">Dubliners</name>
+                        </hi>. My agent asked why I signed such a contract. In <seg xml:id="seg7" type="note-anchor">my reply</seg> I told him why. <rs type="person" key="barn84">My wife</rs> had a letter today from <name type="person" key="quin70">Mr Quinn</name> who has received the first act of <hi rend="underline">Exiles</hi> in MS. I shall await the arrival of <seg xml:id="seg8" type="note-anchor">his next letter</seg> in which he will probably acknowledge receipt of the other acts. He says he would like to have a copy of the typescript sent on as he fears it could not be typed from my MS without risk of mistakes. If <seg xml:id="seg9" type="note-anchor">you are writing him</seg> meanwhile please say that the MS is his property but he can give it or lend it to <name type="person" key="hueb76">Mr Huebsch</name> to set from direct. The MS is quite legible, I think. If Mr Huebsch has not a right of refusal over this play by contract he is, in my view, entitled to such a right by courtesy. Mr Huebsch can <seg xml:id="seg10" type="note-anchor">publish this play</seg> as soon as he likes and, so far as I am concerned, make a contract for it afterwards. I want it to be published as I wrote it and out of my way. As for production I know nothing. As I told you it was refused here, in <name type="geo" key="G_ITA_TURI">Turin</name> and in <name type="geo" key="G_CHE_BERN">Berne</name>. The <name type="organisation" key="O_STAGESOCIETY">Stage Society</name> kept it for several months, sent it back. Then the <name type="organisation" key="O_ABBEYTHEATRE">Abbey Theatre Company</name> wrote for it, seemingly in a great hurry, kept it several months, <seg xml:id="seg11" type="note-anchor">sent it back</seg>. Then the Stage Society <seg xml:id="seg12" type="note-anchor">wrote for it again</seg> and kept it several months more so that I have now instructed my agent to withdraw it by telephone and to offer it to nobody else unless the person receiving it undertakes to give his opinion within three weeks. <rs type="person" key="joyc07">My daughter</rs> (who <seg xml:id="seg13" type="note-anchor">knows no English</seg>) could spell her way through it in that time and I assume that a publisher or an impresario can do the same. If they cannot I shall not allow them to waste my time as they have done till now.</p>
+                    <p>I am looking forward to reading <seg xml:id="seg14" type="note-anchor">
+                            <rs type="work" key="W_THREECANTOS">your poem</rs>
+                        </seg>. I am sure it will be <seg xml:id="seg15" type="note-anchor">
+                            <foreign xml:lang="ita">
+                                <hi rend="underline">scintillante</hi> <hi rend="underline">di</hi> <hi rend="underline">giovinezza</hi>
+                            </foreign>
+                        </seg> and I hope you put in <seg xml:id="seg16" type="note-anchor">one or two sweet lines</seg> for my oldfashioned ear. I asked you in my card if you could print music in <rs type="work" key="W_THELITTLE">your review</rs> because there is a friend of mine here, <seg xml:id="seg17" type="note-anchor">
+                            <rs type="person" key="ID_MISSING">a Spaniard</rs>
+                        </seg>, who has read some of your verses and perhaps he would send some pages for your review. He has set some by <seg xml:id="seg18" type="note-anchor">
+                            <name type="person" key="sama58">Albert Samain</name>
+                        </seg>  –  <name type="work" key="W_LAVILLE">La Ville Morte</name>. I hear there is a Russian notice of my novel. There will be one also in a <seg xml:id="seg19" type="note-anchor">London Greek journal</seg>  –  <foreign xml:lang="ell">
+                            <name type="work" key="W_ESPERIA">
+                                <hi rend="underline">Η</hi> <hi rend="underline">
+                                    <choice>
+                                        <orig>ΕΣΠΕRΙΑ</orig>
+                                        <reg>ΕΣΠΕΡΙΑ</reg>
+                                    </choice>
+                                </hi>
+                            </name>
+                        </foreign>. <name type="person" key="weav76">Miss Weaver</name> is trying to get a notice at my suggestion in some Italian paper. Meanwhile the sales are 1 per 100,000 of the population. <seg xml:id="seg20" type="note-anchor">
+                            <foreign xml:lang="lat">
+                                <hi rend="underline">I</hi> <hi rend="underline">nunc</hi> <hi rend="underline">et</hi> <hi rend="underline">tecum</hi>
+                            </foreign>
+                        </seg> …  .</p>
+                    <closer>
+                        <salute>With friendliest regards to <name type="person" key="poun86">Mrs Pound</name> &amp; yourself</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1917-07-09">9.7.917</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <rs type="letter" key="L_68382">JJ’s postcard to Pound of 7 July 1917</rs> (but postmarked “yesterday,” 8 July 1917), which he anxiously broke off at the approach of a thunderstorm.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ wrote Harriet Shaw Weaver on 7 July 1917: “I have been laid up for the past week with fever and tonsillitis. I am better today” (<name type="work" key="ID_MISSING">LI</name> 103).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <name type="person" key="ID_MISSING">Charlotte Sauermann</name> (1880-1931), a soprano with <name type="organisation" key="ID_MISSING">the Zurich opera</name>, occupied rooms next to those rented by JJ and his family at Seefeldstrasse 73. She admired JJ’s singing voice and wanted to help him find work at the Zurich opera house, but he declined. In 1918, Sauermann was the one to reveal to JJ the identity of the person — <name type="person" key="ID_MISSING">Mrs. Harold McCormick</name> — who had made him an anonymous gift of 1,000 francs per month beginning March 1918 (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 422). <name type="person" key="ID_MISSING">Philipp Jarnach</name> (1892-1982), composer and secretary to the composer <name type="person" key="ID_MISSING">Ferruccio Busoni</name> (1866-1924), also occupied rooms at Seefeldstrasse 73, and it is possible that he and Sauermann were living together (Carol Loeb Shloss, <name type="work" key="ID_MISSING">Lucia Joyce: To Dance in the Wake</name> [New York: Farrar, Straus and Giroux, 2003], 71). Sauermann, sometimes billed as Lotte or with her married name Ofner or Sauermann-Ofner, excelled as a concert singer. For example, she sang <name type="person" key="ID_MISSING">Schumann</name> lieder and selections from <name type="person" key="ID_MISSING">Weber</name>’s opera <name type="work" key="ID_MISSING">Oberon</name> in Aarau, Switzerland, in November 1917; performed in <name type="person" key="ID_MISSING">Beethoven</name>’s <name type="work" key="ID_MISSING">Missa solemnis</name> in Neuchâtel in April 1921, and in <name type="person" key="ID_MISSING">Verdi</name>’s <name type="work" key="ID_MISSING">Requiem</name> in Vienna in November 1925; and sang <name type="person" key="ID_MISSING">Mahler</name> lieder in Vienna in January 1926. JJ later helped her son to escape from Nazi territory (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 709).</note>
+                <note xml:id="note4" target="#seg4" type="translation">Ger. “very beautiful voice.”</note>
+                <note xml:id="note5" target="#seg5" type="commentary">George Milbry Gould (1848-1922), noted American ophthalmologist and prolific author. Pound had been treated by Gould some years before this, and felt that he might be able to help JJ. For a full account, see <rs type="letter" key="L_68361">JJ to Pound, 13 April 1917</rs>, notes.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">JJ learned in February 1917 from London solicitors that an anonymous “admirer of [his] writing” had gifted him £200, to be paid in £50 installments in May, August, November, and the next February (<name type="work" key="ID_MISSING">LII</name> 389). JJ thought that Pound was involved, but the admirer was later revealed to be Harriet Shaw Weaver.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">In reply to a letter of 2 July 1917 from his London literary agent J.B. Pinker, JJ wrote a long and exasperated letter on 8 July 1917 (<name type="work" key="ID_MISSING">LII</name> 398-400). See <rs type="letter" key="L_68382">JJ to Pound, 7 July 1917</rs>, notes.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Quinn’s cablegram to Pound dated 15 August 1917 confirmed that he had received acts two and three of the <name type="work" key="W_EXILES">Exiles</name> manuscript (<name type="work" key="ID_MISSING">Pound/Joyce</name> 123).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">JJ wrote Quinn on 10 July 1917 to suggest that if he did not wish to allow <name type="person" key="ID_MISSING">the American printers</name> to work from the <name type="work" key="W_EXILES">Exiles</name> manuscript, “it can be typed first  –  charge of typing being to my account.” JJ added that he would have the corrected “English printed proofs” sent on later to <name type="geo" key="G_USA_NEWY">New York</name> to “serve as a control” (<name type="work" key="ID_MISSING">LI</name> 104).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Both B.W. Huebsch in New York and Grant Richards in London published <name type="work" key="W_EXILES">Exiles</name> in May 1918.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">Although <name type="person" key="yeat65">W.B. Yeats</name> (1865-1939), enthusiastic after reading <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, initially thought the <name type="geo" key="G_IRL_DUBL">Dublin</name> <name type="organisation" key="O_ABBEYTHEATRE">Abbey Theatre</name> might stage <name type="work" key="W_EXILES">Exiles</name>, he later wrote JJ that “it is a type of work we have never played well” since it was “too far from the folk drama.” He thought it “[not] at all so good” as <name type="work" key="W_APORTRAIT">A Portrait</name> (quoted in Ellmann, <name type="work" key="ID_MISSING">JJ</name> 401-02).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">The London Incorporated Stage Society considered <name type="work" key="W_EXILES">Exiles</name> during 1916 and 1917 but in the end did not stage it (see <rs type="letter" key="L_68374">JJ to Pound, 5 June 1917</rs>, notes). JJ became exasperated with delays and wrote his London agent J.B. Pinker on 8 July 1917 to get the typescript back from the Society (<name type="work" key="ID_MISSING">LII</name> 398).</note>
+                <note xml:id="note13" target="#seg13" type="commentary">JJ and his family often spoke Triestine Italian at home.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">Pound’s “Three Cantos.” See <rs type="letter" key="L_68352">JJ to Pound, 30 March 1917</rs>, notes, and <rs type="letter" key="L_68382">7 July 1917</rs>, notes.</note>
+                <note xml:id="note15" target="#seg15" type="translation">It. “sparkling with youth.”</note>
+                <note xml:id="note16" target="#seg16" type="commentary">In his letter of 17 July 1917, Pound granted JJ’s request for “one or two sweet lines for my oldfashioned ear” by offering some “mellifluous archaism” in the form of a dozen lines “mistranslating Horace” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122-23).</note>
+                <note xml:id="note17" target="#seg17" type="commentary">Philipp Jarnach (1892-1982), born in <name type="geo" key="G_FRA">France</name>, was the son of <rs type="person" key="ID_MISSING">a Spanish sculptor</rs>. In Zurich during World War I, Jarnach was a student of and secretary to the composer Ferruccio Busoni (1866-1924), and was himself a composer and later a teacher of composition. JJ and his family rented rooms next to those occupied by Jarnach at Seefeldstrasse 73. See <rs type="letter" key="L_68348">JJ to Pound, 19 March 1917</rs>, notes.</note>
+                <note xml:id="note18" target="#seg18" type="commentary">Albert Samain (1858-1900) was a French Symbolist poet, strongly influenced by <name type="person" key="ID_MISSING">Charles Baudelaire</name> and <name type="person" key="ID_MISSING">Paul Verlaine</name>. His sonnet “Ville morte” tells of a once great Eastern city, “empty now and forever silent” (“[v]ide à present, et pour jaimais silencieuse”), in the midst of whose ruins a great bronze elephant tragically lifts its trunk to the stars. Around 1911, Philipp Jarnach set Samain’s poems, “Ville morte” and “Arpège,” for piano and voice. JJ was interested enough in Samain to copy “Arpège” and several of his other poems, along with additional French verse, into <rs type="work" key="ID_MISSING">a notebook he compiled in 1919-1920 in Trieste</rs> (Peter Spielberg, <name type="work" key="ID_MISSING">James Joyce’s Manuscripts and Letters at the University of Buffalo: A Catalogue</name> [Buffalo, NY: University of Buffalo, 1962], 168-69).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">
+                    <name type="work" key="ID_MISSING">The Hesperia: A Greek Weekly Illustrated Newspaper</name>, launched in London in 1916 under the editorship of <name type="person" key="ID_MISSING">Dr. Constantine Pouptis</name> (1878-1942), was devoted to enhancing understanding of Greek national questions and the development of Greek literature, art, and commerce. JJ told Weaver that a notice of <name type="work" key="W_APORTRAIT">A Portrait</name> appeared in the journal for 29 June 1917, page 410 (<name type="work" key="ID_MISSING">LI</name> 107).</note>
+                <note xml:id="note20" target="#seg20" type="commentary">Probably an allusion to <name type="person" key="ID_MISSING">Horace</name>, <name type="work" key="ID_MISSING">Epistle</name> 2. 2. 76, “I nunc, et versus tecum meditare canoros” (“Now go and meditate on melodious verses”), an ironic glance at the plight of the contemplative poet distracted by the noise and bustle of the Roman streets. JJ suggests he is similarly harried by circumstances. This allusion may have stimulated Pound to include twelve lines “mistranslating Horace” in his letter to JJ of 17 July 1917 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 122-23).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

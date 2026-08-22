@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bera68">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Felix Beran</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>bera68</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">49968380</idno>
+            
+            <persName type="reg">
+               <forename>Felix</forename> <surname>Beran</surname>
+            </persName>
+            <persName type="full">Felix Beran</persName>
+            <date type="birth" when="1868-04-17"/>
+            <date type="death" when="1937-08-12"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Born in Vienna, Beran trained as an engineer and worked in Mexico and Argentina before settling in Zurich, where he decided to follow his literary interests and published three volumes of poetry. As an editor for the <name type="work" key="ID_MISSING">Internationale Rundschau</name> from 1915-1918, he befriended JJ. JJ was fascinated with Beran’s poem “Des Weibes Klage”, and translated it into English. Following the war, Beran became a director of the household appliance company Elektro Lux in Zurich, married (the first marriage ended in divorce) Elise Fanni Schiek in 1924, and became a Swiss citizen in 1927. In the 1930s, Beran, with JJ’s support, began a German translation of <name type="work" key="ID_MISSING">Pomes Penyeach</name>, but apart from a single appearance of one poem in <name type="work" key="ID_MISSING">Die literarische Welt</name> (2 September 1932), nothing further was published before he died in 1937. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

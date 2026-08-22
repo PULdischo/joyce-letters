@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dara82">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maurice Darantiere</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>dara82</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">7402360</idno>
+            <idno type="OCLC">lccn-n80057251</idno>
+            <persName type="reg">
+               <forename>Maurice</forename> <surname>Darantiere</surname>
+            </persName>
+            <persName type="full">Maurice Darantiere</persName>
+            <date type="birth" when="1882-07-11"/>
+            <date type="death" when="1962-05-25"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Master-printer from Dijon (France), best known for printing the first edition of JJ’s <name type="work" key="ID_MISSING">Ulysses</name> in 1922. The Darantiere printing house, founded in 1870 by his father Victor Darantiere, was well-known for producing both high-quality limited editions as well as ordinary books. Under Maurice, although a traditionalist steeped in classical education, the press moved beyond local bibliophile editions into the avant-garde world of English-language modernist literature. After the serialization of <name type="work" key="ID_MISSING">Ulysses</name> in the American magazine <name type="work" key="ID_MISSING">The Little Review</name> was stopped on charges of obscenity, Sylvia Beach, the owner of the Paris book shop and lending library Shakespeare and Company, arranged for the book to be printed by Darantiere and published in France. Darantiere’s staff was unfamiliar with English – which may have had the advantage that nobody attempted to correct JJ’s text. Darantiere was patient enough to adapt to JJ’s habit of rewriting proofs which had only been sent for corrections. Moved to Paris in 1928, which marked the end of his relationship with experimental works in English. In the early 1930s, Darantiere began to work in a more commercial vein. The members of the Darantiere family always refused to use an accent in their name (Jean-Michel Rabaté, “‘Thank Maurice’: A Note about Maurice Darantiere”, <name type="work" key="ID_MISSING">Joyce Studies Annual</name> 2 [1991], 245-51). <hi rend="bold">Sabrina Alonso</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68758">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 17 April 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68758</idno>
+            <idno type="internal">68758</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_06">Boulevard Raspail 5, Paris</placeName>
+               </address>
+               <date notBefore="1921-04-17" notAfter="1921-04-17">Sunday, 17 April 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <gap reason="published"/>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>I am much relieved by the immediate prospect of the <seg xml:id="seg1" type="note-anchor">advance of royalties</seg>
+                            </quote>
+                            <bibl>LI 163</bibl>
+                        </seg>
+                    </p>
+                    <p>and I would probably have spared myself a great deal of profitless worry <seg xml:id="seg2" type="note-anchor">if I had forced</seg> <name type="person" key="hueb76">Mr Huebsch</name>’s hand three months ago. I perceived a few minutes after my meeting him that he considered me an embarrassing person and my books bad sellers but could not make up his mind to take a definite step. I may say that it is a year and a half or perhaps more since he forwarded any royalties on <rs type="work" key="W_APORTRAIT">my novel</rs>, <rs type="work" key="W_EXILES">play</rs> or story. It seems strange that there should be no sales, however small. I am glad that you intend to make the arrangement you so promptly and kindly suggest without the intervention of <name type="person" key="pink62">Mr Pinker</name>. If I thought the matter was passing through his hands I should again give way to dejection.</p>           <p>
+                        <seg type="published" function="context">
+                            <quote>To my surprise I received a card from <name type="person" key="poun85">Mr Pound</name> who is now in Paris.</quote>
+                            <bibl>LI 163</bibl>
+                        </seg>
+                    </p> <gap reason="published"/>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">On 10 April 1921, <rs type="letter" key="L_68756">JJ wrote to Harriet Weaver</rs> about his financial straits and needing an advance on the publication of <name type="work" key="W_ULYSSES">Ulysses</name>. He asked her for help in arranging such an advance (<name type="work">LI</name> 162-63).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ demanded from B. W. Huebsch that he return the manuscript of <name type="work" key="W_ULYSSES">Ulysses</name>. For further context, see <rs type="letter" key="L_68756">JJ to Weaver, 10 April 1921</rs>, notes.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

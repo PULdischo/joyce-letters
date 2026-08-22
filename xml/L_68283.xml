@@ -1,0 +1,122 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68283">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 25 February 1916</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="KD">KD</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68283</idno>
+            <idno type="internal">68283</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_04">Kreuzstrasse 19, Zurich</placeName>
+               </address>
+               <date notBefore="1916-02-25" notAfter="1916-02-25">Friday, 25 February 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_04">Kreuzstrasse 19</name> <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zürich</name> VIII</addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine> </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear Miss <name type="person" key="weav76">Weaver</name>: Many thanks for your kind card of <date when="1916-02-19">19 instant</date>. I am very glad to hear that you have now found a printer who will <seg xml:id="seg1" type="note-anchor">print <rs type="work" key="W_APORTRAIT">my text</rs>
+                        </seg> as I wrote it and I hope that I shall soon see it in print. <name type="person" key="poun85">Mr Pound</name> writes me that he hopes <seg xml:id="seg2" type="note-anchor">your firm</seg> will become an English <name type="work">
+                            <hi rend="underline">Mercure</hi> <hi rend="underline">de</hi> <hi rend="underline">France</hi>
+                        </name>. I hope so too and wish you every success.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1916-02-25">25/ii/916</date>
+                        </dateline> </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The firm of Richard Clay &amp; Sons had agreed to print <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> for Harriet Shaw Weaver. Within a few weeks, they backed out.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Following the end of <name type="work" key="ID_MISSING">The Egoist</name>’s serial publication of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, Weaver had intended to publish the complete book at her own expense under the imprint of The Egoist Ltd, but was thwarted by the reluctance of English printers who feared prosecution for the publication of a text that was considered obscene.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

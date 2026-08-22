@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68959">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Monday, 8 January 1923</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68959</idno>
+            <idno type="internal">68959</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_11">26 avenue Charles Floquet, Paris</placeName>
+               </address>
+               <date notBefore="1923-01-08" notAfter="1923-01-08">Monday, 8 January 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_11">Avenue Charles Floquet 26</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris VII</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <opener>
+                        <salute>Dear Miss Weaver:</salute>
+                    </opener> <p>I am very sorry indeed to hear that you have so much and so dangerous <seg xml:id="seg1" type="note-anchor">illness in the house</seg>. I hoped you would have had a peaceful time there, snowed up as I saw by the papers. I shall try to weary you as little as possible and hope the danger you spoke of is now past. <seg xml:id="seg2" type="note-anchor">My own insignificant operation</seg> is put off till the 16.– the first one. I shall send you <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="ID_MISSING">Miss Deutsch</name>’s article</seg> tomorrow. The only request I have to make is that whenever you have time you ask <name type="person" key="rodk94">Mr Rodker</name> to send a stamped press <rs type="work" key="W_ULYSSES">copy</rs> to:      	
+                            
+                            <p>
+                            <name type="person" key="gilb82">Mr Bernard Gilbert</name> (he is <seg xml:id="seg4" type="note-anchor">reviewing the book</seg> for the <hi rend="underline">Leeds Mercury</hi>)<lb/>      	
+                                c/o Authors’ Club<lb/>      	
+                                <name type="geo" key="ID_MISSING">2 Whitehall Court</name>
+                            <lb/>
+                                <name type="geo" key="G_GBR_LOND">London SW1</name>
+                        </p> 
+                            
+                            <p>I could write myself but for many reasons I prefer not to that is unless you tell me expressly that you prefer me to correspond directly with him.</p>
+                    </p>
+                    <closer>
+                        <salute>With every hope that things are now better with you and kindest regards</salute>      	<salute>sincerely yours</salute>      	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1923-01-08">8/1/923</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Harriet Shaw Weaver was at Castle Park, the family house in Frodsham, where “the Misses Wright” (as they are referred to on the envelope of this letter) lived, two unmarried aunts Harriet Elizabeth and Emily Priscilla Wright (sisters of Weaver’s mother, Mary Berry Wright). Aunt Emily died on 4 January 1923; Aunt Harriet in 1931 (Jane Lidderdale and Mary Nicholson, <name type="work">Dear Miss Weaver: Harriet Shaw Weaver 1876-1961</name> (New York: The Viking Press, 1970), 213-4; 308).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">As per New York endocrinologist Dr Louis Berman’s advice in July 1922 and Dr Borsch’s similar recommendation in October 1922, JJ would undergo complete dental extraction and a subsequent sphincterectomy in early 1923. With Dr Borsch’s consent, JJ ultimately postponed the operation. On 4 April 1923, six or seven of JJ’s decayed teeth were extracted, with the rest of them a few days later. After his seventeen tooth extractions, Borsch performed a sphincterectomy in three parts (April 3, 15, and 26) (<name type="work">JJ</name> 536-7; 543).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Babette Deutsch. "On Ulysses." Literary Review of the <name type="work">New York Evening Post</name>, (2 December 1922): 281.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ saw Gilbert, probably in mid-January and made notes from two of his novels. However, Gilbert did not review <rs type="work" key="W_ULYSSES">Ulysses</rs> until 1925 and not in the <name type="work" key="ID_MISSING">Leeds Mercury</name> but, very negatively, in Chesterton's <name type="work" key="ID_MISSING">G. K.’s Weekly</name> and <name type="work" key="ID_MISSING">The Double Dealer</name>. See Robbert-Jan Henkes, "Before King Roderick Became Publican in Chapelizod: The Origins of the Origins of Finnegans Wake." <name type="work" key="ID_MISSING">Genetic Joyce Studies</name>, 12 (Spring 2012).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68518">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 1 April 1919</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RC">RC</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68518</idno>
+            <idno type="internal">68518</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_09">Universitätsstrasse 29, Zurich</placeName>
+               </address>
+               <date notBefore="1919-04-01" notAfter="1919-04-01">Tuesday, 1 April 1919</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_09">Universitätsstrasse 29 III</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Thanks for your card just received. I am afraid <seg xml:id="seg1" type="note-anchor">this affair</seg> bores you. I intend to pursue the matter, so that I shall be obliged if you will send the documents to <seg xml:id="seg2" type="note-anchor">the persons I mentioned</seg>. I sent a set also to <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="devl71">Mr Devlin</name> MP</seg> c/o House of Commons. If I knew the name and address of <seg xml:id="seg4" type="note-anchor">
+                            <rs type="person" key="okel82">my parliamentary representative</rs>
+                        </seg> (<seg xml:id="seg5" type="note-anchor">my father</seg> is domiciled in College Green division) or even the number of his cell I would send them to him. If you have doubles of some of the documents and enough to make up an understandable collection might I ask you to send them to my father: <name type="person" key="joyc49">John Joyce</name> c/o <name type="person" key="lidw64">George Lidwell</name>, solicitor, Upper Ormond Quay, Dublin. These people are not so irremovable as you think. <name type="person" key="benn66">Mr Bennett</name> (if the rumours afloat here be correct) has just been summarily removed by the Foreign Office to a post in Panama (where the hats come from) in consequence of the protests of the Swiss legation in <name type="geo" key="G_GBR_LOND">London</name> against his behaviour here. Gone he is and <name type="person" key="carr94">Mr Carr</name> too. I <seg xml:id="seg6" type="note-anchor">saw them off</seg> the field<supplied reason="omitted">.</supplied> But I have by no means done yet. If I can find it I shall enclose a song which is very popular in Zurich drawingrooms. Against <seg xml:id="seg7" type="note-anchor">
+                            <name type="person" key="ID_MISSING">de Gourmont</name>’s remark</seg> may I quote the <seg xml:id="seg8" type="note-anchor">homely proverb</seg> concerning dogs and fleas? And, in excuse, may I explain the matter to you from another standpoint?</p>
+                    <p>When <seg xml:id="seg9" type="note-anchor">that grant</seg> was made to me (I may say that it did not deserve all the talk made about it nor did it compensate me at all for the ten years of worry I had been put to) I understood from <name type="person" key="goss49">Mr Gosse</name>’s suggestion that I should write newspaper articles and from its non-renewal (a gift of £100 once in his life to a writer may perhaps be useful, at present prices, for a few months but no more) that it had been made to me with another intention. I am now satisfied that I have done much more than I was paid for and in a manner consonant to my own dignity. In no other country would a writer who can point to <seg xml:id="seg10" type="note-anchor">such a press</seg> be, as I am, a beggar living on charity. The shame is not mine, however. And the friendly interest and encouragement of a score of men of letters (for which I am most grateful) does not counterbalance the hostile opposition of the <add place="above">most</add> ignorant and cowardly rabble in the world. I have beaten them to their knees twice before and will do so again.</p>
+                    <p>Please thank <name type="person" key="rodk94">Mr Rodker</name> and his friends for their <seg xml:id="seg11" type="note-anchor">interesting articles</seg>, and send me <seg xml:id="seg12" type="note-anchor">the February number</seg> if you have it. With this I send you a <seg xml:id="seg13" type="note-anchor">review</seg> of the <hi rend="underline">Neue</hi> <hi rend="underline">Zürcher</hi> <hi rend="underline">Zeitung</hi>. The translation of <hi rend="underline">Exiles</hi> (<hi rend="underline">Verbannte</hi>) was <seg xml:id="seg14" type="note-anchor">published this morning</seg>. <name type="person" key="lina78">Mr Linati</name> wants to <seg xml:id="seg15" type="note-anchor">translate</seg> it into Italian.</p>
+                    <p>We are kneedeep in snow here. Will you please let me know how the affair gets on?</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <salute>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </salute>
+                        <dateline>
+                            <date when="1919-04-01">All Fools’ Day 1919</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>JJ had been embroiled in legal proceedings after a British consular official in Zurich, Henry Wilfred Carr (1894-1962) – who had performed in an <name type="person" key="ID_MISSING">Oscar Wilde</name> play put on by the Zurich acting troupe, <name type="organisation" key="O_ENGLISHPLAYERS">the English Players</name>, of which JJ was co-founder and business manager – loudly insulted and threatened JJ in <name type="organisation" key="ID_MISSING">the British Consulate</name> in May 1918 over a minor dispute about money owed for tickets to a performance. JJ sued Carr in the cantonal court for money owed, and Carr counterclaimed for salary and expenses. JJ initially won a judgment (<name type="work" key="ID_MISSING">LII</name> 421-23), but then unsuccessfully pursued Carr for additional damages for slander, and was ordered to pay court costs, which he refused to do. JJ sought help from British Acting Consul-General, Andrew Percy Bennett (1866-1943), and from <name type="person" key="rumb69">Sir Horace Rumbold</name> (1869-1941), the British Minister in Berne, but without success. He came to believe that Rumbold and Bennett were instigating boycotts of the English Players’ performances, and he wrote a statement, dated 28 April 1919, setting forth the history of perceived outrages (<name type="work" key="ID_MISSING">LII</name> 438-40).</p>          	<p>JJ asked Pound and others, including his London literary agent <name type="person" key="pink62">J.B. Pinker</name>, to circulate the statement and other documents to influential persons (<name type="work" key="ID_MISSING">LII</name> 440-41), but Pinker cautioned that the statement might trigger libel proceedings. JJ could not see why he should not make known “such gross and dense abuse of public trust” (<name type="work" key="ID_MISSING">LII</name> 442). He had more success with his <name type="geo" key="G_USA_NEWY">New York</name> publisher <name type="person" key="hueb76">B.W. Huebsch</name>, who showed the statement to several persons in the United States, and with <name type="person" key="colu81">Padraic Colum</name> (1881-1972), who was now in America. Informed by Colum of JJ’s predicament, <name type="person" key="thay89">Scofield Thayer</name> (1889-1982) – a wealthy financer of the New York magazine <name type="work" key="W_DIAL">The Dial</name> – contributed $700 to JJ’s cause, and Thayer’s friend, <name type="person" key="ID_MISSING">James Sibley Watson, Jr.</name> (1894-1982), gave another $300 (<name type="work" key="ID_MISSING">LI</name> 124-25; Ellmann, <name type="work" key="ID_MISSING">JJ</name> 457-58). For an excellent account of the litigation, which finds that JJ’s legal position was stronger than had previously been thought, see Judge Conrad L. Rushing, “The English Players Incident: What Really Happened?” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 37, no. 3/4 (Spring-Summer 2000): 371-88. For a discussion of the activities of the English Players, based on previously unexamined archival sources, see William Brockman and Sabrina Alonso, “Exit Carr,” <name type="work" key="ID_MISSING">James Joyce Online Notes</name> no. 15 (December 2019) (http://www.jjon.org/joyce-s-environs/players).</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">On JJ’s behalf, Pound contacted <name type="person" key="well66">H.G. Wells</name> (1866-1946) and <name type="person" key="ID_MISSING">Augustine Birrell</name> (1850-1933), author, barrister, and former Chief Secretary for Ireland (<name type="work" key="ID_MISSING">Pound/Joyce</name> 153-55). He also wrote Rumbold on 11 April 1919 to caution that “you can find no surer means of making a few converts to Bolshevism or to the more violent revolutionary factions than by continuing or permitting to continue the persecution of James Joyce by the Zurich officials within the sphere of your influence” (<name type="work" key="ID_MISSING">LII</name> 437). If the fear of revolution was not enough, Pound added that he might have to launch a “publicity campaign” on behalf of JJ, who “is doing in [<name type="work" key="W_ULYSSES">Ulysses</name>] what <name type="person" key="ID_MISSING">Flaubert</name> attempted but did not quite bring off in ‘Bouvard and Pecuchet’” (<name type="work" key="ID_MISSING">LII</name> 438). These dire prospects did not stir Rumbold. Pound continued to try to assist JJ, but he felt hobbled by the lack of “a clear statement of MAIN facts,” as he wrote JJ circa 1 May 1919. “FER Chrrisst’s sake realize that you have given me no ‘case’ to present” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 153).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Joseph Devlin (1871–1934) was an influential member of the Irish Parliamentary Party in the British House of Commons, and later a Nationalist Party MP in the Parliament of Northern Ireland.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">The Member of Parliament for College Green Division, Dublin, in 1919 was <name type="person" key="ID_MISSING">Seán Thomas O’Kelly</name>. He had been returned in the 1918 United Kingdom general election that saw the Irish Parliamentary Party routed and a landslide victory for Sinn Féin. O’Kelly served as Ceann Comhairle of the First Dáil.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">John Stanislaus Joyce (1849-1931) was the father of JJ and nine other surviving children with his wife, <name type="person" key="joyc59">Mary Jane Murray</name>. He grew up in Cork and later moved to Dublin, where he held a number of jobs and was awarded the post of Collector of Rates for his political work on behalf of candidates in the general election of 1880. An ardent supporter of <name type="person" key="ID_MISSING">Charles Stewart Parnell</name>, his personality, humor, and persiflage strongly influenced JJ, who employed him as a model for Stephen Dedalus’s father, Simon, in <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> and <name type="work" key="W_ULYSSES">Ulysses</name>.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Bennett had been transferred to a post in Panama, at a higher rank, and not because of the JJ affair. Carr had left <name type="geo" key="G_CHE">Switzerland</name>. The official whom JJ called “Sir Whorearse Rumphole” soon became ambassador to Poland (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 458). JJ administered literary punishments by making Carr one of the two English soldiers who menace and assault Stephen Dedalus in the brothel district in the “Circe” episode of <name type="work" key="W_ULYSSES">Ulysses</name>, and Bennett their sergeant-major. Rumbold he cast as a “Master Barber” whose semi-literate letter offering his services as a hangman to the sheriff of Dublin is read out, to the contempt and ridicule of the pub drinkers, in the “Cyclops” episode (<name type="work" key="W_ULYSSES">U</name> 12.412-42).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">It is uncertain what remark Pound quoted from Remy de Gourmont (1858-1915), French Symbolist poet, novelist, and critic. The “card” JJ had “just received” from Pound has not come to light. Pound had recently published a “Remy de Gourmont Number” of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, nos. 10-11 (February-March 1919), with essays by himself, <name type="person" key="ID_MISSING">Frederic Manning</name>, <name type="person" key="rodk94">John Rodker</name>, <name type="person" key="aldi92">Richard Aldington</name>, and others. The issue also contained the concluding portion of the “Lestrygonians” episode of JJ’s <name type="work" key="W_ULYSSES">Ulysses</name> (58-62).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">“He that lieth down with dogs, shall rise up with fleas” (Benjamin Franklin, <name type="work" key="ID_MISSING">Poor Richard’s Almanack</name> [Mount Vernon, VA: Peter Pauper Press, 1936], 11).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Authors W.B. Yeats (1869-1939) and Edmund Gosse (1849-1928) had been instrumental in 1915 in obtaining for JJ a subsistence grant of £75 from the Royal Literary Fund (see <rs type="letter" key="L_68232">JJ to Pound, 14 July 1915</rs>, notes). In August 1916, with help from Pound, Yeats, and others, JJ also obtained a grant of £100 from the British Civil List (see <rs type="letter" key="L_68317">JJ to Pound, 14 September 1916</rs>, notes; Ellmann, <name type="work" key="ID_MISSING">JJ</name> 390-93, 405-06). At the time of the subsistence grant, Gosse was displeased that JJ had given no statement of loyalty to the Allies in the war. Gosse apparently hinted later that the grant from the Civil List implied some obligation, perhaps to be available for military service. One of JJ’s reasons for founding the English Players was to demonstrate patriotism in a bloodless fashion (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 423).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">JJ’s novel <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> – published as a book in the United States in December 1916 and in England in February 1917 – received favorable reviews from a number of noted writers and critics (see <rs type="letter" key="L_68352">JJ to Pound, 30 March 1917</rs>, notes).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">
+                    <name type="work" key="ID_MISSING">The Little Review</name>, vol. 5, no. 9 (January 1919) contained a symposium called “‘Exiles’: A Discussion,” with contributions by John Rodker, Israel Solon, Samuel A. Tannenbaum, M.D., and “jh” (Jane Heap, co-editor of <name type="work" key="W_THELITTLE">The Little Review</name>) (20-27). Rodker (1894-1955), an English writer, poet, and publisher of modernist authors, observed of <name type="work" key="W_EXILES">Exiles</name>: “The play is very romantic, poetical in a manner rare among plays…. It was no small achievement of Mr. Joyce to have made dramatic such very pure cerebration, and that with a touch so delicate that no most intricate part of the mechanism has suffered by the inquisition” (21). The issue also contained the opening portion of the “Lestrygonians” episode of <name type="work" key="W_ULYSSES">Ulysses</name> (27-50). Rodker, who succeeded Pound as London editor of <name type="work" key="W_THELITTLE">The Little Review</name>, later assisted Harriet Shaw Weaver with her Egoist Press edition of <name type="work" key="W_ULYSSES">Ulysses</name> (1922) by renting a room in Paris from which he distributed copies to purchasers (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 505-06 n.).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">For the February-March 1919 number of <name type="work" key="W_THELITTLE">The Little Review</name>, see note 7 above.</note>
+                <note xml:id="note13" target="#seg13" type="commentary">The clipping JJ included with this letter was probably “Ein englisches Drama,” a review of <name type="work" key="ID_MISSING">Verbannte</name> in the <name type="work" key="ID_MISSING">Neue Zürcher Zeitung</name> for 31 March 1919. Several years before it was performed in English, <name type="work" key="W_EXILES">Exiles</name> was premiered in German on 7 August 1919 in Munich.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">JJ’s <name type="work" key="W_EXILES">Exiles</name> was published in English by Grant Richards in London and by B.W. Huebsch in New York in May 1918. The play was translated into German by Hannah von Mettal as <name type="work" key="ID_MISSING">Verbannte: Schauspiel in drei Akten</name> (Zurich: Rascher &amp; Cie, 1919). Slocum and Cahoon state that <name type="work" key="ID_MISSING">Verbannte</name> was “[p]ublished in March 1919 in an edition of 600 copies, at the expense of the author” (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 115). JJ says here, however, that it was published on 1 April 1919.</note>
+                <note xml:id="note15" target="#seg15" type="commentary">Carlo Linati (1878–1949), Italian writer and translator of English fiction, translated <name type="work" key="W_EXILES">Exiles</name> into Italian as <name type="work" key="ID_MISSING">Esuli</name> and published it in <name type="work" key="ID_MISSING">Il Convegno</name>, vol. 1, nos. 3-5 (April, May, June 1920): 27-52, 27-46, 22–37.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

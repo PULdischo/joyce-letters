@@ -1,0 +1,113 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69574">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Claud Sykes. Sunday, 1 January 1928</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69574</idno>
+            <idno type="internal">69574</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1928-01-01" notAfter="1928-01-01">Sunday, 1 January 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="syke83">
+                        <forename>Claud Walter</forename> <surname>Sykes</surname>
+                    </persName>
+               <persName type="full" key="syke83">Claud Sykes</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_69574_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Best wishes for 1928. I have had a bad breakdown from worry and overwork. Did those slowcoaches in <name type="geo" key="G_DEU_STUT">Stuttgart</name> not send <rs type="person" key="syke83">you</rs> <seg xml:id="seg1" type="note-anchor">
+                            <rs type="work" key="W_ULYSSES">your copy</rs>
+                        </seg> yet? If so, please <foreign xml:lang="fra">
+                            <hi rend="underline">réclamez</hi>
+                        </foreign> from <name type="person" key="goll91">M. Ivan Goll</name>, <name type="geo" key="G_FRA_PARI_39">27 rue Jasmin, Passy, Paris.</name> He is their agent.</p> <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1928-01-01">1.1.28</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>  <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Joyce had requested that a copy of Georg Goyert’s German translation of <name type="work" key="W_ULYSSES">Ulysses</name>, published in October 1927 be sent from the publisher, Rhein Verlag (with an office in Stuttgart), to Sykes – see JJ’s postcards to Sykes of <rs type="letter" key="L_69554">23 November 1927</rs> and 29 November (<name type="work" key="ID_MISSING">LIII</name> 167, misdated as 19 November).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

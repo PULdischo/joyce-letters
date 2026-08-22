@@ -1,0 +1,48 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gied93">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carola Giedion-Welcker</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>gied93</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">59192946</idno>
+            <idno type="OCLC">lccn-n50033431</idno>
+            <persName type="reg">
+               <forename>Carola</forename> <surname>Giedion-Welcker</surname>
+            </persName>
+            <persName type="full">Carola Giedion-Welcker</persName>
+            <date type="birth" when="1893-04-25"/>
+            <date type="death" when="1979-02-21"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Art historian and collector. Born in Cologne, she studied art history in Munich and Bonn. With her marriage to <name type="person" key="sieg88">Sigfried Giedion</name>, their house in Zurich’s Doldertal became a gathering place for a range of modern painters and sculptors whose work she promoted. These included Arp, Täuber-Arp, Brancusi, Giacometti, Klee, Ernst, Kandinsky, Mondrian; the couple developed a substantial collection of art works, based largely on gifts to them. Her first book, <name type="work" key="ID_MISSING">Moderne Plastik, Elemente der Wirklichkeit, Masse und Auflockerung</name> (1937), was a pioneering work in the study of modern sculpture.</p>
+                <p>Giedion-Welcker’s enthusiastic article on <name type="work" key="W_ULYSSES">Ulysses</name> in the <name type="work" key="ID_MISSING">Neue Schweizer Rundschau</name> (1928) led to her meeting James and <name type="person" key="barn84">Nora Joyce</name>, via <name type="person" key="beac87">Sylvia Beach</name>, in Paris in the spring of 1928. Her article in the same journal the following year promoted “Work in Progress” and was translated and published in the journal <name type="work" key="ID_MISSING">transition</name>. She was instrumental in bringing JJ to Zurich for consultation with ophthalmologist <name type="person" key="vogt79">Alfred Vogt</name> in 1930, after which the Joyces visited Zurich a number of times through the decade. Her photographs of JJ at Zurich’s Platzspitz remain some of the most well-known images of him. While JJ lived in Paris the two corresponded frequently, and Giedion-Welcker provided assistance and solace during the family’s difficult times with <name type="person" key="joyc07">Lucia Joyce</name>’s mental instability. Her friendship with the Joyces proved to be critically important during the last months of 1940, when with <name type="person" key="rugg87">Paul Ruggiero</name>, Carola Giedion-Welcker was a key figure in enabling the Joyce family to enter Switzerland during the German occupation of France.</p>
+                <p>Giedion-Welcker was one of JJ’s main promoters in the years after his death, editing the collection <name type="work" key="ID_MISSING">In Memoriam James Joyce</name> (1941), and publishing articles about JJ in German and English in the 1940s and 1950s, an introduction to the German translation of <name type="work" key="W_ULYSSES">Ulysses</name> (1956), and the final chapter of the German translation of <name type="person" key="gorm93">Herbert Gorman</name>’s <name type="work" key="ID_MISSING">James Joyce</name> (1957). She continued an active involvement as a critic of modern art, with numerous articles in prominent journals. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

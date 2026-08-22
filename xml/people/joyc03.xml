@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="joyc03">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Michael Joyce</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>joyc03</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">79686339</idno>
+            <idno type="OCLC">lccn-no2002076526</idno>
+            <persName type="reg">
+               <forename>Michael</forename> <surname>Joyce</surname>
+            </persName>
+            <persName type="full">Michael Joyce</persName>
+            <date type="birth" when="1903-07-10"/>
+            <date type="death" when="1977-03-15"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Writer and official at the Bank of England. Born in Saltburn, Yorkshire, Michael Joyce went to sea for four years with the merchant navy from 1919. On his return he worked as an official at the Bank of England (where he remained for many years) in London. In 1927, he married the daughter of the publisher of the <name type="work" key="ID_MISSING">Athenaeum</name>. He contributed to literary periodicals from 1929, and a translation of his story ‘Perchance to Dream’ appeared in the <name type="work" key="ID_MISSING">Frankfurter Zeitung</name> in 1931 bylined to James Joyce. Incensed, JJ threatened the newspaper with litigation. Michael Joyce subsequently published popular histories such as <name type="work" key="ID_MISSING">Ordeal at Lucknow</name> (1938) and biographies of <name type="work" key="ID_MISSING">Edward Gibbon</name> (1953) and <name type="work" key="ID_MISSING">Samuel Johnson</name> (1955) among others as well as the supernatural tale <name type="work" key="ID_MISSING">Peregrine Pieram</name> (1936). His 1935 translation of Plato’s <name type="work" key="ID_MISSING">Symposium</name> was for many years reprinted in the Everyman’s Library. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

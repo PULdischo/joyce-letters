@@ -1,0 +1,127 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69329">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Thursday, 24 December 1925</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69329</idno>
+            <idno type="internal">69329</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                            <handNote xml:id="joyc07">Lucia Joyce</handNote>
+                            <handNote xml:id="joyc05">Giorgio Joyce</handNote>
+                            <handNote xml:id="barn84">Nora Barnacle</handNote>
+                        </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1925-12-24" notAfter="1925-12-24">Thursday, 24 December 1925</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_69329_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p hand="#joyc07">Best Xmas wishes 1925</p>
+                    <closer>
+                        <signed hand="#joyc07">
+                            <name type="person" key="joyc07">Lucia Joyce</name>
+                        </signed>
+                        <signed hand="#joyc05">
+                            <name type="person" key="joyc05">George</name>
+                        </signed>
+                        <signed hand="#barn84">
+                            <name type="person" key="barn84">Nora</name>
+                        </signed>
+                        <signed>
+                            <seg xml:id="seg1" type="note-anchor">
+                                <name type="person" key="joyc82">James Joyce</name>
+                            </seg>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">This postcard, in the hand of JJ’s daughter Lucia (1907-1982), is misaddressed to “Mr. &amp; Mrs. Ezra Pound / 28 via Marsala / Rapallo / (Italie).” The Pounds’ actual address was 12 via Marsala (see <rs type="letter" key="L_69203">JJ to Pound, 31 December 1924</rs>, notes). The other side of the card shows a photograph of a clay sculpture of three men and a boy adoring the infant Jesus in his manger, attended by Mary, Joseph, and various animals. The image is titled “Bethléem,” and at top right there is a printed greeting, “Joyeux Noël.” The sculpture may depict the Adoration of the Shepherds, from the account in the Gospel of Luke: “And it came to pass … the shepherds said one to another, Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us. And they came with haste, and found Mary, and Joseph, and the babe lying in a manger” (2:15-16 [KJV]). The sculpture was the work of the Italian artist Domenico Mastroianni (1876-1962), who lived in Paris and produced clay sculptures of many scenes from the Bible (see <name type="work" key="ID_MISSING">The Pictorial Life of Christ</name>, with 80 reproductions from plastic models by D. Mastroianni [New York: Dodd, Mead, 1913]). This photo-sculpture was copyrighted in 1911 by Alfred Noyer, a well-known photographer who had a large studio in Paris circa 1910-1940s and produced popular postcard images in many genres.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">The address and Christmas greetings are written in blue ink in the hand of JJ and Nora Barnacle’s daughter Lucia, who signed her name. The names of their son George (or Giorgio) (1905-1976) and of Nora (1884-1951) are signed by them in blue ink also. JJ’s signature is in black ink.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

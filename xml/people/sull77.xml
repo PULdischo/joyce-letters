@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sull77">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John O’Sullivan</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>sull77</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">29177350</idno>
+            <idno type="OCLC">lccn-no2001023655</idno>
+            <persName type="reg">
+               <forename>John</forename> <surname>Sullivan</surname>
+            </persName>
+            <persName type="full">John O’Sullivan</persName>
+            <date type="birth" when="1877-10-27"/>
+            <date type="death" when="1955-04-28"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Celebrated Irish operatic tenor. Born in Cork, he studied music in Paris. He spent much of his early career in France and the first World War years with numerous performances at the Opéra de Paris, when he began shortening his surname to “Sullivan”. In 1918 and 1919 he performed in Chicago and New York, and in the 1920s toured Europe and South America. Though he sang a wide number of roles, he achieved particular fame for his skill as Arnold in Rossini’s <name type="work" key="ID_MISSING">Guillaume Tell</name>, a demanding role requiring a strenuously high vocal range. JJ met Sullivan in Paris in 1929 and for the next few years was a fervent and sometimes strident promoter of his performances. JJ’s “From a Banned Writer to a Banned Singer” (<name type="work" key="ID_MISSING">New Statesman and Nation</name> n.s. 3, no. 53 [7 February 1932], 260-61), is a piece of advocacy for Sullivan written in the style of <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

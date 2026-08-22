@@ -1,0 +1,133 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70147">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. ca. 1-31 March 1932</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70147</idno>
+            <idno type="internal">70147</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TLS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Harry Ransom Center, University of Texas at Austin</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1932-03-01" notAfter="1932-03-31">ca. 1-31 March 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>By way of litterary  immorality I received <choice>
+                            <sic>to day</sic>
+                            <corr>today</corr>
+                        </choice> a copy of <seg xml:id="seg1" type="note-anchor">a paper CONTEMPO</seg> which prints your name as <seg xml:id="seg2" type="note-anchor">one of its editors</seg>. A contributor to the number is <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="roth93">Samuel ROTH</name>
+                        </seg>, whose contribution apparently has been asked for and welcomed. How can you possibly allow <seg xml:id="seg4" type="note-anchor">an honorable name like yours</seg> to be used as a shield for such a rascal?  I consider it monstrous that he should be offered the hospitality of any litterary paper.  I hope you <choice>
+                            <sic>to do</sic>
+                            <corr>do too</corr>
+                        </choice> and that you will <seg xml:id="seg5" type="note-anchor">take some action</seg> in the matter.</p>
+                    <closer>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                    <postscript>
+                        <p>
+                            <seg xml:id="seg6" type="note-anchor">that wriggleature means</seg>
+                        </p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>
+                        <name type="work" key="ID_MISSING">Contempo: A Review of Books and Personalities</name> was a little magazine founded in Chapel Hill, North Carolina, by <name type="person" key="ID_MISSING">Milton Avant Abernethy</name> (1911-1991) and <name type="person" key="ID_MISSING">Anthony Buttitta</name> (1907-2004), students at the University of North Carolina at Chapel Hill. <name type="work" key="ID_MISSING">Contempo</name>, selling for ten cents a copy, ran from 1931 to 1934, and was operated in conjunction with the Intimate Bookshop, originally housed in a dormitory room. The semi-monthly magazine, usually only a few pages in length and printed in three-column broadsheet format, engaged with political and social issues of the day, notably racism, censorship, socialism and communism, and the Prohibition, and included poems and articles by many writers. For example, <name type="person" key="hugh01">Langston Hughes</name>, <name type="person" key="dosp96">John Dos Passos</name>, <name type="person" key="drei71">Theodore Dreiser</name>, and <name type="person" key="stef66">Lincoln Steffens</name> all contributed poetry or commentary on the Scottsboro case, an Alabama criminal prosecution in which racial injustice helped convict nine young African-Americans accused of raping white women.</p>
+                    <p>
+                        <name type="work" key="ID_MISSING">Contempo</name> published a remarkable range of important and emerging modern writers during its short life. Special issues were devoted to William Faulkner, George Bernard Shaw, and other writers and topics. A “James Joyce Issue,” edited by Stuart Gilbert, contained a fragment from JJ’s “Work in Progress” (later published as <name type="work" key="ID_MISSING">FW</name> 7-10); Gilbert’s “We’ll to the Woods No More,” a discussion of the influence of Édouard Dujardin’s <name type="work" key="ID_MISSING">Les Lauriers sont coupés</name> on JJ’s use of interior monologue in <name type="work" key="W_ULYSSES">Ulysses</name>; and Bennett Cerf’s “Publishing Ulysses,” an account of the federal obscenity litigation that paved the way for Random House’s publication of the first authorized edition of <name type="work" key="W_ULYSSES">Ulysses</name> in the United States (<name type="work" key="ID_MISSING">Contempo</name>, vol. 3, no. 13 [15 February 1934]). (For overviews of <name type="work" key="ID_MISSING">Contempo</name>, see Clare Colquitt, “‘Contempo’ Magazine: Asylum for Aggrieved Authors,” <name type="work" key="ID_MISSING">Library Chronicle of the University of Texas at Austin</name>, n.s., no. 27 [1984]: 19-45; Bryan Edward Stone, “‘Not to Damn But to Fructify’: Ezra Pound and ‘Contempo,’” <name type="work" key="ID_MISSING">Library Chronicle of the University of Texas at Austin</name>, vol. 25, no. 3 [1995]: 111-31; Richard J. Gerber, “<name type="work" key="W_ULYSSES">Ulysses</name> Arrives in the United States: A Perspective from Eighty Years Ago,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 51, no. 1 (Fall 2013): 163-67; and Suzanne W. Churchill, “‘Mammy of the South / Silence Your Mouth’: The Silencing of Race Radicalism in <name type="work" key="ID_MISSING">Contempo</name> Magazine,” <name type="work" key="ID_MISSING">Modernism/modernity</name>, vol. 1, cycle 1 [2 March 2016], https://modernismmodernity.org/articles/silencing-race-radicalism.)</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">In addition to Pound, <name type="work" key="ID_MISSING">Contempo</name>’s contributing editors included, in March 1932, Louis Adamic, Barrett H. Clark, William Faulkner, Langston Hughes, and Lewis Mumford. Pound, who carried on a lively correspondence with the editors, asked in December 1932 that his name be removed as contributing editor since he had no control over the magazine’s policy. “There always has been a great deal in Contempo that I do not stand for, and if it is to pay its way, there will probably be more. So please leave my name OFF the list of edtrs.” (quoted in Colquitt, 23). Even so, he contributed several letters and articles to <name type="work" key="ID_MISSING">Contempo</name> between 1931 and 1933, including a lengthy piece on contemporary economics, “The Depression Has Just Begun,” in <name type="work" key="ID_MISSING">Contempo</name>, vol. 1., no. 16 (15 January 1932): 1, 4.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <p>Samuel Roth (1893-1974), New York writer, magazine editor, literary pirate, and pornographer, earned JJ’s undying enmity by publishing an unauthorized and expurgated serialization of <name type="work" key="W_ULYSSES">Ulysses</name> in his magazine <name type="work" key="ID_MISSING">Two Worlds Monthly</name>, beginning in July 1926. Roth also reprinted (mostly) unauthorized portions of JJ’s “Work in Progress” in the companion journal, <name type="work" key="ID_MISSING">Two Worlds</name>. The fact that JJ’s writings lacked copyright protection in the United States did not mitigate his fury, and he sued Roth in the New York courts in 1927 for unlawfully using his name for commercial purposes (for fuller accounts, see <rs type="letter" key="L_69405">JJ to Pound, 16 November 1926</rs>, notes; <rs type="letter" key="L_71422">28 March 1928</rs>, notes).</p>
+                    <p>JJ’s wrath was rekindled when he saw that <name type="work" key="ID_MISSING">Contempo</name>, vol. 1, no. 19 (1 March 1932), had published a comment by Samuel Roth as part of a cluster of responses to a controversial review of Frank Harris’s “unauthorized” biography of George Bernard Shaw (New York: Simon and Schuster, 1931). Believing that Roth should be given no hospitality in the world of respectable letters, JJ was upset to see that Pound was associated with <name type="work" key="ID_MISSING">Contempo</name> as a contributing editor (Jay A. Gertzman, “Not Quite Honest: Samuel Roth’s ‘Unauthorized’ <name type="work" key="W_ULYSSES">Ulysses</name> and the 1927 International Protest,” <name type="work" key="ID_MISSING">Joyce Studies Annual 2009</name>, ed. Philip Sicker and Moshe Gold [New York: Fordham University Press, 2009]: 46, 64 n.52). There was nothing to suggest that Pound had any role in picking Roth or the other contributors to the Harris symposium, but JJ was in no mood for any parsing of editorial roles.</p>
+                    <p>The issue of <name type="work" key="ID_MISSING">Contempo</name> that infuriated JJ centered on a feud over Harris’s biography of Shaw. Shaw’s authorized biographer, <name type="person" key="ID_MISSING">Archibald Henderson</name> (1877-1963) – an American professor of mathematics at University of North Carolina at Chapel Hill – disliked Harris’s book for a number of reasons, and had published a scathing review, “Harris’s Assembled Pseudo-Biography of Shaw,” in <name type="work" key="ID_MISSING">Contempo</name>, vol. 1, no. 16 (15 January 1932): 1, 4. Henderson gave no quarter to Harris (1855-1931), the Irish-American editor, writer, biographer, and journalist who had recently died in Nice without seeing the biography fully through the press. (Shaw himself read the proofs, added and corrected material, and wrote a moving postscript to a book that he had refused to authorize, threatened with legal action, and in the end heartily endorsed as an impressionistic portrait of himself.) Henderson in his review attacked Harris’s biography as a “botch – part authentic, part surmise, part innuendo, and part cheap and half-baked comment” (1), but he especially resented what he regarded as uncredited borrowings from his own writings on Shaw. With the pedantic thoroughness of a wounded mathematics professor, Henderson tabulated 113 such borrowings, and leveled charges of “depredations,” “dexterous filchings,” “furtive predilections,” pilfering,” and “wholesale appropriation.” Harris’s book was, he summed up, nothing but a “sneak-thief cache” (4).</p>
+                    <p>The editors of <name type="work" key="ID_MISSING">Contempo</name> – former students of the university that employed Henderson – gathered a dozen responses to the professor’s vitriolic review and published them in <name type="work" key="ID_MISSING">Contempo</name> for 1 March 1932. Most of the respondents were, in one way or another, contemptuous of Henderson and his biography, and each responded according to his nature. The American writer Upton Sinclair (1878-1968) philosophized, “If Shaw himself could take it with a smile, so should we” (1). <name type="person" key="ID_MISSING">George Sylvester Viereck</name> (1884-1962), the German-American author and propagandist who had figured plagiarism as a kind of vampirism in his novel <name type="work" key="ID_MISSING">The House of the Vampire</name> (1907), thought Harris “a great biographer, even if he imparted much of his own personality to every book he wrote” (1). <name type="person" key="ID_MISSING">Lord Alfred Douglas</name> (1870-1945), poet, former lover of Oscar Wilde, convert to Roman Catholicism, and injustice collector, wrote, with off-topic malice: “Harris’s death really removed the last of my enemies. I cannot pretend to feel any regret at the old ruffian’s departure. But I had mass said for him at the Catholic Church here” (2).</p>
+                    <p>Samuel Roth’s presence among these reviewers of the reviewer was appropriate. He was temperamentally if not chronologically at home in the Wildean, fin-de-siècle ambience of Douglas and Viereck; and he had published a splashy biography of his own, <name type="work" key="ID_MISSING">The Private Life of Frank Harris</name>, under his imprint, William Faro, Inc., in November 1931. His contribution was a witty devastation of Henderson, that “dull Boswell” whose appointment as official biographer was one of Shaw’s “more impractical jokes on the world” (2). Harris’s portrait of Shaw, Roth wrote, was, if not biography, “rather excellent journalism,” far removed from “the inhibitional stupidities observed by Prof. Henderson in his several published works” (ibid.). Certain biographical sketches produced by Harris would outlive, declared Roth with typical bravado, “some of the best of Mr. Shaw’s plays.” And Harris’s biography of Oscar Wilde was a book that “must continue to be read as long as English remains a living language” (4).</p>
+                </note> <note xml:id="note4" target="#seg4" type="commentary">In questioning Pound’s honor for allowing himself to be associated, even indirectly, with Samuel Roth, JJ was still smarting from a recent attack by Pound on JJ’s own morality. In a letter dated 15 February 1932, Pound had replied irritably to JJ’s complaints about unremunerative Italian translations of his writings by charging: “No Irishman has any morals” (see Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 564-65; <rs type="letter" key="L_70101">JJ to Pound, 29 February 1932</rs>, notes). Pound seemed to feel that JJ’s insistence on being paid for everything he wrote was materialistic and mercenary. In the present letter, JJ turns the attack back on Pound – hence his opening line: “By way of litterary [<hi rend="italic">sic</hi>] immorality.”</note>
+                <note xml:id="note5" target="#seg5" type="commentary">
+                    <p>Pound did take some action. He used JJ’s present letter to type an undated message to the <name type="work" key="ID_MISSING">Contempo</name> editors: “Mr. Joyce is quite right. You do yrselves no good by admitting thieves and sharpers. … [T]here are enough younger american authors who have not swindled well known european authors. You are prob. too young to know Roth’s past. … I suggest you send apologies direct to Joyce. … I have forgotten the circs/ but think [Roth] not only pirated, but also swindled. ANYHOW I can’t be bothered.” (The original of this combined letter is in the <name type="work" key="ID_MISSING">Contempo</name> Collection, Harry Ransom Humanities Research Center, University of Texas at Austin; a photocopy is in the Samuel Roth Papers, Rare Book and Manuscript Library, Butler Library, Columbia University.)</p>
+                    <p>Roth defended himself to <name type="work" key="ID_MISSING">Contempo</name> editor Milton Abernethy in tones that veered characteristically from weary martyrdom to sly vindictiveness: “[Y]ou mustn’t believe that people always wrote of me the terrible things they do now,” he whimpered on 3 December 1931. “When I was holding nursing bottles to the dubious talents of Malcolm Cowley, William Rose Benet, and the other boys who now abuse me so roundly, the newspapers had only the very nicest things to say about me. You should see my scrapbooks of 1917, 1918 and 1919. Could I have been the same sinful Samuel Roth?” (Samuel Roth Papers, Rare Book and Manuscript Library, Butler Library, Columbia University; see also Robert Spoo, <name type="work" key="ID_MISSING">Without Copyrights: Piracy, Publishing, and the Public Domain</name> [New York: Oxford University Press], 235, 318-19 nn.10-12).</p>
+                </note>
+                <note xml:id="note6" target="#seg6" type="commentary">A line connects this phrase to Joyce’s scrawled signature.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

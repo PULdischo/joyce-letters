@@ -1,0 +1,123 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68503">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 1 December 1918</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68503</idno>
+            <idno type="internal">68503</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_09">Universitsstsstrasse 29, Zurich</placeName>
+               </address>
+               <date notBefore="1918-12-01" notAfter="1918-12-01">Sunday, 1 December 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_68503_01.jpg">
+            <desc>
+                <caption>Extracts from Continental Press Notices of A Portrait as a Young Man. Division of Rare and Manuscript Collections, Cornell University Library.</caption>
+            </desc>
+        </graphic>
+        <graphic url="IMG_68503_02.jpg">
+            <desc>
+                <caption>Extracts from Continental Press Notices of A Portrait as a Young Man. Division of Rare and Manuscript Collections, Cornell University Library.</caption>
+            </desc>
+        </graphic>
+        <graphic url="IMG_68503_03.jpg">
+            <desc>
+                <caption>Extracts from Continental Press Notices of A Portrait as a Young Man. Division of Rare and Manuscript Collections, Cornell University Library.</caption>
+            </desc>
+        </graphic>
+        <graphic url="IMG_68503_04.jpg">
+            <desc>
+                <caption>Extracts from Continental Press Notices of A Portrait as a Young Man. Division of Rare and Manuscript Collections, Cornell University Library.</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <gap reason="published in LI 122"/>
+                    <p/>
+                    <postscript>
+                        <p>
+                            <label>P.S. </label>The copies of the <seg xml:id="seg1" type="note-anchor">continental notices</seg> will follow when I have added <name type="person" key="benc74">Mr Benco</name>’s criticism.</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <name type="work" key="ID_MISSING">Extracts from Continental Press Notices of A Portrait of the Artist as a Young Man by James Joyce</name> (1918). See section “Images” for a reproduction.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

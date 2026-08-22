@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_69047">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Sunday, 23 December 1923</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_69047</idno>
+            <idno type="internal">69047</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>James Joyce Tower and Museum</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                            <handNote xml:id="joyc07">Lucia Joyce</handNote>
+                            <handNote xml:id="barn84">Nora Barnacle</handNote>
+                            <handNote xml:id="joyc05">Giorgio Joyce</handNote>
+                        </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1923-12-23" notAfter="1923-12-23">Sunday, 23 December 1923</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_69047_01.jpg">
+            <desc>
+                <caption>James Joyce Tower and Museum</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p/>
+                    <closer>
+                        <salute>Coi migliori auguri a Lei ed alla <name type="person" key="frie03">signora</name> per Natale e capodanno</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <signed hand="#joyc07">
+                            <name type="person" key="joyc07">Lucia</name>
+                        </signed>
+                        <signed hand="#barn84">
+                            <name type="person" key="barn84">Nora Joyce</name>
+                        </signed>
+                        <signed hand="#joyc05">
+                            <name type="person" key="joyc05">George</name>
+                        </signed>
+                        <date when="1923-12-23">23.xii.923</date>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <p/>
+                    <closer>
+                        <salute>With best wishes to you and your wife for Christmas and New Year </salute> <signed>James Joyce</signed>
+                        <signed>Lucia</signed>
+                        <signed>Nora Joyce</signed>
+                        <signed>George</signed>
+                        <date when="1923-12-23">23.xii.923</date>
+                    </closer>
+                </div>
+            </div>
+      </body>
+   </text>
+</TEI>

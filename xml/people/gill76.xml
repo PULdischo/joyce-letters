@@ -1,0 +1,48 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gill76">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Louis Gillet</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>gill76</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">66467917</idno>
+            <idno type="OCLC">lccn-n85224780</idno>
+            <persName type="reg">
+               <forename>Louis</forename> <surname>Gillet</surname>
+            </persName>
+            <persName type="full">Louis Gillet</persName>
+            <date type="birth" when="1876-12-11"/>
+            <date type="death" when="1943-07-01"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>French art historian, member of the Académie française who also published about English literature. For the prestigious and conservative French magazine <name type="work" key="ID_MISSING">Revue des deux mondes</name> he wrote mostly about art history, but he also published a number of articles about JJ’s work that the writer appreciated because it validated his work in a French context that was decidedly not part of the avant-garde.</p>
+                <p>Gillet studied at the prestigious Ecole normale supérieure in Paris where he befriended <name type="person" key="ID_MISSING">Charles Péguy</name> and <name type="person" key="ID_MISSING">Romain Rolland</name>. He published on the history of art, books for which he received prizes from the Académie française which made him a member in 1935. He had books on medieval art, but also on Watteau and Monet, on Raphael, on Saint Francis and on religious art.</p>
+                <p>At the <name type="work" key="ID_MISSING">Revue des deux mondes</name>, Gillet was responsible for foreign literature, which is why he published an essay on JJ in 1925. As he himself explained later on, this mostly negative response to <name type="work" key="ID_MISSING">Ulysses</name> was influenced by his British friend <name type="person" key="goss49">Edmund Gosse</name>, who had dismissed JJ as a pornographer. JJ welcomed the article because it acknowledged his work from outside the radical circle of French literature as in the <name type="work" key="ID_MISSING">Nouvelle revue française</name>. The two were introduced by <name type="person" key="beac87">Sylvia Beach</name> early in 1931 and became quite close: in the same year he published a very positive essay in <name type="work" key="ID_MISSING">Revue des deux mondes</name> on “Work in Progress,” which he compared with Dante’s Divine Comedy, although privately he did not like <name type="work" key="ID_MISSING">Finnegans Wake</name> when it was finally published in 1939. After the author’s death in 1941, Gillet collected the essays in <name type="work" key="ID_MISSING">Stèle pour Joyce</name>, a little book on JJ. <hi rend="bold">Geert Lernout</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

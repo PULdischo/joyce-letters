@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gied88">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sigfried Giedion</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>gied88</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">64006335</idno>
+            <idno type="OCLC">lccn-n84186726</idno>
+            <persName type="reg">
+               <forename>Sigfried</forename> <surname>Giedion</surname>
+            </persName>
+            <persName type="full">Sigfried Giedion</persName>
+            <date type="birth" when="1888-04-14"/>
+            <date type="death" when="1968-04-10"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Swiss architectural historian. Born in Prague, he attended the University of Zurich and earned a doctorate in art history from the University of Munich. He taught at the University of Zurich and at Harvard University and, later, at ETH in Zurich. With his wife, <name type="person" key="gied93">Carola Giedion-Welcker</name>, he befriended James and <name type="person" key="barn84">Nora Joyce</name> in the 1930s and was instrumental in JJ’s consultation of the ophthalmologist <name type="person" key="vogt79">Vogt</name> and in enabling the Joyce family’s return to Zurich in 1940. A prolific author and lecturer, his most famous book was <name type="work" key="ID_MISSING">Space, Time and Architecture: the Growth of a New Tradition</name> (1941). He died suddenly in Zurich in April 1968. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68756">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 10 April 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68756</idno>
+            <idno type="internal">68756</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_06">Boulevard Raspail 5, Paris</placeName>
+               </address>
+               <date notBefore="1921-04-10" notAfter="1921-04-10">Sunday, 10 April 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>… On receipt of Mr Huebsch’s letter forwarded by you I cabled to <name type="person" key="quin70">Mr Quinn</name> to <seg xml:id="seg1" type="note-anchor">withdraw the entire typescript</seg> of <name type="work" key="G_ULYSSES">Ulysses</name> </quote>
+                            <bibl>LI 161-63</bibl>
+                        </seg>
+                    </p>
+                    <p>from <name type="person" key="hueb76">Mr Huebsch</name> and all other American publishers and return it to me immediately. Not that I need it but in order to break off relations definitely. Mr Huebsch <seg xml:id="seg2" type="note-anchor">will not pirate</seg> an edition of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> (as he kindly suggested) in the United States but not because of consideration for the writer. </p>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>The next day I arranged for a Paris publication to replace the American one – or rather I accepted a proposal made to me by <hi rend="underline">Shakespeare</hi> <hi rend="underline">and</hi> <hi rend="underline">Co</hi>, a bookseller’s here, at the instance of Mr Larbaud.</quote>
+                            <bibl>LI 162</bibl>
+                        </seg>
+                    </p>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>The actual printing will begin as soon as the number of orders covers approximately the cost of printing</quote>
+                            <bibl>LI 162</bibl>
+                        </seg>
+                    </p>
+                    <p>which they estimate at 20,000 to 25,000 frs though I think it will be more – that is about 150 orders. The manager of <seg xml:id="seg3" type="note-anchor">Galignani’s library</seg> told me that <name type="person" key="moor52">Mr Moore</name>’s new book <hi rend="underline">
+                            <name type="work">Heloise</name>
+                        </hi> published at £4 I think a few weeks ago has now doubled in price. The form of the book is to be <hi rend="underline">carré</hi>, the type what they call here no 9 and it will make about 600 pages of that.</p> <p>
+                        <seg type="published" function="context">
+                            <quote>This does not cover the English edition but I think it would be to your advantage if that were amalgamated with the Paris one.</quote>
+                            <bibl>LI 162</bibl>
+                        </seg>
+                    </p>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>… after seven years’ hard labour and in the present exasperated state of my nerves.</quote>
+                            <bibl>LI 162</bibl>
+                        </seg>
+                    </p> <p>The letter which I enclose was received by me at Christmas. I cabled immediately accepting the conditions and price then have been waiting for the cabled 1000$ which was part of the agreement. It never came &amp; though I cabled and wrote I never received a word in reply to say that the contract was on or off. </p>
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>It is astonishing to myself that I was able to write as much as I did .…</quote>
+                            <bibl>LI 162</bibl>
+                        </seg>
+                    </p> <gap reason="published"/>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Due to fears of prosecution for obscenity, B. W. Huebsch was unwilling to published <name type="work" key="W_ULYSSES">Ulysses</name> without some alterations to the text. In February 1921, the editors of <name type="work">The Little Review</name>, <name type="person" key="ande86">Margaret Anderson</name> and <name type="person" key="heap83">Jane Heap</name>, were tried for obscenity for publishing the “Nausicaa” episode in their journal’s April 1920 issue. For fuller accounts of “Nausicaa” and the prosecution and trial it occasioned, see <rs type="letter" key="L_68553">JJ to Pound, 24 October 1919</rs>, notes;<rs type="letter" key="L_68685"> 5 November 1920</rs>, notes; and <rs type="letter" key="L_68690">16 November 1920</rs>, notes.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">For a fuller account of JJ’s fears that B. W. Huebsch might pirate <name type="work" key="W_ULYSSES">Ulysses</name>, see <rs type="letter" key="L_68685">JJ to Pound, 5 November 1920</rs>, notes.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Prominent Paris bookshop opened in 1801.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

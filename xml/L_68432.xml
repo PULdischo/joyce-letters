@@ -1,0 +1,149 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68432">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Friday, 30 November 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68432</idno>
+            <idno type="internal">68432</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_LOCA_02">Pension Daheim, Locarno</placeName>
+               </address>
+               <date notBefore="1917-11-30" notAfter="1917-11-30">Friday, 30 November 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_LOCA_02">Pension Daheim</name>
+                            </addrLine>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_CHE_LOCA">Locarno</name>
+                                </seg>
+                            </addrLine>
+                            <addrLine>(<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: The <seg xml:id="seg2" type="note-anchor">Franco-Swiss frontier</seg>, I hear, is open for a day or so and I am sending you this express. The first chapter of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> is being typed in <name type="geo" key="G_CHE_ZURI">Zurich</name> and will send as soon as possible. There are three episodes in it. To save time I shall send on each as it is finished. This chapter should run for three months – the <seg xml:id="seg3" type="note-anchor">Telemachia</seg>. There are in all <seg xml:id="seg4" type="note-anchor">three chapters</seg> in the book, the other two being Odyssey (in twelve episodes) and the Nostos (in three episodes). <seg xml:id="seg5" type="note-anchor">The slaughter</seg> of the <hi rend="strike-through">court</hi> wooers falls out. Of course these names are <seg xml:id="seg6" type="note-anchor">not to be prefixed</seg> to the chapters.</p>
+                    <p>As regards my play <hi rend="underline">
+                            <name type="work" key="W_EXILES">Exiles</name>
+                        </hi> I suppose it is or is <seg xml:id="seg7" type="note-anchor">about to be published</seg>. <name type="person" key="moor70">Mr Sturge Moore</name> wrote me a very kind letter to say that it was on the <seg xml:id="seg8" type="note-anchor">season programme</seg> of the <name type="organisation" key="O_STAGESOCIETY">Stage Society</name> and that if I sent it again it would probably be put on in spring. <seg xml:id="seg9" type="note-anchor">
+                            <rs type="letter" key="68428">I wrote</rs>
+                        </seg> agreeing to this and said he could get a proof from <rs type="person" key="rich72">my publisher</rs>. Perhaps my letter will not reach him. May I trouble you to let him know this. <seg xml:id="seg10" type="note-anchor">
+                            <name type="person" key="yeat65">Yeats</name> also wrote</seg> again. It seems <rs type="organisation" key="O_ABBEYTHEATRE">his company</rs> cannot play high comedy.</p>
+                    <p>I am writing in a hurry. I hope you are well and I am sure you are active. My health is much better except that I am inclined to walk into things at night rather often. Perhaps the sight will get better. I dread going back to wintry Zurich but if my <rs type="person" key="hueb76">New York publisher</rs> does not send some money I shall have to. I wrote him three times and received no answer though <rs type="work" key="W_APORTRAIT">the book</rs> was published a year ago and is in a <seg xml:id="seg11" type="note-anchor">third edition</seg>. My agent also wrote. I <seg xml:id="seg12" type="note-anchor">
+                            <rs type="letter" key="68434">told him to cable</rs>
+                        </seg>. As usual my letter is very poetic. Any letters sent now ought to be sent express, I think.</p>
+                    <closer>
+                        <salute>With kind regards</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                    <postscript>
+                        <p>
+                            <label>P.S.</label> Will you please wait for your copy of <rs type="work" key="W_EXILES">my play</rs> till I have time to get it here and sign it?</p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ planned to winter with his family in Locarno, a Swiss town on the northern shore of <name type="geo" key="G_CHE_LAGO">Lake Maggiore</name>. <name type="person" key="barn84">Nora Barnacle</name> with their two children, <name type="person" key="joyc07">Lucia</name> and <name type="person" key="joyc05">Giorgio</name>, went ahead, but she returned to Zurich after JJ suffered from symptoms of glaucoma after a severe attack of lumbago there on 18 August 1917 (<name type="work" key="ID_MISSING">SL</name> 226-27). Once he had sufficiently recovered from eye surgery, he and the family went to Locarno in October 1917 and stayed there until January 1918. At first they stayed at <name type="geo" key="G_CHE_LOCA_01">the Pension Villa Rosa</name>, then moved in mid-November to <name type="geo" key="G_CHE_LOCA_02">the Pension Daheim</name> (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 417-18).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The Franco-Swiss border was closed at midnight on 29 October 1917 on the orders of the Lyon military command (<name type="work" key="ID_MISSING">Tribune de Genève</name> [30 October 1917]: 6), and border surveillance was tightened shortly thereafter (<name type="work" key="ID_MISSING">Neue Zürcher Zeitung</name> [12 November 1917]: 11). On Friday, 30 November, the Swiss authorities announced that the border was to open that evening at 6pm and that it would probably close again on Sunday, providing JJ a short window of opportunity in which to mail the letter (<name type="work" key="ID_MISSING">Neue Zürcher Zeitung</name> [30 November 1917]: 6).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">The first “chapter” of <name type="work" key="W_ULYSSES">Ulysses</name>, which JJ called the “Telemachia,” contained the first three episodes, “Telemachus,” “Nestor,” and “Proteus,” which together chronicle the first part of Stephen Dedalus’s day, 16 June 1904. JJ was finishing these episodes in Locarno and sending them on to his British friend, the professional actor <name type="person" key="syke83">Claud W. Sykes</name> (1883-1963), for typing in Zurich. JJ’s postcards to Sykes from Locarno document last-minute revisions to the episodes (<name type="work" key="ID_MISSING">LI</name> 108-08, <name type="work" key="ID_MISSING">LII</name> 412-16). After being dispatched to Pound, the three episodes appeared in the <name type="geo" key="G_USA_NEWY">New York</name> magazine <name type="work" key="W_THELITTLE">Little Review</name>, of which Pound was foreign editor, in the numbers for March, April, and May 1918.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">The other two “chapters” of Ulysses JJ called the “Odyssey” and the “Nostos.” The Odyssey chronicles the wanderings through Dublin of Leopold Bloom on 16 June 1904, and comprises twelve episodes: “Calypso,” “Lotus-Eaters,” “Hades,” “Aeolus,” “Lestrygonians,” “Scylla and Charybdis,” “Wandering Rocks,” “Sirens,” “Cyclops,” “Nausicaa,” “Oxen of the Sun,” and “Circe.” The “Nostos,” or homecoming, draws a parallel between Odysseus’s return to his island kingdom Ithaca after his post-Trojan War wanderings and Bloom’s return to his house with Stephen Dedalus in tow. The episodes of the Nostos are “Eumaeus,” “Ithaca,” and “Penelope.” <name type="work" key="W_THELITTLE">The Little Review</name> serialized the book up through the first part of “Oxen of the Sun” in the September-December 1920 number. The editors then discontinued serialization after they were prosecuted for obscenity in a New York court for publishing the portion of “Nausicaa” (in the July-August 1920 number) in which Leopold Bloom masturbates at the seashore.<p>It is noteworthy that JJ here refers to his “Odyssey (in twelve episodes).” In a letter to <name type="person" key="weav76">Harriet Shaw Weaver</name> of 18 May 1918, JJ described his Odyssey as comprising “eleven episodes,” and <name type="work" key="W_ULYSSES">Ulysses</name> as a whole as containing “in all seventeen episodes” (<name type="work" key="ID_MISSING">LI</name> 113). Scholars had concluded that at that point in the composition of the book, JJ had not yet thought of what eventually became “Wandering Rocks,” the tenth episode (see Michael Groden, <name type="work" key="ID_MISSING">Ulysses in Progress</name> [Princeton, NJ: Princeton University Press, 1977], 33). But unless JJ is miscounting in this letter to Pound, it appears that he was already, before the end of 1917, contemplating a twelfth episode for his Odyssey.</p>
+                </note>
+                <note xml:id="note5" target="#seg5" type="commentary">By “slaughter of the wooers” JJ was referring to Book 22 of Homer’s <name type="work" key="ID_MISSING">Odyssey</name> in which Odysseus, having returned to Ithaca after long years of war and wandering, slays the insolent men who have been lounging about his hall during his absence, consuming his food and wine, and paying unwanted court to his wife, Penelope. Odysseus accomplishes this slaughter with the help of his son, Telemachus. JJ, a steadfast pacifist, told his friend, the English painter and writer <name type="person" key="budg82">Frank Budgen</name> (1882-1971), that Odysseus’s slaughter of the suitors “always seemed to me unUlyssean.” But JJ later came to a different view and wrote Budgen in December 1920: “At first I had not thought of the slaughter of the suitors as in Ulysses’ character. Now I see it can be there too” (<name type="work" key="ID_MISSING">LI</name> 151-52). In his book about JJ’s writing of <name type="work" key="W_ULYSSES">Ulysses</name>, Budgen explained that in “Ithaca,” Leopold Bloom, tired after his wanderings through Dublin and oppressed by the knowledge that his wife Molly has had an affair with a younger man earlier in the day, mentally slays the suitors – the various men that Bloom has suspected of taking an interest in Molly over the years – by emotionally accepting the stubborn human realities that he cannot alter. Bloom’s “equanimity,” wrote Budgen, “slaughters the suitors of [Molly] as effectively as did the divinely aided Ulysses those of Penelope” (Frank Budgen, <name type="work" key="ID_MISSING">James Joyce and the Making of Ulysses</name> [1934; rpt. Bloomington: Indiana University Press, 1960], 256, 261).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Though JJ referred to the episodes of <name type="work" key="W_ULYSSES">Ulysses</name> by name, these names did not appear in serial or book versions.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">
+                    <name type="work" key="W_EXILES">Exiles</name> was published simultaneously by Grant Richards in <name type="geo" key="G_GBR_LOND">London</name> and B.W. Huebsch in New York in May 1918.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Thomas Sturge Moore (1870-1944), British poet, author, and artist, was a friend of Pound and an influential member of the London-based Incorporated Stage Society. Moore remained interested in JJ’s play <name type="work" key="W_EXILES">Exiles</name> even after the Society had shown reluctance to perform it (<name type="work" key="ID_MISSING">Pound/Joyce</name> 92, <name type="work" key="ID_MISSING">LI</name> 108, <name type="work" key="ID_MISSING">LII</name> 411). Despite his urging, however, the Society voted not to stage <name type="work" key="W_EXILES">Exiles</name>. For an account of the failed efforts, see <rs type="letter" key="L_68374">JJ to Pound, 5 June 1917</rs>, notes. The Society finally presented <name type="work" key="W_EXILES">Exiles</name> at London’s <name type="organisation" key="ID_MISSING">Regent Theatre</name> on 14 and 15 February 1926, with <name type="person" key="ID_MISSING">W.G. Fay</name> as director.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">JJ’s letter to Moore is dated 24 November 1917 (<name type="work" key="ID_MISSING">LII</name> 411).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Although Yeats, enthusiastic after reading <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, initially thought the Dublin Abbey Theatre might stage <name type="work" key="W_EXILES">Exiles</name>, he wrote JJ on 26 August 1917 that “it is a type of work we have never played well” since it was “too far from the folk drama.” He thought it “[not] at all so good” as <name type="work" key="W_APORTRAIT">A Portrait</name> (<name type="work" key="ID_MISSING">LII</name> 405).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">B.W. Huebsch of New York published <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> in December 1916. Huebsch issued a second printing in April 1917 and a third in January or June 1918 (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 18).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">In a letter to his London Literary agent, J.B. Pinker, dated 16 December 1917, JJ acknowledged receipt of £54 as an advance on royalties from B.W. Huebsch, the New York publisher of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> (<name type="work" key="ID_MISSING">LI</name> 110). In October 1917, Pinker had sent JJ £7.2.6 as royalties on 95 copies of the English edition of <name type="work" key="W_APORTRAIT">A Portrait</name> sold from July through September (John Firth, “James Pinker to James Joyce, 1915–1920,” <name type="work" key="ID_MISSING">Studies in Bibliography</name> 21 [1968]: 222). JJ had also received the August payment of £50 from his anonymous donor in London (Harriet Shaw Weaver) (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 417).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

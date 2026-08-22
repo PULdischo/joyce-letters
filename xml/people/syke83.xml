@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="syke83">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Claud Sykes</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>syke83</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">273133969</idno>
+            <idno type="OCLC">lccn-n84806023</idno>
+            <persName type="reg">
+               <forename>Claud Walter</forename> <surname>Sykes</surname>
+            </persName>
+            <persName type="full">Claud Sykes</persName>
+            <date type="birth" when="1883-10-21"/>
+            <date type="death" when="1963-05-24"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Professional actor, co-founder of the English Players, writer, and MI5 agent. Born in Ipswich, England, in 1912 Sykes married <name type="person" key="race85">Annie ‘Daisy’ Race</name> (1885-1969), his co-star in <name type="person" key="ID_MISSING">Octavia Kenmore</name>’s and <name type="person" key="ID_MISSING">Leigh Lovel</name>’s London company. Sykes acted in two dozen productions of <name type="person" key="ibse28">Ibsen</name> between 1908 and 1914 before he and his wife relocated to Switzerland in 1915, ostensibly for Sykes’s health. He and JJ first encountered one another in early 1917, and by the end of the year, Sykes was overseeing typescript production on the early episodes of <name type="work" key="ID_MISSING">Ulysses</name>. With a mix of professional and amateur actors, JJ and Sykes formed the English Players, whose first performance was <name type="work" key="ID_MISSING">The Importance of Being Earnest</name> in April 1918. Through late 1919, the Players produced nineteen plays in Zurich and toured Switzerland. Sykes returned to England in 1920. In 1927 Sykes read proofs and provided suggestions for the German translation of <name type="work" key="ID_MISSING">Ulysses</name>, published that year. In the 1920s, he wrote adventure fiction in the mold of <name type="person" key="ID_MISSING">John Buchan</name> before, in the 1930s, establishing himself as a translator and author of First World War aviation writing, often under the pseudonym ‘Vigilant’. His translation work from German proved an effective cover for counter-intelligence work and, by the mid-1930s, he was reporting to his MI5 handler using the code name ‘M/S’. In 1939, he worked briefly as a double agent, feeding disinformation to a Gestapo agent in Berlin. His interests in the theatre continued: he produced plays for the Letchworth Citizens’ Company in the 1920s and published the Rutland-theory inspired <name type="work" key="ID_MISSING">Alias William Shakespeare?</name> (1947). He died in Malta in 1963. <hi rend="bold">William Brockman</hi> and <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

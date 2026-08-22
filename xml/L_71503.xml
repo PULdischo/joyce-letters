@@ -1,0 +1,127 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71503">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To John Hinsdale Thompson. Wednesday, 4 November 1936</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71503</idno>
+            <idno type="internal">71503</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Huntington Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_29">27 rue Casimir Périer VII Paris</placeName>
+               </address>
+               <date notBefore="1936-11-04" notAfter="1936-11-04">Wednesday, 4 November 1936</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="thom07">
+                        <forename>John Hinsdale</forename> <surname>Thompson</surname>
+                    </persName>
+               <persName type="full" key="thom07">John Hinsdale Thompson</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">
+                                <name type="geo" key="G_FRA_PARI_29">27, RUE CASIMIR-PÉRIER (VII<hi rend="superscript">
+                                        <hi rend="underline">E</hi>
+                                    </hi>)</name>
+                            </addrLine>
+                            <addrLine rend="printed">INVALIDES 70-04</addrLine> </address> </ab>
+                </div>
+                <div type="address">
+                    <dateline>Paris, <date when="1936-11-04">November the 4-th 1936</date>
+                    </dateline>
+                    <ab>
+                        <address> <addrLine>John Thompson esq. </addrLine>
+                            <addrLine>Signatures </addrLine>
+                            <addrLine>3153 Union Guardian Building </addrLine>
+                            <addrLine>Detroit, Michigan </addrLine> </address> </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Dear Sir</salute>, </opener> <p>The <choice>
+                            <sic>Letter</sic>
+                            <corr>letter</corr>
+                        </choice> you have addressed to Mr Joyce care of me has reached him and he asked me to reply to you.  </p>
+                    <p>He <choice>
+                            <sic>apperciates</sic>
+                            <corr>appreciates</corr>
+                        </choice> greatly your kind offer to return him the manuscript of the translation done by him when he was beginning to study German and would gladly receive it back. If there is any available edition of his books which you might wish to obtain he will gladly inscribe a copy for you and send it to you in return. </p>
+                    <closer>
+                        <salute>sincerely yours </salute>  <signed>
+                            <name type="person" key="leon93">Paul Léon</name>
+                        </signed>
+                    </closer>    </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Thompson’s letter of 21 October 1936 offered to return JJ’s 1901 translation of Gerhart Hauptmann’s play Vor Sonnenaufgang as Before Sunrise, which in 1934 Thompson had requested permission to publish. Thompson never returned the manuscript.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

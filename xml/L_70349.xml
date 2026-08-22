@@ -1,0 +1,139 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70349">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Tuesday, 5 September 1933</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70349</idno>
+            <idno type="internal">70349</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_28">42 rue Galilée, Paris</placeName>
+               </address>
+               <date notBefore="1933-09-05" notAfter="1933-09-05">Tuesday, 5 September 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_28">42 rue Galilée</name>
+                            </addrLine>                                                                                                        	<addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name> XVI</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear Budgen: <name type="person" key="weav76">Miss Weaver</name> likes the <seg xml:id="seg1" type="note-anchor">picture</seg>. What do I owe for the frame? Let me know on what <seg xml:id="seg2" type="note-anchor">date</seg> you are likely to pass here as we might be away for a day or so. They should have sent you galleys in duplicate. I forgot <name type="person" key="bera68">Felix Beran</name>, the Viennese poet, in Z’ch − the only writer I knew there. You remember his poem I translated, ending:</p>
+                    <lg>        	<l>
+                            <foreign xml:lang="deu">
+                                <seg xml:id="seg3" type="note-anchor">Wer wird nun küssen</seg>
+                            </foreign>
+                        </l>        	<l>
+                            <foreign xml:lang="deu">
+                                <choice>
+                                    <sic>Mein</sic>
+                                    <corr>Meinen</corr>
+                                </choice> weissen Leib</foreign> (etc)</l>
+                    </lg>
+                    <p>
+                        <hi rend="underline">Re</hi> the <seg xml:id="seg4" type="note-anchor">explosion</seg> in Phoenix Park what about W.i.P.?</p>
+                    <lg>        	<l>
+                            <seg xml:id="seg5" type="note-anchor">Have you heard of one Humpty Dumpty</seg>
+                        </l>        	<l>How he fell with a roll &amp; a rumble</l>        	<l>And lay low like Lord All of a crumple</l>        	<l>By the butt of the Magazine Wall?</l>
+                    </lg>
+                    <p>(This is on the road to Chapelizod)</p>
+                    <p>cf “<seg xml:id="seg6" type="note-anchor">Badalgaraghtakamminar etc</seg>”</p>
+                    <p>Transition no 1., 1927</p>        	<p>The lens of my glass is unfixed from the heat so that I can’t see well and <name type="person" key="joyc07">Lucia</name>’s pen is as capricious as herself.</p>
+                    <closer>        	<salute>sincerely yours</salute>                    	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1933-09-05">5.ix.933</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The picture was a birthday gift for <name type="person" key="weav76">Weaver</name>, mentioned in JJ's <rs type="letter" key="L_70347">letter to Budgen of 24 August 1933</rs> (<name type="work">LIII</name> 283, where the date is mistakenly given as 28 August).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Budgen visited JJ for a day or two in Paris in early September while on his way to Ascona. The visit was an opportunity for JJ, then reading galley proofs for <name type="work">JJMU</name>, to offer Budgen suggestions for addition and revision.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">These two lines conclude <name type="person" key="bera68">Beran</name>'s poem “Des Weibes Klage”, discussed by Budgen in <name type="work">JJMU</name> 12-13.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">The explosion occurred on 4 September: “Phoenix Park Explosion. Magazine Wall Damaged”, <name type="work">Irish Times</name> (5 September 1933): 7.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">These lines appear in slightly different form in “Continuation of a Work in Progress”, <name type="work">transition</name> no. 2 (May 1927), 104.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">With a few different letters, this was the beginning of the thunderword in “Opening Pages of a Work in Progress”, <name type="work">transition</name> no. 1 (April 1927), 9.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

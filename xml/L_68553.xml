@@ -1,0 +1,139 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68553">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Friday, 24 October 1919</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68553</idno>
+            <idno type="internal">68553</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_TRIE_13">Via della Sanità 2, Trieste</placeName>
+               </address>
+               <date notBefore="1919-10-24" notAfter="1919-10-24">Friday, 24 October 1919</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE_13">Via della Sanità, 2</name>, <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_TRIE">Trieste</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: Thanks for your <seg xml:id="seg1" type="note-anchor">amusing and encouraging letter</seg>. I <seg xml:id="seg2" type="note-anchor">left <name type="geo" key="G_CHE_ZURI">Zurich</name>
+                        </seg> with my family on the <date when="1919-10-14">14</date> as I was afraid to face the long damp winter there. The removal expenses have been enormous and conditions here are very difficult. On the <date when="1919-10-12">12</date> I cabled to <name type="person" key="quin70">Mr Quinn</name> to remit me by cable a <seg xml:id="seg3" type="note-anchor">maximum advance</seg> on the MS of <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> which he had offered to do some months ago. I expected to find the remittance here on my arrival but have now been here ten days and have received neither money nor message. It is impossible, I find on inquiry, to remit money to this zone either by postal or telegraphic money order. Possibly he did so and the order has been rejected. In these circumstances and as my case here is very pressing may I ask you to <seg xml:id="seg4" type="note-anchor">cable him</seg> at once to remit it to you and you can send it on to me (deducting, please, your expenses) <hi rend="underline">by</hi> <hi rend="underline">cheque</hi> in a registered express letter. I shall be able to live from the <date when="1920-01-01">1 January</date> on when the <seg xml:id="seg5" type="note-anchor">first interest of the £5000</seg> comes in but this move here has cost me about 3000 francs. I am aware that it is foolish of me to dispose of the MS in this way as I shall receive only a fraction of its eventual value – or so I think – but I must get a large sum of money within the next week or ten days at latest. My position is, roughly speaking, this. The upper part of my former house was ruined by bombs and my flat (the rent of which had been paid for more than four years of my absence) let again to a new tenant. <rs type="person" key="joyc84">My brother</rs> (with whom I am staying: we are distributed on various kinds of couches round his quarter) <seg xml:id="seg6" type="note-anchor">removed my furniture</seg> and stored it here. All the upholstering is ruined, a good part of the linen (all the bedlinen) and clothing motheaten or stolen. The bedding requisitioned by the Austrian authorities and the amount of equivalent deposited in <hi rend="underline">crowns</hi> here in my name, that is, about nothing at the present rate. I shall be obliged, to my infinite disgust, to <seg xml:id="seg7" type="note-anchor">resume teaching</seg> in order to supplement my income but even to do that I must get a flat somewhere (very difficult as there <choice>
+                            <sic>a</sic>
+                            <corr>are</corr>
+                        </choice> few to be had in consequence of military congestion here) and I need absolutely the money for my wretched (and illegible) MS. It would be very kind of you if you could send me also a wire on receipt of this to say that you have cabled Mr Quinn. If his silence be due to a wish to revoke his proposal I want to know it at once so that I may dispose of the MS elsewhere. When this trouble is over I hope to be allowed time and leisure to get to <seg xml:id="seg8" type="note-anchor">work on <hi rend="underline">Nausikaa</hi> (the next episode)</seg>
+                        <supplied reason="omitted">.</supplied>
+                    </p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1919-10-24">24/10/919</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>In a letter to JJ that has not come to light, Pound wrote “enthusing” about the “Cyclops” episode of <name type="work" key="W_ULYSSES">Ulysses</name>, which he had received in typescript from JJ (<name type="work" key="ID_MISSING">LI</name> 131). On 25 October 1919, Pound described the episode to John Quinn as “perhaps the best thing [JJ] has done. … Parody of styles, a trick borrowed from Rabelais, but never done better, even in Rab. Our James is a grrreat man” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound 1907-1941</name>, ed. D.D. Paige [New York: New Directions, 1971], 151-52). “Cyclops,” the twelfth episode, is set mainly in Barney Kiernan’s pub, where a number of drinkers carry on lively conversation with the Citizen, a super-nationalistic, xenophobic Irishman who holds court with his surly dog, Garryowen. Leopold Bloom enters the pub on an errand of mercy for the bereaved family of Paddy Dignam, and is insulted, taunted, and, towards the end, physically assaulted as a result of a misunderstanding about a bet on a horse race. Stylistically, “Cyclops,” which is narrated by a jeering first-person “I” who alternates with passages of elaborate parody, represents a sharp break from the more naturalistic, stream-of-consciousness episodes that precede it. The Homeric parallel is found in Book 9 of <name type="work" key="ID_MISSING">The Odyssey</name>, where Odysseus and his crew encounter the one-eyed, man-eating cyclops named Polyphemus; they get the giant drunk on wine and escape by blinding him with a fire-hardened stake. “Cyclops” appeared in four numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 6, nos. 7-10 (November, December 1919; January, March 1920): 38-54, 50-60, 53-61, 54-60.</p>
+                    <p>JJ was relieved by Pound’s praise for “Cyclops” after his baffled disapproval of the preceding “Sirens” episode, which Pound felt was marred by JJ’s “arseore-ial, cloacal” obsessions (as in Leopold Bloom’s prolonged fart at the episode’s close) and would “cause all but your most pig-o-peripatec-headed readers to think you have gone marteau-dingo-maboule.” He wondered if JJ had sent the typescript only because he felt “bound to send in copy on time,” but added with typical open-mindedness: “P.S. <hi rend="underline">And</hi> you may be right” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 157-59).</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ and family had moved from Zurich back to Trieste in mid-October 1919 and installed themselves in a crowded flat at 2 via Sanità with JJ’s sister and brother-in-law and their two small children, and his brother Stanislaus (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 470-71). The JJ family remained there until July 1920, when they moved to Paris.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">The New York lawyer John Quinn (1870-1924), a collector of modern art and literary manuscripts, had purchased a number of items from JJ and had agreed to buy his <name type="work" key="W_ULYSSES">Ulysses</name> manuscript. After delays, on 5 February 1920 Quinn cabled JJ an advance of 3,000 lire or $153.85, and on 15 August 1920 another advance of 3,400 francs or $250, with an additional payment of 1,400 francs in the fall of 1920 (Myron Schwartzman, “‘Quinnigan’s Quake!’ John Quinn’s Letters to James Joyce, 1916-1920,” <name type="work" key="ID_MISSING">Bulletin of Research in the Humanities</name>, vol. 81, no. 2 [Summer 1978]: 237, 241-42, 245-46, 254, 258). For a full account, see <rs type="letter" key="L_68393">JJ to Pound, 24 July 1917</rs>, notes.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Pound informed John Quinn on 24 November 1919 that JJ had exhorted him “to cable to you and find out if, etc. you etc. had etc. recd. his cable. I declined to do so, as you were then in the midst of too many other affairs. It seems he is back in Trieste, found roof off his house and furniture dispersed. etc. and no money in view until January” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 179). It appears that JJ himself cabled Quinn, as Pound noted in his letter to JJ of 24 November 1919: “A note from Quinn this a.m. says he has recd. your cable. He adds ‘Don’t write to him [insert: i.e. you] about it. I shall have to write to him direct.’ So I shant. write to you ‘about’ it, further than this” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 161-62).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">
+                    <p>JJ learned in May 1919 that an anonymous donor who had gifted him £200 in 1917 had decided to settle on him £5,000 in war loan securities in a trust fund, the interest to be paid at five percent as a modest but independent income (Mary T. Reynolds, “Joyce and Miss Weaver,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 19, no. 4 [Summer 1982]: 380-81). <name type="person" key="weav76">Harriet Shaw Weaver</name> (1876-1961) revealed herself as the donor in a letter to JJ dated 6 July 1919 (John Firth, “Harriet Weaver’s Letters to James Joyce 1915-1920,” <name type="work" key="ID_MISSING">Studies in Bibliography</name>, vol. 20 [1967]: 181-82). Weaver’s solicitors told JJ that she admired his “searching piercing spirit, [his] scorching truth, the power and startling penetration of [his] ‘intense instants of imagination’ [and his] very unusual and astonishing power of expression” (<name type="work" key="ID_MISSING">LII</name> 445).</p>
+                    <p>Pound, who was unsure of the source of JJ’s subsidy, wrote John Quinn on 24 November 1919: “Do you know anything about his windfall? He says he gets first lot of interest in January, but is broke until then” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 179).</p>
+                </note>
+                <note xml:id="note6" target="#seg6" type="commentary">Stanislaus Joyce (1884-1955) wrote his brother, JJ, an exasperated letter on 25 May 1919 informing him that the flat that had been kept for JJ in Trieste now had to be given up, and that his sister Eileen and her husband had spent a week “packing up and moving out of a flat ankle-deep in dust.” Stanislaus, who had been interned by Austrian authorities at Katzenau, near Linz, during the war, added: “I have just emerged from four years of hunger and squalor, and am trying to get on my feet again. Do you think you can give me a rest?” (<name type="work" key="ID_MISSING">LII</name> 442-43).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">Prior to leaving Trieste for Zurich in 1915, JJ had been teaching English, both at the Scuola Superiore di Commercio Revoltella and in private lessons.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">“Nausicaa,” the thirteenth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, is cast, for the most part, in the style of popular romance novels, or what JJ described as “a namby-pamby jammy marmalady drawersy (alto là!) style with effects of incense, mariolatry, masturbation, stewed cockles, painter’s palette, chitchat, circumlocutions, etc. etc.” (<name type="work" key="ID_MISSING">LI</name> 135). The episode finds Leopold Bloom at Sandymount Strand where he furtively observes a teenaged girl, Gerty MacDowell, who has come to the seashore with her girlfriends. Bloom and Gerty exchange gazes, excite each other, and climax sexually as a fireworks display lights up the sky. The Homeric parallel is located in Book 6 of <name type="work" key="ID_MISSING">The Odyssey</name>, where Odysseus, shipwrecked on the coast of Phaeacia, is asleep in a forest as the young Princess Nausicaa and her attendant maidens come to the river to wash clothes. Odysseus, naked, pleads with the princess for aid. “Nausicaa” appeared in three numbers of <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 6, no. 11-vol. 7, nos. 1-2 (April, May-June, July-August 1920): 43-50, 61-72, 42-58. The portion of “Nausicaa” in the July-August 1920 number, containing the scene of Bloom’s masturbation at the seashore, caused the editors <name type="person" key="ande86">Margaret Caroline Anderson</name> (1886-1973) and <name type="person" key="heap83">Jane Heap</name> (1883-1964) to be prosecuted for publishing obscenity; they were convicted and fined $50 each by a New York court.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70326">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Dorothy Pound née Shakespear. Saturday, 8 July 1933</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70326</idno>
+            <idno type="internal">70326</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_EVIA_01">Le Grand Hôtel, Évian-les-Bains</placeName>
+               </address>
+               <date notBefore="1933-07-08" notAfter="1933-07-08">Saturday, 8 July 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun86">
+                        <forename>Dorothy</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun86">Dorothy Pound née Shakespear</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+        <graphic url="IMG_70326_01.jpg">
+            <desc>
+                <caption>Beinecke Rare Book and Manuscript Library, Yale University</caption>
+            </desc>
+        </graphic>
+    </facsimile>
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Dear <seg xml:id="seg1" type="note-anchor">
+                            <name type="person" key="poun86">Mrs Pound</name>
+                        </seg>: Has <seg xml:id="seg2" type="note-anchor">
+                            <name type="person" key="yeat65">Yeats</name> signed <rs type="work" key="ID_MISSING">that book</rs>
+                        </seg> I sent him by you and does he want <seg xml:id="seg3" type="note-anchor">an exchange</seg>?</p>
+                    <closer>
+                        <salute>Kind regards to you both</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1933-07-08">8.7.33</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">
+                    <p>The face of this postcard shows a photograph captioned “253 Evian-les-Bains – Grand Hôtel – LL.” In May 1933, JJ, his wife Nora, and their daughter Lucia had gone to Zurich where JJ had more consultations with his eye surgeon, Professor Alfred Vogt. In July 1933, the Joyces stayed briefly at Évian-les-Bains before returning on 17 July for a month in Zurich (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 663-64). Évian-les-Bains, on the shores of Lake Geneva (Fr. Lac Léman) in southeastern France, famous for its mineral waters and baths, was an upscale spa town before and after World War I. A 1928 guidebook described the town as “a prettily situated spa of 3200 inhab. with alkaline springs [and] frequented mainly by French visitors of the higher class. Along the lake runs the broad, well-shaded <name type="work" key="ID_MISSING">Quai</name>, with the <name type="work" key="ID_MISSING">Casino</name> and the handsome <name type="work" key="ID_MISSING">Thermal Establishment</name>” (Karl Baedeker, <name type="work" key="ID_MISSING">Switzerland Together with Chamonix and the Italian Lakes</name>, 27th rev. ed. [Leipzig: Karl Baedeker, 1928], 309). The Grand-Hôtel d’Évian, a hotel “of the first class, with fine gardens,” had 100 rooms, with “P[ension, i.e. board and lodging] from 90-100 fr[ancs]” (ibid.). Around this time, the hotel was expanding, and prices were rising. By 1938, the Grand-Hôtel d’Évian had “155 beds at 50-70, P[ension, i.e. board and lodging] 90-150 fr[ancs], all first-class, with fine gardens” (Karl Baedeker, <name type="work" key="ID_MISSING">Switzerland Together with Chamonix and the Italian Lakes</name>, 28th rev. ed. [Leipzig: Karl Baedeker, 1938], 305).</p>
+                    <p>The postcard was produced by Levy &amp; Neurdein Réunis, rue Letellier, Paris, which operated circa 1920-1932 as a “collaborative photo agency between the two well known French photo studios of Levy Sons &amp; Co. and Neurdein Frères” (http://www.metropostcard.com/publishersl.html).</p>
+                </note>
+                <note xml:id="note1" target="#seg1" type="commentary">Dorothy Pound, née Shakespear (1886-1973), English artist who married Pound in London in April 1914. Why JJ writes to Dorothy rather than Ezra is not clear. Dorothy tended to spend a portion of the year in England, visiting her son <name type="person" key="ID_MISSING">Omar</name> and her mother, <name type="person" key="ID_MISSING">Olivia Shakespear</name> (1863-1938), the close friend of Yeats. Also, Yeats (as discussed below in note 2) visited Rapallo several times in the late 1920s and 1930s, at one point renting a flat there with his wife. JJ may have sent “that book” to Dorothy in the expectation that she would give it to Yeats personally.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>Both JJ and Pound had known the Irish poet and Nobel Laureate, William Butler Yeats (1865-1939), for many years. From an early point before he left Dublin, JJ’s attitude towards Yeats was a complex blend of combativeness, arrogance, admiration, and respect. In 1899, when pious and nationalist students booed and hissed Yeats’s play <name type="work" key="W_COUNTESSCATHLEEN">The Countess Cathleen</name>, JJ clapped vigorously and later refused to sign a letter attacking it (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 66-67). JJ knew by heart many of Yeats’s early poems and whole pages of his early prose, and could quote them at length even late in life (ibid., 81). Ellmann writes of the divergent perspectives of Yeats and JJ: “The world of the petty bourgeois, which is the world of <name type="work" key="W_ULYSSES">Ulysses</name> and the world in which Joyce grew up, was for Yeats something to be abjured. Joyce had the same contempt for both the ignorant peasantry and the snobbish aristocracy that Yeats idealized” (ibid., 100). When JJ first met Yeats in 1902, he told the 37-year-old poet, “I have met you too late. You are too old” (quoted in ibid., 103). Although Yeats later rejected JJ’s <name type="work" key="W_EXILES">Exiles</name> for Dublin’s Abbey Theatre – partly because it was out of key with the players’ style, partly because he thought it not very good – he considered <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> to be “very great.” He felt that <name type="work" key="W_ULYSSES">Ulysses</name> was “a work perhaps of genius” and that JJ had “certainly surpassed in intensity any novelist of our time” (quoted in ibid., 414, 530-31). In later years, Yeats tried to confer Irish honors on JJ, but the latter would always politely, with stiff gratitude, decline. In September 1932, Yeats informed JJ that he and <name type="person" key="shaw56">George Bernard Shaw</name> were founding an Irish Academy of Letters, and that “the first name that seemed essential” was JJ’s (<name type="work" key="ID_MISSING">LIII</name> 258). Politely, with stiff gratitude, JJ declined, saying, “I see no reason why my name should have arisen at all in connection with such an academy” (<name type="work" key="ID_MISSING">LI</name> 325). Yet he added with genuine warmth of nostalgia: “It is now thirty years since you first held out to me your helping hand” (ibid.).</p>
+                    <p>If JJ moved from youthful hardness to a kind of mellowness towards Yeats in later life, Pound traced an opposite pattern, becoming at times blunt and dismissive with the aging Yeats as his own interests drifted more towards economics and politics. But it had not always been so. When Pound first went to London in 1908, he chose it, he said, partly because of his admiration for Yeats, who spent much time there (Humphrey Carpenter, <name type="work" key="ID_MISSING">A Serious Character: The Life of Ezra Pound</name> [Boston: Houghton Mifflin, 1988], 97). For three winters, 1913-1916, Pound stayed with Yeats at Stone Cottage in Sussex, partly to act as his secretary, and it was there that he developed many facets of his poetic art and also where he first learned, from Yeats, of JJ and his early poems (James Longenbach, <name type="work" key="ID_MISSING">Stone Cottage: Pound, Yeats, and Modernism</name> [New York: Oxford University Press, 1988], 43).</p>
+                    <p>In later years, Yeats and his wife visited Rapallo several times and found the seaside town so congenial that they rented a flat there which Pound’s parents, transplanted from Pennsylvania, later took over (Carpenter, 462). Yeats thought of Rapallo as “[t]he little town described in the <name type="work" key="ID_MISSING">Ode on a Grecian Urn</name>” and felt that, with Pound there, he would “not lack conversation,” even though Pound was a man “whose art is the opposite of mine, whose criticism commends what I most condemn, a man with whom I should quarrel more than with anyone else if we were not united by affection” (“A Packet for Ezra Pound,” in <name type="work" key="ID_MISSING">A Vision and Related Writings</name>, ed. A. Norman Jeffares [London: Arena, 1990], 71). Yet by the summer of 1934, Pound was quarreling more than Yeats had bargained for. He would not talk about literature at all during a June dinner with Yeats in Rapallo, only about politics, economics, and “Mussolini and that hysterical imitator of his Hitler.” Yeats asked Pound to read his manuscript of a new play with verses, <name type="work" key="ID_MISSING">The King of the Great Clock Tower</name>. Pound returned it with the judgment: “Putrid” (<name type="work" key="ID_MISSING">The Variorum Edition of the Plays of W.B. Yeats</name>, ed. Russell K. Alspach [London: Macmillan, 1989], 1310).</p>
+                </note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <p>It is uncertain what book – presumably one by Yeats – that JJ sent Dorothy Pound to have Yeats sign. It seems that no such signed copy was returned to JJ at this time. Yeats was not in Rapallo at this point but rather was in Ireland or England from June through August 1933. However, in November 1935, JJ wrote Yeats: “It was very kind of you to send me the signed copy of your collected poems. I appreciate it very much for, though I have many friendly letters of yours, I have had no signed book of yours till now” (<name type="work" key="ID_MISSING">LIII</name> 380). Yeats wrote in the volume: “Inscribed for James Joyce by W.B. Yeats, October 29, 1935” (ibid., 380 n.4). As this was the first signed book that JJ had from Yeats, it would appear that the 1933 JJ-to-Dorothy-to-Yeats-back-to-JJ relay did not take place at that time.</p>
+                    <p>As for the offered exchange of a signed copy from JJ, he wrote Yeats in May 1936: “If Mrs Yeats will unsew the first pages of your <name type="work" key="W_ULYSSES">Ulysses</name> and send them I shall sign them with great pleasure” (<name type="work" key="ID_MISSING">LIII</name> 384).</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

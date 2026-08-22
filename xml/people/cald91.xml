@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cald91">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Caldwell</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>cald91</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Thomas</forename> <surname>Caldwell</surname>
+            </persName>
+            <persName type="full">Thomas Caldwell</persName>
+            <date type="birth" when="1891"/>
+            <date type="death" when="1924-02-14"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Inept anthologist of modern English poetry. Born Thomas Turlough Cullovin in London, Thomas Caldwell was the son of a Cavanman, Thomas Cullovin, who worked for H. M. Inland Revenue. In late 1921, Caldwell approached J. M. Dent &amp; Sons with a proposal for an anthology of English verse. His <name type="work" key="ID_MISSING">Golden Book of Modern English Poetry</name> went through several editions both before and after Caldwell’s early death in 1924, not least because of his lack of editorial care. A. E. Housman complained of errors in the texts of his poems in the second edition; JJ’s <name type="work" key="ID_MISSING">CM</name> III appeared as “At That Hour” in the first edition with its second line, “O lonely watcher of the skies”, misquoted as “O lovely watcher of the skies”. <name type="work" key="ID_MISSING">The Golden Book of Modern English Poetry, 1870–1920</name> (London; Toronto: J. M. Dent &amp; Sons, 1922), p. 310. JJ disappeared from the second, revised edition of 1923. The anthology was reissued in 1935 as part of Everyman’s Library. <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

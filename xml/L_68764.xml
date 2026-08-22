@@ -1,0 +1,126 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68764">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Thursday, 5 May 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68764</idno>
+            <idno type="internal">68764</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_06">Boulevard Raspail 5, Paris</placeName>
+               </address>
+               <date notBefore="1921-05-05" notAfter="1921-05-05">Thursday, 5 May 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_06">Boulevard Raspail 5</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="weav76">Miss Weaver</name>: I enclose the typescript of <hi rend="underline">Oxen</hi> <hi rend="underline">of</hi> <hi rend="underline">the</hi> <hi rend="underline">Sun</hi> which I obtained from <name type="person">Mrs Harrison</name> though it looks as if <seg xml:id="seg1" type="note-anchor">her husband</seg> had been reading it. It would be well to explain to <name type="person" key="elio88">Mr Eliot</name> <seg xml:id="seg2" type="note-anchor">the break</seg> in <hi rend="underline">Circe</hi>. I also enclose uncorrected proof of <seg xml:id="seg3" type="note-anchor">the prospectus</seg> which will be ready on Tuesday next.</p>
+                    <p>        	I have received a <name type="work">
+                            <hi rend="underline">New</hi> <hi rend="underline">Age</hi>
+                        </name> cutting with a very friendly <seg xml:id="seg4" type="note-anchor">article</seg> which <name type="person" key="poun85">Mr Pound</name> says is written by <name type="person">Mr Orage</name>, the editor.</p>
+                    <p>        	I hope you received my letter and telegram. It is curious that your letter took three days to come but registered letters are always safe.</p>
+                    <closer>
+                        <salute>        	With renewed thanks</salute>
+                        <salute>                    	sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">                                	James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1921-05-05">5/v/921</date>
+                        </dateline> </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Mrs Harrison was one of the typists engaged to work on the “Circe” episode. When her husband saw JJ’s manuscript, he was outraged enough to throw it into the fire. The burning happened on <date when="1921-04-08">8 April 1921</date> (see <rs type="letter" key="L_68754">JJ to Weaver, 9 April 1921</rs>, <name type="work">LIII</name> 40). Since Mrs Harrison had managed to hide most of the manuscript, however, only a few pages of it were lost and had to be rewritten (<name type="work">JJ</name> 508).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ had asked Weaver to show T. S. Eliot episodes of <name type="work" key="W_ULYSSES">Ulysses</name>. The “break” referred to several missing pages of the manuscript of “Circe” which had been burned by the outraged husband of the typist, Mrs Harrison (<name type="work">LIII</name> 40).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">When plans for an American publication fell through, Sylvia Beach offered JJ to publish <name type="work" key="W_ULYSSES">Ulysses</name> in Paris. The plan was for a first edition of 1,000 copies, to be sold in advance by subscription. A four-page prospectus was mailed to several hundred people and shops in England and in France that had expressed interest and might subscribe to <name type="work" key="W_ULYSSES">Ulysses</name>. The names of the persons and shops in England were supplied to Beach by Harriet Weaver (<name type="work">JJ</name> 40, 506). An image of the prospectus can be found on the <rs type="external" key="https://www.bl.uk/collection-items/g-b-shaws-order-form-for-ulysses">website of the British Library</rs>.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">R.H.C. [Alfred Richard Orage], “Readers and Writers”, <name type="work">New Age</name> 28, no. 26 (28 April 1921): 306-07.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

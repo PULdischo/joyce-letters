@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ford73">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ford Madox Ford</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>ford73</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">59077275</idno>
+            <idno type="OCLC">lccn-n79045085</idno>
+            <persName type="reg">
+               <forename>Ford Madox</forename> <surname>Ford</surname>
+            </persName>
+            <persName type="full">Ford Madox Ford</persName>
+            <date type="birth" when="1873-12-17"/>
+            <date type="death" when="1939-06-26"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Writer and editor. Especially with his best known novel, <name type="work" key="ID_MISSING">The Good Soldier</name> (1915), Ford made an important contribution to literary Modernism. He met Joyce for the first time thanks to <name type="person" key="poun85">Ezra Pound</name>, who organized a personal meeting in late November 1922 (see Joyce’s letter to <name type="person" key="weav76">Harriet Shaw Weaver</name> of 25 November 1922; <name type="work" key="ID_MISSING">LIII</name> 69). In 1924, Ford founded the <name type="work" key="ID_MISSING">transatlantic review</name>, whose April 1924 issue contained the first pre-book publication of <name type="work" key="ID_MISSING">Finnegans Wake</name> (the MaMaLuJo episode) under the title “From Work in Progress”. After that, “Work in Progress” was to remain the working title of what eventually became <name type="work" key="ID_MISSING">Finnegans Wake</name>. <hi rend="bold">Dirk Van Hulle</hi> and <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

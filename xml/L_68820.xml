@@ -1,0 +1,128 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68820">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 25 November 1921</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68820</idno>
+            <idno type="internal">68820</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">9 rue de l'Université, Paris</placeName>
+               </address>
+               <date notBefore="1921-11-25" notAfter="1921-11-25">Friday, 25 November 1921</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_04">rue de l’Université 9</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name> VII</addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <p>Dear <name type="person" key="weav76">Miss Weaver</name>: I had an interview yesterday with <rs type="person" key="dara82">the printer</rs>. From what I can gather a crisis seems to have been reached as a result of which I need £75 to pay him a draft falling due on the <date when="1921-11-30">30 November</date> and to keep myself alive till the first week in December. I cannot find your letter (I cannot find anything now living as we do three in a room with my case of books stored and the table of my polar apartment, in which I sit wrapped in three shawls and blankets, piled with proofs), but it seems to me you said I could draw on some money – I forget what money it was but it must have been yours as usual. During the past few months I had to draw on the meagre sum set apart for the printer but it was said that a number of people were going to do a great many things which they haven’t done. Moreover, as far I can note there appears to have been a disagreement in the family of my publishers here (though I would ask you not to allude to this lest I should be promptly denounced as even more stupid than was thought) but there has certainly been one in the family of <rs type="person" key="beno01">the translator</rs> of the passages for the lecture (card enclosed). Anyhow for the last two or three months the printer has shelved my book in favour of <name type="person" key="mcal95">Mr <choice>
+                                <sic>Mac Almon</sic>
+                                <corr>McAlmon</corr>
+                            </choice>
+                        </name>’s (who, I take it, paid promptly and in advance). This latter is now out but for the past week not a single word has been set, the printers confining themselves to executing my corrections. This being the position I have no recourse but to write you this letter. I daresay you will think I am very mercenary. The printer told me that I have made such alterations on <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> as reduced my estimated gain (on total sale) by about £600 – and this after 7 ½ years labour. I cannot help it. I must give as much as I can. He says the book will weigh about 4 lbs. I suggest it be sold by the ounce. Typing has been a heavy item for me personally as I had certain parts done over three or four times to facilitate the printer in setting. Also I am afraid I must have the proofs of <hi rend="underline">Ithaca</hi> (the ugly duckling of the book and therefore, I suppose, my favourite) read by a competent person – which will be another expense. I don’t believe there was ever a more tiresome person to all who have the misfortune to know him than I am. As for <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> it is a perfect nightmare to me. I could finish it off (in the murderer’s sense) in about 50 or 60 hours, I think, on proof – provided this engagement is met and the printers print the end of it rapidly.</p>
+                    <p>        	The passages to be read at <seg xml:id="seg1" type="note-anchor">the <hi rend="underline">séance</hi>
+                        </seg> are – the execution scene from the <hi rend="underline">Cyclops</hi>, the romance in the <hi rend="underline">Sirens</hi>, a few passages from <hi rend="underline">Ithaca</hi> (which I insisted on), and the last six pages of the book from <hi rend="underline">Penelope</hi>. I made out a <seg xml:id="seg2" type="note-anchor">rough chart</seg> of the book for <name type="person" key="larb81">Mr Larbaud</name> in order to help him to confuse the audience a little more. I ought not to have done so and when he had seen it I asked him to send it back. Would you like to see it?</p>
+                    <p>        	I hope when all is done you will give me a position as gardener though I shall spend as much time as possible sitting on the wheelbarrow.</p>
+                    <closer>
+                        <salute>        	With kindest regards</salute>
+                        <salute>                    	sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">                                	James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1921-11-25">25.xi.921</date>
+                        </dateline> </closer>
+                </div> </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">A reading of passages from <name type="work" key="W_ULYSSES">Ulysses</name> translated into French, held on <date when="1921-12-07">7 December 1921</date> at La Maison des Amis des Livres, 7 rue de l’Odéon. JJ enclosed a handbill for the séance in his <rs type="letter" key="L_68825">letter to Harriet Weaver of 6 December 1921</rs>.</note> <note xml:id="note2" target="#seg2" type="commentary">The so-called “schema” of <name type="work" key="W_ULYSSES">Ulysses</name>, an outline of the themes associated with each episode, mentioned also in JJ’s letters to Larbaud of <rs type="letter" key="L_68815">6 November 1921</rs> (<name type="work">LIII</name> 53), <rs type="letter" key="L_68817">15 November 1921</rs> (<name type="work">LIII</name> 53), and <rs type="letter" key="L_68821">26 November 1921</rs> (<name type="work">LIII</name> 54).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

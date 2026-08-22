@@ -1,0 +1,1 @@
+{ "layout": "entity.njk", "tags": ["people"], "eleventyComputed": { "permalink": "people/{{ page.fileSlug }}/index.html", "kind": "person" } }

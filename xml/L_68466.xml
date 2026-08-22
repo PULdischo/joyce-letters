@@ -1,0 +1,166 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68466">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Tuesday, 9 April 1918</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68466</idno>
+            <idno type="internal">68466</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_08">Universitätsstrasse 38, Zurich</placeName>
+               </address>
+               <date notBefore="1918-04-09" notAfter="1918-04-09">Tuesday, 9 April 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_CHE_ZURI_08">Universitätstrasse 38 I</name>
+                                </seg>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> (<name type="geo" key="G_CHE">Switzerland</name>)</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: I have received your card and letter dated <seg xml:id="seg2" type="note-anchor">
+                            <foreign xml:lang="lat">feria sexta in Parasceve</foreign>
+                        </seg> and am glad to hear that the <seg xml:id="seg3" type="note-anchor">first part of the Telemachia</seg> has appeared in <rs type="work" key="W_THELITTLE">your review</rs>. I shall consider it a great favour if you will kindly send a copy of this and subsequent numbers to the following addresses:</p>
+                    <list rend="numbered">
+                        <item n="i/">
+                            <seg xml:id="seg4" type="note-anchor">
+                                <name type="person" key="murr62">Mrs Murray</name>
+                            </seg>, <name type="geo" key="G_IRL_DUBL_11">10 Fairfield Road, Church Road</name>, <name type="geo" key="G_IRL_DUBL">Dublin</name>.</item>
+                        <item n="ii/">
+                            <seg xml:id="seg5" type="note-anchor">
+                                <name type="organisation" key="monr91">Messrs Slack, Monro, Saw and Co</name>
+                            </seg>, solicitors, <name type="geo" key="G_GBR_LOND_06">70 Queen Street</name>, <name type="geo" key="G_GBR_LOND">London</name>, E.C.</item>
+                    </list>
+                    <p>since it seems that the appearance of <rs type="work" key="W_ULYSSES">the book</rs> in <hi rend="underline">
+                            <name type="work" key="W_THEEGOIST">The Egoist</name>
+                        </hi> will be <seg xml:id="seg6" type="note-anchor">delayed</seg>. I request you to charge the amount against the balance of serial rights coming to me. I should also be glad to receive through you as quickly as possible a copy of each number of the review as mails from <name type="geo" key="G_USA_NEWY">New York</name> are somewhat uncertain.</p>
+                    <p>I shall send you <date when="1918-04-10">tomorrow</date> the <seg xml:id="seg7" type="note-anchor">second episode</seg> of the odyssey, the <foreign xml:lang="ell">lotophagoi</foreign>. I am sorry you do not like the <seg xml:id="seg8" type="note-anchor">Calypso-Penelope</seg> episode. The text however is to remain exactly as I wrote it. As regards the <seg xml:id="seg9" type="note-anchor">Greek or other translations</seg> of my book I fear that the probability is rather remote. Of course I should feel highly honoured by such a translation not merely because it would bring my poor writings to the lands of many good friends of mine but also because the spirit which has sustained me so long in my labour has been that of a great Greek poet.</p>
+                    <p>I have suggested to <name type="person" key="weav76">Miss Weaver</name> that <rs type="work" key="W_THEEGOIST">her journal</rs> be printed in <name type="geo" key="G_FRA_PARI">Paris</name> and <seg xml:id="seg10" type="note-anchor">
+                            <name type="organisation" key="O_GEORGESCRES">Messrs Georges Crès et Cie</name>
+                        </seg> have been so kind as to offer to place their printers at her disposal.</p>
+                    <p>I regret to hear of <name type="person" key="quin70">Mr Quinn’s</name> <seg xml:id="seg11" type="note-anchor">illness</seg> and beg you to convey my wishes for his recovery. May I ask you also to transmit to <name type="person" key="ande86">Miss Anderson</name> my thanks for her <seg xml:id="seg12" type="note-anchor">courage and enterprise</seg>.</p>
+                    <p>I do not know whether my play <hi rend="underline">
+                            <name type="work" key="W_EXILES">Exiles</name>
+                        </hi> has been <seg xml:id="seg13" type="note-anchor">published in London or New York</seg> or whether it has been given or will be given by the <seg xml:id="seg14" type="note-anchor">
+                            <name type="organisation" key="O_STAGESOCIETY">Stage Society</name> of London</seg> or whether <name type="person" key="yeat65">Yeats</name> has now reorganized <rs type="organisation" key="O_ABBEYTHEATRE">his theatre</rs> in such a way as to make a <seg xml:id="seg15" type="note-anchor">production of it</seg> possible. If you know anything about it I shall be glad to hear when you write next.</p>
+                    <p>I assume that you are now <seg xml:id="seg16" type="note-anchor">quite recovered</seg>. I am also well enough but <seg xml:id="seg17" type="note-anchor">suffer</seg> occasionally. The climate is, as always, very unfavourable. Life also is extremely dear. For instance coal was £14 a ton here during the winter (which is not yet over) and the prices of all things go up and up. I shall look forward to a renewal of the <seg xml:id="seg18" type="note-anchor">treasury grant</seg> made me two years ago and need scarcely say that if it be doubled I shall be doubly grateful. In view of all circumstances of the case it might be well <surplus reason="repeated">be</surplus> for the purchasing value of money has fallen by more than fifty per cent. You are not to understand this as addressed in any way to yourself as editor. You have done everything possible and I am <seg xml:id="seg19" type="note-anchor">more than repaid</seg> for my contributions. Miss Weaver, I fear, has made a very bad affair and I shall try, if she does not find a printer for her journal in Paris, to secure for her at least the English book rights so that <seg xml:id="seg20" type="note-anchor">the serial fees</seg> paid me may count as an advance of royalties.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1918-04-09">9 April 1918</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">After returning to Zurich in January 1918 from their stay in <name type="geo" key="G_CHE_LOCA">Locarno</name>, Switzerland, JJ and family moved into a flat at Universitätstrasse 38, remaining there until October 1918, when they moved to <name type="geo" key="G_CHE_ZURI_09">Universitätstrasse 29</name>.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Latin for “the sixth day of the Preparation,” the liturgical name for Good Friday. JJ refers to Pound’s letter dated “Good Friday [29 March] 1918. 12:07 a.m.” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In Locarno, JJ had finished the first three episodes of <name type="work" key="W_ULYSSES">Ulysses</name> – “Telemachus,” “Nestor,” and “Proteus” – and sent them off to Zurich to be typed, thence to be transmitted to Pound for serialization in the New York magazine <name type="work" key="W_THELITTLE">The Little Review</name>, of which Pound was foreign editor. JJ referred to these episodes collectively as the “Telemachia,” part one of <name type="work" key="W_ULYSSES">Ulysses</name>. “Telemachus” was printed in the March 1918 number of <name type="work" key="W_THELITTLE">The Little Review</name>.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Josephine Giltrap Murray (1862-1924) was JJ’s aunt, with whom he remained close all her life and on whom he depended for advice about practical matters and for detailed information about Dublin that helped him with his writing, especially <name type="work" key="W_ULYSSES">Ulysses</name>. Josephine stepped into a maternal role for JJ and <rs type="person" key="joyc84">his siblings</rs> after the death of <rs type="person" key="joyc59">their mother</rs> in August 1903, and she took a genuine interest in JJ’s aspirations to being an author. She appears briefly as Stephen Dedalus’s Aunt Josephine, wife of Richie Goulding, in chapter two of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, and is in Stephen’s thoughts about the Goulding family in the “Proteus” episode of <name type="work" key="W_ULYSSES">Ulysses</name>.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">London solicitors who had informed JJ in February 1917 that an anonymous “admirer of [his] writing” had gifted him £200, to be paid in £50 installments in May, August, and November 1917 and February 1918 (<name type="work" key="ID_MISSING">LII</name> 389). JJ thought that Pound was involved, but the admirer was later revealed to be <name type="person" key="weav76">Harriet Shaw Weaver</name> (1876-1961).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Pound had written JJ on 29 March 1918 of the efforts to serialize <name type="work" key="W_ULYSSES">Ulysses</name> in the London magazine <name type="work" key="W_THEEGOIST">The Egoist</name>: “The Egoist printers wont set up the stuff at all” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131). Only a few episodes of <name type="work" key="W_ULYSSES">Ulysses</name> – “Nestor,” “Proteus,” “Hades,” and part of “Wandering Rocks” – appeared in <name type="work" key="W_THEEGOIST">The Egoist</name> in 1919, because the editor, Harriet Shaw Weaver (1876-1961), had difficulty in finding a printer who would risk producing even these relatively tame portions of the book (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 443).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">“Lotus-Eaters” is the second episode of what JJ called the “Odyssey,” chapter two of <name type="work" key="W_ULYSSES">Ulysses</name>, and the fifth episode of the book as a whole. In this episode, Leopold Bloom visits the post office to retrieve a letter from his erotic correspondent, Martha Clifford, observes a Roman Catholic mass in progress, looks in at a chemist’s shop about a lotion for his wife Molly, and imagines himself soaking luxuriously in a tub at the public baths – all events that connect with themes of drowsy pleasure and narcotic forgetfulness. In Book 9 of <name type="work" key="ID_MISSING">The Odyssey</name>, Odysseus tells of his visit to the land of the lotus-eaters – or <hi rend="italic">lotophagoi</hi> – who give some of his men the lotus flower to eat, rendering them forgetful and indifferent to returning home, and causing Odysseus to force them back to the ships to resume the journey for Ithaca. “Lotus-Eaters” appeared in <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 3 (July 1918): 37-49.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Pound had received JJ’s typescript of “Calypso,” the fifth episode of <name type="work" key="W_ULYSSES">Ulysses</name>, and wrote JJ on 29 March 1918 that, while the episode contained “excellent things,” he felt that the scene in which Leopold Bloom defecates, the use of the word “urine,” and other elements were simply “bad writing” and “stronger [language] than you need” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131). He urged JJ to “[l]eave the stool” to musical hall comedians, and worried that the episode as written might lead to suppression of <name type="work" key="W_THELITTLE">The Little Review</name>, John Quinn’s withdrawal of funds for paying contributors, and the jailing of “our august editress,” <name type="person" key="ande86">Margaret Anderson</name> (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131). Despite JJ’s insistence here that nothing be altered in “Calypso,” Pound did expurgate certain passages for serial publication (Paul Vanderham, “Ezra Pound’s Censorship of <name type="work" key="W_ULYSSES">Ulysses</name>,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, nos. 3-4 [Spring-Summer 1995]: 583-95). He told John Quinn that he had “deleted about twenty lines before sending it off to N.Y.” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 132). Thus altered, “Calypso” appeared in <name type="work" key="W_THELITTLE">The Little Review</name>, vol. 5, no. 2 (June 1918): 39-52.<p>JJ’s phrase, “the Calypso-Penelope episode,” may suggest that Molly Bloom combines in this episode the Homeric roles of Odysseus’s wife Penelope and the nymph Calypso, who, as related in Books 5 and 7 of <name type="work" key="ID_MISSING">The Odyssey</name>, kept Odysseus as a forced bedmate for seven years on her island, Ogygia. Joyce scholars have argued for this merger of roles, perhaps in association with “<name type="work" key="ID_MISSING">The Bath of the Nymph</name>,” a color print that hangs over the Blooms’ bed (<name type="work" key="ID_MISSING">U</name> 4.369-73; see, e.g., Hugh Kenner, <name type="work" key="W_ULYSSES">Ulysses</name> [Baltimore, MD: The Johns Hopkins University Press, 1980], 27-28).</p>
+                </note>
+                <note xml:id="note9" target="#seg9" type="commentary">Hinting that he planned to excise certain objectionable passages from “Calypso,” Pound facetiously consoled JJ in his 29 March 1918 letter: “Perhaps an unexpurgated text of you can be printed in a greek or bulgarian translation later” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Because English printers refused to produce numbers of <name type="work" key="W_THEEGOIST">The Egoist</name> containing installments of <name type="work" key="W_ULYSSES">Ulysses</name>, JJ suggested to the magazine’s editor, Harriet Shaw Weaver, that she have the printing done in Paris by less squeamish artisans, but she did not do so (<name type="work" key="ID_MISSING">LI</name> 112, 113). Georges-Célestin Crès (1875-1935) was a publisher and bookseller who founded Crès et Cie in Paris in 1913, and in 1916, urged by <name type="person" key="ID_MISSING">the French Minister of Foreign Affairs</name>, opened a French bookstore in Zurich, Les Éditions Françaises. In October 1917, that bookstore agreed to take seven copies of a new English edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, to be published in March 1918 by <name type="organisation" key="ID_MISSING">the Egoist Ltd.</name> in London. JJ also hoped that Crès would publish a French translation of the novel, but this did not happen (<name type="work" key="ID_MISSING">LII</name> 408). However, the Paris house, <name type="organisation" key="ID_MISSING">Éditions de La Sirène</name>, which published the French translation of <name type="work" key="W_APORTRAIT">A Portrait</name> by <name type="person" key="savi81">Ludmila Savitzky</name> (1881-1957) in 1924, was managed during financial difficulties by Éditions Crès, beginning in 1923.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">Pound told JJ in his 29 March 1918 letter that the New York lawyer and patron of the arts, John Quinn, “has been in hospital for a major operation” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131). Quinn had had surgery “to remove a bleeding ulcer from which he took months to recover” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 137).</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Pound warned JJ in his 29 March 1918 letter that <name type="work" key="W_THELITTLE">The Little Review</name>, founded and coedited by Margaret Caroline Anderson (1886-1973, might be suppressed if it published anything regarded as legally obscene in the <name type="work" key="W_ULYSSES">Ulysses</name> installments, adding, “AND I cant have our august editress jailed, NOT at any rate for a passage [the scene of Leopold Bloom defecating] which I do not think written with utter maestria [mastery]” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 131).</note>
+                <note xml:id="note13" target="#seg13" type="commentary">
+                    <name type="work" key="W_EXILES">Exiles</name> was published simultaneously by <name type="person" key="rich72">Grant Richards</name> in London and <name type="person" key="hueb76">B.W. Huebsch</name> in New York in May 1918.</note>
+                <note xml:id="note14" target="#seg14" type="commentary">Despite the efforts of JJ and others, the London-based Incorporated Stage Society did not produce <name type="work" key="W_EXILES">Exiles</name> at this time (see <rs type="letter" key="L_68374">JJ to Pound, 5 June 1917</rs>, notes). The Society finally presented the play at London’s Regent Theatre on 14 and 15 February 1926, with W.G. Fay as director.</note>
+                <note xml:id="note15" target="#seg15" type="commentary">On 26 August 1917, W.B. Yeats (1865-1939) explained to JJ that <name type="work" key="W_EXILES">Exiles</name> was “a type of work [that the Dublin Abbey Theatre] have never played well” since it was “too far from the folk drama.” In addition, the Abbey had lost some of its players as a result of a dispute and for other reasons. But essentially Yeats thought <name type="work" key="W_EXILES">Exiles</name> “[not] at all so good” as <name type="work" key="W_APORTRAIT">A Portrait</name> (<name type="work" key="ID_MISSING">LII</name> 405).</note>
+                <note xml:id="note16" target="#seg16" type="commentary">It is unclear what Pound had recovered from. Three months later, on 17 July 1918, he would write that he was “flat on my back with some crotchety variant of the chill-cum-flu-cum-spew” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 144).</note>
+                <note xml:id="note17" target="#seg17" type="commentary">JJ suffered a severe attack of glaucoma in Zurich in August 1917. Once he had sufficiently recovered from eye surgery, he went with his family to Locarno in October 1917 and stayed there until January 1918, partly to recuperate further.</note>
+                <note xml:id="note18" target="#seg18" type="commentary">In August 1916, with help from Pound, W.B. Yeats, and others, JJ had obtained a grant of £100 from the British Civil List (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 406).</note>
+                <note xml:id="note19" target="#seg19" type="commentary">In a letter to Nora Barnacle dated 10 September 1917, Pound mentioned that he hoped to pay JJ £50 or more, in due course, for the serialization of <name type="work" key="W_ULYSSES">Ulysses</name> in <name type="work" key="W_THELITTLE">The Little Review</name> (<name type="work" key="ID_MISSING">Pound/Joyce</name> 125-26).</note>
+                <note xml:id="note20" target="#seg20" type="commentary">On 8 March 1918, Harriet Shaw Weaver (1876-1961), editor of <name type="work" key="W_THEEGOIST">The Egoist</name> in London, sent JJ £25 as “the second payment from the Egoist for the serial rights of your novel <name type="work" key="W_ULYSSES">Ulysses</name>” (<name type="work" key="ID_MISSING">The Cornell Joyce Collection: A Catalogue</name>, ed. Robert E. Scholes [Ithaca: Cornell University Press, 1961], 199-200). In a letter of 18 May 1918 to Weaver, JJ proposed “to cede … the book rights [to <name type="work" key="W_ULYSSES">Ulysses</name>] and to consider the sums already advanced by you for serial rights as an advance of royalties to be written off, if you agree, in two or three deductions from sums eventually due to me by half yearly accounts of sales” (<name type="work" key="ID_MISSING">LI</name> 113). The first English edition of <name type="work" key="W_ULYSSES">Ulysses</name> was published in October 1922 “for [Weaver’s] Egoist Press, London[,] by John Rodker, Paris[,] 1922” (John J. Slocum and Herbert Cahoon, <name type="work" key="ID_MISSING">A Bibliography of James Joyce</name> [New Haven: Yale University Press, 1953], 26).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

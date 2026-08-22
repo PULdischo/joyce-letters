@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beac87">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Beach</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>beac87</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">35247539</idno>
+            <idno type="OCLC">lccn-n79121733</idno>
+            <persName type="reg">
+               <forename>Sylvia</forename> <surname>Beach</surname>
+            </persName>
+            <persName type="full">Sylvia Beach</persName>
+            <date type="birth" when="1887-03-14"/>
+            <date type="death" when="1962-10-05"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Bookseller and publisher Beach’s long collaboration with JJ was among the most important developments of literary modernism. An American, one of three daughters of a Presbyterian minister, Beach’s travels with the family to Europe presaged her settling in <name type="person" key="G_FRA_PARI">Paris</name> in <date when="1916" precision="low">1916</date>. With the help of French bookshop owner <name type="person" key="monn92">Adrienne Monnier</name>, in <date when="1919-11" precision="medium">November 1919</date> she opened <name type="organisation" key="O_SHAKESPEAREANDCOMPANY">Shakespeare and Company</name>, a lending library and shop devoted to English-language books. She and Monnier maintained a long relationship until the latter’s death in <date when="1955" precision="low">1955</date>. Beach met JJ within days of his arrival in Paris on <date when="1920-07-08">8 July 1920</date>; he quickly became a frequent customer. Following the prosecution in <date when="1921-02">February 1921</date> of <name type="work" key="W_THELITTLE">The Little Review</name> in <name type="geo" key="G_USA_NEWY">New York</name> for including purportedly obscene episodes of <name type="work" key="W_ULYSSES">Ulysses</name>, Beach agreed to publish the entire <name type="work" key="W_ULYSSES">Ulysses</name> under the imprint of her shop. Beach negotiated for printing by <name type="person" key="dara82">Maurice Darantiere</name> of Dijon, solicited subscriptions as a form of advance for JJ, arranged for typists of the manuscript, and managed to have the first two copies delivered to Paris on JJ’s birthday, <date when="1922-02-02">2 February 1922</date>. Giving JJ extraordinary royalties, she oversaw nine printings of <name type="work" key="W_ULYSSES">Ulysses</name> through 1931, during which time she also published in <date when="1927" precision="low">1927</date> JJ’s slim poetry collection, <name type="work" key="ID_MISSING">Pomes Penyeach</name>, and in <date when="1927" precision="low">1929</date> the collection of essays on the nascent <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>, <name type="work" key="ID_MISSING">Our Examination Round His Factification for Incamination of Work in Progress</name>. JJ exploited Shakespeare and Company as a secretarial office, a post office, and a bank. Yet, despite Beach’s support, her relations with JJ soured as his popularity soared. Facing financial difficulties, Beach organized a sale of her manuscripts from JJ and other authors in <date when="1935-05" precision="medium">May 1935</date>. The German occupation of Paris led to Beach’s abrupt closing of her shop in <date when="1941-12" precision="medium">December 1941</date>. Continuing as a Paris resident, Beach became a resource for the postwar growth of JJ scholarship. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

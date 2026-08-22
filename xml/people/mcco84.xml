@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcco84">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John McCormack</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>mcco84</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">37102744</idno>
+            <idno type="OCLC">lccn-n50012952</idno>
+            <persName type="reg">
+               <forename>John</forename> <surname>McCormack</surname>
+            </persName>
+            <persName type="full">John McCormack</persName>
+            <date type="birth" when="1884-06-14"/>
+            <date type="death" when="1945-09-16"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Renowned Irish tenor. The award in 1903 of a gold medal for his vocal performance in Ireland’s Feis Ceoil competition followed by brief musical study in Milan set him on a professional career. Making his name with performances in London, he then spent some years in the United States, performing in New York, Boston, and Chicago. Despite his success, by the 1920s he had largely abandoned opera in favour of concerts and recitals. He achieved wide popular fame for his performances and recordings of traditional Irish songs and operatic arias. McCormack became an American citizen in 1919. Appointed as a papal count in 1928, he sang at Dublin’s 1932 eucharistic congress to a huge audience in Phoenix Park. McCormack is alluded to frequently in <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>, where his wide girth and ebullient manner are frequently used as an embodiment of the Shaun character. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

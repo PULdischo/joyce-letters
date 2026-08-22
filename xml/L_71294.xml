@@ -1,0 +1,150 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71294">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Sunday, 8 December 1940</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                    <name>SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>WB</name>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71294</idno>
+            <idno type="internal">71294</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zentralbibliothek Zürich</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fra"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_STGE_03">Maison Ponthenier, Allier</placeName>
+               </address>
+               <date notBefore="1940-12-08" notAfter="1940-12-08">Sunday, 8 December 1940</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_STGE_03">Maison Ponthenier</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_STGE">
+                                    <choice>
+                                        <sic>S. Gerand-Le Puy</sic>
+                                        <corr>Saint-Gérand-le-Puy</corr>
+                                    </choice>
+                                </name>
+                            </addrLine>
+                            <addrLine>Allier, France</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Cher <name type="person" key="rugg87">Ruggiero</name>: <seg xml:id="seg1" type="note-anchor">Cette lettre</seg> est aussi pour <name type="person" key="gied93">M<hi rend="underline">
+                                <hi rend="superscript">me</hi>
+                            </hi> <choice>
+                                <sic>Gideon</sic>
+                                <corr>Giedion</corr>
+                            </choice>
+                        </name> et elle ferait bien, je crois, de téléphoner à <name type="person" key="augs02">M. Augsbourg</name>. Et voilà pourquoi. J’ai reçu une réponse hier de la légation suisse à <name type="geo" key="G_FRA_VICH">Vichy</name>, me disant que les visas d’entrée en Suisse étaient toujours à notre disposition. J’ai téléphoné immédiatement et l’on m’a dit que, suivant un ordre téléphonique venu de <name type="geo" key="G_CHE_BERN">Berne</name>, nos visas resteraient valables jusqu’au <date when="1940-12-28">28 décembre</date>. On n’a rien dit au sujet des visas de rentrée en France.</p>
+                    <p>Je suppose donc que cette question est réglée. <hi rend="underline">Mais</hi> ce matin je reçois une lettre officieuse de l’ami de M. Augsbourg, M. Demay. Il semble que notre visa de sortie pour nous tous ne sera pas renouvelé mais seulement pour moi. Un tel visa m’est inutile et je ne l’accepterai pas. Ou nous partirons tous (moi, <rs type="person" key="barn84">ma femme</rs>, <rs type="person" key="joyc05">mon fils</rs> et <rs type="person" key="joyc32">le petit</rs>), ou nous ne partirons plus. Si j’arrive jamais en Suisse j’arrangerai le cas de Lucia de là-bas. Donc, si M. Augsbourg possède une autre carte qu’il la joue et tout de suite. Le visa de sortie a été déjà accordé par un ordre ministériel le <date when="1940-10-18">18 octobre</date>. Quand on nous a demandé pour quelle durée nous le voulions valable j’ai fixé le 1<hi rend="superscript">er</hi> <choice>
+                            <sic>decembre</sic>
+                            <corr>décembre</corr>
+                        </choice> pensant qu’en 7 semaines l’affaire suisse serait réglée. On soulève maintenant la question de la soi-disant ‘mobilisabilité’ de mon fils, déjà réglée en reste par l’ordre du 18.x. Cette ‘mobilisabilité’ n’existe pas. Né en Italie, irlandais, de parents tous les deux ressortissants de l’Irlande du Sud, ne résidant pas, n’ayant jamais résidé ni en Grande-Bretagne ni en Irlande du Nord il n’est visé par aucune loi britannique sur le service militaire obligatoire.</p>
+                    <closer>
+                        <salute>cordialement vôtre</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <date when="1940-12-08">8.xii.940</date>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <ab>
+                        <address>
+                            <addrLine>Maison Ponthenier</addrLine>
+                            <addrLine>Saint-Gérand-le-Puy</addrLine>
+                            <addrLine>Allier, France</addrLine>
+                        </address>
+                    </ab>
+                    <p>Dear Ruggiero: This letter is also for Mrs Giedion and she would do well, I think, to telephone Mr Augsbourg. And here’s why. Yesterday I received an answer from the Swiss Legation in Vichy telling me that the entry visas for Switzerland were still there for us. I telephoned immediately and was told that, according to a telephone order from Bern, our visas would remain valid until 28 December. Nothing was said about visas for returning to France.</p>
+                    <p>I therefore suppose this matter is settled. <hi rend="underline">But</hi> this morning I receive an unofficial letter from Mr Augsbourg’s friend Mr Demay. It seems that the exit visa will not be renewed for all of us, only for me. Such a visa is useless to me and I will not accept it. Either we all leave together (I, my wife, my son and the child) or we don’t leave. If I ever get to Switzerland I shall take care of Lucia’s case from down there. Therefore, if Mr Augsbourg has another card to play, let him play it now. The exit visa was already granted by ministerial order on 18 October.  When we were asked how long we wanted it to be valid I decided on 1 December, thinking that in 7 weeks the Swiss matter would be settled. Now the question of the so-called “mobilizability” of my son is raised, even though that was already settled by the order of 18.x. There is no “mobilizability”. Born in Italy, Irish, of parents both from the South of Ireland, not residing nor ever having resided in either Great Britain or Northern Ireland, he is not subject to any British law concerning compulsory military service.</p>
+                    <closer>
+                        <salute>cordially yours</salute>
+                        <signed>James Joyce</signed>
+                        <date when="1940-12-08">8.xii.940</date>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Paul Ruggiero, Carola Giedion-Welcker and Géa Augsbourg were among the people who helped the Joyces to enter Switzerland (see also <rs type="letter" key="L_71291">JJ to Ruggiero, 3 December 1940</rs>). Thanks to David Spurr for assistance with the transcription and translation.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

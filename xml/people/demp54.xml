@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="demp54">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>George Dempsey</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>demp54</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>George Stanislaus</forename> <surname>Dempsey</surname>
+            </persName>
+            <persName type="full">George Dempsey</persName>
+            <date type="birth" when="1854"/>
+            <date type="death" when="1924-06-29"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Lay teacher of Literature and History at Belvedere College between 1884 and 1923, where he taught JJ. George Stanislaus Dempsey was born in Dublin and, already a ‘Professor’, married <name type="person" key="ID_MISSING">Mary Ellen Doyle</name> in 1888; she ran a grocery and post office at their house, 13 Dunville Avenue, in south-east Dublin. Dempsey was typically well-dressed, sported a moustache, and had a military bearing; pupils remembered him fondly. He died in Dublin, aged seventy, in 1924, and was buried at Glasnevin Cemetery. The George Dempsey Memorial prize is awarded annually at Belvedere College for excellence in English. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

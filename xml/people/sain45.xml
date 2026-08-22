@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sain45">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>George Saintsbury</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>sain45</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">120695179</idno>
+            
+            <persName type="reg">
+               <forename>George</forename> <surname>Saintsbury</surname>
+            </persName>
+            <persName type="full">George Saintsbury</persName>
+            <date type="birth" when="1845-10-23"/>
+            <date type="death" when="1933-01-28"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>British writer and scholar of literature. After holding a professorship of rhetoric and English language at the University of Edinburgh for twenty years, he retired to Bath in 1915. Although Saintsbury’s <name type="work" key="ID_MISSING">A History of English Prose Rhythm</name> (London: Macmillan, 1912) was an important source for the “Oxen of the Sun” episode in <name type="work" key="ID_MISSING">Ulysses</name>, Joyce’s wish that Saintsbury would write a review of his book (<name type="work" key="ID_MISSING">LI</name> 195) was unfulfilled. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

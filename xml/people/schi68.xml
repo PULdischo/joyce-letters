@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="schi68">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sydney Schiff</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>schi68</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">77636579</idno>
+            
+            <persName type="reg">
+               <forename>Sydney</forename> <surname>Schiff</surname>
+            </persName>
+            <persName type="full">Sydney Schiff</persName>
+            <date type="birth" when="1868-12-12"/>
+            <date type="death" when="1944-10-29"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>British writer and translator who published under the pseudonym Stephen Hudson and translated the last volume of Marcel Proust’s <name type="work" key="ID_MISSING">A la Recherche du temps perdu</name> (<name type="work" key="ID_MISSING">Time Regained</name>). Together with his wife Violet, Schiff is mainly known for his significant role as facilitator to several major Modernist artists and writers. On 18 May 1922, he hosted the party in Paris that became the only occasion on which Joyce and Proust met. The occasion was the premiere of Igor Stravinsky’s comic opera <name type="work" key="ID_MISSING">Renard</name>, and guests included Stravinsky himself, Sergei Diaghilev and Pablo Picasso. <hi rend="bold">Dirk Van Hulle</hi> and <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

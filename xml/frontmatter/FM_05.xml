@@ -1,0 +1,243 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="FM_05">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abbreviations used throughout the edition</title>
+            
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>FM_05</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="text">
+            <div type="mainBody">
+                    <head>Joyce’s works: First and standard editions</head>
+                    <table rows="9" cols="2">
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">CM</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Chamber Music</name>. London: Elkin Mathews, 1907.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">CW</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Critical Writings of James  Joyce</name>. Edited by Ellsworth Mason and Richard Ellmann. New York: Viking Press, 1959.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">D</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Dubliners</name>. London: Grant Richards, 1914. / Edited by Robert Scholes. New York: Viking Press, 1967.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">E</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Exiles, A Play in Three Acts</name>. New York: Viking Press, 1951. </cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">FW</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Finnegans Wake</name>. London: Faber &amp; Faber; New York: Viking Press, 1939.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">GJ</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Giacomo Joyce</name>. Edited by Richard Ellmann. New York: Viking Press, 1968.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">P</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">A Portrait of the Artist as a Young Man</name>. New York: B.W. Huebsch, 1916 / Edited by Richard Ellmann. New York: Viking Press, 1964.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">PP</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Pomes Penyeach</name>. Paris: Shakespeare and Company, 1927.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">SH</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Stephen Hero</name>.New ed. Edited by Theodore Spencer. New York: New Directions, 1963.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">U</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Ulysses</name>. Paris: Shakespeare and Company, 1922. / <name type="work" key="ID_MISSING">Ulysses: A Critical and Synoptic Edition</name>. Edited by Hans Walter Gabler and others. New York: Garland Publishing, 1984, 1986.</cell>
+                        </row>
+                    </table>
+                    <head>Standard editions of Joyce’s letters</head>
+                    <table rows="5" cols="2"> <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">LI</hi>, <hi rend="italic">LII</hi>, <hi rend="italic">LIII</hi></cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Letters of James Joyce</name>. Edited by Stuart Gilbert (vol. 1) and Richard Ellmann (vols. 2 and 3). New York: Viking; London: Faber, 1966.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">Pound/Joyce</hi></cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Pound/Joyce: The Letters of Ezra Pound to James Joyce, with Pound’s Essays on Joyce</name>. Edited by Forrest Read. New York: New Directions, 1967.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">SL</hi></cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Selected Letters of James Joyce</name>. Edited by Richard Ellmann. New York: Viking; London: Faber, 1975.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">Letters to Beach</hi></cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">James Joyce’s Letters to Sylvia Beach, 1921-1940</name>. Edited by Melissa Banta and Oscar A. Silverman. Bloomington: Indiana University Press, 1987.</cell>
+                        </row>
+                    </table>
+                    <head>Categories of correspondence</head>
+                    <table rows="9" cols="2">
+                        <row>
+                            <cell xml:space="preserve" role="label">ALS / ALI / AL</cell>
+                            <cell role="data">Autograph (handwritten) letter, signed, initialled, or unsigned. A message, including greeting cards and unstamped or unaddressed postcards sent in envelopes, that was sent inside of an envelope is always considered a letter, regardless of length. In cases in which Joyce’s letter is written on an unusual document, e.g., a medical report, or a bank statement, such media are noted. Calling cards are noted below.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">APCS / APCI / APC</cell>
+                            <cell role="data">Autograph postcard signed, initialled, or unsigned. A handwritten printed postcard sent on its own, with recipient address and postage stamp (no envelope); includes both blank and picture cards.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">ALSP / ALIP</cell>
+                            <cell role="data">Autograph letter signed or unsigned, sent via pneumatique. A letter transmitted through the pneumatic mail system of Paris during Joyce’s time. Generally, these are distinguished by the use of serrated paper with the instruction “pneumatique” written on the envelope.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">ALS (dict) / APCS (dict) etc.</cell>
+                            <cell role="data">Autograph letter signed and dictated or autograph postcard signed and dictated. An item of correspondence dictated by Joyce and handwritten by an amanuensis.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">ACS / ACI / AC</cell>
+                            <cell role="data">Autograph card signed, initialled, or unsigned. A handwritten card, generally an imprinted calling card. When mailed in an envelope like a letter, this would still be considered as a card.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">ANS / ANI / AN</cell>
+                            <cell role="data">Autograph noted signed, initialed, or unsigned. An unmailed brief handwritten note on a small piece of paper that is neither a letter, postcard nor calling card.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">Telegram / cablegram</cell>
+                            <cell role="data">A brief message sent via a telegraphic transmission system. The sources for transcription may be either the handwritten version taken at the sending office or the printed version as recorded at the receiving office. Since these texts are never in Joyce’s handwriting, they are transcribed in a standard format that generally does not reproduce spacing or typography.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">TLS / TLI / TL</cell>
+                            <cell role="data">Typed letter signed, initialed, or unsigned. A piece of correspondence typed by Joyce or by an amanuensis and signed by Joyce, not a transcription done at a later date.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label">TcLS / TcPCS</cell>
+                            <cell role="data">Typed copy of a letter signed, typed copy of a postcard signed. A typed copy of a letter or postcard done at a later date and not under the authority of Joyce.</cell>
+                        </row>
+                    </table>
+                    <head>Reference works and secondary sources used in biographies and annotations</head>
+                    <table rows="10" cols="2">
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">DIB</hi>
+                            </cell>
+                            <cell role="data">Dictionary of Irish Biography.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">Firth</hi></cell>
+                            <cell role="data">John Firth, "Harriet Weaver's Letters to James Joyce 1915-1920," <name type="work" key="ID_MISSING">Studies in Bibliography</name> 20 (1967): 151-88.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">Gorman</hi></cell>
+                            <cell role="data">Herbert Gorman. <name type="work" key="ID_MISSING">James Joyce</name>. New York and Toronto: Farrar &amp; Rinehart, 1939.</cell>
+                        </row>
+                        <row>
+                            <cell xml:space="preserve" role="label"><hi rend="italic">JJ</hi></cell>
+                            <cell role="data">Richard Ellmann. <name type="work" key="ID_MISSING">James Joyce</name>, new and rev. ed. New York: Oxford University Press, 1982.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">JJC</hi>
+                            </cell>
+                            <cell role="data">James Joyce Checklist.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">JJMU</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">Frank Budgen, James Joyce and the Making of “Ulysses” and Other Writings</name>, 1972.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">JJPL</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">The James Joyce-Paul Léon Papers in the National Library of Ireland: A Catalogue</name>, compiled by Catherine Fahy. Dublin: National Library of Ireland, 1992.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">JJQ</hi>
+                            </cell>
+                            <cell role="data">James Joyce Quarterly.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">JSA</hi>
+                            </cell>
+                            <cell role="data">Joyce Studies Annual.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">ODNB</hi>
+                            </cell>
+                            <cell role="data">Oxford Dictionary of National Biography.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">OED</hi>
+                            </cell>
+                            <cell role="data">Oxford English Dictionary.</cell>
+                        </row>
+                        <row>
+                            <cell role="label">
+                                <hi rend="italic">Slocum and Cahoon</hi>
+                            </cell>
+                            <cell role="data">
+                                <name type="work" key="ID_MISSING">A Bibliography of James Joyce, 1882-1941</name>. New Haven: Yale University Press, 1953.</cell>
+                        </row>
+                    </table>
+                </div>
+         </div>
+      </body>
+   </text>
+</TEI>

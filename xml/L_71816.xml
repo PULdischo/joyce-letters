@@ -1,0 +1,124 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71816">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. ca. 1-15 October 1933</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71816</idno>
+            <idno type="internal">71816</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1933-10-01" notAfter="1933-10-15">ca. 1-15 October 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">French</seg> language: change to “a poor instrument perhaps beside Italian and English” for it is richer than German, Danish or Irish.</p>
+                    <p>
+                        <seg xml:id="seg2" type="note-anchor">Jesuitbred</seg>: towards the end <choice>
+                            <sic>whange</sic>
+                            <corr>change</corr>
+                        </choice> to Jesuit trained. The breeding was done in J.J.’s house and family. He thinks that the gesture against the Rector came from his carnal not from his ghostly father.</p>
+                    <p>
+                        <seg xml:id="seg3" type="note-anchor">Dudley</seg>: take the publican with a grain of salt but see enclosed (it is not enclosed but will be sent to you under separate cover) it may have been true for the viceroy’s son has a quick way with housebreakers-in any case Humble is who humble does (this is the family name).</p>
+                    <p>
+                        <seg xml:id="seg4" type="note-anchor">Ernest or Earnest</seg>
+                    </p>
+                    <p>But <name type="person" key="pear79">
+                            <choice>
+                                <sic>pearse</sic>
+                                <corr>Pearse</corr>
+                            </choice>
+                        </name>’s enthusiasm for Irish led him often to disparage the English tongue. Partly on this account Joyce discontinued the lessons and</p>
+                    <p>        	But <choice>
+                            <sic>pearse</sic>
+                            <corr>Pearse</corr>
+                        </choice>’s enthusiasm for Irish led him often to</p>
+                    <p>Nuns bring bad and Greeks good luck</p>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">The galley proofs give this sentence as “A poor instrument, but how wonderfully they use it.” The change must have been made in page proofs, received by Budgen after 1 October (Budgen, PC to JJ 1 October 1933 (<name type="work">JJPL</name> 85).</note>
+                <note xml:id="note1" target="#seg1" type="commentary">The quotation is used verbatim in <name type="work">JJMU</name> 182. Budgen made a check mark in pencil, and wrote both “to be done” at the top of the sentence and “Done” over the sentence itself.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">In <name type="work">JJMU</name> 185 this became “The Jesuit-trained Stephen…”. The “gesture against the Rector” refers to Stephen Dedalus's protest to the head of Clongowes for the punishment he had received; as noted here, it seems to refer to JJ himself. Budgen wrote “Done" in pencil over the paragraph.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">The reference is to the Right Honourable William Humble Ward, second earl of Dudley, Lord Lieutenant of Ireland, who appears in "Wandering Rocks". <name type="work">JJMU</name> 123-26 mentions the man in the discussion of “Wandering Rocks”, but the specifics of JJ's suggestion are not used. The paragraph is crossed out with an “X” in pencil.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">This and the following lines are written in pencil in Budgen's hand.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

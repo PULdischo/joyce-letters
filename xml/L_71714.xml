@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71714">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Thursday, 12 October 1933</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71714</idno>
+            <idno type="internal">71714</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">AL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1933-10-12" notAfter="1933-10-12">Thursday, 12 October 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <dateline>
+                        <name type="geo" key="G_FRA_PARI">Paris</name> <date when="1933-10-12">October the 12-th.1933</date>
+                    </dateline>
+                    <opener>
+                        <salute>Dear Mr Budgen,</salute>
+                    </opener>
+                    <p>Here are a few points which Mr Joyce wishes me to write to you about.</p>
+                    <p>
+                        <seg xml:id="seg1" type="note-anchor">NORSE</seg> – you could add the reference to your essay in Exagmination.</p>
+                    <p>
+                        <seg xml:id="seg2" type="note-anchor">Germany</seg> – Touch up if possible the political discussion in the Consular office – J.J. opinion is of some <choice>
+                            <sic>unedeletable</sic>
+                            <corr>undeletable</corr>
+                        </choice> touch of friendship between English people and Germans. The English look at Germans as their cousin on the Continent who is doing well.</p>
+                    <p>
+                        <seg xml:id="seg3" type="note-anchor">Wine-vine</seg> – you might say that you have your own vine growing in your garden.</p>
+                    <p>Racing – <seg xml:id="seg4" type="note-anchor">allude</seg> to your own <choice>
+                            <sic>svheme</sic>
+                            <corr>scheme</corr>
+                        </choice>.</p>
+                    <p>
+                        <name type="person" key="gied93">Gideon</name>’s <seg xml:id="seg5" type="note-anchor">address</seg> is 7 Doldertahl strasse</p>
+                    <p xml:space="preserve"><name type="person" key="rugg87">Ruggiero</name>                 	call them both up.</p>
+                    <closer>
+                        <salute>sincerely yours.</salute>
+                        <signed>
+                            <seg xml:id="seg6" type="note-anchor">
+                                <name type="person" key="leon93">Paul Léon</name>
+                            </seg>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Also urged by JJ in the letter <rs type="letter" key="L_71712">to Budgen from 14 May 1933</rs>. Though there is passing reference to the Norse influence in <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name> (<name type="work">JJMU</name> 312), Budgen did not make reference to his earlier essay (“James Joyce's Work in Progress and Old Norse Poetry”, <name type="work">Our Exagmination Round His Factification for Incamination of Work in Progress</name> [Paris: Shakespeare and Company, <name type="person" key="beac87">Sylvia Beach</name>, 1929], 37-46).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The Germans' “doing well” is mentioned in Budgen’s essay, “Further Recollections of James Joyce” (<name type="work">JJMU</name> 358). The political discussion is in <name type="work">JJMU</name> 154-55.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Not used in <name type="work">JJMU</name>.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Budgen crossed out this line and wrote “Done” over it.</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Sigfried Giedion's address in Zurich was 7 Doldertal.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">On the reverse side of the letter are penciled notes in Budgen's hand that have nothing to do with Léon's letter and JJ's suggestions for <name type="work">JJMU</name>.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

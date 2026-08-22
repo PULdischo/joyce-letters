@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="haup62">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gerhart Hauptmann</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>haup62</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">71404832</idno>
+            <idno type="OCLC">lccn-n80076391</idno>
+            <persName type="reg">
+               <forename>Gerhart</forename> <surname>Hauptmann</surname>
+            </persName>
+            <persName type="full">Gerhart Hauptmann</persName>
+            <date type="birth" when="1862-11-15"/>
+            <date type="death" when="1946-06-06"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Celebrated German dramatist, remembered as a pioneer of theatrical naturalism. In 1901 JJ translated Hauptmann’s <name type="work" key="ID_MISSING">Vor Sonnenaufgang</name> (1889; eventually published as <name type="work" key="ID_MISSING">Before Sunrise: James Joyce's Translation</name>, ed. Jill Perkins [San Marino: Huntington Library, 1978]) and <name type="work" key="ID_MISSING">Michael Kramer</name> (1900). JJ’s <name type="work" key="ID_MISSING">Kramer</name> has since been lost, though it surfaces in the <name type="work" key="W_DUBLINERS">Dubliners</name> story “A Painful Case” whose character James Duffy keeps a copy of the play in his desk drawer. In 1912 Hauptmann was awarded the Nobel Prize for literature. JJ remained fascinated by Hauptmann’s work, sending him a telegram on 14 November 1932 with birthday wishes. In a letter to Ezra Pound of 5 December 1937 JJ asked Pound to arrange for Hauptmann to inscribe to JJ an edition of <name type="work" key="ID_MISSING">Kramer</name>, writing “This play made a great impression on me”.  <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68950">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 8 December 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68950</idno>
+            <idno type="internal">68950</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_11">26 avenue Charles Floquet, Paris</placeName>
+               </address>
+               <date notBefore="1922-12-08" notAfter="1922-12-08">Friday, 8 December 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_11">26 Avenue Charles Floquet</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris VII</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <p>Dear Miss Weaver: My sight has been very changeable all this week. Today I can’t write all I want to say. It is very irritating. I continue with <name type="person" key="bors73">Dr Borsch</name> to whom I presented <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name>. He ought to cure me and he says he will. He says he would not operate the eye if possible <seg xml:id="seg1" type="note-anchor">for two months (!)</seg> and in the meantime the dental abscess under it at least <seg xml:id="seg2" type="note-anchor">ought to be removed</seg> – not that it is the cause but an activity of the abscess after operation might ruin his work: O dear me! How very monotonous.</p>       <p>Many thanks for your cheque (frs 6450) in payment of royalties. I read <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="ford73">Mr Hueffer</name>’s article</seg> which if not dictated at least <seg xml:id="seg4" type="note-anchor">carries out your keyword</seg>. I shall write to thank him. Yes, <name type="person" key="murr62">Mrs Murray</name> should get a copy and I think copies might be sent to two men of letters who interested themselves in me in my youth – <name type="person" key="symo65">Mr Arthur Symons</name> and <name type="person" key="arch56">Mr William Archer</name>. I got the leaflets but did not see <name type="person" key="shor57">Mr Clement Shorter</name>’s name among the <seg xml:id="seg5" type="note-anchor">critics</seg>. Will you please add to group the name at foot of this letter? I think you could send copies of the <hi rend="underline">English</hi> <hi rend="underline">Review</hi> to the following names (I omit their titles<supplied reason="omitted">)</supplied>: <name type="person" key="joyc84">Joyce</name>, <seg xml:id="seg6" type="note-anchor">
+                            <name type="person" key="murr62">Murray</name>
+                        </seg>, <name type="person" key="heal63">Healy</name>, <name type="person" key="jalo78">Jaloux</name>, <name type="person" key="larb81">Larbaud</name>, <name type="person" key="quin70">Quinn</name>. As regards Mr Quinn, I dislike association with <seg xml:id="seg7" type="note-anchor">
+                            <name type="person" key="sumn76">Mr Sumner</name>
+                        </seg>. I think an injunction should be lodged at once in your name (as holder of the American rights). This does not pledge to a legal action. At the same time I think responsible critics and journalists who are in my favour ought to be informed. Something ought to be done at once. I don’t think the copies of which <name type="person" key="rodk94">Mr Rodker</name> speaks will have more than a temporary effect.</p>        	<p>I am wondering whether your odyssey round <name type="geo" key="G_GBR_LOND">London</name> has been undertaken in the hope of surprising detective sergeant <seg xml:id="seg8" type="note-anchor">King Beaver</seg> curled up asleep round a lamppost in loneliest London?</p>        	<p>I am to <seg xml:id="seg9" type="note-anchor">see Mr Larbaud today</seg>. If he has any news I will let you know.</p>
+                    <closer>
+                        <salute>With kindest regards</salute>                               	<salute>sincerely yours</salute>                                           	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1922-12-08">8/xii/922</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Borsch would not operate on JJ’s eyes until April 1923 when he performed a sphincterectomy (<name type="work">JJ</name> 543).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Before Borsch could proceed with a sphincterectomy, he required the complete extraction of JJ’s teeth. Six or seven of JJ’s decayed teeth were extracted on 4 April 1923, with the rest of them a few days later (<name type="work">JJ</name> 543).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">After requests from Pound and Weaver, Ford Madox Ford (Ford Madox Hueffer) published an essay in <hi rend="italic">
+                        <name type="work">The English Review</name>
+                    </hi> (“<name type="work" key="W_ULYSSES">Ulysses</name> and the Handling of Indecencies”), defending the book against charges of obscenity. Ford would later write that Sylvia Beach also forced him to defend <name type="work" key="W_ULYSSES">Ulysses</name>, “That untiring lady battered me without ceasing. She demanded that I should write innumerable articles about <name type="work" key="W_ULYSSES">Ulysses</name>” (qtd. in Joseph Wiesenfarth, “Fargobawlers: James Joyce and Ford Madox Ford”, <hi rend="italic">
+                        <name type="work">Biography</name>
+                    </hi> 14, no. 2 (Spring 1992), 95-116, esp. 114.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ similarly wrote, in another letter to Weaver (25 November 1922) that Ford “apologized in a way for his article which, he says, was written at your dictation” (<name type="work">LIII</name> 69).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">The leaflet <name type="work">Extracts from Press Notices of Ulysses by James Joyce</name>, printed in Harlesden by Leveridge &amp; Company, was issued in December 1922. Though Shorter’s name was not provided, his words from “A Literary Letter: ‘As Flat as a Page by C.K.S.’” (<name type="work">The Sphere</name> 90, no. 1172 [8 July 1922]: 50) were quoted: “the maddest, muddiest, most loathsome book issued in our own or any other time — inartistic, incoherent, unquotably nasty — a book that one would have thought could only emanate from a criminal lunatic asylum”.</note> <note xml:id="note6" target="#seg6" type="commentary">JJ wrote to his <name type="person" key="murr62">Aunt Josephine Murray</name> in a letter on 21 December 1922, “I suppose you received the <name type="work">Criterion</name> and <name type="work">English Review</name>”, the former with Larbaud’s article and the latter in which Ford’s article features (35, no. 169 [December 1922], 538-48).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">In October 1920 John Sumner successfully brought action against <hi rend="italic">
+                        <name type="work">The Little Review</name>
+                    </hi>, in which the “Nausicaa” episode of <name type="work" key="W_ULYSSES">Ulysses</name> had been serialised (7, no. 2 [July-August 1920], 42-58).</note> <note xml:id="note8" target="#seg8" type="commentary">The “King Beaver” reference has been instrumental in dating the earliest notes for “Work in Progress”. In early November 1922, as the London police suspected Weaver of smuggling forbidden books into England, she told JJ she feared that her house was being watched by a plain clothes policeman. JJ dictated a reply on 8 November (written by <name type="person" key="joyc07">Lucia</name>): “That solitary detective is an interesting figure. Is he what the English call a king Beaver, that is an Irish constabulariman with red whiskers, riding a red bicicle?” (<name type="work">LI</name> 193; Lucia’s spelling; BL Add. 57346). The first page of the first <name type="work" key="W_FINNEGANS WAKE">Finnegans Wake</name> notebook contains the jotting: “King Beaver redwhiskered / policeman on a / green bicycle” (VI.B.10.001). The source for this note is a reader’s response to an article in the <name type="work">Irish Times</name> ([20 October 1922], 6), called “Beaveritis”, about a game that had become popular in England (to be played by two people using a scoring system borrowed from tennis; the player who first cried “Beaver!” as soon as a bearded person appeared, scored). According to the article in the <name type="work">Irish Times</name>, a “Royal Beaver” is a man afflicted with a full outfit of face-fittings – to wit, beard and moustache – while a “King Beaver” is a red-whiskered policeman riding a green bicycle” (source identified by Vincent Deane).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">One of Larbaud’s plans was to start working, in February 1923, on “<name type="work">Fragments d’Ulysse</name> – that is the translation of certain parts of <name type="work" key="W_ULYSSES">Ulysses</name> and their publication in book form here in a limited edition” (<name type="work">LI</name> 199).</note> </div>
+      </body>
+   </text>
+</TEI>

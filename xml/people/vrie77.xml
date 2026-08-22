@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vrie77">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juda de Vries</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>vrie77</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Juda de</forename> <surname>Vries</surname>
+            </persName>
+            <persName type="full">Juda de Vries</persName>
+            <date type="birth" when="1877-11-02"/>
+            <date type="death" when="1953-01-27"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>De Vries (who also called himself Jules Martin) met JJ in Zurich and tried to interest him in a “get-rich-quick” scheme to use a purported motion picture production (for a film to be called <name type="work" key="ID_MISSING">Wine, Women and Song</name>) to extort money from potential funders. The idea failed quickly, but brought together JJ and <name type="person" key="syke83">Claud Sykes</name>, who soon formed the English Players, a performing troup. De Vries ran into some sort of legal trouble in mid-1917 and pelted JJ with rambling letters in which, nevertheless, he appreciated JJ’s attention. JJ encountered him again, unexpectedly, on a trip to Ostend in the summer of 1926. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

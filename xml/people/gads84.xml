@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gads84">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John Gadsby</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>gads84</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">315678045</idno>
+            
+            <persName type="reg">
+               <forename>John</forename> <surname>Gadsby</surname>
+            </persName>
+            <persName type="full">John Gadsby</persName>
+            <date type="birth" when="1884-06-14"/>
+            <date type="death" when="1970-06-14"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Barrister-at-law, art collector, and Japanologist. Born in Derbyshire, England, he was called to the Bar in 1909. By 1911, he was resident in Japan where he became a partner in the Yokohama firm of De Becker, Gadsby &amp; Nakamura. Awarded the CBE (Commander of the Order of the British Empire) in the King’s Birthday Honours list for 1925, he was for many years Legal Adviser to the British Embassy at Tokyo. In the early 1930s, he assisted JJ with the matter of an unauthorised translation of <name type="work" key="W_ULYSSES">Ulysses</name> into Japanese. Briefly stationed in Shanghai in the early 1940s, he retired to the West of Ireland where he owned Kylemore House in Connemara, Co. Galway, formerly the residence of <name type="person" key="goga78">Oliver St John Gogarty</name>. <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

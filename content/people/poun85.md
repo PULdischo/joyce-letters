@@ -1,0 +1,11 @@
+---
+key: poun85
+name: Ezra Pound
+viaf: '24606774'
+oclc: lccn-n78097014
+birthDate: '1885-10-30'
+deathDate: '1972-11-01'
+gender: M
+---
+
+Ezra Pound — American poet, translator, journalist, and editor — was a founder of literary modernism and a crucial promoter of JJ’s career. Born in Idaho, Pound moved with his parents to Pennsylvania at a young age. After studying languages and serving briefly as a college professor, he went to Europe in 1908, settling in London where he met both young and established figures who would form a nucleus of avant-garde writers and artists. He also met [W.B. Yeats](/people/yeat65/), who told him of JJ. Seeking an Irish contributor for his poetry anthology, Des Imagistes, Pound reprinted JJ’s “I hear an army”, from [Chamber Music](/works/W_CHAMBERMUSIC/). If Pound first thought of JJ as an Irish Imagiste, he soon viewed him as an Irish Flaubert after encountering the precise, lyrical realism of [A Portrait of the Artist as a Young Man](/works/W_APORTRAIT/), which Pound helped serialize in [The Egoist](/works/W_THEEGOIST/) in 1914-1915. Pound became a patron of JJ, assisting him with subsidies, easing his transition to Paris, and serving as an editor and conduit of Ulysses as JJ produced episodes for [The Little Review](/works/W_THEELITTLE/), of which Pound was foreign editor. After [The Little Review](/works/W_THEELITTLE/)’s serialization ended with its editors’ conviction for publishing obscenity, Pound, living in Paris, helped to distribute [Ulysses](/works/W_ULYSSES/), published there as a book in 1922. Increasingly interested in politics and economics, Pound viewed JJ’s “Work in Progress” – later published as [Finnegans Wake](/works/W_FINNEGANSWAKE/) – as a coddled product of patronage and coterie, and he refused to join the public criticism of [Samuel Roth](/people/roth93/)’s lawful piracy of Ulysses in New York. By the 1930s, Pound and JJ corresponded infrequently. Pound’s attraction to Italian fascism, which JJ viewed with weary irony, led Pound, by 1941, to broadcast anti-Ally, anti-Semitic tirades over Mussolini’s Rome Radio. Indicted for treason but never tried, Pound spent thirteen years in a federal mental hospital in Washington, DC. Released in 1958, he returned to Italy, where he lived for the remainder of his life. **Robert Spoo**

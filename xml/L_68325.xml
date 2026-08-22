@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68325">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 17 December 1916</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68325</idno>
+            <idno type="internal">68325</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_05">Seefeldstrasse 54, Zurich</placeName>
+               </address>
+               <date notBefore="1916-12-17" notAfter="1916-12-17">Sunday, 17 December 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_05">Seefeldstrasse 54</name>
+                            </addrLine>
+                            <addrLine>parterre, rechts</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII: <name type="geo" key="G_CHE">Switzerland</name>
+                            </addrLine> </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear Miss <name type="person" key="weav76">Weaver</name>: I have received your letter and card and thank you for writing. My health is much better, I think. I hope that <seg xml:id="seg1" type="note-anchor">the printing difficulties</seg> of which you speak are purely technical and that <seg xml:id="seg2" type="note-anchor">the American edition</seg> is now published.</p>
+                    <p>        	Allow me to wish you a happy Christmas and at the same time to thank you for your kind friendliness to me during the past year.</p>
+                    <closer>
+                        <salute>        	very gratefully and sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed> <dateline>
+                            <date when="1916-12-17">17/xii/916</date>
+                        </dateline> </closer>
+                </div> </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In her letter to JJ of <date when="1916-11-30">30 November 1916</date>, Harriet Shaw Weaver alluded to The Egoist Ltd’s reliance on imported sheets of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> and disclosed that it might “turn out to be impossible for the book to be ready for publication here in January” (Firth 166).</note> <note xml:id="note2" target="#seg2" type="commentary">
+                    <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> published on <date when="1916-12-29">29 December 1916</date> by the American publisher <name type="person" key="hueb76">B. W. Huebsch</name>.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

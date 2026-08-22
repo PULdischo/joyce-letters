@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kief81">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paul Kieffer</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>kief81</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Paul</forename> <surname>Kieffer</surname>
+            </persName>
+            <persName type="full">Paul Kieffer</persName>
+            <date type="birth" when="1881-07-16"/>
+            <date type="death" when="1969-06-08"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Rhodes Scholar, Harvard graduate, and partner in the law firm Quinn, Keiffer and Woodward. Kieffer was the uncle of <name type="person" key="ID_MISSING">Helen Kieffer</name> (1905-1958), the young woman who became <name type="person" key="joyc07">Lucia Joyce</name>’s friend and dance companion in Paris and Deauville in 1922 and 1923. Though he was the successor of <name type="person" key="quin70">John Quinn</name>, who had defended <name type="work" key="ID_MISSING">The Little Review</name>’s publication of <name type="work" key="ID_MISSING">Ulysses</name>, when asked by JJ and <name type="person" key="beac87">Sylvia Beach</name> to represent JJ in legal action against <name type="person" key="roth93">Samuel Roth</name>’s unauthorized publication of <name type="work" key="ID_MISSING">Ulysses</name> in 1926, Kieffer cabled a curt refusal: “Regret unable to take case.” <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

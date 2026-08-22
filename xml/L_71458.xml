@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71458">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Saturday, 22 February 1930</title>
+            <author key="joyc07">Lucia Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="RC">RC</name>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71458</idno>
+            <idno type="internal">71458</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc07">
+                        <forename>Lucia</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key=""/>
+               </address>
+               <date notBefore="1930-02-22" notAfter="1930-02-22">Saturday, 22 February 1930</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <dateline>
+                        <date when="1930-02-22">22 – 2 – 30</date>
+                    </dateline>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>
+                            <seg xml:id="seg1" type="note-anchor">Dear <name type="person" key="poun85">Mr. Pound</name>
+                            </seg>,</salute>
+                    </opener>
+                    <p>
+                        <rs type="person" key="joyc82">My father</rs> begs you to send him a printed copy of your song <seg xml:id="seg2" type="note-anchor">“Mort <choice>
+                                <sic>j’apelle</sic>
+                                <corr>j’appelle</corr>
+                            </choice>”</seg> as he would like to give it to his friend <seg xml:id="seg3" type="note-anchor">
+                            <name type="person" key="sull77">John O’Sullivan</name>
+                        </seg> the tenor to sing at <seg xml:id="seg4" type="note-anchor">a concert in <name type="geo" key="G_IRL_DUBL">Dublin</name>
+                        </seg>.</p>
+                    <p>Thanking you in advance,</p>
+                    <closer>
+                        <salute>sincerely yours,</salute>
+                        <signed>
+                            <name type="person" key="joyc07">Lucia Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ evidently directed his daughter Lucia (1907-1982) to write this note for him. He was experiencing great difficulty with his eyes despite numerous operations, and was soon to consult the specialist <name type="person" key="vogt79">Professor Alfred Vogt</name> (1879-1943), a Swiss ophthalmologist in Zurich who performed surgery on JJ’s left eye in May 1930 (<name type="work" key="ID_MISSING">LIII</name> 197-98).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">“Mort, j’appelle de ta rigueur,” sung by the character Ythier in Pound’s opera <name type="work" key="ID_MISSING">Le Testament de Villon</name>, which is based on the poetry of the French author and criminal François Villon (ca. 1431-ca. 1463). Pound had the song engraved and printed “for private circulation” in 1926 (A. David Moody, <name type="work" key="ID_MISSING">Ezra Pound: Poet, A Portrait of the Man and his Work</name>, vol. 2 [Oxford: Oxford University Press, 2014], 318). A printed score of “Mort, j’appelle” also exists in the Ezra Pound Papers (addition), YCAL MSS 53, box 45, folder 994, Beinecke Library, Yale University. (For additional details concerning <name type="work" key="ID_MISSING">Le Testament de Villon</name>, see <rs type="letter" key="L_69343">JJ to Pound, 20 March 1926</rs>, notes.)</note>
+                <note xml:id="note3" target="#seg3" type="commentary">
+                    <p>John O’Sullivan, or Sullivan (1877-1955), was born in Cork, Ireland, and, after the death of his father, went at a young age with his mother to live in Rouen, where he sang in the local church choir and learned the music of some of the great church composers. Around 1899, O’Sullivan was accepted into the Paris Conservatoire and there met his future wife, <name type="person" key="sull85">Marguerite Dequin</name>, also a student at the Conservatoire. He made his début in 1900 as a servant in <name type="work" key="ID_MISSING">La Traviata</name> at the Opéra Populaire at the Théâtre de la République. Early on, he traveled with concert tours in Paris and the French provinces. With a growing reputation, he performed in various countries, including America, and eventually became a leading tenor with the Paris Opéra. He retired in 1943 and was diagnosed with cancer in 1953. He died in Paris and was buried in the cemetery of Saint Ouen, France. (See François Nouvion, <name type="work" key="ID_MISSING">Asile Héréditaire: The Life and Career of John O’Sullivan</name> [Xlibris Corporation, 2012] [digital edition].)</p>
+                    <p>JJ’s brother <name type="person" key="joyc84">Stanislaus</name> met O’Sullivan in Trieste and urged him to look up JJ on his return to Paris in late 1929. JJ immediately recognized a kindred spirit from the town (Cork) where his own father had been born. He became an ardent supporter of O’Sullivan after hearing him sing in Wagner’s opera <name type="work" key="ID_MISSING">Tannhäuser</name> (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 619-20). (Some of these details, as well as other factual claims regarding O’Sullivan made by scholars of JJ, are questioned by Nouvion [174-83].) JJ quickly devoted himself, as he told <name type="person" key="weav76">Harriet Shaw Weaver</name>, to getting O’Sullivan “past the Italian ring which protects the London, New York and Chicago opera houses” (<name type="work" key="ID_MISSING">LI</name> 290). JJ made sure to get O’Sullivan notices in newspapers in Europe and America, and exhausted himself – and his friends, from whom he expected equally unstinting devotion to O’Sullivan’s career – promoting the aging Irish tenor, who possessed, JJ thought, “the greatest human voice I have ever heard, beside which [the Russian bass, Feodor] Chaliapine [<hi rend="italic">sic</hi>] is braggadocio and [the Irish tenor, John] McCormack insignificant” (<name type="work" key="ID_MISSING">LI</name> 291). Since coming to Paris, JJ had met many recognized geniuses, he wrote, “but they were all, for me, perhapses, but … there was no perhaps about Sullivan’s voice” (<name type="work" key="ID_MISSING">LI</name> 291). Stuart Gilbert wrote in his journal for 29 December 1929: “J.J. is now all Sullivan. … He does no other work apparently – has done none for a month, than to boost Sullivan in whom he sees what he would like to have been. Each new arrival at the house has to hear the story of the mistreatment of Sullivan at great length” (<name type="work" key="ID_MISSING">Reflections on James Joyce: Stuart Gilbert’s Paris Journal</name>, ed. Thomas F. Staley and Randolph Lewis [Austin: University of Texas Press, 1993], 15).</p>
+                    <p>JJ admired O’Sullivan in Meyerbeer’s <name type="work" key="ID_MISSING">Les Huguenots</name> and Berlioz’s <name type="work" key="ID_MISSING">La damnation de Faust</name>, but became exuberant over his performance of Arnold in Rossini’s <name type="work" key="ID_MISSING">Guillaume Tell</name> (1829). Ellmann writes: “Sullivan could reach high C’s with an ease no tenor of the time could match; Joyce followed the music counting ecstatically the number of his friend’s high notes. ‘I have been through the score of <name type="work" key="ID_MISSING">Guillaume Tell</name>,’ he reported, ‘and I discover that Sullivan sings 456 G’s, 93 A-flats, 54 B-flats, 15 B’s, 19 C’s and 2 C-sharps. Nobody else can do it’” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 620). In June 1930, during a performance of Arnold by Sullivan at the Paris Opéra, JJ leaned forward, removed a pair of dark glasses, and shouted: “Merci, mon Dieu, pour ce miracle. Après vingt ans, je revois la lumière” (“Thanks be to God for this miracle. After twenty years I see the light once more”) (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 624).</p>
+                    <p>The same month, O’Sullivan sent a letter to the press in which he challenged the acclaimed Italian tenor <name type="person" key="ID_MISSING">Giacomo Lauri-Volpi</name> (1892-1979) to a refereed duel of voices in the role of Arnold in <name type="work" key="ID_MISSING">Guillaume Tell</name>, “without transpositions or omissions at any Paris theatre or concert hall, where I may be allowed to sing it also” (<name type="work" key="ID_MISSING">LIII</name> 200). According to Nouvion, JJ prepared the letter and O’Sullivan reluctantly signed it, out of friendship for JJ (180-81, 194-97). JJ’s unrelenting partisanship created difficulties for O’Sullivan at the Paris Opéra, and he left Paris in October 1930 to perform in other cities, partly to escape JJ’s obsessive meddling (Nouvion, 197-99).</p>
+                    <p>As part of his campaign for O’Sullivan, JJ wrote a rare article, “From a Banned Writer to a Banned Singer,” and published it in <name type="work" key="ID_MISSING">The New Statesman and Nation</name> (London), n.s., vol. 3, no. 53 (27 February 1932): 260-61. Writing in the style of <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>, JJ implied a parallel between what he believed to be the powers conspiring against O’Sullivan’s success and the forces of censorship and conventionality with which he himself had had to contend earlier in his career. In the piece, JJ imagines a scene in which three great modern tenors – Enrico Caruso, Giacomo Lauri-Volpi, and Giovanni Martinelli – meet and sing “at a gaslamp,” only to be bested by a new arrival, a “hardworking guy” in “dicky and bowler hat” (O’Sullivan) who “makes the world grow lighter” and causes the three rivals to “stand mouthshut” and then to chorus out a version of “God Save the King” to their vanquisher: “Send him canorious, long to lung over us, high topseasoarious! Guard safe our Geoge!” (<name type="work" key="ID_MISSING">CW</name> 267-68).</p>
+                    <p>O’Sullivan made numerous recordings of opera arias, some of which may be found on CDs and the Internet. For example, his soaring voice can be heard on a Columbia Graphophone recording, possibly from 1926, in the heroic-tenor role of Arnold in <name type="work" key="ID_MISSING">Guillaume Tell</name>, singing “O muto asil” (“Asile héréditaire”). To modern ears, his vocal power may sound forced and strident, his vibrato insistent and distracting; some were put off even in his own time. A comparison, for example, of recordings of “The Minstrel Boy” by O’Sullivan and the Irish tenor John McCormack (1884-1945) – both found on the Internet – shows very different approaches to that Irish patriotic song. But JJ valued O’Sullivan’s intensity. “Don’t you think the most important thing in a tenor is that he should sing loud?” he once asked (Victor Gollancz, <name type="work" key="ID_MISSING">Journey Towards Music: A Memoir</name> [New York: E.P. Dutton, 1965], 23).</p>
+                </note>   	<note xml:id="note4" target="#seg4" type="commentary">John O’Sullivan sang at the Theatre Royal in Dublin on the evening of 27 April 1930, his first engagement in Dublin, which JJ said he had “obtained for him” and would pay “£120, five times as much as he draws at the Paris opera” (<name type="work" key="ID_MISSING">LI</name> 290). (Nouvion suggests that Padraic Colum helped in arranging the engagement [192-93].) The <name type="work" key="ID_MISSING">Irish Times</name> reported a “large audience” for the recital, which was accompanied by an orchestra conducted by Vincent O’Brien (1871-1948). “Straightforward operatic numbers suit him best,” the <name type="work" key="ID_MISSING">Irish Times</name> reviewer opined. “In songs like ‘La Procession’ his want of subtlety was betrayed” (Obbligato, “A New Tenor: Mr. John Sullivan’s Recital,” <name type="work" key="ID_MISSING">Irish Times</name> [28 April 1930]: 5). The program included “E lucevan le stelle” (Puccini’s <name type="work" key="ID_MISSING">Tosca</name>); “Di quella pira” (Verdi’s <name type="work" key="ID_MISSING">Il Trovatore</name>); arias from <name type="work" key="ID_MISSING">Guillaume Tell</name> and Halévy’s <name type="work" key="ID_MISSING">La Juive</name>; and the Prize Song (in French) from Wagner’s <name type="work" key="ID_MISSING">Die Meistersinger</name>. “An operatic singer cannot be judged quite fairly away from the operatic setting,” wrote the reviewer. “For the concert platform, when he undertakes a heavy programme of solos, Mr. Sullivan would need to cultivate a greater variety of expression. His operatic examples suggested that in certain parts he might sing brilliantly” (5). JJ cabled Jo Davison on 3 May 1930: “SULLIVAN TRIUMPH DUBLIN” (<name type="work" key="ID_MISSING">LIII</name> 196). In May 1930, O’Sullivan returned to Ireland to perform a charity concert for a cathedral fund in Killarney (Nouvion, 193-94).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

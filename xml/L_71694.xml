@@ -1,0 +1,124 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71694">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Carola Giedion-Welcker. ca. 1-8 March 1938</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71694</idno>
+            <idno type="internal">71694</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">AL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1938-03-01" notAfter="1938-03-08">ca. 1-8 March 1938</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="gied93">
+                        <forename>Carola</forename> <surname>Giedion-Welcker</surname>
+                    </persName>
+               <persName type="full" key="gied93">Carola Giedion-Welcker</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <opener>
+                        <salute>Sehr geehrte <name type="person" key="gied93">Frau <choice>
+                                    <sic>Gideon</sic>
+                                    <corr>Giedion</corr>
+                                </choice>
+                            </name>,</salute>
+                    </opener>
+                    <p>        	Herr Joyce läßt sich herzlich bedanken für Ihr Telegramm – kann aber nicht selbst schreiben – da sein Auge und auch sein ganzes Gemüt vollständig außer normal sind – den er leidet an sein Auge und befürchtet das schlimmste. <name type="person" key="hart93">D<hi rend="superscript">
+                                <hi rend="underline">r</hi>
+                            </hi> Hartmann</name> war nicht zu sehen und wird kaum zu sehen bis morgen nachmittag. Unterdessen sieht den <name type="person" key="coll96">D<hi rend="superscript">r</hi> Collinson</name> der Ihm Umschläge machen läßt aber, wie Ich glaube, ohne besonderem Succès. Die Hornhaut ist vorüber aber ein Episkleritis hat sich erklärt die auch das Auge congestioniert.</p>
+                    <p>        	Ich kann nicht recht verstehen warum die Bücher nach Zürich bis jetzt nich gekommen sind – da diese auß London am Montag vormittag abgeschikt sein sollen mit Flugpost. Ich hoffe daß sie jetzt schon da sind.</p>
+                    <p>        	In Amerika hat die <name type="person" key="joyc94">Junge Frau Joyce</name> eine Operation bestehen müßen – die Nachrichten aus Ivry sind auch nicht gut. Sie können so beurteilen wie schön das Leben von hier aus aussieht.</p>
+                    <closer>
+                        <salute>                    	Mit vorzüglicher Hochachtung</salute>
+                        <salute>                                	Ihr sehr ergebener</salute>
+                        <signed>
+                            <name type="person" key="leon93">                                            	Paul Léon</name>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="translation">
+                    <opener>
+                        <salute>Dear Mrs Giedion,</salute>
+                    </opener> <p>Mr Joyce thanks you cordially for your telegram – but cannot write himself – because his eye and also his whole mood are in a completely abnormal condition – since he is suffering due to his eye and is fearing the worst. Dr Hartmann was not to be seen and is unlikely to be seen until tomorrow afternoon. In the meantime, he is seeing Dr Collinson, who is having compresses made for him but, as I believe, without any particular success. The cornea is over but an episcleritis has developed which is also congesting his eye.</p> <p>I cannot really understand why the books have not arrived in Zurich yet – since they should have been sent by air mail from London on Monday morning. I hope they have arrived by now.</p> <p>In America, the young Mrs Joyce has had to undergo an operation – the news from Ivry is not good either. You can judge for yourself how nice life looks from here.</p> <closer>
+                        <salute>With the greatest respect</salute>
+                        <salute>your very humble</salute>
+                        <signed>Paul Léon</signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">No attempt has been made to correct Léon’s spelling mistakes.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

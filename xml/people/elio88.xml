@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elio88">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>T. S. Eliot</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>elio88</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">56609282</idno>
+            <idno type="OCLC">lccn-n79006870</idno>
+            <persName type="reg">
+               <forename>T. S.</forename> <surname>Eliot</surname>
+            </persName>
+            <persName type="full">T. S. Eliot</persName>
+            <date type="birth" when="1888-09-26"/>
+            <date type="death" when="1965-01-04"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Renowned American poet, dramatist, and critic. Born in St. Louis, Thomas Stearns Eliot was educated at Harvard. From his first marriage in 1915 he spent the rest of his life in Britain. Eliot and JJ first met in Paris in 1920. Eliot’s major poem “The Waste Land” was published in 1922 only months after <name type="work" key="W_ULYSSES">Ulysses</name>. The two had only sporadic contact until Eliot joined the publisher Faber &amp; Faber in 1925. The firm published works on JJ, three fragments from “Work in Progress”, and finally in 1939 <name type="work" key="W_FINNEGANSWAKE">Finnegans Wake</name>. Despite frequent tension between the two in publication matters, Eliot was an unceasing supporter of JJ’s work. His review, “<hi rend="italic">Ulysses</hi>, Order, and Myth” (<name type="work" key="ID_MISSING">The Dial</name> 75 [November 1923]: 480-83) remains one of the most influential evaluations of the novel. Eliot was largely responsible for maintaining JJ’s posthumous prominence with his editing of <name type="work" key="ID_MISSING">Introducing James Joyce: A Selection of Joyce's Prose</name> (London: Faber &amp; Faber, 1942). Eliot largely abandoned poetry in the 1940s, preferring to write for the stage, and was awarded the Nobel Prize in Literature in 1948. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

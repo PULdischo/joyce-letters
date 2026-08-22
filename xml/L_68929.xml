@@ -1,0 +1,117 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68929">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Monday, 16 October 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68929</idno>
+            <idno type="internal">68929</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_NICE_01">Hôtel Suisse, Quai des États-Unis, Nice</placeName>
+               </address>
+               <date notBefore="1922-10-16" notAfter="1922-10-16">Monday, 16 October 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter"> <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_NICE_01">Hotel Suisse</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_NICE">Nice</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <p>Dear Miss Weaver: <rs type="person" key="joyc00">We</rs> are staying <seg xml:id="seg1" type="note-anchor">here</seg> for the moment. Perhaps I shall have <seg xml:id="seg2" type="note-anchor">some news</seg> tomorrow from <name type="geo" key="G_FRA_PARI">Paris</name> or <name type="geo" key="G_GBR_LOND">London</name>. I hope there has been no trouble. I shall write in a day or two. <seg xml:id="seg3" type="note-anchor">Weather</seg> continues very fine.</p>
+                    <closer>
+                        <salute>Kindest regards</salute>                    	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1922-10-16">16/x/922</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">The Joyces arrived at the Hotel Suisse and remained in Nice until mid-November 1922. In a letter to his <name type="person" key="murr62">Aunt Josephine</name> addressed from the Hotel Suisse at the end of October 1922, JJ references <name type="person" key="barn84">Nora</name>’s and <name type="person" key="joyc07">Lucia</name>’s company in Nice and anticipates that Giorgio, “who is in Paris will probably come down too as I think I shall take a place here for the winter” (<name type="work">JJ</name> 539). </note>
+                <note xml:id="note2" target="#seg2" type="commentary">Writing four days after the publication of the Egoist Press edition of <name type="work" key="W_ULYSSES">Ulysses</name>, JJ was probably awaiting press reports about its publication from London or Paris. JJ, however, would remain dissatisfied by the London and Paris press in the coming months (<name type="work">JJ</name> 541). </note>
+                <note xml:id="note3" target="#seg3" type="commentary">Despite his initial intentions to travel to Nice, as its improved weather conditions might benefit his deteriorating eyes, weather eventually proved to be a problem. The rain and wind in Nice ultimately worsened JJ’s ocular problems, resulting in a consultation with Dr Louis Colin, who applied leeches and dionine solution to his eyes (<name type="work">JJ</name> 537-8).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

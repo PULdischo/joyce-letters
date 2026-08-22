@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="byrn85">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Byrne</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>byrn85</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Mary Alice</forename> <surname>Byrne</surname>
+            </persName>
+            <persName type="full">Mary Byrne</persName>
+            <date type="birth" when="1885-09-26"/>
+            <date type="death" when="1961-07-14"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Wife of JJ’s friend <name type="person" key="byrn80">John Francis Byrne</name>. Mary Alice Headen was born in Ballina, Co. Mayo, the daughter of Schools Inspector <name type="person" key="ID_MISSING">William P. Headen</name> and <name type="person" key="ID_MISSING">Mary Paddle</name>.  She attended the Dominican Convent in Eccles Street, Dublin before entering Loreto College, Stephen’s Green in 1901 (BA in 1906 at University College). She married Byrne in 1916 and joined him in New York, where he worked as a journalist; their daughter was born the following year. In 1921 she became a naturalised American citizen. They migrated to California, where she filed for divorce in 1957; she died there four years later. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

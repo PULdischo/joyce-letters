@@ -1,0 +1,150 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71709">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Thursday, 30 March 1933</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>MG</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71709</idno>
+            <idno type="internal">71709</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_29">27 rue Casimir-Périer (VIIe)</placeName>
+               </address>
+               <date notBefore="1933-03-30" notAfter="1933-03-30">Thursday, 30 March 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">
+                                <name type="geo" key="G_FRA_PARI_29">27, RUE CASIMIR-PÉRIER </name> (VII<hi rend="superscript">
+                                    <hi rend="underline">E</hi>
+                                </hi>)</addrLine>
+                            <addrLine rend="printed">LITTRÉ 88-89</addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <dateline>Paris <date when="1933-03-30">March the 30-th.1933</date>
+                    </dateline>
+                    <opener>
+                        <salute>Dear Mr Budgen,</salute>
+                    </opener>
+                    <p>My client wishes me to write to you on the following matters:</p>
+                    <p>He has inquired about the fare to <seg xml:id="seg1" type="note-anchor">
+                            <name type="geo" key="G_IRL_DUBL">Dublin</name>
+                        </seg> and finds that this costs from <name type="geo" key="G_GBR_LOND">London</name> to Dublin and available for one month somewhere about £4.-.-. He therefore proposes to add to the original amount two pounds and to send it to you as soon as you decide to go and let him know about it.</p>
+                    <p>Further matters are <choice>
+                            <sic>litterary</sic>
+                            <corr>literary</corr>
+                        </choice> as follows:</p>
+                    <list rend="numbered">
+                        <item n="1.">
+                            <seg xml:id="seg2" type="note-anchor">Chaucer</seg>. He finds the prologue to the Tales uncommonly modern and would remind you of the comment Blake made on him. In general for your purpose there might be some more use to be made of Blake especially his deification of London as compared to the deification of Dublin in the work of our friend. The opinion that Chaucer is so very typically English does not seem to, however be his (Defoe – yes).</item>
+                        <item n="2.">
+                            <seg xml:id="seg3" type="note-anchor">Shakespeare</seg>. Our friend has hardly read the sonnets with attention but remembering that you know the sonnets so well he thinks you could make a good use of your knowledge by inserting some quotations or rather semiquotations of them in your text so as to make the reader aware of your knowledge, as opposed to the neglect our friend has shown to them.</item>
+                        <item n="3.">Swift would agree that Ireland may have a claim on Swift just as much as she has on the <name type="person" key="well69">Iron Duke</name> and <name type="person" key="harm65">Lord Northcliffe</name> but she would not stop at that and claim Blake and Fitzgerald who were born in England.</item>
+                        <item n="4.">There are two aspects of <seg xml:id="seg4" type="note-anchor">Swift</seg> the man and the prose writer. In its time the opinion prevailed that nobody had written a stronger prose or more characteristic and admirable and our friend accepted this opinion for what it was worth without analysing it more closely. On reading Swift however for the purpose of his Cyclope-episode he found that this author was nothing but an ordinary language multiplied or divided by twelve as the case may have been for the purposes of his story but on the whole he uses a very simple language. Our friend however did not insist on his opinion as it would have gone against the generally admitted statement. As a man he finds him a strong stingy sentimentalist and a bore and principally a meddler and a muddler in two women’s lives.</item>
+                        <item n="5.">As a personal favour he would like you when treating the subject of the <seg xml:id="seg5" type="note-anchor">Nausikaa</seg> episode to reconsider the way you have dealt with the mysteries of ladies’ toilet and to remember that some words are too sacred to be either said or written.</item>
+                        <item n="6.">The <seg xml:id="seg6" type="note-anchor">Lindenhof</seg> (courtyard of the Lime trees) and Pfahlbaute (Lake dwellings) could be inserted somewhere in the description of <name type="geo" key="G_CHE_ZURI">Zürich</name>.</item>
+                        <item n="7.">In the list of <seg xml:id="seg7" type="note-anchor">paintings</seg> you could add a drawing that <name type="person" key="john78">Augustus John</name> has presented to <rs type="person" key="barn84">my client’s wife</rs> and a portrait of <rs type="person" key="joyc07">his daughter</rs> by <name type="person" key="laur83">Marie Laurencin</name>.</item>
+                        <item n="8.">He is going to send you a <seg xml:id="seg8" type="note-anchor">book</seg> on dreams by <name type="person" key="bret96">André Breton</name>.</item>
+                        <item n="9.">He is still waiting for a painting of the salmon that avatar of H.C.E.</item>
+                    </list>
+                    <p>I think I have covered all the ground and please believe me</p>
+                    <closer>
+                        <salute>sincerely yours.</salute>
+                        <signed>
+                            <name type="person" key="leon93">Paul Léon</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Minor typing errors have been silently corrected and handwritten additions have been silently added.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Budgen travelled to Dublin in April 1933 for research in connection with his writing of <name type="work">JJMU</name>.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Budgen mentions Chaucer’s prologue in the same paragraph as Defoe (<name type="work">JJMU</name> 186) and quotes Blake re London and JJ re Dublin (<name type="work">JJMU</name> 318-20).</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Budgen quoted JJ on Shakespeare’s sonnets in general (<name type="work">JJMU</name> 180, 291); Budgen specifically quoted one sonnet (<name type="work">JJMU</name> 313).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">JJ reread Swift for “Cyclops”. In <name type="work">JJMU</name> Budgen quoted JJ that Swift in <name type="work">Gulliver’s Travels</name> “multiplies or divides by twelve” and that Swift is a “strong and stingy sentimentalist” who “meddled with and muddled up two women’s lives” (185).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Clive Hart discussed this subject in his Introduction to <name type="work">JJMU</name> (xv-xvi). Paul Léon mentioned JJ's fastidious attention to female underwear in the letter <rs type="letter" key="L_71711">to Budgen of 7 May 1933</rs> (<name type="work">LIII</name> 280), where he evasively described a book which JJ was sending to Budgen as “The Mantle of Tanit”. Ellmann's footnote to that letter notes that “Tanit (Tanith) was virgin goddess of the moon to the Carthaginians. The book, which has not been traced, was about women’s underwear”. A reference to the author of the book along with a cursory (and skeptical) description of it in an unpublished letter from Budgen to JJ of 23 June 1933 identify the book that Budgen received as Pierre Dufay's <name type="work">Le pantalon féminin: Un chapitre inédit de l'histoire du costume</name>, new ed, (Paris: Charles Carrington, Librairie des Bibliophiles Parisiens, 1916), an extensive, illustrated, and footnoted history of womens' underwear.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">The Lindenhof and lime trees are in <name type="work">JJMU</name> 25; Pfahlbauten (stilt houses) are on <name type="work">JJMU</name> 24. Léon's lack of the terminal “n” reflects the Swiss German pronunciation.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">The portraits by Augustus John and Marie Laurencin are in <name type="work">JJMU</name> 189.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">Probably Breton's <name type="work">Les vases communicants</name> (Paris: Éditions des Cahiers Libres, 1932).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

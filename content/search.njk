@@ -1,0 +1,21 @@
+---
+layout: base.njk
+title: Search
+permalink: search/index.html
+---
+<h1>Search</h1>
+<p class="conversion-note">
+  Powered by Pagefind. Only available after running <code>npm run build:search</code>
+  (Pagefind indexes the built <code>_site/</code> output, so it must run after Eleventy,
+  not instead of it) and serving <code>_site/</code> with a static file server.
+</p>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    if (window.PagefindUI) {
+      new PagefindUI({ element: "#search", showSubResults: true });
+    }
+  });
+</script>

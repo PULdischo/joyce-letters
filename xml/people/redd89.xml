@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="redd89">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Thomas Kerry Reddin</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>redd89</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Kerry</forename> <surname>Reddin</surname>
+            </persName>
+            <persName type="full">Thomas Kerry Reddin</persName>
+            <date type="birth" when="1889-08-08"/>
+            <date type="death" when="1954-02-12"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Actor, surgeon and brother of District Judge <name type="person" key="ID_MISSING">Kenneth Sheils Reddin</name> (the novelist ‘Kenneth Sarr’), whom JJ met in Paris. Thomas Kerry Reddin was educated, like JJ, at Clongowes Wood and Belvedere College, before qualifying as a veterinary surgeon and later as a surgeon. An active nationalist and Irish Volunteer, he was deported and interned after the 1916 Easter Rising. A mainstay of the Hardwicke Street Irish Theatre from 1915 onwards, he also acted in the Gate Theatre’s inaugural production (<name type="work" key="ID_MISSING">Peer Gynt</name> at the Peacock) and, as Kerry Ronan, at the Abbey. In 1927 he was appointed Assistant Medical Officer for Health in Dublin, specialising in child and maternity welfare. In the same year, he married <name type="person" key="ID_MISSING">Evelyn Egan</name>. In the 1951 general election he stood unsuccessfully as Fine Gael candidate for Dublin South Central. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="joyc84">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stanislaus Joyce</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>joyc84</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">59319731</idno>
+            <idno type="OCLC">lccn-no92027609</idno>
+            <persName type="reg">
+               <forename>Stanislaus</forename> <surname>Joyce</surname>
+            </persName>
+            <persName type="full">Stanislaus Joyce</persName>
+            <date type="birth" when="1884-12-17"/>
+            <date type="death" when="1955-06-16"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Like his brother James, Stanislaus Joyce was Jesuit-educated at Belvedere College (1893-1902) but later became an anti-clerical agnostic and radical liberal. During their years together in Dublin he knew his older brother, whom he regarded as a genius, better than anyone. James discussed his work with him and introduced him to many of his literary friends.  Stanislaus recorded a series of descriptions, confessions, narrations, and comments in a sort-of diary for 1903–1905. JJ used episodes and phrases from this account of their wretched family life as well as his brother’s unhappy work experiences particularly in <name type="work" key="ID_MISSING">Dubliners</name> and <name type="work" key="ID_MISSING">A Portrait of the Artist as a Young Man</name>.</p>
+                <p>In 1905, Stanislaus joined JJ and <name type="person" key="barn84">Nora</name> in Trieste where he was to remain for the rest of his life. A conscientious worker, he proved to be the main support of their household. Stanislaus grew to detest his father and how he treated his sisters in Dublin. During WW1, which James spent in Zurich, Stanislaus’s outspoken politics and criticism of the clergy led to internment in Austria. The brothers grew apart after the war.</p>
+                <p>In 1927 Stanislaus married <name type="person" key="ID_MISSING">Nelly Lichtensteiger</name>, and their son <name type="person" key="ID_MISSING">James</name> was born in 1943. Despite becoming an Irish citizen, Stanislaus was confined in Florence during WW2. Later back in Trieste, he worked as an interpreter for the allies and began selling his brother’s literary manuscripts which he had hoarded. He made his personal archive available to <name type="person" key="ID_MISSING">Richard Ellmann</name> whose biography of JJ (1959) was strongly influenced by Stanislaus’s viewpoint. After his death in 1955, his wife sold his personal collection, a valuable documentation of the family background and his brother’s early life, to Cornell University.</p> <p>
+                    <name type="work" key="ID_MISSING">My Brother’s Keeper: James Joyce’s Early Years</name> was published posthumously in 1958. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

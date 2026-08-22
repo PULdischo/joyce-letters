@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="heal63">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Michael Healy</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>heal63</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Michael</forename> <surname>Healy</surname>
+            </persName>
+            <persName type="full">Michael Healy</persName>
+            <date type="birth" when="1862"/>
+            <date type="death" when="1935-11-07"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Well-to-do maternal uncle of <name type="person" key="barn84">Nora Barnacle</name>, a career employee of the Customs Office in Galway. JJ was fond of him (in part thanks to Healy’s occasional financial support) and the two corresponded steadily until Healy’s death. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

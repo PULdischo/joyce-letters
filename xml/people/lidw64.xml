@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lidw64">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>John George Lidwell</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>lidw64</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>John George</forename> <surname>Lidwell</surname>
+            </persName>
+            <persName type="full">John George Lidwell</persName>
+            <date type="birth" when="1864"/>
+            <date type="death" when="1919-07-23"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>Dublin solicitor born in Fermanagh and a friend of <rs type="person" key="joyc49">JJ’s father</rs>. JJ sought his advice in the summer of 1912 after George Roberts of Maunsel &amp; Co. refused to issue <name type="work" key="ID_MISSING">Dubliners</name> without cuts. JJ’s letters to Lidwell do not survive. Lidwell had offices at 33 Upper Ormond Quay, a stone’s throw from the Ormond Hotel fictionalized in the ‘Sirens’ episode of <name type="work" key="ID_MISSING">Ulysses</name> and in which the solicitor features. JJ learned of his death in August 1919 from a <name type="work" key="ID_MISSING">Freeman’s Journal</name> clipping, which he enclosed to <rs type="person" key="weav76">Harriet Shaw Weaver</rs> as proof of the prophetic power of <name type="work" key="ID_MISSING">Ulysses</name>. A few weeks earlier, JJ had told her that ‘[a]s soon as I mention or include any person in it I hear of his or her death or departure or misfortune’. <hi rend="bold">Robert Spoo</hi> and <hi rend="bold">Ronan Crowley</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

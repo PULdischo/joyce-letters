@@ -1,0 +1,115 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68687">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Wednesday, 10 November 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68687</idno>
+            <idno type="internal">68687</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">rue de l'Université 9, Paris</placeName>
+               </address>
+               <date notBefore="1920-11-10" notAfter="1920-11-10">Wednesday, 10 November 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>
+                        <seg type="published" function="context">
+                            <quote>It seems that the case is on its way now to a third hearing and I knew nothing about it till <name type="person" key="poun85">Mr Pound</name> sent me on <name type="person" key="quin70">Mr Quinn</name>'s letters.</quote>
+                            <bibl>LI 149-50</bibl>
+                        </seg>
+                    </p> <p>
+                        <name type="person" key="hueb76">Mr Huebsch</name> was here but on me he made anything but a favourable impression. He hinted that if a European edition of the book were printed in Paris he could <seg xml:id="seg1" type="note-anchor">pirate it</seg> in <name type="geo" key="G_USA_NEWY">New York</name>. Mr Quinn and Mr Pound wish me to cable to New York withdrawing <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> from <name type="work">
+                            <hi rend="underline">The</hi> <hi rend="underline">Little</hi> <hi rend="underline">Review</hi>
+                        </name> so that further publication may not cause further prosecution, which might have the effect of dissuading Mr Huebsch from bringing out <seg xml:id="seg2" type="note-anchor">the special edition</seg> which Mr Quinn plans. In my opinion, however, Mr Huebsch’s attitude will not be influenced by that so much as by other considerations. Until I have more information on this point I am reluctant to cable as Mr Quinn and Mr Pound suggest because it seems to me that to do so would be to pass sentence on my own writing and to blame the editors of the review for having published it and to prejudice their position at the next hearing of the case without altering the situation favourably. The attitude of Mr Quinn and Mr Pound towards the review is very hostile and there may be other circumstances at present unknown to me, which justify their attitude. On the other hand I believe I am conscious (and have been for some time past) of vacillation in the minds of many admirers of the book: and any indication on my part that such vacillation was grounded would strengthen it to my detriment. Finally <seg xml:id="seg3" type="note-anchor">the episode which I am writing</seg> might have the effect of nullifying the action suggested to me even if I took that course.</p>           <p>
+                        <seg type="published" function="context">
+                            <quote>
+                                <hi rend="underline">Circe</hi> has been very much delayed by a number of causes – my journey here, all the unsatisfactory interviews I have had here with people who seemingly do not know their own intentions ...</quote>
+                            <bibl>LI 149</bibl>
+                        </seg>
+                    </p> </div>
+            </div> <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">For context, see <rs type="letter" key="L_68685">JJ to Pound, 5 November 1920</rs>, notes 2, 8 and 10.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">In a letter of 15 August 1920 (John Quinn Memorial Collection, Manuscripts &amp; Archives Division, New York Public Library), Quinn had proposed a private American edition, to be published by B. W. Huebsch, limited to 1,000 or 1,250 copies selling for $8 or $10 each. Such an edition, intended for limited distribution to subscribers only, would enable JJ to publish <name type="work" key="W_ULYSSES">Ulysses</name> without any cuts or alterations to the manuscript and might escape prosecution on obscenity charges.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ was writing “Circe”.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

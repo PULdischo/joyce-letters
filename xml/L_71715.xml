@@ -1,0 +1,128 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71715">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Frank Budgen. Sunday, 28 January 1934</title>
+            <author key="leon93">Paul Léon</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="MG">MG</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71715</idno>
+            <idno type="internal">71715</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">TL</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zürich James Joyce Foundation</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="leon93">
+                        <forename>Paul</forename> <surname>Léon</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_29">27 rue Casimir-Périer (VIIe)</placeName>
+               </address>
+               <date notBefore="1934-01-28" notAfter="1934-01-28">Sunday, 28 January 1934</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="budg82">
+                        <forename>Frank</forename> <surname>Budgen</surname>
+                    </persName>
+               <persName type="full" key="budg82">Frank Budgen</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine rend="printed">
+                                <name type="geo" key="G_FRA_PARI_29">27, RUE CASIMIR-PÉRIER (VII<hi rend="superscript">
+                                        <hi rend="underline">E</hi>
+                                    </hi>)</name>
+                            </addrLine>
+                            <addrLine rend="printed">                          	LITTRÉ 88-89</addrLine>
+                            <addrLine xml:space="preserve">           	Paris <date when="1934-01-28">January the 28-th.1934</date></addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>Dear Mr Budgen</salute>
+                    </opener>
+                    <p>           	<name type="person" key="joyc82">Mr Joyce</name> wants me to write to you to say that he hopes you have received his <seg xml:id="seg1" type="note-anchor">
+                            <rs type="letter" key="L_71587">telegram</rs>
+                        </seg> of congratulations. It is curious that <rs type="work">your book</rs> should have been put on sale on exactly the same day as the <seg xml:id="seg2" type="note-anchor">
+                            <rs type="work" key="W_ULYSSES">American edition</rs>
+                        </seg> was offered for sale.</p>
+                    <p>           	The next paragraph is confidential.</p>
+                    <p>           	There has been in the last few days a very hard and serious relapse in the state of health of <name type="person" key="joyc07">Miss Joyce</name> and Mr Joyce does not know what he may have to do in the course of the next days. He might have to go down to Divonne or elsewhere <seg xml:id="seg3" type="note-anchor">to accompany her</seg>. In these circumstances and though he would greatly like to see you would it not be more advisable for you to postpone your journey to Paris for a little time?</p>
+                    <closer>
+                        <salute>                          	very sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="leon93">                                         	Paul Léon</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">Sent from JJ to Budgen on 19 January 1934.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">The American edition of <name type="work" key="W_ULYSSES">Ulysses</name> was published on 25 January 1934.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Lucia Joyce was eventually taken to the psychiatric hospital Les Rives de Prangins in Switzerland (adjacent to the town of Divonne, France).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

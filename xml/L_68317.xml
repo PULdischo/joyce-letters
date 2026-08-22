@@ -1,0 +1,167 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68317">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Thursday, 14 September 1916</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68317</idno>
+            <idno type="internal">68317</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_05">Seefeldstrasse 54, Zurich</placeName>
+               </address>
+               <date notBefore="1916-09-14" notAfter="1916-09-14">Thursday, 14 September 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_05">Seefeldstrasse 54</name>,</addrLine>
+                            <addrLine>parterre, <foreign xml:lang="deu">rechts</foreign>,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII: <name type="geo" key="G_CHE">Switzerland</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: In the first place many thanks for the <seg xml:id="seg1" type="note-anchor">numbered copy of your book</seg> <hi rend="underline">
+                            <name type="work" key="W_LUSTRA">Lustra</name>
+                        </hi> which gave me great pleasure. I am sure you must be glad to have written verses so joyful and beautiful. I at least am very glad to have them near my hand as a relief from my own soporiferous writing. I hope to be able to send you this year in exchange a <seg xml:id="seg2" type="note-anchor">copy of <rs type="work" key="W_APORTRAIT">my novel</rs>
+                        </seg>.</p>
+                    <p>I sent yesterday the typescript of <hi rend="underline">
+                            <name type="work" key="W_EXILES">Exiles</name>
+                        </hi>. If it is still <seg xml:id="seg3" type="note-anchor">under consideration in <name type="geo" key="G_USA_CHIC">Chicago</name>
+                        </seg> perhaps a postcard from you, alluding to the recent recognition of my writing, might act as a stimulant. If not by all means let it appear in <seg xml:id="seg4" type="note-anchor">the review <name type="work" key="W_SEVENARTS">
+                                <hi rend="underline">Seven</hi> <hi rend="underline">Arts</hi>
+                            </name>
+                        </seg>. I hope then to publish it in <date notBefore="1917-01-01" notAfter="1917-12-31">1917</date>. As regards <name type="person" key="knob74">Mr <choice>
+                                <sic>Knoblauch</sic>
+                                <corr>Knoblock</corr>
+                            </choice>
+                        </name> I think it is wise to <seg xml:id="seg5" type="note-anchor">wait until we hear what he says</seg>.</p>
+                    <p>I have written to <seg xml:id="seg6" type="note-anchor">all the persons</seg> whose names and addresses you gave me and expressed to all my grateful thanks. As for yourself it is useless even to try to thank you. I know and feel however that I owe everything to your generous friendship and I hope that the energy which you say you will now <seg xml:id="seg7" type="note-anchor">devote to promoting your own interests</seg> will bring you every good fortune.</p>
+                    <p>I received a letter this morning dated <date when="1916-08-11">11 August</date> from <name type="person" key="quin70">Mr Quinn</name> of <name type="geo" key="G_USA_NEWY">New York</name> enclosing a cheque for £10. His secretary it seems <seg xml:id="seg8" type="note-anchor">forgot to send the money till now</seg>. I have answered him too and I can now see my way ahead for a certain time during which, I hope, a change of fortune will set in for my books so that I may cease to be a burden to so many people.</p>
+                    <p>
+                        <name type="person" key="weav76">Miss Weaver</name> writes that she has had a letter from <name type="person" key="hueb76">Mr Huebsch</name> (<date when="1916-08-25">25 August</date>) asking her to see <rs type="person" key="pink62">my agent</rs> and to beg him to give the matter of <rs type="work" key="W_APORTRAIT">my book</rs> his immediate attention and to cable to him (Mr Huebsch) if the terms of the contract suited so that the book might appear in the autumn list. Miss Weaver went at once to <name type="person" key="pink62">Mr Pinker</name> and it seems that the <seg xml:id="seg9" type="note-anchor">cablegram has been sent</seg>. Unfortunately <seg xml:id="seg10" type="note-anchor">Mr Huebsch had not at that date received</seg> from <name type="person" key="marsxx">Mr Marshall</name> who is in Quebec the corrected version of the text. Miss Weaver, to save time, corrected the text herself and sent it off and she sent me also by express the text so that I might correct it also and send it separately. Mr Huebsch however has written to Mr Marshall. Mr Quinn said that a <seg xml:id="seg11" type="note-anchor">
+                            <name type="person" key="krey83">Mr Kreymborg</name> was reading the book</seg> and that perhaps it would be published by a <name type="person" key="knop92">Mr Alfred <choice>
+                                <sic>Knof</sic>
+                                <corr>Knopf</corr>
+                            </choice>
+                        </name>. God grant it be not published by too many persons at the same time.</p>
+                    <p>I am sorry to say that, except the <rs type="work" key="W_EXILES">play</rs>, I have nothing else ready for <hi rend="underline">Seven</hi> <hi rend="underline">Arts</hi> but perhaps that would run to three numbers. I have a few pieces of verse by me. All the rest of my MSS is the bewildering mass of papers for <hi rend="underline">
+                            <name type="work" key="W_ULYSSES">Ulysses</name>
+                        </hi> which I carry in a very large envelope that I possess for the last twelve years.</p>
+                    <p>I am glad to see that you are as usual in good health and so am I.</p>
+                    <p>With the kindest regards and an infinity of thanks</p>
+                    <closer>
+                        <salute>
+                            <seg xml:id="seg12" type="note-anchor">
+                                <foreign xml:lang="ita">ti stringo la mano</foreign>
+                            </seg>
+                        </salute>
+                        <name type="person" key="joyc82">James Joyce</name>
+                    </closer>
+                    <postscript>
+                        <p>
+                            <label>P.S.</label> I fear I may have misdirected the play. If so you could ask at the P.O. Perhaps in my hurry I sent it to: 5 Holland Place, instead of <name type="geo" key="G_GBR_LOND_06">5 Holland Place Chambers</name>. <seg xml:id="seg13" type="note-anchor">
+                                <hi rend="underline">
+                                    <foreign xml:lang="ita">Bestia</foreign>
+                                </hi>!</seg>
+                        </p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Postmark: The postmark is difficult to read, but the context of the letter points to September over October. A <rs type="letter" key="L_68306">letter to John Quinn</rs> late Aug–early Sept 1916 is probably the letter mentioned here by JJ, and that letter mentions the Civil List award which happened in August. </note>
+                <note xml:id="note1" target="#seg1" type="commentary">Pound had sent JJ one of 200 numbered copies of his volume of poems, <name type="work" key="W_LUSTRA">Lustra</name>, privately printed in September 1916 for <name type="person" key="math51">Elkin Mathews</name> of <name type="geo" key="G_GBR_LOND">London</name> and available for sale to those specially requesting this unabridged edition. An abridged edition of <name type="work" key="W_LUSTRA">Lustra</name> was published by Mathews in October 1916 in the normal way. After the prosecution of <name type="person" key="ID_MISSING">D.H. Lawrence</name>’s <name type="work" key="W_THERAINBOW">The Rainbow</name> in <name type="geo" key="G_GBR">England</name> in 1915, Mathews and his printer had feared that certain frank poems in <name type="work" key="W_LUSTRA">Lustra</name> would lay the book open to legal proceedings. Issuance of private and public editions was the solution.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ’s novel <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> was published as a book in the United States by B.W. Huebsch of New York in December 1916, and in England by <name type="organisation" key="ID_MISSING">the Egoist Ltd. of London</name> in February 1917.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">JJ’s London literary agent J.B. Pinker had for months been trying to get JJ’s play <name type="work" key="W_EXILES">Exiles</name> accepted for publication in the Chicago review, <name type="work" key="W_DRAMA">Drama</name>. Pinker learned of <name type="work" key="W_DRAMA">Drama</name>’s rejection of the play in early November 1916 (John Firth, “James Pinker to James Joyce, 1915-1920,” <name type="work" key="ID_MISSING">Studies in Bibliography</name> 21 [1968]: 218).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">Pound thought the New York little magazine <name type="work" key="W_SEVENARTS">Seven Arts</name> might be interested in printing <name type="work" key="W_EXILES">Exiles</name> (<name type="work" key="ID_MISSING">Pound/Joyce</name> 83). Edited by James Oppenheim, Waldo Frank, and Van Wyck Brooks, <name type="work" key="W_SEVENARTS">Seven Arts</name> was dedicated to what Brooks called “America’s Coming of Age,” and ran from November 1916 to October 1917. It took a strong anti-war stance and boasted among its contributors <name type="person" key="ID_MISSING">Sherwood Anderson</name>, <name type="person" key="ID_MISSING">Theodore Dreiser</name>, <name type="person" key="ID_MISSING">Robert Frost</name>, <name type="person" key="ID_MISSING">Kahlil Gibran</name>, <name type="person" key="ID_MISSING">D.H. Lawrence</name>, and <name type="person" key="ID_MISSING">Amy Lowell</name>, but never James Joyce. <name type="work" key="W_SEVENARTS">Seven Arts</name> merged with <name type="work" key="W_DIAL">The Dial</name> in 1917 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 83 n. 5).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Edward Knoblock, born Knoblauch (1874-1945), American-born British playwright and novelist, best known for his play <name type="work" key="ID_MISSING">Kismet</name> (1911). Pound met with him in early September 1916 and tried to persuade him to read JJ’s <name type="work" key="W_EXILES">Exiles</name> in the hope that he would adapt the play for the stage. In his letter of 6 September 1916, Pound asked JJ for “an authorization for a stage version if Knoblauch chooses to take it up” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 84), but JJ here replies that they should wait until Knoblock expresses serious interest. JJ’s caution was sensible. On 13 November 1916, Pound wrote, “Knoblock seems to have vanished” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 84). He did not adapt or stage <name type="work" key="W_EXILES">Exiles</name>.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Hoping to obtain further official financial assistance for JJ, Pound persuaded his acquaintance, American-born, London-based <name type="person" key="ID_MISSING">Lady Cunard, born Maud Alice Burke</name> (1872-1948), to lend JJ’s books to the translator and editor Edward Marsh (1872-1953), who at the time was assistant private secretary to British Prime Minister <name type="person" key="asqu52">H.H. Asquith</name> (1852-1928). With letters of support from <name type="person" key="yeat65">Yeats</name> and the Irish novelist <name type="person" key="ID_MISSING">George Moore</name> (1852-1933), JJ was awarded a grant of £100 from <name type="organisation" key="ID_MISSING">the British Civil List</name> (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 405-06). At Pound’s urging, JJ wrote letters of thanks to Marsh and Yeats (<name type="work" key="ID_MISSING">LI</name> 94-95).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">After months of labor on behalf of <name type="person" key="lewi82">Wyndham Lewis</name> and other artists, as well as JJ, Pound hoped, as he wrote JJ in early September 1916, to “devote the next six months entirely to my own interests. (Which will do them no good whatever.)” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 82).</note>
+                <note xml:id="note8" target="#seg8" type="commentary">The New York lawyer and patron of the arts, <name type="person" key="quin70">John Quinn</name> (1870-1924), decided to “stake” JJ to £10 when Pound declined a similar amount in favor of JJ. Quinn, though harried by many requests for financial assistance, took “pleasure” in helping JJ because, he told him, “I am interested in your work” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 75).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Harriet Shaw Weaver and JJ’s London literary agent J.B. Pinker were corresponding with B.W. Huebsch of New York about an American edition of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, which Huebsch soon accepted for publication and issued in December 1916. Weaver had written JJ about progress with Huebsch on 7 September 1916, and JJ replied to her on 16 September (<name type="work" key="ID_MISSING">LI</name> 95-96). Huebsch’s letter to Weaver of 25 August 1916 is found at <name type="work" key="ID_MISSING">LI</name> 93-94.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">With characteristic generosity, Pound had urged the New York publisher John Marshall in March 1916 to publish JJ’s <name type="work" key="W_APORTRAIT">A Portrait</name> in place of Pound’s own projected essay collection, “This Generation” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 5, 75). Marshall sent JJ an advance of £10, but soon left for Canada with his ailing wife and published neither JJ’s novel nor Pound’s collection. Pound wrote JJ on 22 July 1916 that Marshall had “given up his publishing ghost …. [He] seems blameless – wife collapsed with consumption &amp; he with emotion” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 78). Pound took a less generous view of the disappearance of “This Generation” when he wrote the <name type="work" key="ID_MISSING">Little Review</name> editors in July 1918 that there should be a “Lynch-law for manuscript thieves”; he included among his “vendettas” an “ex-New York publisher named Marshall (spurious verschwindet [vanishes]) [who] disappeared with mss. of a long book” (<name type="work" key="ID_MISSING">Pound</name>/The Little Review<name type="work" key="ID_MISSING">: The Letters of Ezra Pound to Margaret Anderson: The</name> Little Review <name type="work" key="ID_MISSING">Correspondence</name>, ed. Thomas L. Scott and Melvin J. Friedman [New York: New Directions, 1988], 244-45). Pound never recovered the manuscript of “This Generation,” but a similar collection of Pound’s essays, <name type="work" key="ID_MISSING">Pavannes and Divisions</name>, was published by Alfred A. Knopf of New York in June 1918.</note>
+                <note xml:id="note11" target="#seg11" type="commentary">The American author and editor Alfred Kreymborg (1883-1966) published a collection of verse, <name type="work" key="ID_MISSING">Mushrooms: A Book of Free Forms</name>, with John Marshall of New York in 1916. With Man Ray, Kreymborg produced <name type="work" key="ID_MISSING">The Glebe</name>, a New York little magazine that printed <name type="work" key="ID_MISSING">Des Imagistes: An Anthology</name>, edited by Pound, in February 1914. Kreymborg also published poems by Pound in his magazine <name type="work" key="ID_MISSING">Others</name> as well as in his collection, <name type="work" key="ID_MISSING">Others: An Anthology of the New Verse</name>, issued by Alfred A. Knopf of New York in 1916. Kreymborg may have been reading <name type="work" key="ID_MISSING">A Portrait</name> as a way of assisting either Knopf or John Marshall, both candidates for publishing JJ’s novel at the time (see above). Alfred A. Knopf (1892-1984) published many modern authors, but not Joyce.</note>
+                <note xml:id="note12" target="#seg12" type="translation">It. “I shake your hand.”</note>
+                <note xml:id="note13" target="#seg13" type="translation">It., lit. “beast.” Used here as an abbreviated form of the expletive, “Dio bestia,” “God is a beast.” This expression is similar to “dio boia,” the executioner god that Stephen Dedalus holds responsible in the “Scylla and Charybdis” episode of <name type="work" key="W_ULYSSES">Ulysses</name> for the calamities of life – a creator who “wrote the folio of this world and wrote it badly … the lord of things as they are whom the most Roman of catholics call <hi rend="italic">dio boia</hi>, hangman god” (<name type="work" key="ID_MISSING">U</name> 9.1047-49).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

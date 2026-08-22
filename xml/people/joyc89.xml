@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="joyc89">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eileen Isabel Joyce</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>joyc89</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">253717524</idno>
+            
+            <persName type="reg">
+               <forename>Eileen Isabel</forename> <surname>Joyce</surname>
+            </persName>
+            <persName type="full">Eileen Isabel Joyce</persName>
+            <date type="birth" when="1889-01-22"/>
+            <date type="death" when="1963-01-27"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Eileen Joyce was seven years younger than her brother James. Too intelligent to become the family slavey, she followed her sister <name type="person" key="ID_MISSING">Eva</name> to Trieste in 1910. Musical and witty, she had ambitions to become an opera singer. In 1915 she married <name type="person" key="schaXX">Frantisek Schaurek</name>, a Czech bank teller. They lived in Prague during the war and later in Trieste.</p>
+                <p>Frank took his own life in 1926, and Eileen with her three children moved back to Ireland. She was <name type="person" key="joyc07">Lucia</name>’s favourite aunt and often helped care for her. In Dublin Eileen visited her father occasionally, and after he died removed the books JJ had inscribed to him. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

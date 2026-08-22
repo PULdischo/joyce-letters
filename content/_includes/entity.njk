@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+<article>
+  <p class="meta">{{ kind | capitalize }} record &middot; key: <code>{{ key }}</code></p>
+  <h1>{{ name }}</h1>
+  {% if birthDate or deathDate or gender or viaf or oclc %}
+  <dl class="meta">
+    {% if birthDate or deathDate %}<dt>Dates</dt><dd>{{ birthDate or "?" }}&ndash;{{ deathDate or "?" }}</dd>{% endif %}
+    {% if gender %}<dt>Gender</dt><dd>{{ gender }}</dd>{% endif %}
+    {% if viaf %}<dt>VIAF</dt><dd><a href="https://viaf.org/viaf/{{ viaf }}/">{{ viaf }}</a></dd>{% endif %}
+    {% if oclc %}<dt>OCLC</dt><dd>{{ oclc }}</dd>{% endif %}
+  </dl>
+  {% endif %}
+  {{ content | safe }}
+</article>

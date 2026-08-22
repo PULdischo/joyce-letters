@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wall85">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lillian Wallace</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>wall85</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            
+            <persName type="reg">
+               <forename>Lillian</forename> <surname>Wallace</surname>
+            </persName>
+            <persName type="full">Lillian Wallace</persName>
+            <date type="birth" when="1885-09-15"/>
+            <date type="death" when="1962-07-15"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>The wife of American commercial artist and advertising executive <name type="person" key="wall72">Richard William Wallace</name> and elder sister to another of Joyce’s correspondents, <name type="person" key="sout86">Alfred Collingwood Southern</name>. Lillian (also Lilian) Wallace was born Emma Louisa Southern in Saltburn, Yorkshire, and educated at her father’s school. She apparently met Richard when she was a member of a dance troupe in Paris; they were married by her brother Alfred in London in 1913. The couple returned to Paris, and travelled extensively, living in Capri for two years before returning to Paris. The Wallaces were friendly with the Joyces in Paris from late 1920. After Richard’s death in 1927, Lillian returned to Britain. She never remarried and died in 1962. She is buried alongside her brother at Godalming, Surrey. <hi rend="bold">John Simpson</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

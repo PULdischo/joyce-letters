@@ -1,0 +1,114 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68302">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Saturday, 29 July 1916</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68302</idno>
+            <idno type="internal">68302</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="{ LANGUAGE CODE OF THE MAIN LANGUAGE}"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_05">Seefeldstrasse 54, Zurich</placeName>
+               </address>
+               <date notBefore="1916-07-29" notAfter="1916-07-29">Saturday, 29 July 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_05">Seefeldstrasse 54</name>,</addrLine>
+                            <addrLine>parterre, rechts</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII: <name type="geo" key="G_CHE">Switzerland</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <p>Dear Sir (or Madam): <name type="person" key="poun85">Mr Ezra Pound</name> has sent me your generous donation of £20 for which I wish to express my deepest thanks. The gift is very welcome to me in <seg xml:id="seg1" type="note-anchor">my present uncertain circumstances</seg> but even more so in that it is an encouragement. The delicate manner in which it has been made does not allow me to thank as I should wish to do. Nevertheless I beg you to believe that I am much moved by your generous sympathy which, I may say, I have done so little to deserve.</p>
+                    <p>        	Accept again my thanks and believe me to be</p>
+                    <closer>
+                        <salute>                    	sincerely and gratefully yours</salute>
+                        <signed>                                	<name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1916-07-29">29 July 1916</date>
+                        </dateline> </closer> </div> </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Ezra Pound sent JJ an anonymous donation of £20 in his letter of 22 July 1916. He writes, “I am just sending you £20. from an anonymous donor. You might write a brief letter to the anonymous in my care. The gift was unexpected” (Pound/Joyce 78). Pound writes on the back of JJ’s letter to Weaver, “The enclosed has just arrived. yrs. E.P.”</note>
+                <note xml:id="note1" target="#seg1" type="commentary">JJ was referring to his lack of a stable income at that time.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

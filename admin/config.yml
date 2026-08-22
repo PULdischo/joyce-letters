@@ -1,0 +1,170 @@
+# Sveltia CMS config for the Joyce Letters POC.
+#
+# Two ways to sign in against this same config -- no separate OAuth app or
+# proxy server needed for either:
+#
+# 1. Local: run `npm start`, open http://localhost:8080/admin/index.html
+#    in a Chromium-based browser, click "Work with Local Repository" --
+#    Sveltia edits files on disk directly via the File System Access API.
+#    (https://sveltiacms.app/en/docs/workflows/local)
+#
+# 2. Deployed (e.g. the GitHub Pages site): open .../admin/index.html and
+#    click "Sign In with Token" instead. Sveltia links out to GitHub's
+#    token-creation page with the required scopes pre-selected -- generate
+#    a token there, paste it into the prompt. No config.yml change needed;
+#    it authenticates directly against `repo` below over GitHub's REST
+#    API from the browser and commits land straight on `branch`.
+#    (https://sveltiacms.app/en/docs/backends/github)
+#
+#    Security notes: the token is stored in that browser's localStorage,
+#    each editor needs their own token with write access to this repo
+#    (collaborator or org member), and per Sveltia's own docs this flow
+#    "suits individual developers or small teams" -- it's not meant for
+#    public/anonymous editing. Revoke a token from GitHub Settings ->
+#    Developer settings -> Personal access tokens if one is ever exposed.
+backend:
+  name: github
+  repo: PULdischo/joyce-letters
+  branch: main
+  auth_methods: [token]
+
+media_folder: content/_assets
+public_folder: /assets
+
+collections:
+  - name: letters
+    label: Letters
+    label_singular: Letter
+    folder: content/letters
+    create: true
+    slug: "{{slug}}"
+    format: yaml-frontmatter
+    extension: md
+    fields:
+      - { name: title, label: Title, widget: string }
+
+      - name: correspondence
+        label: Correspondence
+        widget: object
+        fields:
+          - name: sender
+            label: Sender
+            widget: relation
+            collection: people
+            value_field: "{{key}}"
+            search_fields: ["name", "key"]
+            display_fields: ["name"]
+          - name: recipient
+            label: Recipient
+            widget: relation
+            collection: people
+            value_field: "{{key}}"
+            search_fields: ["name", "key"]
+            display_fields: ["name"]
+          - name: date
+            label: Date
+            widget: datetime
+            date_format: "YYYY-MM-DD"
+            time_format: false
+
+      # Both vocabularies below are confirmed against all 279 source
+      # letters (not just the converted sample) and cross-checked against
+      # the site's own FM_05 "Abbreviations Used" front-matter document,
+      # fetched via xml/frontmatter/FM_05.xml.
+      - name: format
+        label: Format
+        widget: select
+        options: [Card, Letter, Note, Pneumatique, Postcard, Telegram]
+      - name: categoryOfCorrespondence
+        label: Category of Correspondence (see FM_05 abbreviations)
+        widget: select
+        required: false
+        options:
+          [AL, ALI, ALS, ACI, ACS, ANI, ANS, APC, APCI, APCS, TCL, TL, TLS, Telegram]
+      # contributor role ("Transcription by"/"Annotations by"/"Encoding
+      # by") is kept as a plain string rather than `select` -- a 3-value
+      # vocabulary observed in the sample, but not yet cross-checked
+      # against the full 279-letter corpus the way format/coc_abbr were.
+      - { name: repository, label: Repository, widget: string }
+
+      - name: contributors
+        label: Contributors
+        widget: list
+        required: false
+        fields:
+          - { name: role, label: Role, widget: string }
+          - { name: name, label: Name, widget: string }
+
+      # Untargeted <note type="global"> entries -- e.g. dating rationale --
+      # that don't anchor to a specific point in the letter text, so they
+      # don't fit the inline [^n] footnote convention used in the body.
+      - name: editorialNotes
+        label: Editorial Notes (global, unanchored)
+        widget: list
+        required: false
+
+      # Commentary notes are NOT a separate structured field in this POC:
+      # they're embedded directly in the body as standard Markdown
+      # footnotes ([^n] marker + [^n]: text block), editable as ordinary
+      # flowing text. Simpler for editors than keeping a marker and a
+      # separate list field in sync by hand, at the cost of the notes not
+      # being independently queryable. Entity mentions with a resolvable
+      # TEI @key become Markdown links ([text](/people/{key}/) etc.);
+      # unresolved `ID_MISSING` mentions are left as plain text -- see the
+      # "unresolved-entity" rows in scripts/conversion_report.csv.
+      - name: body
+        label: Letter Text
+        widget: markdown
+        buttons: [bold, italic, strikethrough, link, quote]
+
+  - name: people
+    label: People
+    label_singular: Person
+    folder: content/people
+    create: true
+    slug: "{{key}}"
+    format: yaml-frontmatter
+    extension: md
+    fields:
+      - { name: key, label: Authority Key, widget: string }
+      - { name: name, label: Name, widget: string }
+      # Only ~202 of the 258 people mentioned across the sample corpus have
+      # a canonical biography record on the source site (fetched via
+      # fetch_people.sh from the site's own "List of People Mentioned"
+      # register) -- the rest, including James Joyce himself (he's the
+      # letter-writer, not someone the register treats as "mentioned"),
+      # are thin name-only stubs. All of the fields below are optional for
+      # that reason. See "person-not-in-register" rows in
+      # scripts/conversion_report.csv for the full list.
+      - { name: viaf, label: VIAF ID, widget: string, required: false }
+      - { name: oclc, label: OCLC ID, widget: string, required: false }
+      - { name: birthDate, label: Birth Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { name: deathDate, label: Death Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { name: gender, label: Gender, widget: string, required: false }
+      - { name: body, label: Biography, widget: markdown, required: false }
+
+  - name: places
+    label: Places
+    label_singular: Place
+    folder: content/places
+    create: true
+    slug: "{{key}}"
+    format: yaml-frontmatter
+    extension: md
+    fields:
+      - { name: key, label: Authority Key, widget: string }
+      - { name: name, label: Name, widget: string }
+      - { name: body, label: Description, widget: markdown, required: false }
+
+  - name: works
+    label: Works
+    label_singular: Work
+    folder: content/works
+    create: true
+    slug: "{{key}}"
+    format: yaml-frontmatter
+    extension: md
+    fields:
+      - { name: key, label: Authority Key, widget: string }
+      - { name: name, label: Name, widget: string }
+      - { name: body, label: Description, widget: markdown, required: false }

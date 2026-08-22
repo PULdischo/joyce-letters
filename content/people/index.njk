@@ -1,0 +1,12 @@
+---
+layout: base.njk
+title: People
+permalink: people/index.html
+---
+<h1>People ({{ collections.people.length }})</h1>
+<p class="conversion-note">Stub records extracted from every <code>@key</code> found across all 279 source letters (not just the 6 converted samples), so Sveltia's <code>relation</code> fields have real entries to point at.</p>
+<ul class="entry-list">
+{% for person in collections.people %}
+  <li><a href="{{ person.url }}">{{ person.data.name }}</a> <code>{{ person.data.key }}</code></li>
+{% endfor %}
+</ul>

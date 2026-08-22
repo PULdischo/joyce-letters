@@ -1,0 +1,143 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68284">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Friday, 10 March 1916</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68284</idno>
+            <idno type="internal">68284</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_04">Kreuzstrasse 19, Zurich</placeName>
+               </address>
+               <date notBefore="1916-03-10" notAfter="1916-03-10">Friday, 10 March 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_04">Kreuzstrasse 19 <hi rend="superscript">III</hi>
+                                </name>
+                            </addrLine>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">
+                                    <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII (<name type="geo" key="G_CHE">Switzerland</name>)</seg>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>My dear <name type="person" key="poun85">Pound</name>: I have been suffering rather badly from <seg xml:id="seg2" type="note-anchor">an attack of rheumatism</seg> which I have succeeded in keeping out of my eyes so far. <name type="person" key="weav76">Miss Weaver</name> writes that <name type="person" key="pink62">Mr Pinker</name> has not yet <seg xml:id="seg3" type="note-anchor">drawn up the agreement</seg>. I have written to him instructing him to do so at once and to her informing her that if he does not I shall send her a blank signed agreement which he can fill in later at her dictation. As regards terms <seg xml:id="seg4" type="note-anchor">I have instructed him</seg> to accept unconditionally, subject to his commission, whatever terms she is able to propose. She writes that four printing firms have <seg xml:id="seg5" type="note-anchor">refused to print <rs type="work" key="W_APORTRAIT">my novel</rs>
+                        </seg>. One (<name type="organisation" key="O_CLAY">Messrs Clay and Sons</name>) <seg xml:id="seg6" type="note-anchor">accepted at first and then refused</seg>. She writes also that an ex-clerk of <name type="organisation" key="O_MAUNSEL">Messrs Maunsel and Co</name> of <name type="geo" key="G_IRL_DUBL">Dublin</name> who, it seems, is now in the employment of <name type="work" key="W_THEEGOIST">
+                            <hi rend="underline">The</hi> <hi rend="underline">Egoist</hi>
+                        </name> informs her that if <rs type="work" key="W_APORTRAIT">my book</rs> is not published before <date when="1916-04-01">1 April</date> (All Fools’ Day) it cannot be published this spring. Possibly he can say also who paid the Irish printer, <name type="organisation" key="O_FALCONER">Falconer</name>, and for £70 to burn <seg xml:id="seg7" type="note-anchor">the first edition of my <rs type="work" key="W_DUBLINERS">book of stories</rs>
+                        </seg>. I confess that I find the re-emergence of this name a bad omen.</p>
+                    <p>Mr Pinker, I presume, is still <seg xml:id="seg8" type="note-anchor">“doing his best” with the verses</seg> and <seg xml:id="seg9" type="note-anchor">
+                            <rs type="work" key="W_EXILES">the play</rs> I sent him</seg>. If a printer is found and time is limited <seg xml:id="seg10" type="note-anchor">would you read the proofs</seg> for me? In return if you like I shall correct the proofs of your next book. If you cannot I suggest that some reader be found and the fee charged to me. In any case I want the book to be published this spring as, until it is out of the way, I cannot continue <seg xml:id="seg11" type="note-anchor">what I am writing</seg>. I had just begun again and now this bad news comes to obstruct me. I am sending this letter express to your address in <name type="geo" key="G_GBR_LOND">London</name> to save time. Have you any news from <hi rend="underline">
+                            <name type="work" key="W_POETRY">Poetry</name>
+                        </hi> or from <hi rend="underline">
+                            <name type="work" key="W_DRAMA">Drama</name>
+                        </hi>? I hope that if <rs type="work" key="W_DRAMA_1">your article</rs> has appeared in the latter review it may be possible for you to print <rs type="work" key="W_EXILES">my play</rs> when you become <seg xml:id="seg12" type="note-anchor">editor of your new review</seg>. I hope (not only for my sake) that its prospects are still good. I hope also that you are in good health. I wish I could say as much for myself. I could scarcely walk last week but I do not care so long as I do not get a relapse of iritis. Today I feel much better. Perhaps it is due to the stimulus of this bad news.</p>
+                    <closer>
+                        <salute>With very kind regards</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1916-03-10">10 March 1916</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ and family moved to 19 Kreuzstrasse from <name type="geo" key="G_CHE_ZURI_03">7 Reinhardstrasse, in Zurich</name>, circa 15 October 1915, and remained there until 31 March 1916.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">For JJ’s eye trouble and its possible connection with a bout of rheumatic fever, see <rs type="letter" key="L_68237">JJ to Pound, 19 July 1915</rs>, notes.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">After several publishers declined to publish <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name> as a book, JJ, through his London literary agent J.B. Pinker, signed a contract for its issuance with Harriet Shaw Weaver’s <name type="organisation" key="ID_MISSING">Egoist Press</name> in London, which had already published the novel serially in <name type="work" key="ID_MISSING">The Egoist</name>. When publication of the book was delayed by the refusal of English printers to set it, <name type="person" key="hueb76">B.W. Huebsch</name> of <name type="geo" key="G_USA_NEWY">New York</name> published an American edition in December 1916, supplying Weaver with sheets for the first English edition, which the Egoist Ltd. published in February 1917.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">For JJ’s instructions to Pinker regarding a contract for <name type="work" key="W_APORTRAIT">A Portrait</name>, see JJ to Pinker, 10 March 1916 (<name type="work" key="ID_MISSING">LII</name> 374–75).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Under British law at the time, printers, no less than authors and publishers, could be subject to prosecution for their involvement in the publication of works deemed obscene, libelous, or blasphemous. The prosecution of <name type="person" key="ID_MISSING">D.H. Lawrence</name>’s <name type="work" key="W_THERAINBOW">The Rainbow</name> in <name type="geo" key="G_GBR">England</name> in 1915 had made printers and publishers especially cautious. Pound suggested to Weaver and JJ that blank spaces be left for controversial passages in the printed Portrait, and he volunteered to paste typed restorations into copies to form a private edition. The public could then choose between this unexpurgated version and the expurgated one available for ordinary purchase. “And damn the censors,” Pound added (<name type="work" key="ID_MISSING">LII</name> 375). A similar strategy of private and public editions was used for Pound’s volume of poems, <name type="work" key="W_LUSTRA">Lustra</name>, published in England in 1916 and in <name type="geo" key="G_USA">America</name> in 1917.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Probably Richard Clay and Sons Ltd., London and Bungay, which printed, among other works, <name type="person" key="ID_MISSING">Joseph Conrad</name>’s <name type="work" key="ID_MISSING">Youth: A Narrative and Two Other Stories</name> (London and Toronto: J.M. Dent &amp; Sons Ltd., 1917), and <name type="person" key="ID_MISSING">Henry James</name>’s <name type="work" key="ID_MISSING">The American Scene</name> (London: George Bell &amp; Sons, 1907).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">JJ had signed a contract in 1909 with Dublin publisher Maunsel &amp; Co. to produce <name type="work" key="W_DUBLINERS">Dubliners</name>. Judging passages in several of the stories to be obscene or libelous, the firm engaged in protracted negotiations with JJ, who refused to alter his text or give a special financial undertaking. After learning of Maunsel’s ultimate decision in 1912 not to publish the book, the Dublin printer John Falconer supposedly destroyed the entire edition of printed sheets (although JJ rescued a single set of proofs). “A Curious History,” <name type="work" key="W_THEEGOIST">Egoist</name> vol. 1, no. 2 (15 January 1914): 26–27, documents the events through a compilation of letters from JJ, with an introduction by Pound.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">On 10 February 1916, Pinker wrote JJ that “the verses reached me quite safely, and I am doing my best with them” (John Firth, “James Pinker to James Joyce, 1915–1920,” <name type="work" key="ID_MISSING">Studies in Bibliography</name> 21 [1968]: 214). JJ was trying, through Pinker and Pound, to raise some cash by getting some of his poems placed with magazines such as the <name type="work" key="ID_MISSING">English Review</name> and <name type="work" key="ID_MISSING">The Nation</name>. In early 1916, Pound had submitted two of JJ’s poems to Harriet Monroe, editor of <name type="work" key="ID_MISSING">Poetry</name> in Chicago, and JJ sent her others. Five eventually appeared in <name type="work" key="ID_MISSING">Poetry</name>, vol. 10, no. 2 (May 1917): 72–75: “Simples,” “Tutto è Sciolto,” “Flood,” “A Flower Given to My Daughter,” and “Nightpiece.” These poems with others were later published as <name type="work" key="ID_MISSING">Pomes Penyeach</name> (Paris: Shakespeare and Company, 1927). Also around this time, B.W. Huebsch was trying to become the authorized American publisher of all of JJ’s works, and he wished to publish <name type="work" key="ID_MISSING">Chamber Music</name>, originally issued in England in 1907 (<name type="work" key="ID_MISSING">LI</name> 91-92). Huebsch’s edition appeared in 1918.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Pinker and Pound were trying to find a producer who would stage <name type="work" key="W_EXILES">Exiles</name> and a publisher who would issue it in a magazine or as a book, without success. <name type="work" key="W_EXILES">Exiles</name> was eventually published in May 1918 by <name type="person" key="rich72">Grant Richards</name> in London and by B.W. Huebsch in New York. It was first performed in a German translation in <name type="geo" key="G_DEU_MUNI">Munich</name> in 1919.</note>
+                <note xml:id="note10" target="#seg10" type="commentary">Pound, burdened with many responsibilities at this time, promptly replied on 16 March 1916: “My proof reading is out of the question. I am incapable, even if I had time” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 74).</note>
+                <note xml:id="note11" target="#seg11" type="commentary">JJ had begun drafting episodes of <name type="work" key="W_ULYSSES">Ulysses</name> while in <name type="geo" key="G_ITA_TRIE">Trieste</name>. In October 1916, he wrote Harriet Shaw Weaver from Zurich: “I have almost finished the first part and have written out part of the middle and end” (<name type="work" key="ID_MISSING">LII</name> 387). These sections would become, respectively, the “Telemachia” (episodes 1-3), the “Odyssey” or “Wanderings” (episodes 4-15), and the “Nostos” (episodes 16-18). The letter from June 30, 1915 reports the progress in a different way. (See Michael Groden, <name type="work" key="ID_MISSING">Ulysses in Progress</name> [Princeton, NJ: Princeton University Press, 1977], 6.)</note>
+                <note xml:id="note12" target="#seg12" type="commentary">Pound’s essay, “Mr. James Joyce and the Modern Stage,” <name type="work" key="ID_MISSING">Drama</name>, vol. 6, no. 2 (February 1916): 122–32, discussed <name type="work" key="W_EXILES">Exiles</name> two years before its publication (see <rs type="letter" key="L_68237">JJ to Pound, 19 July 1915</rs>, notes). JJ asked Pinker to submit the play itself for publication in <name type="work" key="ID_MISSING">Drama</name>, which rejected it later that year. The reference to “your new review” refers to Pound’s proposal to the New York lawyer and patron of the arts, <name type="person" key="quin70">John Quinn</name> (1870-1924), that he fund a literary magazine that Pound would edit. On 27 August 1915, Pound wrote JJ: “[T]here seems a chance of a monthly magazine that can pay contributors. I have spent the day writing a prospectus designed to entrap American dollars” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 41). The magazine did not materialize, though Pound began editorial work for <name type="work" key="W_THELITTLE">The Little Review</name> in 1917, for which Quinn arranged generous financial support.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

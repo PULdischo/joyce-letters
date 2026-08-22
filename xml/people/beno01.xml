@@ -1,0 +1,46 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beno01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacques Benoist-Méchin</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>beno01</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">61539783</idno>
+            <idno type="OCLC">lccn-n50082041</idno>
+            <persName type="reg">
+               <forename>Jacques</forename> <surname>Benoist-Méchin</surname>
+            </persName>
+            <persName type="full">Jacques Benoist-Méchin</persName>
+            <date type="birth" when="1901-07-01"/>
+            <date type="death" when="1983-02-24"/>
+            <note type="gender">M</note>
+         </ab>
+         <div type="bio">
+            <p>French journalist and government official. In preparation for the “séance” to promote <name type="work" key="ID_MISSING">Ulysses</name> on 7 December 1921, the then young Benoist-Méchin was engaged to translate into French the end of “Penelope”. He later became a journalist and editor and, in the late 1930s and during WWII, an avid collaborationist, active in the Vichy government. Benoist-Méchin was the source for JJ’s purported quotation that he “put in so many enigmas and puzzles that it will keep the professors busy for centuries” (<name type="work">JJ</name> 521), but the accuracy of his recollection has been disputed. <hi rend="bold">William Brockman</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

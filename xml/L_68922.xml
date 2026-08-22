@@ -1,0 +1,120 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68922">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 6 October 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68922</idno>
+            <idno type="internal">68922</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_04">9 rue de l'Université, Paris</placeName>
+               </address>
+               <date notBefore="1922-10-06" notAfter="1922-10-06">Friday, 6 October 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab> <address>
+                            <addrLine rend="printed">Maison de Famille</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_04">9, Rue de l’Universitè, 9</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris (VII)</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <p>Dear <name type="person" key="weav76">Miss Weaver</name>: I shall not <seg xml:id="seg1" type="note-anchor">start till Tuesday</seg> so if <name type="person" key="rodk94">Mr Rodker</name> is here on Monday he can see me. I shall <seg xml:id="seg2" type="note-anchor">stop a night and half a day</seg> in <name type="geo" key="G_FRA_DIJO">Dijon</name>. <name type="person" key="bors73">Dr Borsch</name>’s <seg xml:id="seg3" type="note-anchor">opinion</seg> was more favourable yesterday. He will not correct the lens till I come back but he says he thinks the <seg xml:id="seg4" type="note-anchor">nebula</seg> is not organised. Anyhow I was able to read very small print with both eyes open—of course, in a good light my right eye doing the work which however the left did not impede. Will you please add <name type="person" key="schi68">Mr Schiff</name>’s name to <seg xml:id="seg5" type="note-anchor">group A</seg>? It seems that <seg xml:id="seg6" type="note-anchor">the Evening Standard</seg> sent to <name type="geo" key="G_IRL_DUBL">Dublin</name> marked with red pencil did not arrive owing to <seg xml:id="seg7" type="note-anchor">postal strike</seg>. I shall be much obliged if you will send a copy to the following in A: <name type="person" key="joyc49">John Joyce</name> <name type="person" key="murr62">Mrs Murray</name> <name type="person" key="heal63">Michael Healy</name>. This is not vainglorious on my part but a policy or part of one.</p>
+                    <closer>
+                        <salute>With kindest regards</salute>                    	<salute>sincerely yours</salute>                               	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1922-10-06">6/x/922</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In the following week, JJ would depart for Nice with his family where he would stay until mid-November 1922. </note>
+                <note xml:id="note2" target="#seg2" type="commentary">JJ planned to stop in Dijon on his way to Nice to meet with printer <name type="person" key="dara82">Maurice Darantiere</name>. “At Dijon I spoke to Mr Darantiere who thinks that the corrections of plates ought to be begun at once so whenever a third edition is called for the book can appear letter perfect,” JJ wrote <rs type="letter" key="L_68930">to Weaver in a letter on 17 October 1922 </rs>from Nice (<name type="work">LI</name> 188). </note>
+                <note xml:id="note3" target="#seg3" type="commentary">Dr Borsch, JJ’s ophthalmologist, returned to Paris at the beginning of October and approved JJ’s winter holiday in Nice. Borsch advised JJ to undergo a complete dental extraction in Nice to prepare for a sphincterectomy upon his return to Paris. JJ would postpone the dental and optical surgeries until early 1923 (<name type="work">JJ</name> 536-7; 543).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">In examining JJ’s nebula, Dr Borsch concluded that JJ was unlikely to develop glaucoma and that his condition was less severe than the London ophthalmologists had supposed (<name type="work">JJ</name> 537).</note> <note xml:id="note5" target="#seg5" type="commentary">The list of people who were to receive a copy of the Egoist Press edition of <name type="work" key="W_ULYSSES">Ulysses</name>, with the heading “Group A”, is kept at the British Library (BL 57356-14; <name type="work">JJA</name> 12: 188). “Mr Sydney Schiff” is added as the last item. </note>
+                <note xml:id="note6" target="#seg6" type="commentary">Possibly the review “A Monstrous Book” in the London <name type="work">Evening Standard</name> from which Sisley Huddleston later quoted extensively in <hi rend="italic">Paris Salons, Cafés, Studios</hi> (1928, pp. 208-20).</note> <note xml:id="note7" target="#seg7" type="commentary">The Dublin Postal Strike of 1922 occurred in September 1922, after workers became frustrated with the Irish Free State Government’s attitude. The strike was a reaction to the government’s attempt to cut ‘cost of living’ bonuses. </note>
+            </div>
+      </body>
+   </text>
+</TEI>

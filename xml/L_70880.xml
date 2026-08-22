@@ -1,0 +1,155 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_70880">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Sunday, 5 December 1937</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_70880</idno>
+            <idno type="internal">70880</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_30">7 rue Edmond Valentin, Paris</placeName>
+               </address>
+               <date notBefore="1937-12-05" notAfter="1937-12-05">Sunday, 5 December 1937</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_30">7 rue Edmond Valentin</name>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name> 7<hi rend="superscript">e</hi>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <dateline>
+                        <date when="1937-12-05">5 <seg xml:id="seg1" type="note-anchor">10embre</seg> 1937</date>
+                    </dateline>
+                    <p>Dear <name type="person" key="poun85">Pound</name>: I sent on <seg xml:id="seg2" type="note-anchor">your letter to <name type="person" key="hans84">Mrs Dyer</name>
+                        </seg> and afterwards spoke with her. She said she would write to you and send the music without suggestions from <seg xml:id="seg3" type="note-anchor">the proposed gangsters</seg>. She got <seg xml:id="seg4" type="note-anchor">first prize</seg> for her <hi rend="underline">belles</hi> <hi rend="underline">
+                            <choice>
+                                <sic>editions</sic>
+                                <corr>éditions</corr>
+                            </choice>
+                        </hi> at the Exposition here. <seg xml:id="seg5" type="note-anchor">Her <rs type="person" key="dyer60">husband</rs>
+                        </seg>, who is much older than she, is very ill, she says. He is an Australian too and in his youth sang (tenor) with <seg xml:id="seg6" type="note-anchor">
+                            <name type="person" key="melb59">Nellie Mitchel (Melba)</name>
+                        </seg>.</p>
+                    <p>If I send you a copy of <hi rend="underline">Michael</hi> <hi rend="underline">Kramer</hi> and <name type="person" key="haup62">Hauptmann</name>’s address in <name type="geo" key="G_DEU">Germany</name> would you reforward it to him asking him to <seg xml:id="seg7" type="note-anchor">inscribe it for me</seg>. I see it was <seg xml:id="seg8" type="note-anchor">selected for performance</seg> for his 75<hi rend="underline">
+                            <hi rend="superscript">th</hi>
+                        </hi> birthday in <name type="geo" key="G_DEU_BERL">Berlin</name>. Of course I could write directly. But I do not know him and it does not seem a very polite way to do it. This play made a great impression on me, especially <seg xml:id="seg9" type="note-anchor">the last act</seg>, and in fact I used to know some of it by heart.</p>
+                    <p>It is very far to go to <name type="geo" key="G_ITA_GENO">Genoa</name> but perhaps if the <hi rend="underline">
+                            <foreign xml:lang="ita">cartellone</foreign>
+                        </hi> for the Xmas season at the opera were <seg xml:id="seg10" type="note-anchor">waved in front of me</seg> I might suddenly start.</p>
+                    <closer>
+                        <salute>Best wishes</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">This unusual form of the date was JJ’s occasional way of indicating a month by combining a two-digit numerical prefix and an alphabetical suffix.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>Louise Berta Mosson Hanson-Dyer, née Smith (1884-1962), was an Australian pianist and harpist, music publisher, and wealthy patron of the arts who moved to Paris with her husband in 1928 and there founded <name type="organisation" key="ID_MISSING">Éditions de l’Oiseau-Lyre (Lyrebird Press)</name> in 1932. The firm published attractive historical editions of Byzantine liturgical music, medieval polyphonic music, the complete works of <name type="person" key="ID_MISSING">François</name> and <name type="person" key="ID_MISSING">Louis Couperin</name>, and other composers. Louise Dyer ran the Lyrebird Press until the year she died, whereupon her second husband, the Englishman <name type="person" key="ID_MISSING">Joseph Birch Hanson</name> (1908-1971), carried on the work of the publishing house. JJ and his wife Nora knew Dyer and her first husband, and mentioned them in their letters (<name type="work" key="ID_MISSING">LI</name> 397-98; <name type="work" key="ID_MISSING">LIII</name> 218, 306, 307, 408, 415). JJ wrote Pound in May 1931 that he had asked Louise Dyer to invite Pound to one of her musical evenings and also had urged her to stage Pound’s opera, <name type="work" key="ID_MISSING">Le Testament de Villon</name>, but nothing apparently came of these suggestions (<name type="work" key="ID_MISSING">LIII</name> 218 &amp; nn.2, 4).</p>
+                    <p>Pound had recently written Louise Dyer about music of the English composer Henry Purcell (1659-1695). On 23 October 1937 Pound wrote JJ for help in tracking her down: “suppose you do something plain and useful and find out and TELL me what has become of Mrs Y Lyre Dyer of the wire bird press? and why the hell she dont anser at least my henquiry about Purcell, and her bloomink edition” (Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 567). Specifically, Pound wanted to obtain Purcell’s <name type="work" key="ID_MISSING">Twelve sonatas of three parts, for two violins and bass</name>, originally published in London in 1683 and reissued by the Lyrebird Press in 1936 in an edition prepared by <name type="person" key="ID_MISSING">William Gillies Whittaker</name> (1876-1944), English music scholar, choral conductor, and composer (ibid., 567-73).</p>
+                    <p>Pound began sponsoring local concerts in his adopted town of Rapallo, Italy, in the 1930s. These “Concerti Tigulliani” included a broad repertoire of music from the baroque period to the twentieth century, with performances by the violinist <name type="person" key="ID_MISSING">Olga Rudge</name>, the pianist <name type="person" key="ID_MISSING">Gerhart Munch</name>, and other professional musicians. With JJ’s help, Pound secured the Purcell sonatas, and in January 1938 he announced in <name type="work" key="ID_MISSING">Il Mare</name>, the Rapallo newspaper: “Starting the first of February and running throughout the week, there will be a concert each evening presenting twelve Sonatas of Purcell, with lights and shadows provided by the music of Debussy and Hindemith. … These twelve … sonatas of Purcell have recently been … issued by the Lyre Bird Press of Paris. We should note that [William Gillies] Whittaker and the ‘Lire Bird’ [<hi rend="italic">sic</hi>] have already supported our efforts with advice and gifts of rare editions of little known music. … Performing in these concerts will be violinists Olga Rudge and maestro Sansoni and pianist Renata Borgatti” (Ezra Pound, “Stagioni Musicali del Tigullio: I concerti di Febbraio,” <name type="work" key="ID_MISSING">Il Mare</name>, vol. 31, no. 1506 [22 January 1938]: 1, 2) (translation from Pound’s Italian by Robert Spoo).</p>
+                </note>
+                <note xml:id="note3" target="#seg3" type="commentary">Louise Dyer evidently told JJ that she would send Pound the Purcell music he wanted without the need of a visit from gangsters that Pound had probably quipped might be dispatched to stir her.</note>
+                <note xml:id="note4" target="#seg4" type="commentary">The Lyrebird Press had been awarded a Grand Prix for its music editions at the Paris Exposition des Arts et des Techniques in 1937 (Jim Davidson, <name type="work" key="ID_MISSING">Lyrebird Rising: Louise Hanson-Dyer of Oiseau-Lyre</name>, 1884-1962 [Portland, OR: Amadeus Press, 1994], 256). Pound mentioned the award in an article in <name type="work" key="ID_MISSING">Il Mare</name> on 22 January 1938 (see note 2, above). In his reply of 8 December 1937 to JJ’s present postcard, Pound said he was glad to hear that the Lyrebird had won “the first pricks” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 571).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">James Dyer (ca. 1860-1938) was a wealthy Scottish (not Australian) businessman who had made a fortune in Melbourne, Australia, as an importer of linoleum. Louise married him in 1911, and together they pursued their interest in music and the arts. In 1921, as president of Melbourne’s Liedertafel Society, he presented the Society’s gold badge to the Australian soprano Nellie Melba (see note 6, below; “Liedertafel Concert,” <name type="work" key="ID_MISSING">The Age</name> [Melbourne, Australia] [8 November 1921]: 7). He was very ill at the time of the present letter and died on 10 January 1938.</note>
+                <note xml:id="note6" target="#seg6" type="commentary">Nellie Melba, born Helen Porter Mitchell (1859-1931), was an operatic soprano from Melbourne, Australia, who gained fame for her successful roles in many of the world’s opera houses but especially at Covent Garden in London. She attended the same school in East Melbourne – Presbyterian Ladies’ College – that Louise Dyer later attended (Richard Excell, “Bowerbird to L’Oiseau-Lyre: The Hanson-Dyer Collection at the Louise Hanson-Dyer Music Library, The University of Melbourne,” <name type="work" key="ID_MISSING">Fontes Artis Musicae</name>, vol. 55, no. 3 [July-September 2008]: 520-21). Pound replied to JJ’s remark about James Dyer’s having sung with Nellie Melba: “a picturesk touch of his singing wiff Nelba” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 571).</note>
+                <note xml:id="note7" target="#seg7" type="commentary">
+                    <p>In the early 1900s, JJ translated the plays <name type="work" key="ID_MISSING">Vor Sonnenaufgang</name> (<name type="work" key="ID_MISSING">Before Sunrise</name>) (1889) and <name type="work" key="ID_MISSING">Michael Kramer</name> (1900) by the German social realist Gerhart Hauptmann (1862-1946), admiring his frank treatment of controversial subjects and ranking him close to Ibsen in his powerful, naturalistic presentation of character. JJ’s manuscripts of <name type="work" key="ID_MISSING">Michael Kramer</name> have not been located, but his <name type="work" key="ID_MISSING">Before Sunrise</name> has been published as “<name type="work" key="ID_MISSING">Before Sunrise”: James Joyces Translation</name>, ed. Jill Perkins (San Marino, CA: Huntington Library Publications, 1978). JJ’s command of German was not strong at the time he translated Hauptmann, but he instinctively rendered the Silesian dialect by means of an Irish equivalent that in some ways anticipated the peasant speech created by John M. Synge. <name type="person" key="yeat65">W.B. Yeats</name> rejected JJ’s translations for <name type="organisation" key="O_ABBEYTHEATRE">the Abbey Theatre</name> in Dublin, partly because of JJ’s unsteady German but also because Yeats deemed the plays inappropriate for the kind of Irish theater that he and others were promoting through the Abbey (Hans Walter Gabler, “James Joyce <name type="work" key="ID_MISSING">Intrepreneur</name>,” <name type="work" key="ID_MISSING">Genetic Joyce Studies</name>, issue 4 [Spring 2004], https://www.geneticjoycestudies.org/articles/GJS4/GJS4_Gabler). The character James Duffy in JJ’s short story “A Painful Case” keeps in his desk “a manuscript translation of Hauptmann’s <name type="work" key="ID_MISSING">Michael Kramer</name>, the stage directions of which were written in purple ink” (<name type="work" key="W_DUBLINERS">D</name> 108). In 1937, JJ told Pound that he considered his youthful translation of the play a “well meant atrocity,” though he still admired the play itself “greatly” (<name type="work" key="ID_MISSING">LI</name> 398).</p>
+                    <p>Though Hauptmann had his chief home in Germany, he frequently wintered in Rapallo, the Italian Riviera town that also attracted Yeats, Max Beerbohm, and, of course, Pound. Pound lived near Hauptmann there and knew him socially, though their interaction was somewhat hindered by the fact that, as Pound put it, “he aint got ‘fliessendes [fluent] Englisch’ and me bein short on <hi rend="italic">dems</hi> and <hi rend="italic">dasses</hi>” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 569). Pound recalled Hauptmann attempting to read JJ’s <name type="work" key="W_ULYSSES">Ulysses</name> in a German translation: “I sez/ wot is it like in teuton, and he sez it is like lookin at a coin through a micriscope, that is a MIKryscope wot is intended fer bugz hine feet, detail TOO BIG fer to see anyfink” (ibid.).</p>
+                    <p>In his later years, JJ wanted signed copies of authors he had admired in his youth, such as Hauptmann and Yeats (see <rs type="letter" key="L_70326">JJ to Pound, 8 July 1933</rs>, notes). In a letter dated 12 November 1937, JJ asked Pound to help him get Hauptmann to sign a copy of the German text of <name type="work" key="ID_MISSING">Michael Kramer</name>. Pound replied on 17 November: “Ole Haupy aint here at the moment [but] I kin biff him fer a naughtygraft when he does drift back to this willitch” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 569). When the eager JJ proposed in the present letter to send a copy to Pound for forwarding to Hauptmann in Germany, Pound put his foot down: “I will NOT . … NO sane man LIKES wrappin up parcels [and Hauptmann’s] Missus like paper and string and standin in pust offices as little as I do.” Instead, Pound told JJ, “SEND the bloody book HERE, and when his nibs gets here I will lay it on the Cafe table before him and say the grreat Jayzus Jabes the Joyce in excelsis rejoise in excelsis wants the Xmas angels to sign it. … Like what Gabriel said to Mary in Fra Angeloco’s pixchoor. he sez: I waaaant that, or rather SHE sez I WANT that in WRITIN’” (ibid., 571-72). Despite his professed dislike for wrapping packages (actually he enjoyed such practical tasks more than he let on), Pound promised to send the signed book on to JJ.</p>
+                    <p>On 12 January 1938, Pound wrote JJ: “Ole HAUP izza settin on yr/ copy of his opus[.] I tackled him wiff a green fountaing pen ready/ but he cdn’t think up anything sufficiently MONUMENTAL to inscribe straight off his bat/ so he PROMISES to return the woik with due inscription” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 573). At last, JJ got his signed copy of <name type="work" key="ID_MISSING">Michael Kramer</name>. On 8 February 1938, he wrote Pound that, after a bout of eye congestion, he was able to resume work, “[s]o I am writing to Hauptmann by the next post both to explain and to thank him” (<name type="work" key="ID_MISSING">LIII</name> 415). Hauptmann had inscribed a 1920 printing of <name type="work" key="ID_MISSING">Michael Kramer</name>: “Nie hat dieses Buch einen besseren Leser gehabt als [Never has this book had a better reader than] James Joyce. Rapallo, d. 14. Jan. 1938. Gerhart Hauptmann” (quoted in H.D. Tschörtner, “Zu den Beziehungen zwischen Gerhart Hauptmann und James Joyce,” <name type="work" key="ID_MISSING">Zeitschrift für Anglistik und Amerikanistik</name>, vol. 26 [1978]: 261).</p>
+                    <p>Pound thought the inscription a hilarious anticlimax. Years later, during his confinement in a federal mental institution in Washington, DC, he described the book-signing for the American poet <name type="person" key="ID_MISSING">Charles Olson</name> (1910-1970). Olson recalled: “‘And,’ says Ez, ‘[Hauptmann] didn’t write off one of those inscriptions … he took it away, came back three days later, gave it to me, it read, to JJ the best reader this play ever had, and I shipped it off.’ At which point he cries out at the top of his delight, ‘He sure sat on that one till it hatched!’” (<name type="work" key="ID_MISSING">Charles Olson and Ezra Pound: An Encounter at St. Elizabeths</name>, ed. Catherine Seelye [New York: Grossman Publishers, 1975], p. 104).</p>
+                </note>
+                <note xml:id="note8" target="#seg8" type="commentary">Hauptmann’s reputation in Nazi Germany was complex. He was distrusted by some Nazi censors because of the character of his writings, yet his prominence as a German cultural figure made him impossible to ignore or suppress. During celebrations of his 75th birthday in Berlin in 1937, <name type="work" key="ID_MISSING">Michael Kramer</name> was performed, with <name type="person" key="ID_MISSING">Werner Krauss</name> (1884-1959) in the role of the dedicated, duty-bound artist, Kramer, and <name type="person" key="ID_MISSING">Bernhard Minetti</name> (1905-1998) as his dissolute but talented son, Arnold. One contemporary observer wrote: “Hauptmann personally attended many of the productions on the occasion of his birthday, including that of <name type="work" key="ID_MISSING">Die Jungfern vom Bischofsberg</name> [<name type="work" key="ID_MISSING">The Maidens of the Mount</name>]. I had a cheap seat in the second tier and had a good view of the state box, where he sat with Hermann Goering. The applause after the play was tempestuous, clearly intended not only for the actors but also for the two prominent gentlemen. As I saw with my own eyes, they acknowledged it with the Hitler salute. Gerhart Hauptmann, the author of <name type="work" key="ID_MISSING">Die Weber</name> [<name type="work" key="ID_MISSING">The Weavers</name>] and <name type="work" key="ID_MISSING">Die Ratten</name> [<name type="work" key="ID_MISSING">The Rats</name>], who largely owed his rise to fame to Jews … did not shrink from raising his arm in the Hitler salute” (Marcel Reich-Ranicki, <name type="work" key="ID_MISSING">The Author of Himself: The Life of Marcel Reich-Ranicki</name>, trans. Ewald Osers [Princeton, NJ: Princeton University Press, 2001], 79).</note>
+                <note xml:id="note9" target="#seg9" type="commentary">Act Four of <name type="work" key="ID_MISSING">Michael Kramer</name> is laid in Kramer’s studio, where the body of his son Arnold, a suicide, is stretched on a bier, wrapped in linen. Arnold, a homely, sensitive artist, had been crushed by the rejection of his passion by a restaurant keeper’s daughter and the cruel taunts of the restaurant’s clientele. Kramer struggles to find meaning in his son’s death and in the pain and indifference of the universe. Gazing on the death-mask of Beethoven, he asks: “Where shall we land? Whither are we driven? Why do we cry our cries of joy into the immense incertitude – we mites abandoned in the infinite? As though we knew whither we were tending!” (<name type="work" key="ID_MISSING">Michael Kramer</name>, in <name type="work" key="ID_MISSING">The Dramatic Works of Gerhart Hauptmann</name>, vol. 3, ed. and trans. Ludwig Lewisohn [London: Martin Secker, 1914], 539).</note>
+                <note xml:id="note10" target="#seg10" type="commentary">In his letter of 17 November 1937, Pound asked JJ: “why not come down and meat [Hauptmann] you wd. prob git deeper into his kawnschusness being nearer his period” (Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” 569). It is not known whether Pound waved an opera playbill (<hi rend="italic">cartellone</hi>) in front of JJ to tempt him down to northern Italy for the holidays – a journey of more than 500 miles – but JJ did not go.</note>
+            </div>
+      </body>
+   </text>
+</TEI>

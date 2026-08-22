@@ -1,0 +1,163 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68205">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Saturday, 3 April 1915</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                    <name xml:id="RC">RC</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68205</idno>
+            <idno type="internal">68205</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Beinecke Rare Book &amp; Manuscript Library, Yale University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_ITA_VENI_01">c/o Gioacchino Veneziani, Venice</placeName>
+               </address>
+               <date notBefore="1915-04-03" notAfter="1915-04-03">Saturday, 3 April 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <choice>
+                                    <abbr>c/o</abbr>
+                                    <expan>care of</expan>
+                                </choice> <name type="person" key="vene45">
+                                    <choice>
+                                        <sic>Gioacchino</sic>
+                                        <corr>Gioachino</corr>
+                                    </choice> Veneziani</name>,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_VENI_01">Murano</name>,</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_ITA_VENI">Venice</name>,</addrLine>
+                            <addrLine>
+                                <seg xml:id="seg1" type="note-anchor">(<name type="geo" key="G_ITK">Italy</name>)</seg>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <opener>
+                        <salute>My dear <name type="person" key="poun85">Mr Pound</name>
+                        </salute>
+                    </opener>
+                    <p>Many thanks for the copy of <name type="work" key="W_POETRY">
+                            <hi rend="underline">Poetry</hi>
+                        </name> with your interesting <seg xml:id="seg2" type="note-anchor">essay and verses</seg>. I shall be very glad indeed to receive a signed copy of your <seg xml:id="seg3" type="note-anchor">book of verses</seg>. May I remind you that you promised also to send me a <seg xml:id="seg4" type="note-anchor">photograph</seg>?</p>
+                    <p>I received also the agreement from <seg xml:id="seg5" type="note-anchor">
+                            <name type="person" key="pink62">Mr Pinker</name>
+                        </seg>. I have written to say that <name type="person" key="rich72">Mr Grant Richards</name> has the right of refusal (book rights) of <rs type="work" key="W_APORTRAIT">my novel</rs>. Subject to that condition I agree to place the <seg xml:id="seg6" type="note-anchor">book in his hands</seg>. As for the dramatic rights of my <seg xml:id="seg7" type="note-anchor">
+                            <rs type="work" key="W_EXILES">play</rs> I agree to hand over these to him immediately</seg>. I could also give him the control of any magazine or review publications. It was very kind of you to call on him and so I shall not trouble you further. If Mr Pinker accepts these conditions I shall be very glad to accept his proposal which is, as you say, very fair.</p>
+                    <p>I am glad to know that you have recovered from your influenza. We had <seg xml:id="seg8" type="note-anchor">a shock of earthquake here</seg> some nights ago – I mean, where I live: and the weather has been all <hi rend="underline">
+                            <foreign xml:lang="ita">scirocco</foreign>
+                        </hi> and rain during the winter. I am not molested in any way.</p>
+                    <p>I saw some time ago the Italian version of <name type="work" key="W_COUNTESSCATHLEEN">
+                            <hi rend="underline">Countess Cathleen</hi>
+                        </name> –  by <name type="person" key="lina78">Mr <choice>
+                                <sic>Luciani</sic>
+                                <corr>Linati</corr>
+                            </choice>
+                        </name>, I think. I am sorry that the version made by my friend <name type="person" key="vida75">Mr Nicolò Vidacovich</name> was not completed owing to <seg xml:id="seg9" type="note-anchor">some misunderstanding (of a literary kind)</seg> between him and <name type="person" key="yeat65">Mr Yeats</name>.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1915-04-03">Easter Eve 1915</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="global-note1" type="global">Dated by Joyce as “Easter Eve 1915,” i.e. Holy Saturday, which fell on 3 April 1915.</note>
+                <note xml:id="note1" target="#seg1" type="commentary">Because the war interfered with mail between England and the Austro-Hungarian empire (which included Trieste), JJ, who lived at this time with his family at <name type="geo" key="G_ITA_TRIE_11">4 via Donato Bramante in Trieste</name>, used a mailing address in Venice of Gioacchino Veneziani, the father-in-law of <name type="person" key="schm61">Ettore Schmitz (Italo Svevo)</name>. Italy remained neutral until 23 May 1915.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">This was probably <name type="work" key="ID_MISSING">Poetry</name>, vol. 5, no. 6 (March 1915), containing several poems by Pound – including “Provincia deserta” and “The Coming of War: Actaeon” – as well as the second installment of his three-part essay, “The Renaissance,” an assessment of American poetry and culture and a program for endowing and advancing the arts.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">Around this time, Pound sent JJ a copy of his slim volume <name type="work" key="W_CATHAY">Cathay</name>, published by <name type="person" key="math51">Elkin Mathews</name> in London on 6 April 1915, and containing Pound’s sensitive renderings of Chinese poems from material in unpublished notebooks of the American Orientalist, <name type="person" key="ID_MISSING">Ernest Fenollosa</name> (1853-1908).</note>
+                <note xml:id="note4" target="#seg4" type="commentary">In his letter to JJ of ca. June 1915, Pound enclosed photographs of himself, including one of a portrait painted in Paris in 1911 by the American artist <name type="person" key="ID_MISSING">Eugene Paul Ullman</name> (1877-1953), and another of a sculpture of Pound’s head (“hieratic, phallic, even,” as Pound told JJ) produced in London in 1914 by the French artist, <name type="person" key="ID_MISSING">Henri Gaudier-Brzeska</name> (1891-1915). Pound promised to try to send JJ a “new photo” of himself “in good time” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 35). He eventually sent JJ “a job lot” of photos of himself on 23 October 1915 (<name type="work" key="ID_MISSING">Pound/Joyce</name> 58).</note>
+                <note xml:id="note5" target="#seg5" type="commentary">Pound enclosed with his letter to JJ of ca. 29 March 1915 a proposed agreement from the British literary agent James Brand Pinker (prob. 1862 or 1863-1922) to act for JJ. Pinker had written JJ on 10 February 1915, offering at <name type="person" key="well66">H.G. Wells</name>’s suggestion to represent him (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 384). At JJ’s request, Pound met with Pinker in London and liked him, impressed by his desire to represent authors “who take their work seriously” (<name type="work" key="ID_MISSING">Pound/Joyce</name> 34). Pinker until his death in 1922 represented JJ, having “little luck in marketing [JJ’s] peculiar merchandise” but serving as “the amiable recipient of the innumerable letters about small matters which Joyce soon began painstakingly to send him” (Ellmann, <name type="work" key="ID_MISSING">JJ</name> 384). Pinker represented numerous modernist authors at various points, including <name type="person" key="ID_MISSING">Henry James</name>, <name type="person" key="ID_MISSING">Joseph Conrad</name>, <name type="person" key="ford73">Ford Madox Ford</name>, <name type="person" key="elio88">T.S. Eliot</name>, <name type="person" key="ID_MISSING">D.H. Lawrence</name>, <name type="person" key="ID_MISSING">Katherine Mansfield</name>, and <name type="person" key="ID_MISSING">Dorothy Richardson</name>. Pinker’s sons continued to act for JJ after their father’s death (see <rs type="letter" key="L_70011">JJ to Pound, 20 August 1931</rs>, notes).</note>
+                <note xml:id="note6" target="#seg6" type="commentary">JJ’s contract for <name type="work" key="ID_MISSING">Dubliners</name> gave his London publisher Grant Richards (1872-1948) a right of first refusal of JJ’s work for several years, but in May 1915 Richards declined <name type="work" key="ID_MISSING">A Portrait of the Artist as a Young Man</name> – already being serialized in the <name type="work" key="ID_MISSING">Egoist</name> in London – as did several other publishers, before B.W. Huebsch of New York published it in December 1916. The novel was first published as a book in England in February 1917 by the Egoist Ltd. of London, from American sheets because English printers worried about potentially scandalous content.</note>
+                <note xml:id="note7" target="#seg7" type="commentary">JJ’s <name type="work" key="ID_MISSING">Exiles: A Play in Three Acts</name>, which he wrote in 1914-1915, was published by Grant Richards in London in May 1918 and simultaneously by <name type="person" key="hueb76">B.W. Huebsch</name> in New York. Richards signed the contract for <name type="work" key="ID_MISSING">Exiles</name> in August 1917 after J.B. Pinker reluctantly gave him the first refusal of the play, as required by JJ’s <name type="work" key="ID_MISSING">Dubliners</name> contract.</note>
+                <note xml:id="note8" target="#seg8" type="commentary">A massive earthquake in January 1915 had caused thousands of fatalities in southern and central Italy, destroying the town of Avezzano, east of Rome. Slighter earthquakes continued in March and April, forcing many Italians to camp in the open air. The <hi rend="italic">scirocco</hi> or <hi rend="italic">sirocco</hi> is a hot, dust-filled wind from the Libyan deserts that affects countries and islands of the Mediterranean, including Italy, Sicily, and Malta.</note>
+                <note xml:id="note9" target="#seg9" type="commentary">
+                    <p>The verse drama <name type="work" key="ID_MISSING">Countess Cathleen</name> by W.B. Yeats (1865-1939) was first published in 1892 and performed in Dublin in 1899. JJ, who attended the first performance while an undergraduate, refused to sign a letter of protest against the play. The play underwent much revision and was performed by the Abbey Theatre in Dublin in 1911 and published in 1912. By “Mr Luciani,” JJ means Carlo Linati (1878-1949), whose Italian prose translation of <name type="work" key="ID_MISSING">The Countess Cathleen</name> was published with other Yeats plays in <name type="work" key="ID_MISSING">Tragedie Irlandesi di William Butler Yeats</name> (Milan: Studio Editoriale Lombardo, 1914). It was not until 1918 that JJ began a correspondence with Linati, who later published Italian translations of <name type="work" key="W_EXILES">Exiles</name>, “Araby,” a portion of <name type="work" key="W_ULYSSES">Ulysses</name>, and <name type="work" key="ID_MISSING">Stephen Hero</name>.</p>
+                    <p>According to JJ, he and his Trieste friend and pupil, the lawyer Nicolò Vidacovich, produced an Italian translation of <name type="work" key="ID_MISSING">The Countess Cathleen</name> in 1911-1912, “[not] for the stage but for the pages of a review,” as JJ explained to Yeats in September 1912 (<name type="work" key="ID_MISSING">LI</name> 71). JJ told <name type="person" key="weav76">Harriet Shaw Weaver</name> in November 1916 that “the project failed as we had translated the first version and Mr Yeats did not wish that version to be offered to the Italian public” (<name type="work" key="ID_MISSING">LI</name> 99). With Vidacovich, JJ also translated <name type="person" key="ID_MISSING">J.M. Synge</name>’s <name type="work" key="ID_MISSING">Riders to the Sea</name> in 1908-1909, but Synge’s heirs refused to allow an Italian performance. The translation was published some twenty years later as <name type="work" key="ID_MISSING">La Cavalcata al Mare</name> in the Florentine journal <name type="work" key="ID_MISSING">Solaria</name>, vol. 4, nos. 9-10 (September-October 1929): 3-16.</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

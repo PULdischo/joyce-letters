@@ -1,0 +1,120 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68856">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Friday, 17 February 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="LLT">LLT</name>
+                    <name xml:id="LVR">LVR</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68856</idno>
+            <idno type="internal">68856</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">Paris</placeName>
+               </address>
+               <date notBefore="1922-02-17" notAfter="1922-02-17">Friday, 17 February 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         
+         <div type="letter">
+
+ 
+<div type="mainBody">
+<p>Dear <name type="person" key="weav76">Miss Weaver</name>: If anything appears tomorrow in <hi rend="underline">The</hi> <hi rend="underline">Observer</hi> about <rs type="work" key="W_ULYSSES">the book</rs> may I ask you to send a copy at once to:
+        	<p>
+                            <name type="person" key="fran78">Signor <seg xml:id="seg1" type="note-anchor">Alessandro Francini</seg>
+                        </name>
+                            <lb/>
+        	Scala Pauliana 335<lb/>
+        	
+                            <name type="geo" key="ID_MISSING">Pendice di Scorcola</name>
+                            <lb/>
+        	
+                            <name type="geo" key="G_ITA_TRIE">Trieste</name>
+            </p>
+He is giving a lecture on me there next Wednesday and I want him to have as many notices as possible.</p>
+<closer>
+<salute>With kind regards</salute>
+                    	<signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+</closer>
+</div>
+</div>
+
+<div type="notes">
+
+<note xml:id="note1" target="#seg1" type="commentary">Alessandro Francini Bruni gave a lecture in Trieste on 22 February 1922, later published as <hi rend="italic">Joyce intimo spogliato in piazza (un’indiavolata caricatura dello scrittore irlandese)</hi>, Trieste: La Editoriale Libraria, 1922. An English translation was published in <hi rend="italic">James Joyce Quarterly</hi>, vol. 14, no. 2 (Winter 1977): 127-59.</note>
+
+</div>
+
+
+      </body>
+   </text>
+</TEI>

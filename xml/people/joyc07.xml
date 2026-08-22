@@ -1,0 +1,48 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="joyc07">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lucia Joyce</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>joyc07</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <idno type="VIAF">302755</idno>
+            <idno type="OCLC">lccn-n91097513</idno>
+            <persName type="reg">
+               <forename>Lucia</forename> <surname>Joyce</surname>
+            </persName>
+            <persName type="full">Lucia Joyce</persName>
+            <date type="birth" when="1907-07-26"/>
+            <date type="death" when="1982-12-12"/>
+            <note type="gender">F</note>
+         </ab>
+         <div type="bio">
+            <p>Lucia, the second child of JJ and <name type="person" key="barn84">Nora Barnacle</name>, was born in Trieste where she did well at the local school. Her education was disrupted by family moves to Zurich and Paris. She studied music, and especially dance, in Paris and also in Salzburg with <name type="person" key="dunc74">Raymond Duncan</name>. Her considerable talent was recognised with a part in a film by <name type="person" key="reno94">Jean Renoir</name> and, in 1928, with her being a member of an international touring troupe. However, her career came to an abrupt end the following year, whether due to tensions between herself and Nora, or her father’s decision that she was not strong enough. Trying to occupy her productively, JJ commissioned her to design an alphabet of decorative initial letters. These were used to illustrate <name type="work" key="ID_MISSING">Pomes Penyeach</name> (1932), <name type="work" key="ID_MISSING">The Mime of Mick, Nick and the Maggies</name> (1934) and <name type="work" key="ID_MISSING">A Chaucer A. B. C.</name> (1936). Though her lettering was published in limited editions, it was obvious that her talent was not as a visual artist.</p>
+                <p>At age 21, Lucia suffered when her infatuation with <name type="person" key="beck06">Samuel Beckett</name>, who was briefly her father’s secretary, was unrequited. By 1934 her worsening mental illness led to her being treated for schizophrenia by <name type="person" key="jung75">Carl Jung</name> in Switzerland. She spent the years of the World War II confined in an asylum in Brittany. In 1951 she was transferred to St Andrew’s Hospital, Northampton, England where she was regularly visited by her guardian <name type="person" key="weav76">Harriet Shaw Weaver</name>. Lucia spent the remainder of her life in psychiatric care and died of a stroke in December 1982.</p>
+                <p>In 1988, <name type="person" key="joyc32">Stephen Joyce</name> destroyed many personal letters written by Lucia, claiming that they had been written long after her parents’ death and hence did not refer to them. <hi rend="bold">Tim O’Neill</hi>
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71279">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Paul Ruggiero. Tuesday, 19 November 1940</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>SA</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71279</idno>
+            <idno type="internal">71279</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Zentralbibliothek Zürich</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fra"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_STGE">[Saint-Gérand-le-Puy, Allier]</placeName>
+               </address>
+               <date notBefore="1940-11-19" notAfter="1940-11-19">Tuesday, 19 November 1940</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="rugg87">
+                        <forename>Paul</forename> <surname>Ruggiero</surname>
+                    </persName>
+               <persName type="full" key="rugg87">Paul Ruggiero</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <gap reason="published"/>
+                    <div type="published">
+                        <bibl>LI 498</bibl>
+                        <p>que les Giedions et vous vous donnez énormément de peine pour moi.</p>
+                        <closer>
+                            <salute>Cordialement votre</salute>
+                            <signed>
+                                <name type="person" key="joyc82">James Joyce</name>
+                            </signed>
+                        </closer>
+                    </div>
+                    <postscript>
+                        <p>
+                            <label>
+                                <hi rend="underline">PS</hi>
+                            </label> Voilà les 2 compte-rendu de vente de mes éditeurs de <name type="geo" key="G_USA_NEWY">New York</name> que je viens de recevoir. Ces compte-rendu sont pour <hi rend="underline">6 mois</hi> de vente. Ils font ensemble 650$. Donc ils justifient le chiffre de 1300$ par an.</p>
+                        <p>Je ne peux pas envoyer ceux de <name type="geo" key="G_GBR_LOND">Londres</name> à l’appui pour la raison évidente que je ne pourrai pas les avoir pendant que je serai en France.</p>
+                    </postscript>
+                </div>
+                <div type="translation">
+                    <postscript>
+                        <p>
+                            <label>
+                                <hi rend="underline">PS</hi>
+                            </label> Here are the 2 sales reports that I just received from my publishers in New York. These reports are for <hi rend="underline">6 months</hi> of sales. They make a total of $650. So, they justify the figure of $1,300 per year.</p>
+                        <p>I can’t send those from London for support for the obvious reason that I won’t be able to obtain them while I’m in France. </p>
+                    </postscript>
+                </div>
+            </div>
+      </body>
+   </text>
+</TEI>

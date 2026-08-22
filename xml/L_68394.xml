@@ -1,0 +1,126 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68394">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Saturday, 28 July 1917</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68394</idno>
+            <idno type="internal">68394</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-07-28" notAfter="1917-07-28">Saturday, 28 July 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <dateline>
+                    <date when="1917-07-28">28/7/917</date>
+                </dateline>
+                <div type="address">
+                    <ab>
+                        <address> <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_06">Seefeldstrasse 73</name> <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zurich</name> VIII: <name type="geo" key="G_CHE">Switzerland</name>
+                            </addrLine> </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="weav76">Miss Weaver</name>: Your letter just received. <name type="person" key="eman79">Mr Giovanni Emanuel</name> has been London correspondent of the <name type="work">
+                            <hi rend="underline">Corriere</hi> <hi rend="underline">della</hi> <hi rend="underline">Sera</hi>
+                        </name> for the last five or six years. The current issue of the paper has 3 articles by him from London, signed <name type="person">G. E.</name> The Swiss correspondent <name type="person">Mr. Morandotti</name> informs me that he writes his articles in the office of the <name type="work">
+                            <hi rend="underline">Daily</hi> <hi rend="underline">Telegraph</hi>
+                        </name>, Fleet Street. Perhaps you can find him in this way. I do not understand <seg xml:id="seg1" type="note-anchor">the reply</seg> of the Italian press agency. Anyhow an article in the paper should help the sales. It is a widely read middleclass paper. It would be an advantage if <name type="person" key="cour50">Mr Courtney</name> of the <name type="work">
+                            <hi rend="underline">Daily</hi> <hi rend="underline">Telegraph</hi>
+                        </name> reviewed <seg xml:id="seg2" type="note-anchor">
+                            <name type="work" key="W_APORTRAIT">the book</name>
+                        </seg>. If you are unable to get into contact with him perhaps I could do so. I met him many years ago in rather curious circumstances. I am <seg xml:id="seg3" type="note-anchor">better</seg> now again.</p>
+                    <closer>
+                        <salute>        	sincerely yours</salute>
+                        <signed>                    	<name type="person" key="joyc82">James Joyce</name>
+                        </signed> </closer>
+                </div>
+            </div> <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In their attempt to raise interest among continental reviewers for <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, JJ suggested to Harriet Weaver in his <rs type="letter" key="L_68379">letter of 7 July 1917</rs> that she contact, among others, “the London correspondent of the <name type="work">Corriere della Sera</name>”, who “writes under the pseudonym of Giovanni Emanuel. You could perhaps find him by telephoning to Reuter’s agency there” (<name type="work">LI</name> 103). Weaver replied on <date when="1917-07-18">18 July 1917</date>: “The Italian press agency here does not know of anyone writing under the pseudonym of Giovanni Emanuel but said that a Mr. Canagna, who was the London correspondent of the paper, has left London and they do not know his address. Reuter’s agency could tell me nothing” (Firth 174). JJ was mistakenly referring to Guglielmo Emanuel, the son of Giovanni.</note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>.</note>
+                <note xml:id="note3" target="#seg3" type="commentary">In her letter to JJ of <date when="1917-07-18">18 July 1917</date>, Harriet Weaver wrote: “I hope you have recovered from the attack of tonsilitis and that your eyes are better too. You are indeed unfortunate in being troubled with such a number of illnesses” (Firth 175).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

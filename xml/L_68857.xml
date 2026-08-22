@@ -1,0 +1,116 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68857">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Ezra Pound. Monday, 20 February 1922</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68857</idno>
+            <idno type="internal">68857</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Postcard</note>
+            <note type="coc_abbr">APCS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Lilly Library, Indiana University</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI">[Paris]</placeName>
+               </address>
+               <date notBefore="1922-02-20" notAfter="1922-02-20">Monday, 20 February 1922</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="poun85">
+                        <forename>Ezra</forename> <surname>Pound</surname>
+                    </persName>
+               <persName type="full" key="poun85">Ezra Pound</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="poun85">Pound</name>: <seg xml:id="seg1" type="note-anchor">That article</seg> is very good but I think you might add a typed slip somewhere about your own intervention (wording it indirectly or allusively, if you like) even if you think it advisable not to refer to the <seg xml:id="seg2" type="note-anchor">‘conspiracy of silence’</seg>.</p>
+                    <closer>
+                        <salute>With many thanks</salute>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1922-02-20">20.II.922</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">
+                    <p>After encountering <name type="work" key="W_ULYSSES">Ulysses</name> piecemeal in typed installments, mostly for serialization in the New York magazine <name type="work" key="W_THELITTLE">The Little Review</name>, Pound at last had read it as a whole book and was “trying to write crit. of Joyce’s 732 pages,” as he informed <rs type="person" key="ID_MISSING">his father</rs> on 19 February 1922 (<name type="work" key="ID_MISSING">Ezra Pound to His Parents: Letters 1895–1929</name>, ed. Mary de Rachewiltz et al. [Oxford: Oxford University Press, 2010], 494). He announced to <name type="person" key="quin70">John Quinn</name> two days later: “Ulysses is a great work. Am trying to emit adequate ejaculations in my French Letter” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn, 1915-1924</name>, ed. Timothy Materer [Durham, NC: Duke University Press, 1991], 206). This was Pound’s regular “Paris Letter” for <name type="work" key="W_DIAL">The Dial</name>, the June 1922 installment of which he devoted to a seven-page discussion of <name type="work" key="W_ULYSSES">Ulysses</name> (vol. 72, no. 6 [June 1922]: 623-29). He began: “All men should ‘Unite to give praise to Ulysses’; those who will not, may content themselves with a place in the lower intellectual orders” (623). He pursued his earlier comparison of JJ to Flaubert, but now contended that “Ulysses has more form than any novel of Flaubert’s” and that “Joyce satirizes at least seventy [types of folly or literary style], and includes a whole history of English prose, by implication” (623). “In this super-novel,” Pound went on, “our author has also poached on the epic, and has, for the first time since 1321 [the death of Dante], resurrected the infernal figures” (626). JJ’s use of Homeric myth was “a scaffold, a means of construction, justified by the result, and justifiable by it only. The result is a triumph in form, in balance, a main schema, with continuous inweaving and arabesque” (626). <name type="work" key="W_ULYSSES">Ulysses</name> was a diagnosis of contemporary life, “an epoch-making report on the state of the human mind in the twentieth century.” JJ’s frank inclusion of profane words and of biological acts such as defecation were necessary, Pound could now see, to present “Bloom’s day … uncensored,” just as scientists “have a right to equally accurate documents” (628). Pound’s “Paris Letter” ended with the insistence that true literature keeps “words living and accurate” and can serve to enlighten and guide politics and society. Unconsciously predicting later Joyce scholarship, Pound added: “Ulysses furnishes matter for a symposium rather than for a single letter, essay, or review” (629).</p>
+                    <p>Also around this time, Pound produced an article in French, “James Joyce et Pécuchet,” to appear in <name type="work" key="W_MERCURE">Mercure de France</name>, vol. 156, whole no. 575 (1 June 1922): 307-320, in which he repeated much of the analysis of <name type="work" key="W_ULYSSES">Ulysses</name> from his “Paris Letter,” and expanded the comparison between JJ and Flaubert, stressing again the formal coherence of JJ’s book: “thème, contre-thème, rencontre, développement, finale” [“theme, counter-theme, convergence, development, conclusion”] (313). Pound disagreed with the French author <name type="person" key="larb81">Valery Larbaud</name> (1881-1957) – who had lectured on <name type="work" key="W_ULYSSES">Ulysses</name> at a Paris séance in December 1921 and had published an article, “James Joyce,” in <name type="work" key="ID_MISSING">Nouvelle Revue Française</name>, vol. 18 (April 1922): 385-409 – to the extent that Larbaud thought that in <name type="work" key="W_ULYSSES">Ulysses</name>, JJ “abandonne l’unité de style” [“abandons unity of style”] (314). Despite the many styles of <name type="work" key="W_ULYSSES">Ulysses</name>, wrote Pound, JJ was no more rejecting aesthetic unity than when novelists have their characters speak in different, individualized ways. Leopold Bloom was “l’homme moyen sensuel, la base … de la démocratie” [“the average sensual man, the basis of democracy”] (314). As noted in his “Paris Letter,” Pound thought that the Homeric scaffolding was “une affaire de cuisine, qui ne restreint pas l’action, qui ne l’incommode pas, qui ne nuit pas à son réalisme, ni à la contemporanéité de son action” [“kitchen business that does not restrain or hinder the action, that harms neither its realism nor the immediacy of its action”] (314). Pound concluded by denouncing the deplorable obscenity laws of the United States that had caused <name type="work" key="W_ULYSSES">Ulysses</name> and other writings to be suppressed there (318-20).</p>
+                </note>
+                <note xml:id="note2" target="#seg2" type="commentary">
+                    <p>Although in his articles in <name type="work" key="W_DIAL">The Dial</name> and <name type="work" key="ID_MISSING">Mercure de France</name> Pound referred to some of the conditions that had affected JJ’s composition and publication of <name type="work" key="W_ULYSSES">Ulysses</name>, he made no reference, direct or indirect, to his own efforts to help JJ obtain financial assistance or overcome the resistance of publishers and magazine editors. Yet he was still involved in the book’s promotion. In February 1922, he was lending a hand by directing press copies to possible reviewers (see Robert Spoo, “Unpublished Letters of Ezra Pound to James, Nora, and Stanislaus Joyce,” <name type="work" key="ID_MISSING">James Joyce Quarterly</name>, vol. 32, no. 3-4 [Spring-Summer 1995]: 541-42).</p>
+                    <p>Pound, now settled in <name type="geo" key="G_FRA_PARI">Paris</name> with his wife <name type="person" key="poun86">Dorothy</name> in a rented studio apartment at 70 <hi rend="italic">bis</hi>, rue Notre Dame des Champs, was witnessing the culmination of one phase of the modernist movement he had helped bring into being. In the same letter to John Quinn in which he extolled <name type="work" key="W_ULYSSES">Ulysses</name> as “a great work,” he also reported that the American poet and critic <name type="person" key="elio88">T.S. Eliot</name> (1888-1965) had appeared “with a damn good poem (19 pages) in his suit case … shd. be out in Dial soon, if Thayer isn’t utterly nutty” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound to John Quinn</name>, 205-06). The “damn good poem” was <name type="work" key="ID_MISSING">The Waste Land</name>, which appeared in <name type="work" key="W_DIAL">The Dial</name> in November 1922, without obstruction by the magazine’s financier and editor, <name type="person" key="thay89">Scofield Thayer</name> (1889-1982). “Complimenti, you bitch,” Pound wrote Eliot in response to the draft poem. “I am wracked by the seven jealousies, and cogitating an excuse for always exuding my deformative secretions in my own stuff, and never getting an outline” (<name type="work" key="ID_MISSING">The Selected Letters of Ezra Pound 1907-1941</name>, ed. D.D. Paige [New York: New Directions, 1971], 169). The double reproach of <name type="work" key="W_ULYSSES">Ulysses</name> and <name type="work" key="ID_MISSING">The Waste Land</name> was forcing Pound to rethink the form and language of his own poetry; soon he would recast the opening of <name type="work" key="ID_MISSING">The Cantos</name>, discarding garrulous, self-conscious references to <name type="person" key="IDmissing">Browning</name>’s <name type="work" key="IDmissing">Sordello</name> and his own narrative stance, and adopt the incisive, strong-stress rhythms of the reworked Canto 1: “And then went down to the ship, / Set keel to breakers, forth on the godly sea” (<name type="work" key="ID_MISSING">The Cantos</name> [New York: New Directions, 1995], 3). Pound’s relaunched epic poem would now begin with Odysseus’s departure from Circe’s island and his interview with the ghost of Tiresias. Eliot’s grim urban music and JJ’s Homeric theme had helped Pound to reorient his art.</p>
+                </note>
+            </div>
+      </body>
+   </text>
+</TEI>

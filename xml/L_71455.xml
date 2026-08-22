@@ -1,0 +1,123 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_71455">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Saturday, 15 September 1917</title>
+            <author key="barn84">Nora Barnacle</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="KD">KD</name>
+                    <name xml:id="SA">SA</name>
+                    <name xml:id="WB">WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>SA</name>
+                    <name>WB</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_71455</idno>
+            <idno type="internal">71455</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="barn84">
+                        <forename>Nora</forename> <surname>Barnacle</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_CHE_ZURI_06">Seefeldstrasse 73, Zurich</placeName>
+               </address>
+               <date notBefore="1917-09-15" notAfter="1917-09-15">Saturday, 15 September 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI_06">Seefeldstrasse 73</name> <hi rend="superscript">III</hi>
+                            </addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_CHE_ZURI">Zürich</name>
+                            </addrLine> </address>
+                    </ab>
+                </div> <div type="mainBody">
+                    <opener>
+                        <salute>Dear <name type="person" key="weav76">Miss Weaver</name>
+                        </salute>
+                    </opener>
+                    <p>        	I received last Saturday your telegraphic remittance of £10 and this morning your cheque for £15 for both of which <rs type="person" key="joyc82">my husband</rs> sends you his very grateful thanks. Kindly excuse me for not having written ere now but I waited a letter in confirmation of your wire.</p>
+                    <p>        	<rs type="person" key="joyc82">My husband</rs> is now at home again but will be convalescent for two or three weeks still. The operation was satisfactory and we hope he will now not be troubled with a recurrence of <seg xml:id="seg1" type="note-anchor">these attacks</seg>. He was very glad indeed to hear <seg xml:id="seg2" type="note-anchor">the good news</seg> in your letter and thanks you for your kind and generous patronage of his <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name>.</p>
+                    <closer>
+                        <salute>                    	yours sincerely</salute>
+                        <signed>
+                            <name type="person" key="barn84">                                	Nora Joyce</name>
+                        </signed> <dateline>
+                            <date when="1917-09-15">15.9.1917</date>
+                        </dateline> </closer>
+                </div> </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">JJ had undergone an eye operation after suffering a severe attack of glaucoma on the evening of <date when="1917-08-18">August 18</date> (<name type="work" key="ID_MISSING">JJ</name> 417).</note>
+                <note xml:id="note2" target="#seg2" type="commentary">Thinking that <name type="work" key="W_ULYSSES">Ulysses</name> might be finished in <date when="1918-01">January 1918</date>, JJ had suggested to Ezra Pound that it could appear as a serial in <name type="work" key="W_THEEGOIST">The Egoist</name> and <name type="work">The Little Review</name> simultaneously. In her letter of <date when="1917-09-06">6 September 1917</date>, Harriet Weaver wrote to JJ that she would be glad to have <name type="work" key="W_ULYSSES">Ulysses</name> for <name type="work" key="W_THEEGOIST">The Egoist</name> and that the journal could pay him £50. At Pound’s suggestion, Weaver telegraphed ten pounds as a first instalment two days previously and sent JJ a cheque for £15 with her letter of 6 September. In the same letter, Weaver notified JJ that she might have found “a country printer willing to print the second edition” of <name type="work" key="W_APORTRAIT">A Portrait of the Artist as a Young Man</name>, “a Southport firm which printed the <name type="work" key="ID_MISSING">Egoist</name> till the publication was transferred to London in July 1914”, i.e., Robert Johnson and Co., Ltd. (Firth 177).</note>
+            </div>
+      </body>
+   </text>
+</TEI>

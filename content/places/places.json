@@ -1,0 +1,1 @@
+{ "layout": "entity.njk", "tags": ["places"], "eleventyComputed": { "permalink": "places/{{ page.fileSlug }}/index.html", "kind": "place" } }

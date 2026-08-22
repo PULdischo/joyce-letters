@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_68651">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="u">To Harriet Shaw Weaver. Sunday, 29 August 1920</title>
+            <author key="joyc82">James Joyce</author>
+            <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RS">RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Annotations by</resp>
+                    <name>RS</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="JB">JB</name>
+                </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp (UA)</publisher>
+            <distributor>University of Antwerp (UA)</distributor>
+            <pubPlace>Antwerp</pubPlace>
+            <address>
+               <name>University of Antwerp</name>
+               <street>Prinsstraat 13</street>
+               <postCode>2000</postCode>
+               <settlement key="G_BEL_ANTW">Antwerp</settlement>
+               <country key="G_BEL">Belgium</country>
+            </address>
+            <idno>L_68651</idno>
+            <idno type="internal">68651</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine readable texts of the unpublished correspondence of James Joyce</p>
+         </seriesStmt>
+         <notesStmt>
+            <note type="format">Letter</note>
+            <note type="coc_abbr">ALS</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>British Library</repository>
+                  <idno/>
+               </msIdentifier>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>James Joyce's unpublished correspondence, collected, annotated, and made available as a digital edition</p>
+         </projectDesc>
+         <tagsDecl>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="reg" key="joyc82">
+                        <forename>James</forename> <surname>Joyce</surname>
+                    </persName>
+               <address>
+                  <placeName key="G_FRA_PARI_05">rue de l'Assomption 5, Paris</placeName>
+               </address>
+               <date notBefore="1920-08-29" notAfter="1920-08-29">Sunday, 29 August 1920</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="reg" key="weav76">
+                        <forename>Harriet Shaw</forename> <surname>Weaver</surname>
+                    </persName>
+               <persName type="full" key="weav76">Harriet Shaw Weaver</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+                <div type="address">
+                    <ab>
+                        <address>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI_05">rue de l’Assomption 5,</name>
+                            </addrLine>
+                            <addrLine>Passy</addrLine>
+                            <addrLine>
+                                <name type="geo" key="G_FRA_PARI">Paris</name>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="mainBody">
+                    <p>Dear <name type="person" key="weav76">Miss Weaver</name>: I hope that <name type="work" key="W_ULYSSES">
+                            <hi rend="underline">Ulysses</hi>
+                        </name> will soon be finished, and finished as I wish to finish it, in order that I may have something to set against your generosity. More even than your gift (great as that is) seems to me the encouragement conveyed in the allusion to powerful and productive years. I do not know well myself what I have done in this book except that it has brought me to a state bordering on exhaustion. The prospect which your act and your words seem to open to me is therefore all the more welcome. The amount of energy given by me to this book has been so great that it has altogether weakened my natural defences against difficulties and hostilities which would not be slow to take advantage of me but that your generous friendship protects me. I think it useless to bore you with details of these matters as it appears from the nature of your proposals that it is unnecessary for me to do so.</p>        	<p>Nothing remains for me but to thank you which I do sincerely though I regret intensely that my work goes on so slowly as I wish to give you the satisfaction of seeing it completed. I am slow in everything it seems, in writing, in understanding things and persons (<seg xml:id="seg1" type="note-anchor">my error</seg> with regard to my anonymous benefactress, for instance), slow to forgive, in my writing at least, but I hope also slow to forget.</p>        	<p>I send you my best wishes for many happy returns of your birthday and beg you to believe in my esteem and gratitude.</p>
+                    <closer>
+                        <salute>sincerely yours</salute>
+                        <signed>
+                            <name type="person" key="joyc82">James Joyce</name>
+                        </signed>
+                        <dateline>
+                            <date when="1920-08-29">29 August 1920</date>
+                        </dateline> </closer> </div>
+            </div>
+            <div type="notes">
+                <note xml:id="note1" target="#seg1" type="commentary">In his <rs type="letter" key="L_68534">letter of 9 July 1919 to Monro Slack &amp; Co. (British Library)</rs>, JJ erroneously supposed that Lady Cunard was his anonymous benefactress.</note>
+            </div>
+      </body>
+   </text>
+</TEI>
